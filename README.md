@@ -1,7 +1,23 @@
-# Code for RNA velocity benchmark
+## Code for RNA velocity benchmark
 
 ![image](https://github.com/liyarubio/RNA-velocity-benchmark/blob/main/Figure/Timeline.png)
 
 ### Accuracy in conventional scRNA-seq datasets
 #### [Dyngen simulation results](https://github.com/liyarubio/RNA-velocity-benchmark/tree/main/Simulation_by_dyngen)
 #### [HuBAMP datasets results](https://github.com/liyarubio/RNA-velocity-benchmark/tree/main/HuBMAP)
+#### [Classic 10 datasets results](https://github.com/liyarubio/RNA-velocity-benchmark/tree/main/Real_Datasets10)
+
+### Accuracy in scRNA-seq with additional information
+#### [Redeem Dadaset results](https://github.com/liyarubio/RNA-velocity-benchmark/tree/main/Redeem)
+#### [single-cell metabolic labeling dataset results (scNT-seq)](https://github.com/liyarubio/RNA-velocity-benchmark/tree/main/scNT)
+#### [single-cell lineage tracing dataset (scLT)](https://github.com/liyarubio/RNA-velocity-benchmark/tree/main/scLT)
+
+### Scalability and Stability
+#### [Scalability](https://github.com/liyarubio/RNA-velocity-benchmark/tree/main/Scalability)
+#### [Stability](https://github.com/liyarubio/RNA-velocity-benchmark/tree/main/Simulation_by_cellDancer)
+
+### Overall performance
+#### [Overall score](https://github.com/liyarubio/RNA-velocity-benchmark/tree/main/Visualization/Vis_summary)
+
+### Discussion
+#### [Redeem Aged](https://github.com/liyarubio/RNA-velocity-benchmark/tree/main/Redeem/4_Aged)
