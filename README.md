@@ -2,7 +2,7 @@
 
 ![image](https://github.com/liyarubio/RNA-velocity-benchmark/blob/main/Figure/Timeline.png)
 
-### [Benchmarking framework]
+### Benchmarking framework
 ![image](https://github.com/liyarubio/RNA-velocity-benchmark/blob/main/Figure/Framework.png)
 
 ### Benchmark datasets
