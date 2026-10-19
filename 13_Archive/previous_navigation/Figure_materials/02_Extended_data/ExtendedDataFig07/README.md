@@ -1,10 +1,10 @@
-# ED07 — scNT 代谢标记参照
+# ED07 — scNT metabolic-labeling reference
 
 Current figure: **ED07**. Historical source ID: **ED13**. First manuscript citation: `P044`.
 
 Reproduction scope: `saved_vectors_recomputed`.
 
-1,947 参照细胞、19 配置；逐细胞重新计算投影余弦，流程预处理不统一。
+1,947 reference cells and 19 configurations; projected cosines were recomputed per cell. Preprocessing differs across pipelines.
 
 [Back to ordered index](../../README.md)
 

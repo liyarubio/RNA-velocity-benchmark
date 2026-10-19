@@ -1,10 +1,10 @@
-# ED03 — 真实数据概览
+# ED03 — Overview of real-world datasets
 
 Current figure: **ED03**. Historical source ID: **ED04**. First manuscript citation: `P035`.
 
 Reproduction scope: `retained_artwork_metadata`.
 
-10 经典数据集与 176 HuBMAP 元数据；示例嵌入为历史图。
+10 conventional datasets and metadata for 176 HuBMAP datasets; example embeddings are historical artwork.
 
 [Back to ordered index](../../README.md)
 

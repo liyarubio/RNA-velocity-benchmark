@@ -22,6 +22,6 @@ for name in ['Manuscript_0528_minimal_bilingual.html','Manuscript_0528_minimal_b
         img.set('src','data:image/png;base64,'+base64.b64encode(image.read_bytes()).decode() if 'standalone' in name else str(image.relative_to(R)))
     doc.set('data-stability-completion','20261008')
     note=doc.get_element_by_id('figure5-scope-note')
-    note.text='5a：参考流向；5b：细胞数与运行时间；5c：reads 降采样稳定性。已补入 cell2fate 和 TopicVelo*；后者使用原生联合转移矩阵在固定全深度基因坐标中的投影方向，不使用基础 scVelo velocity。Figure 6 取 0.2–0.8× 相对 1.0× 的四档均值，稳定性不计入综合分。'
+    note.text='5a: reference directions; 5b: cell count and runtime; 5c: read-downsampling stability. cell2fate and TopicVelo* have been added. TopicVelo uses directions from native joint transitions projected in fixed full-depth gene coordinates, not baseline scVelo velocities. Figure 6 averages four depth fractions, 0.2-0.8x relative to 1.0x; stability is excluded from the composite score.'
     p.write_bytes(html.tostring(doc,encoding='utf-8',doctype='<!doctype html>'))
 print('Updated canonical bilingual HTML and embedded Figure5/6 previews')

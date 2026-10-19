@@ -1,10 +1,10 @@
-# ED02 — cellDancer 模拟设计
+# ED02 — cellDancer simulation design
 
 Current figure: **ED02**. Historical source ID: **ED03**. First manuscript citation: `P034`.
 
 Reproduction scope: `retained_artwork_metadata`.
 
-三场景、30 数据集；连续 U/S 不是整数观测计数。
+Three scenarios and 30 datasets; continuous U/S values are not observed integer counts.
 
 [Back to ordered index](../../README.md)
 

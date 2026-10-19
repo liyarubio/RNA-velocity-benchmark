@@ -1,10 +1,10 @@
-# ED01 — 分类及 dyngen 模拟设计
+# ED01 — Method taxonomy and dyngen simulation design
 
 Current figure: **ED01**. Historical source ID: **ED01**. First manuscript citation: `P023`.
 
 Reproduction scope: `retained_artwork_metadata`.
 
-14 拓扑、42 种子数据集；原 ED2 已并入。
+14 topologies and 42 seeded datasets; the former ED2 has been incorporated.
 
 [Back to ordered index](../../README.md)
 

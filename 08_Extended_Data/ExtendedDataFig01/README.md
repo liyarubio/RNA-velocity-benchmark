@@ -1,4 +1,4 @@
-# ED01 — 分类及 dyngen 模拟设计
+# ED01 — Method taxonomy and dyngen simulation design
 
 Current figure: **ED01**. Historical source ID: **ED01**.
 
@@ -6,7 +6,7 @@ Current figure: **ED01**. Historical source ID: **ED01**.
 
 ## Evidence and reproduction
 
-14 拓扑、42 种子数据集；原 ED2 已并入。
+14 topologies and 42 seeded datasets; the former ED2 has been incorporated.
 
 Data status: `available`. Analysis code: `no_numerical_generator_recovered`.
 
@@ -16,14 +16,14 @@ Portable saved-data checks: [commands and dependencies](<../../09_Core/README.md
 
 | Role | File | Purpose |
 |---|---|---|
-| Figures | [Extended_Data_Fig01.pdf](<figures/Extended_Data_Fig01.pdf>) | 当前正式图件或预览 |
-| Figures | [Extended_Data_Fig01.png](<figures/Extended_Data_Fig01.png>) | 当前正式图件或预览 |
-| Figures | [Extended_Data_Fig01_legend.pdf](<figures/Extended_Data_Fig01_legend.pdf>) | 当前正式图件或预览 |
-| Data | [Extended_Data_Fig01.xlsx](<data/source_data/Extended_Data_Fig01.xlsx>) | 源表、保存结果或输入元数据 |
-| Data | [Table S1 RNA velocity algorithms summary.xlsx](<../../11_Tables/Table S1 RNA velocity algorithms summary.xlsx>) | 源表、保存结果或输入元数据 |
-| Code | [build_figure_order_assets.py](<../../09_Core/layout/build_figure_order_assets.py>) | 当前图件排版、编号或图注处理；不生成新数值 |
-| Code | [figure_order_1019.py](<../../09_Core/layout/figure_order_1019.py>) | 当前图件排版、编号或图注处理；不生成新数值 |
-| Code | [figure2_legend_style.py](<../../09_Core/layout/figure2_legend_style.py>) | 当前图件排版、编号或图注处理；不生成新数值 |
+| Figures | [Extended_Data_Fig01.pdf](<figures/Extended_Data_Fig01.pdf>) | Current publication figure or preview |
+| Figures | [Extended_Data_Fig01.png](<figures/Extended_Data_Fig01.png>) | Current publication figure or preview |
+| Figures | [Extended_Data_Fig01_legend.pdf](<figures/Extended_Data_Fig01_legend.pdf>) | Current publication figure or preview |
+| Data | [Extended_Data_Fig01.xlsx](<data/source_data/Extended_Data_Fig01.xlsx>) | Source workbook, saved results or input metadata |
+| Data | [Table S1 RNA velocity algorithms summary.xlsx](<../../11_Tables/Table S1 RNA velocity algorithms summary.xlsx>) | Source workbook, saved results or input metadata |
+| Code | [build_figure_order_assets.py](<../../09_Core/layout/build_figure_order_assets.py>) | Current layout, numbering or caption utilities; no new numerical results |
+| Code | [figure_order_1019.py](<../../09_Core/layout/figure_order_1019.py>) | Current layout, numbering or caption utilities; no new numerical results |
+| Code | [figure2_legend_style.py](<../../09_Core/layout/figure2_legend_style.py>) | Current layout, numbering or caption utilities; no new numerical results |
 
 ## Additional retained files
 

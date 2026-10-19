@@ -198,7 +198,7 @@ def cross_boundary_correctness(adata,
     scores = {}
     all_scores = {}
 
-    # 修复：先根据字符串 x_emb 判断 velocity embedding，再取 embedding 数组
+    # Fix: identify the velocity embedding from the x_emb string before retrieving the embedding array.
     if x_emb == "X_umap":
         v_emb = adata.obsm['{}_umap'.format(k_velocity)]
     else:
@@ -314,7 +314,7 @@ def get_global(in_cluster, cross_boundary, cell_number):
                 ss = cross_boundary[edge0]
                 count_num = count_num + 1
                 d1 = d1 + np.sign(np.median(ss))  # median
-        # 除零防护：该 cluster 不参与任何 edge 时跳过
+        # Avoid division by zero: skip clusters that participate in no edge.
         if count_num == 0:
             continue
         g1.append(p1 * h1 * d1 / count_num)
@@ -364,7 +364,7 @@ for method in methods:
                 adata= adata[:,gene ]
                 adata1 = adata1[:,gene]
                 velocity_adata1 = adata.layers['velocity']
-                adata1.layers['velocity'] = np.zeros(adata1.shape)  # 先为 adata2 创建一个全0的 velocity 层
+                adata1.layers['velocity'] = np.zeros(adata1.shape)  # Initialize a zero-valued velocity layer.
                 adata1.layers['velocity'] = velocity_adata1
                 adata = adata1.copy()
             if method == 'scvelo_dynamic':
@@ -390,7 +390,7 @@ for method in methods:
             adata.obs['CytoTRACE2_Potency'] = adata1.obs['CytoTRACE2_Potency'].values.tolist()
             # print(adata.obs)
             development_type = adata.obs['CytoTRACE2_Potency'].values.tolist()
-            # 修复：按 edges_direct 顺序去重，并只保留已知类别（避免 list(set) 随机顺序及 index ValueError）
+            # Deduplicate in edges_direct order and retain known categories, avoiding unordered sets and invalid category indices.
             development_type = [x for x in edges_direct if x in development_type]
             series = adata.obs['CytoTRACE2_Potency'].value_counts()
             edges = []
@@ -429,22 +429,22 @@ for method in methods:
             ic_coh_list.append(np.nan)
             crs_bdr_crc.append(np.nan)
             file_name.append(file)
-            # print(f"在迭代{file_name}时发生异常：{e}")
+            # print(f"Error processing {file_name}: {e}")
             continue
     eval_df = pd.DataFrame()
     eval_df['global'],eval_df['ic_coh'],eval_df['crs_bdr_crc'] ,eval_df['file_name']= global_list , ic_coh_list , crs_bdr_crc,file_name
     # method_eval[method] = eval_df
-    # 定义新的保存目录路径
+    # Define the new output directory.
     save_dir = '/home/liyr/HuBMAP/eval/'
-    # 确保保存目录存在
+    # Ensure the output directory exists.
     os.makedirs(save_dir, exist_ok=True)
 
-    # 保存当前方法的评估结果到新路径
+    # Save evaluation results for the current method to the new path.
     eval_file_path = os.path.join(save_dir, f'{method}_eval_median.csv')
     eval_df.to_csv(eval_file_path, sep='\t')
-    print(f"已保存 {method} 的评估结果到: {eval_file_path}")
+    print(f"Saved {method} evaluation results to: {eval_file_path}")
 
-    # 继续更新汇总数据框
+    # Continue updating the summary dataframe.
     df_global[method] = global_list
     df_global.index = file_name
     df_ic_coh[method] = ic_coh_list

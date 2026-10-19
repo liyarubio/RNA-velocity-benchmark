@@ -1,4 +1,4 @@
-# Figure02 — 评价流程
+# Figure02 — Benchmarking framework
 
 Current figure: **Figure02**. Historical source ID: **Figure02**.
 
@@ -6,7 +6,7 @@ Current figure: **Figure02**. Historical source ID: **Figure02**.
 
 ## Evidence and reproduction
 
-流程示意与设计表；不含方法性能数值。
+Workflow schematic and design tables; no method-performance values.
 
 Data status: `available`. Analysis code: `no_numerical_generator_recovered`.
 
@@ -16,13 +16,13 @@ Portable saved-data checks: [commands and dependencies](<../09_Core/README.md>).
 
 | Role | File | Purpose |
 |---|---|---|
-| Figures | [Figure02.pdf](<figures/Figure02.pdf>) | 当前正式图件或预览 |
-| Figures | [Figure02.png](<figures/Figure02.png>) | 当前正式图件或预览 |
-| Data | [Table S2 Simulation Datasets.xlsx](<../11_Tables/Table S2 Simulation Datasets.xlsx>) | 源表、保存结果或输入元数据 |
-| Data | [Table S3 Real-world Datasets.xlsx](<../11_Tables/Table S3 Real-world Datasets.xlsx>) | 源表、保存结果或输入元数据 |
-| Code | [figure2_legend_style.py](<../09_Core/layout/figure2_legend_style.py>) | 当前图件排版、编号或图注处理；不生成新数值 |
-| Code | [build_figure_order_assets.py](<../09_Core/layout/build_figure_order_assets.py>) | 当前图件排版、编号或图注处理；不生成新数值 |
-| Code | [figure_order_1019.py](<../09_Core/layout/figure_order_1019.py>) | 当前图件排版、编号或图注处理；不生成新数值 |
+| Figures | [Figure02.pdf](<figures/Figure02.pdf>) | Current publication figure or preview |
+| Figures | [Figure02.png](<figures/Figure02.png>) | Current publication figure or preview |
+| Data | [Table S2 Simulation Datasets.xlsx](<../11_Tables/Table S2 Simulation Datasets.xlsx>) | Source workbook, saved results or input metadata |
+| Data | [Table S3 Real-world Datasets.xlsx](<../11_Tables/Table S3 Real-world Datasets.xlsx>) | Source workbook, saved results or input metadata |
+| Code | [figure2_legend_style.py](<../09_Core/layout/figure2_legend_style.py>) | Current layout, numbering or caption utilities; no new numerical results |
+| Code | [build_figure_order_assets.py](<../09_Core/layout/build_figure_order_assets.py>) | Current layout, numbering or caption utilities; no new numerical results |
+| Code | [figure_order_1019.py](<../09_Core/layout/figure_order_1019.py>) | Current layout, numbering or caption utilities; no new numerical results |
 
 ## Related figures
 

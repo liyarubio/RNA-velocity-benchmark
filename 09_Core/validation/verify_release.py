@@ -23,6 +23,12 @@ def main():
     errors = []
     manifest = json.loads((PROVENANCE / 'path_migration.json').read_text())
     migrations = manifest['files']
+    language = json.loads((PROVENANCE / 'english_translation.json').read_text())
+    translations = language['files']
+    for rel, record in translations.items():
+        path = (ROOT / rel).resolve()
+        if not path.is_relative_to(ROOT) or not path.is_file() or digest(path) != record['sha256_after']:
+            errors.append(['language_update_identity', rel])
     destinations = {}
     for old, entry in migrations.items():
         rel = entry['new_path']
@@ -37,6 +43,12 @@ def main():
             errors.append(['file_identity', rel])
         if entry['change'] == 'moved' and entry['sha256_before'] != entry['sha256_after']:
             errors.append(['pure_move_changed_bytes', old])
+        if entry['change'] not in {'moved', 'adapted', 'translated'}:
+            errors.append(['unknown_change_type', old])
+        if entry['change'] == 'translated':
+            record = translations.get(rel, {})
+            if record.get('sha256_after') != entry['sha256_after'] or not record.get('sha256_before'):
+                errors.append(['translation_record', old])
         if entry['change'] == 'adapted' and old not in {
             'Manuscript_1019/Code/reproduce.py',
             'Manuscript_1019/Code/plot_saved_panels.py',
@@ -101,6 +113,7 @@ def main():
                 errors.append(['possible_secret', rel])
     report = dict(status='pass' if not errors else 'fail', baseline_commit=manifest['baseline_commit'],
                   migrated_files=len(migrations), unchanged_files=sum(r['change'] == 'moved' for r in migrations.values()),
+                  translated_files=sum(r['change'] == 'translated' for r in migrations.values()),
                   figures=len(index), figure_file_mappings=len(inventory), current_local_links_checked=links,
                   inherited_navigation_excluded=list(inherited_prefixes), errors=errors, models_rerun=False)
     (PROVENANCE / 'restructure_validation.json').write_text(json.dumps(report, indent=2) + '\n')

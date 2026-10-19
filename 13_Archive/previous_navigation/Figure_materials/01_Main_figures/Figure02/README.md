@@ -1,10 +1,10 @@
-# Figure02 — 评价流程
+# Figure02 — Benchmarking framework
 
 Current figure: **Figure02**. Historical source ID: **Figure02**. First manuscript citation: `P019b`.
 
 Reproduction scope: `retained_artwork`.
 
-流程示意与设计表；不含方法性能数值。
+Workflow schematic and design tables; no method-performance values.
 
 [Back to ordered index](../../README.md)
 

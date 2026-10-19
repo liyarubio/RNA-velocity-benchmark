@@ -1,10 +1,10 @@
-# Figure05 — 空间、运行时间及 reads
+# Figure05 — Spatial evaluation, runtime and read-depth sensitivity
 
 Current figure: **Figure05**. Historical source ID: **Figure05**. First manuscript citation: `P045a`.
 
 Reproduction scope: `saved_data_native_transition`.
 
-ST_small 608 位点；TopicVelo 源表修正至 0.4838869706599916，与最终图一致。
+ST_small contains 608 spots. The TopicVelo source value was corrected to 0.4838869706599916, matching the final figure.
 
 [Back to ordered index](../../README.md)
 

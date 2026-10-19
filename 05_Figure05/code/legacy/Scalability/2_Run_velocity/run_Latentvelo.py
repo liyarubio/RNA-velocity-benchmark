@@ -64,7 +64,7 @@ for file in size:
         time_list.append(spase_time)
         size_list.append(file)
     except Exception as e:
-        print(f"在迭代{file}时发生异常：{e}")
+        print(f"Error processing {file}: {e}")
         continue
 
     df = pd.DataFrame()

@@ -366,7 +366,7 @@ for method in methods:
                     adata= adata[:,gene ]
                     adata1 = adata1[:,gene]
                     velocity_adata1 = adata.layers['velocity']
-                    adata1.layers['velocity'] = np.zeros(adata1.shape)  # 先为 adata2 创建一个全0的 velocity 层
+                    adata1.layers['velocity'] = np.zeros(adata1.shape)  # Initialize a zero-valued velocity layer.
                     adata1.layers['velocity'] = velocity_adata1
                     adata = adata1.copy()
                 if method == 'scvelo_dynamic':

@@ -62,28 +62,28 @@ def main():
     fig.savefig(ROOT / 'results/reference_summary.svg')
     fig.savefig(ROOT / 'results/reference_summary.png', dpi=150)
     plt.close(fig)
-    lines = ['# 本次运行结果', '', '两套数据各完成 scVelo stochastic、dynamic 和 SDEvelo。', '',
-             '| 数据集 | 方法 | 有效参考细胞 | 平均余弦 | 中位余弦 |',
+    lines = ['# Results of this run', '', 'scVelo stochastic, dynamical and SDEvelo completed for both datasets.', '',
+             '| Dataset | Method | Valid reference cells | Mean cosine | Median cosine |',
              '|---|---|---:|---:|---:|']
     for _, r in table.iterrows():
         lines.append('| %s | %s | %d | %.5f | %.5f |' %
                      (r.dataset, r.method, r.valid_cells, r.mean_cosine, r.median_cosine))
-    lines.extend(['', '参见 [跨数据集评价图](results/reference_summary.svg)、'
-                  '[完整精度评价表](results/reference_summary.csv) 和 '
-                  '[方法状态表](results/method_status.csv)。', '',
-                  'TopicVelo、biVI、DeepKINET、cell2fate 因缺少原始 counts 未运行。',
-                  '参考分数只统计坐标一致、有限且非零的速度，其他情况在逐细胞 CSV 中记录。',
-                  'scLT 使用谱系参考的 CCE 方向，scNT 使用代谢参考的 UMAP 方向；'
-                  '不同数据集的绝对分数不作为同一基准排名。',
-                  '历史 CSV 保存在参考输入中，描述统计另存；本表全部来自本次新计算。'])
-    lines.extend(['', '## 实际基因覆盖', '',
-                  '| 数据集 | 文件 | 保留基因数 | velocity 全 NaN 基因数 |',
+    lines.extend(['', 'See the [cross-dataset evaluation plot](results/reference_summary.svg), '
+                  '[complete accuracy table](results/reference_summary.csv) and '
+                  '[method-status table](results/method_status.csv).', '',
+                  'TopicVelo, biVI, DeepKINET and cell2fate were not run because raw counts were unavailable.',
+                  'Reference scores include only coordinate-aligned, finite, nonzero velocities; other cases are recorded in the per-cell CSV.',
+                  'scLT uses CCE directions from the lineage reference, while scNT uses UMAP directions from the metabolic reference; '
+                  'absolute scores from different datasets are not treated as a common benchmark ranking.',
+                  'Historical CSV files are retained with the reference inputs and their descriptive statistics are stored separately; this table contains newly calculated results from this run.'])
+    lines.extend(['', '## Actual gene coverage', '',
+                  '| Dataset | File | Retained genes | Genes with all-NaN velocity |',
                   '|---|---|---:|---:|'])
     for row in validations:
         if row['status'] == 'validated':
             lines.append('| %s | %s | %d | %d |' % (row['dataset'], row['file'], row['genes'], row['all_nan_velocity_genes']))
-    lines.extend(['', 'scVelo dynamic 对无法拟合的基因保留 NaN，投影时排除整列 NaN 基因。'
-                  'SDEvelo 按其默认流程过滤基因并重新计算 moments，记录中的基因数反映实际输出。'])
+    lines.extend(['', 'scVelo dynamical retains NaN for genes that cannot be fitted and excludes all-NaN gene columns during projection. '
+                  'SDEvelo filters genes and recomputes moments using its default workflow; recorded gene counts reflect actual outputs.'])
     (ROOT / 'RESULTS.zh-CN.md').write_text('\n'.join(lines) + '\n')
     print(table.to_string(index=False))
 

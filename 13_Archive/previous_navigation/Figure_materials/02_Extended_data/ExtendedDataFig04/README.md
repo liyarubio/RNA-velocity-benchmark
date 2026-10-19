@@ -1,10 +1,10 @@
-# ED04 — 模拟余弦比较
+# ED04 — Cosine comparisons on simulated data
 
 Current figure: **ED04**. Historical source ID: **ED05**. First manuscript citation: `P038`.
 
 Reproduction scope: `saved_data_recomputed`.
 
-逐单元值重新核对箱线图 n、中位数和四分位数；缺失不填零。
+Boxplot sample sizes, medians and quartiles were checked against unit-level values; missing values are not replaced with zeros.
 
 [Back to ordered index](../../README.md)
 

@@ -4,7 +4,7 @@ Current figure: **ED11**. Historical source ID: **ED17**. First manuscript citat
 
 Reproduction scope: `saved_scores_native_transition`.
 
-754 细胞、四条 corrected eval1 关系、分母 706；核对 TFvelo 和 TopicVelo 补全输出。
+754 cells, four corrected-eval1 relationships and a denominator of 706; completed TFvelo and TopicVelo outputs were checked.
 
 [Back to ordered index](../../README.md)
 

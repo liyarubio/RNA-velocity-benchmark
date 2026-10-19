@@ -19,7 +19,7 @@ The update preserves the earlier analysis directories below. Saved-data checks a
 
 
 ### Benchmarking framework and datasets
-The simulation datasets, the annotated metadata of HuBMAP，and processed Redeem dataset are uploaded on [figshare](https://figshare.com/articles/dataset/28021724)
+The simulation datasets, the annotated metadata of HuBMAP, and processed Redeem dataset are uploaded on [figshare](https://figshare.com/articles/dataset/28021724)
 
 Other processed real-world datasets are download from published work (more detailed in supplementary table3 of our manuscript), and the visualization of datasets are summarized in [Datasets visualization](https://github.com/liyarubio/RNA-velocity-benchmark/tree/main/Visualization/Vis_datasets)
 

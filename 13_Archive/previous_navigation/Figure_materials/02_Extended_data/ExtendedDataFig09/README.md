@@ -1,10 +1,10 @@
-# ED09 — ST_raw 空间评价
+# ED09 — ST_raw spatial evaluation
 
 Current figure: **ED09**. Historical source ID: **ED15**. First manuscript citation: `P045a`.
 
 Reproduction scope: `saved_scores_native_transition`.
 
-1,292 位点、五条关系；与主图 5a 的 ST_small 区分。
+1,292 spots and five relationships; distinct from ST_small in main Fig. 5a.
 
 [Back to ordered index](../../README.md)
 

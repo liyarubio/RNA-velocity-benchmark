@@ -6,7 +6,7 @@ Current figure: **Figure04**. Historical source ID: **Figure04**.
 
 ## Evidence and reproduction
 
-21 配置；保存 GDC/CBDir；历史散点与流线保留，原始坐标链不完整。
+21 configurations with saved GDC/CBDir. Historical scatter and stream plots are retained; original coordinate provenance is incomplete.
 
 Data status: `available`. Analysis code: `historical_code_available`.
 
@@ -16,34 +16,34 @@ Portable saved-data checks: [commands and dependencies](<../09_Core/README.md>).
 
 | Role | File | Purpose |
 |---|---|---|
-| Figures | [Figure04.pdf](<figures/Figure04.pdf>) | 当前正式图件或预览 |
-| Figures | [Figure04.png](<figures/Figure04.png>) | 当前正式图件或预览 |
-| Figures | [Figure04_legend.pdf](<figures/Figure04_legend.pdf>) | 当前正式图件或预览 |
-| Data | [Figure04.xlsx](<data/source_data/Figure04.xlsx>) | 源表、保存结果或输入元数据 |
-| Code | [plot_saved_panels.py](<../09_Core/visualization/plot_saved_panels.py>) | 保存数据的诊断图；不替代正式版布局 |
-| Code | [config.py](<../09_Core/model_execution/Run_velocity/config.py>) | 历史计算或绘图实现；保留原路径、环境及外部输入依赖 |
-| Code | [run_bivi.py](<../09_Core/model_execution/Run_velocity/run_bivi.py>) | 历史计算或绘图实现；保留原路径、环境及外部输入依赖 |
-| Code | [run_cell2fate.py](<../09_Core/model_execution/Run_velocity/run_cell2fate.py>) | 历史计算或绘图实现；保留原路径、环境及外部输入依赖 |
-| Code | [run_celldancer.py](<../09_Core/model_execution/Run_velocity/run_celldancer.py>) | 历史计算或绘图实现；保留原路径、环境及外部输入依赖 |
-| Code | [run_deepkinet.py](<../09_Core/model_execution/Run_velocity/run_deepkinet.py>) | 历史计算或绘图实现；保留原路径、环境及外部输入依赖 |
-| Code | [run_deepvelo_gcn.py](<../09_Core/model_execution/Run_velocity/run_deepvelo_gcn.py>) | 历史计算或绘图实现；保留原路径、环境及外部输入依赖 |
-| Code | [run_deepvelo_vae.py](<../09_Core/model_execution/Run_velocity/run_deepvelo_vae.py>) | 历史计算或绘图实现；保留原路径、环境及外部输入依赖 |
-| Code | [run_dynamo.py](<../09_Core/model_execution/Run_velocity/run_dynamo.py>) | 历史计算或绘图实现；保留原路径、环境及外部输入依赖 |
-| Code | [run_latentvelo.py](<../09_Core/model_execution/Run_velocity/run_latentvelo.py>) | 历史计算或绘图实现；保留原路径、环境及外部输入依赖 |
-| Code | [run_multivelo.py](<../09_Core/model_execution/Run_velocity/run_multivelo.py>) | 历史计算或绘图实现；保留原路径、环境及外部输入依赖 |
-| Code | [run_phylovelo.py](<../09_Core/model_execution/Run_velocity/run_phylovelo.py>) | 历史计算或绘图实现；保留原路径、环境及外部输入依赖 |
-| Code | [run_scvelo.py](<../09_Core/model_execution/Run_velocity/run_scvelo.py>) | 历史计算或绘图实现；保留原路径、环境及外部输入依赖 |
-| Code | [run_sdevelo.py](<../09_Core/model_execution/Run_velocity/run_sdevelo.py>) | 历史计算或绘图实现；保留原路径、环境及外部输入依赖 |
-| Code | [run_stt.py](<../09_Core/model_execution/Run_velocity/run_stt.py>) | 历史计算或绘图实现；保留原路径、环境及外部输入依赖 |
-| Code | [run_tfvelo.py](<../09_Core/model_execution/Run_velocity/run_tfvelo.py>) | 历史计算或绘图实现；保留原路径、环境及外部输入依赖 |
-| Code | [run_topicvelo.py](<../09_Core/model_execution/Run_velocity/run_topicvelo.py>) | 历史计算或绘图实现；保留原路径、环境及外部输入依赖 |
-| Code | [run_unitvelo.py](<../09_Core/model_execution/Run_velocity/run_unitvelo.py>) | 历史计算或绘图实现；保留原路径、环境及外部输入依赖 |
-| Code | [run_veloae.py](<../09_Core/model_execution/Run_velocity/run_veloae.py>) | 历史计算或绘图实现；保留原路径、环境及外部输入依赖 |
-| Code | [run_velocyto.py](<../09_Core/model_execution/Run_velocity/run_velocyto.py>) | 历史计算或绘图实现；保留原路径、环境及外部输入依赖 |
-| Code | [run_velovae.py](<../09_Core/model_execution/Run_velocity/run_velovae.py>) | 历史计算或绘图实现；保留原路径、环境及外部输入依赖 |
-| Code | [run_velovi.py](<../09_Core/model_execution/Run_velocity/run_velovi.py>) | 历史计算或绘图实现；保留原路径、环境及外部输入依赖 |
-| Code | [Run_velogif.py](<../09_Core/model_execution/Run_velogif.py>) | 历史计算或绘图实现；保留原路径、环境及外部输入依赖 |
-| Code | [run_velogif_batch.py](<../09_Core/model_execution/run_velogif_batch.py>) | 历史计算或绘图实现；保留原路径、环境及外部输入依赖 |
+| Figures | [Figure04.pdf](<figures/Figure04.pdf>) | Current publication figure or preview |
+| Figures | [Figure04.png](<figures/Figure04.png>) | Current publication figure or preview |
+| Figures | [Figure04_legend.pdf](<figures/Figure04_legend.pdf>) | Current publication figure or preview |
+| Data | [Figure04.xlsx](<data/source_data/Figure04.xlsx>) | Source workbook, saved results or input metadata |
+| Code | [plot_saved_panels.py](<../09_Core/visualization/plot_saved_panels.py>) | Diagnostic plots of saved data; not replacements for publication layouts |
+| Code | [config.py](<../09_Core/model_execution/Run_velocity/config.py>) | Historical analysis or plotting implementation; original path, environment and external-input dependencies remain |
+| Code | [run_bivi.py](<../09_Core/model_execution/Run_velocity/run_bivi.py>) | Historical analysis or plotting implementation; original path, environment and external-input dependencies remain |
+| Code | [run_cell2fate.py](<../09_Core/model_execution/Run_velocity/run_cell2fate.py>) | Historical analysis or plotting implementation; original path, environment and external-input dependencies remain |
+| Code | [run_celldancer.py](<../09_Core/model_execution/Run_velocity/run_celldancer.py>) | Historical analysis or plotting implementation; original path, environment and external-input dependencies remain |
+| Code | [run_deepkinet.py](<../09_Core/model_execution/Run_velocity/run_deepkinet.py>) | Historical analysis or plotting implementation; original path, environment and external-input dependencies remain |
+| Code | [run_deepvelo_gcn.py](<../09_Core/model_execution/Run_velocity/run_deepvelo_gcn.py>) | Historical analysis or plotting implementation; original path, environment and external-input dependencies remain |
+| Code | [run_deepvelo_vae.py](<../09_Core/model_execution/Run_velocity/run_deepvelo_vae.py>) | Historical analysis or plotting implementation; original path, environment and external-input dependencies remain |
+| Code | [run_dynamo.py](<../09_Core/model_execution/Run_velocity/run_dynamo.py>) | Historical analysis or plotting implementation; original path, environment and external-input dependencies remain |
+| Code | [run_latentvelo.py](<../09_Core/model_execution/Run_velocity/run_latentvelo.py>) | Historical analysis or plotting implementation; original path, environment and external-input dependencies remain |
+| Code | [run_multivelo.py](<../09_Core/model_execution/Run_velocity/run_multivelo.py>) | Historical analysis or plotting implementation; original path, environment and external-input dependencies remain |
+| Code | [run_phylovelo.py](<../09_Core/model_execution/Run_velocity/run_phylovelo.py>) | Historical analysis or plotting implementation; original path, environment and external-input dependencies remain |
+| Code | [run_scvelo.py](<../09_Core/model_execution/Run_velocity/run_scvelo.py>) | Historical analysis or plotting implementation; original path, environment and external-input dependencies remain |
+| Code | [run_sdevelo.py](<../09_Core/model_execution/Run_velocity/run_sdevelo.py>) | Historical analysis or plotting implementation; original path, environment and external-input dependencies remain |
+| Code | [run_stt.py](<../09_Core/model_execution/Run_velocity/run_stt.py>) | Historical analysis or plotting implementation; original path, environment and external-input dependencies remain |
+| Code | [run_tfvelo.py](<../09_Core/model_execution/Run_velocity/run_tfvelo.py>) | Historical analysis or plotting implementation; original path, environment and external-input dependencies remain |
+| Code | [run_topicvelo.py](<../09_Core/model_execution/Run_velocity/run_topicvelo.py>) | Historical analysis or plotting implementation; original path, environment and external-input dependencies remain |
+| Code | [run_unitvelo.py](<../09_Core/model_execution/Run_velocity/run_unitvelo.py>) | Historical analysis or plotting implementation; original path, environment and external-input dependencies remain |
+| Code | [run_veloae.py](<../09_Core/model_execution/Run_velocity/run_veloae.py>) | Historical analysis or plotting implementation; original path, environment and external-input dependencies remain |
+| Code | [run_velocyto.py](<../09_Core/model_execution/Run_velocity/run_velocyto.py>) | Historical analysis or plotting implementation; original path, environment and external-input dependencies remain |
+| Code | [run_velovae.py](<../09_Core/model_execution/Run_velocity/run_velovae.py>) | Historical analysis or plotting implementation; original path, environment and external-input dependencies remain |
+| Code | [run_velovi.py](<../09_Core/model_execution/Run_velocity/run_velovi.py>) | Historical analysis or plotting implementation; original path, environment and external-input dependencies remain |
+| Code | [Run_velogif.py](<../09_Core/model_execution/Run_velogif.py>) | Historical analysis or plotting implementation; original path, environment and external-input dependencies remain |
+| Code | [run_velogif_batch.py](<../09_Core/model_execution/run_velogif_batch.py>) | Historical analysis or plotting implementation; original path, environment and external-input dependencies remain |
 
 ## Additional retained files
 

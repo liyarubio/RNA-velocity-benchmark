@@ -1,10 +1,10 @@
-# Figure03 — 模拟与常规数据评价
+# Figure03 — Evaluation on simulated and conventional datasets
 
 Current figure: **Figure03**. Historical source ID: **Figure03**. First manuscript citation: `P038`.
 
 Reproduction scope: `saved_data`.
 
-740 对主图配对；拓展图 698 对。逐数据集最大值为事后包络。
+740 pairs in the main figure and 698 in Extended Data. Per-dataset maxima are a post hoc envelope.
 
 [Back to ordered index](../../README.md)
 

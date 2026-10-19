@@ -87,7 +87,7 @@ pwalk(design_datasets, function(id, seed, backbone_name, ...) {
                     )
                 ),
                 verbose = FALSE,
-                download_cache_dir = "/media/zx/HDD1/cooperation/liyr/analysis/dyngen/download" ### 这里最好提前下载好一些数据
+                download_cache_dir = "/media/zx/HDD1/cooperation/liyr/analysis/dyngen/download" ### Prefer downloading the required cached data in advance.
             )
         generate_dataset(
             model,

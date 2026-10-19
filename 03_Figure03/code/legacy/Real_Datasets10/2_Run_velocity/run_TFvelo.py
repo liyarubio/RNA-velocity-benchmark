@@ -7,7 +7,7 @@ import scvelo as scv
 import matplotlib
 matplotlib.use('AGG')
 import os, sys
-sys.path.insert(1, './home/liyr/hpz/处理cy2文件/TFvelo-main/')
+sys.path.insert(1, os.environ.get('TFVELO_SOURCE', './TFvelo-main/'))
 # import TFvelo as TFv
 import random
 

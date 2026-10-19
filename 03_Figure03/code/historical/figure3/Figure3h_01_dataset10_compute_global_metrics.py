@@ -1,26 +1,6 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
-"""
-VeloAE 五指标 + Global 综合指标计算
-=====================================
-基于 compute_veloae_metrics.py 的五个指标逻辑（修复后的正确版本），
-并额外计算 计算指标_中位数.py 中的 get_global 复合指标（已修复除零隐患）。
-
-计算指标:
-  1. CBDir      — Cross-Boundary Direction (transition probability)
-  2. CBVelCoh   — Cross-Boundary Velocity Coherence
-  3. CBDirCorr  — Cross-Boundary Direction Correctness (embedding)
-  4. ICCoh      — In-cluster Coherence
-  5. ICConf     — In-cluster Velocity Confidence
-  6. Global     — 复合指标（基于 ICCoh + CBDirCorr 的 raw 分数）
-
-数据加载方式沿用 计算指标_中位数.py:
-    ../real_data_graph/{dataset}/{method}.h5ad
-
-保存方式沿用 计算指标_中位数.py 的宽表 CSV（行=方法, 列=数据集）:
-    veloAE指标_global/{Metric}_all.csv   每个指标一个宽表
-    veloAE指标_global/metrics_all_long.csv  完整长表
-"""
+'VeloAE: five metrics and the Global composite score\n====================================================\nUses the corrected five-metric implementation from compute_veloae_metrics.py\nand the get_global composite from the historical median-metrics script, with division-by-zero protection.\n\nMetrics:\n  1. CBDir      - Cross-Boundary Direction (transition probability)\n  2. CBVelCoh   - Cross-Boundary Velocity Coherence\n  3. CBDirCorr  - Cross-Boundary Direction Correctness (embedding)\n  4. ICCoh      - In-cluster Coherence\n  5. ICConf     - In-cluster Velocity Confidence\n  6. Global     - Composite based on raw ICCoh and CBDirCorr scores\n\nLoad data as in the historical median-metrics script:\n    ../real_data_graph/{dataset}/{method}.h5ad\n\nSave wide CSV tables (rows = methods, columns = datasets):\n    veloAE_metrics_global/{Metric}_all.csv      One wide table per metric\n    veloAE_metrics_global/metrics_all_long.csv  Complete long-format table\n'
 
 import os
 import sys
@@ -36,10 +16,10 @@ from sklearn.metrics.pairwise import cosine_similarity
 warnings.filterwarnings('ignore')
 sc.settings.verbosity = 0
 scv.settings.verbosity = 0
-# 线程数由 --n_jobs 参数控制，默认使用一半核数（多线程加速 scvelo 图构建）
+# --n_jobs controls CPU threads; the default uses half the cores for scvelo graph construction.
 N_JOBS = max(1, (os.cpu_count() or 2) // 2)
 
-# ==================== 数据集配置（与 计算指标_中位数.py 一致） ====================
+# ==================== Dataset configuration, matching the historical median-metrics script ====================
 cell_types = {
     'endocrinogenesis_day15': 'clusters',
     'DentateGyrus_velocyto': 'clusters',
@@ -110,7 +90,7 @@ embs = {
     'zebrafish_process': 'umap',
 }
 
-# ===== 所有方法及其 velocity key（与 计算指标_中位数.py 一致） =====
+# ===== Methods and velocity keys, matching the historical median-metrics script =====
 ALL_METHODS = {
     'DeepVelo_GB': 'velocity',
     'scvelo_stochastic': 'velocity',
@@ -136,19 +116,19 @@ ALL_METHODS = {
 METRICS = ['CBDir', 'CBVelCoh', 'CBDirCorr', 'ICCoh', 'ICConf', 'Global']
 
 DATA_PATH = '../real_data_graph/'
-OUT_DIR = os.path.join(os.path.dirname(os.path.abspath(__file__)), 'veloAE指标_global')
+OUT_DIR = os.path.join(os.path.dirname(os.path.abspath(__file__)), 'veloAE_metrics_global')
 os.makedirs(OUT_DIR, exist_ok=True)
 _ERROR_LOG = os.path.join(OUT_DIR, 'error_log.txt')
 
 
 def log_error(msg):
-    """记录错误到日志文件"""
+    'Record an error in the log file.'
     with open(_ERROR_LOG, 'a', encoding='utf-8') as f:
         f.write(msg + '\n')
-    print(f"    [错误] {msg}")
+    print(f"    [Error] {msg}")
 
 
-# ==================== 工具函数 ====================
+# ==================== Utility functions ====================
 
 def _to_array(x):
     if hasattr(x, 'toarray'):
@@ -159,19 +139,19 @@ def _to_array(x):
 
 
 def keep_type(adata, nodes, target, k_cluster):
-    """选择目标类型细胞"""
+    'Select cells of the target type.'
     vals = adata.obs[k_cluster].astype(str).values
     node_vals = vals[nodes]
     mask = node_vals == str(target)
     if mask.sum() > 0:
         return nodes[mask]
-    # 大小写容错
+    # Match case-insensitively.
     tl = str(target).lower()
     return nodes[np.array([tl in v.lower() for v in node_vals])]
 
 
 def get_nb(adata, sel_idx=None):
-    """获取邻居索引（兼容 indices / connectivities）"""
+    'Get neighbor indices, supporting indices or connectivities.'
     if 'neighbors' in adata.uns and 'indices' in adata.uns['neighbors']:
         ind = adata.uns['neighbors']['indices']
         if isinstance(ind, list):
@@ -210,7 +190,7 @@ def get_nb(adata, sel_idx=None):
     raise KeyError('no neighbors')
 
 
-# ==================== 五个指标 ====================
+# ==================== Five metrics ====================
 
 def cross_boundary_transition(adata, k_cluster, cluster_edges, k_velocity):
     """CBDir: Cross-Boundary Direction (transition probability)"""
@@ -230,7 +210,7 @@ def cross_boundary_transition(adata, k_cluster, cluster_edges, k_velocity):
             bn = keep_type(adata, nodes, vs, k_cluster)
             if len(bn) > 0:
                 pa = tp.toarray().flatten() if hasattr(tp, 'toarray') else np.asarray(tp).flatten()
-                ts.append(float(np.mean(pa[bn])))  # bn 是绝对细胞索引
+                ts.append(float(np.mean(pa[bn])))  # bn contains absolute cell indices.
         if ts:
             scores[(us, vs)] = np.mean(ts)
             all_scores[(us, vs)] = ts
@@ -272,7 +252,7 @@ def cross_boundary_correctness(adata, k_cluster, k_velocity, cluster_edges, x_em
     velocities = _to_array(adata.layers[k_velocity])
     xec = adata.obsm[x_emb]
 
-    # 找 velocity embedding
+    # Find the velocity embedding.
     vek = None
     for key in adata.obsm.keys():
         if key.startswith(k_velocity) and key != k_velocity:
@@ -337,7 +317,7 @@ def inner_cluster_coh(adata, k_cluster, k_velocity):
 
 
 def in_cluster_confidence(adata, k_cluster, k_velocity):
-    """ICConf: In-cluster Velocity Confidence（基于 scvelo velocity_confidence）"""
+    'ICConf: In-cluster Velocity Confidence, based on scvelo velocity_confidence.'
     conf_key = f'{k_velocity}_confidence'
     if conf_key not in adata.obs.columns:
         return {}, np.nan
@@ -352,19 +332,10 @@ def in_cluster_confidence(adata, k_cluster, k_velocity):
     return scores, ov
 
 
-# ==================== Global 复合指标（已修复除零隐患） ====================
+# ==================== Global composite score with division-by-zero protection ====================
 
 def get_global(in_cluster, cross_boundary, cell_number):
-    """计算 Global 复合指标。
-
-    Args:
-        in_cluster (dict): ICCoh 的 raw 分数 {cluster: [scores]}。
-        cross_boundary (dict): CBDirCorr 的 raw 分数 {edge: [scores]}。
-        cell_number (int): 细胞总数。
-
-    Returns:
-        float: Global 分数。
-    """
+    'Calculate the Global composite score.\n\n    Args:\n        in_cluster (dict): Raw ICCoh scores {cluster: [scores]}.\n        cross_boundary (dict): Raw CBDirCorr scores {edge: [scores]}.\n        cell_number (int): Total number of cells.\n\n    Returns:\n        float: Global score.\n    '
     g1 = []
     for cluster0 in in_cluster:
         data_tmp1 = in_cluster[cluster0]
@@ -379,7 +350,7 @@ def get_global(in_cluster, cross_boundary, cell_number):
                 count_num = count_num + 1
                 d1 = d1 + np.sign(np.median(ss))
 
-        # 该 cluster 不参与任何 transition edge，方向性无定义，跳过避免除零
+        # This cluster participates in no transition edge; direction is undefined, so skip it to avoid division by zero.
         if count_num == 0:
             continue
 
@@ -389,10 +360,10 @@ def get_global(in_cluster, cross_boundary, cell_number):
     return float(np.sum(g1))
 
 
-# ==================== 数据处理辅助 ====================
+# ==================== Data-processing helpers ====================
 
 def prepare_adata(adata, file_name, k_cluster):
-    """数据集特化处理，与 计算指标_中位数.py 保持一致"""
+    'Apply dataset-specific processing as in the historical median-metrics script.'
     if file_name == 'gastrulation':
         adata.obs['stage'] = pd.Categorical(
             adata.obs['stage'], ordered=True,
@@ -420,7 +391,7 @@ def prepare_adata(adata, file_name, k_cluster):
 
 
 def ensure_neighbors(adata, emb_key):
-    """确保有 neighbors 和 UMAP/TSNE 嵌入"""
+    'Ensure neighbors and UMAP/TSNE embeddings are available.'
     emb_full = f'X_{emb_key}'
     if emb_full not in adata.obsm:
         if 'X_pca' not in adata.obsm:
@@ -432,16 +403,16 @@ def ensure_neighbors(adata, emb_key):
             sc.tl.tsne(adata)
 
     if 'neighbors' not in adata.uns or 'indices' not in adata.uns.get('neighbors', {}):
-        get_nb(adata)  # 自动构建 indices
+        get_nb(adata)  # Build indices automatically.
 
 
-# ==================== 单方法处理 ====================
+# ==================== Per-method processing ====================
 
 def process_one_method(adata, method, vkey, file_name, k_cluster, edge, emb, x_emb):
-    """处理单个方法的五指标 + Global 计算，返回 results dict"""
+    'Calculate five metrics and Global for one method; return a results dictionary.'
     results = {'Dataset': file_name, 'Model': method}
 
-    # 空值清洗 velocity 层
+    # Clean missing values in the velocity layer.
     arr = _to_array(adata.layers[vkey])
     all_nan_rows = np.where(np.isnan(arr).all(axis=1))[0]
     all_nan_cols = np.where(np.isnan(arr).all(axis=0))[0]
@@ -449,13 +420,13 @@ def process_one_method(adata, method, vkey, file_name, k_cluster, edge, emb, x_e
     has_col_filter = len(all_nan_cols) > 0
 
     if has_row_filter or has_col_filter:
-        print(f"    过滤全NaN: {len(all_nan_rows)}行, {len(all_nan_cols)}列")
+        print(f"    Filter all-NaN values: {len(all_nan_rows)} rows, {len(all_nan_cols)} columns")
         keep_rows = np.ones(arr.shape[0], dtype=bool)
         keep_rows[all_nan_rows] = False
         keep_cols = np.ones(arr.shape[1], dtype=bool)
         keep_cols[all_nan_cols] = False
 
-        # --- 行过滤：重新映射 neighbor indices，保留拓扑 ---
+        # --- Row filtering: remap neighbor indices while preserving topology. ---
         if has_row_filter and 'neighbors' in adata.uns and 'indices' in adata.uns['neighbors']:
             old_indices = adata.uns['neighbors']['indices']
             old_to_new = np.full(adata.n_obs, -1, dtype=int)
@@ -468,29 +439,29 @@ def process_one_method(adata, method, vkey, file_name, k_cluster, edge, emb, x_e
                 new_nbs = old_to_new[old_nbs[valid]]
                 new_indices.append(new_nbs.astype(np.int64))
             adata.uns['neighbors']['indices'] = new_indices
-            # 同样重排 connectivities
+            # Reorder connectivities consistently.
             for obsp_key in list(adata.obsp.keys()):
                 adata.obsp[obsp_key] = adata.obsp[obsp_key][keep_rows][:, keep_rows]
 
         adata = adata[keep_rows, keep_cols].copy()
     adata.layers[vkey] = np.nan_to_num(adata.layers[vkey], nan=0.0)
 
-    # 邻居：只有被行过滤销毁时才重建
+    # Neighbors: rebuild only when row filtering invalidates the graph.
     if has_row_filter and ('neighbors' not in adata.uns or 'indices' not in adata.uns['neighbors']):
         try:
             ensure_neighbors(adata, emb)
         except Exception:
             pass
 
-    # velocity_graph：始终在新基因空间重建（基因维度变了）
+    # velocity_graph: always rebuild in the updated gene space after gene filtering.
     try:
         scv.tl.velocity_graph(adata, vkey=vkey, n_jobs=N_JOBS)
         scv.tl.velocity_confidence(adata, vkey=vkey)
         scv.tl.velocity_embedding(adata, vkey=vkey, basis=emb)
     except Exception as e:
-        log_error(f"{file_name}/{method}: 图重建失败: {e}")
+        log_error(f"{file_name}/{method}: Graph reconstruction failed: {e}")
 
-    # 显式计算五个指标，保留 raw 分数供 Global 使用
+    # Calculate all five metrics explicitly, retaining raw scores for Global.
     metric_funcs = {
         'CBDir': lambda: cross_boundary_transition(adata, k_cluster, edge, vkey),
         'CBVelCoh': lambda: cross_boundary_coh(adata, k_cluster, vkey, edge),
@@ -508,9 +479,9 @@ def process_one_method(adata, method, vkey, file_name, k_cluster, edge, emb, x_e
         except Exception as e:
             raw_scores[mlabel] = {}
             results[mlabel] = np.nan
-            log_error(f"{file_name}/{method}: {mlabel} 失败: {e}")
+            log_error(f"{file_name}/{method}: {mlabel} failed: {e}")
 
-    # 计算 Global 复合指标（基于 ICCoh 和 CBDirCorr 的 raw 分数）
+    # Calculate Global using raw ICCoh and CBDirCorr scores.
     try:
         results['Global'] = get_global(
             raw_scores.get('ICCoh', {}),
@@ -519,22 +490,22 @@ def process_one_method(adata, method, vkey, file_name, k_cluster, edge, emb, x_e
         )
     except Exception as e:
         results['Global'] = np.nan
-        log_error(f"{file_name}/{method}: Global 失败: {e}")
+        log_error(f"{file_name}/{method}: Global failed: {e}")
 
     return results
 
 
-# ==================== 主流程 ====================
+# ==================== Main workflow ====================
 
 def main():
     global N_JOBS
-    parser = argparse.ArgumentParser(description='VeloAE五指标+Global计算')
+    parser = argparse.ArgumentParser(description='Calculate five VeloAE metrics and Global')
     parser.add_argument('--n_jobs', type=int, default=N_JOBS,
-                        help='CPU 核数（默认一半核，-1 表示全部核，1 表示单核）')
+                        help='CPU cores: half by default; -1 uses all cores and 1 uses one core')
     parser.add_argument('--datasets', type=str, default='',
-                        help='逗号分隔的数据集列表，为空则运行所有')
+                        help='Comma-separated dataset names; an empty value runs all datasets')
     parser.add_argument('--node', type=int, default=0,
-                        help='节点编号（1/2/3），用于区分输出文件，避免覆盖')
+                        help='Node identifier (1/2/3), used to distinguish output files and avoid overwriting')
     args = parser.parse_args()
 
     N_JOBS = args.n_jobs
@@ -545,20 +516,20 @@ def main():
     global _ERROR_LOG
     _ERROR_LOG = os.path.join(OUT_DIR, f'error_log{node_suffix}.txt')
 
-    # 确定要处理的数据集
+    # Select datasets to process.
     if args.datasets:
         target_datasets = [d.strip() for d in args.datasets.split(',') if d.strip() in cell_types]
     else:
         target_datasets = sorted(cell_types.keys())
 
-    # 清空日志文件
+    # Clear the log file.
     with open(_ERROR_LOG, 'w', encoding='utf-8') as f:
         f.write('Error log for velocity evaluation (5 metrics + Global)\n')
         f.write('=' * 60 + '\n')
 
     print("=" * 60)
-    print("VeloAE 五指标 + Global 综合指标计算")
-    print(f"方法数: {len(ALL_METHODS)}  数据集数: {len(target_datasets)}")
+    print('VeloAE: five metrics and the Global composite score')
+    print(f"Methods: {len(ALL_METHODS)}  Datasets: {len(target_datasets)}")
     print(f"Data path: {DATA_PATH}")
     print(f"Output: {OUT_DIR}")
     print(f"n_jobs: {args.n_jobs}")
@@ -582,35 +553,35 @@ def main():
                 nan_row[m] = np.nan
 
             if not os.path.exists(file_path):
-                log_error(f"{file_name}/{method}: 文件不存在: {file_path}")
+                log_error(f"{file_name}/{method}: File not found: {file_path}")
                 all_rows.append(nan_row)
                 continue
 
             try:
                 adata = sc.read_h5ad(file_path)
             except Exception as e:
-                log_error(f"{file_name}/{method}: 读取失败: {e}")
+                log_error(f"{file_name}/{method}: Read failed: {e}")
                 all_rows.append(nan_row)
                 continue
 
             if vkey not in adata.layers:
-                log_error(f"{file_name}/{method}: layers 中无 {vkey}")
+                log_error(f"{file_name}/{method}: Missing layer {vkey}")
                 all_rows.append(nan_row)
                 continue
 
-            # 数据特化处理
+            # Dataset-specific processing
             try:
                 adata = prepare_adata(adata, file_name, k_cluster)
             except Exception as e:
-                log_error(f"{file_name}/{method}: prepare_adata 失败: {e}")
+                log_error(f"{file_name}/{method}: prepare_adata failed: {e}")
 
-            # 邻居和嵌入
+            # Neighbors and embeddings
             try:
                 ensure_neighbors(adata, emb)
             except Exception as e:
-                log_error(f"{file_name}/{method}: neighbors/umap 失败: {e}")
+                log_error(f"{file_name}/{method}: neighbors/umap failed: {e}")
 
-            # TFvelo 特殊处理：删除全 NaN 列
+            # TFvelo: remove all-NaN columns.
             if method == 'TFvelo':
                 try:
                     arr = _to_array(adata.layers[vkey])
@@ -620,7 +591,7 @@ def main():
                 except Exception:
                     pass
 
-            # scvelo_dynamical 特殊处理：清理 velocity embedding NaN
+            # scvelo_dynamical: clean NaN values in the velocity embedding.
             if method == 'scvelo_dynamical':
                 try:
                     for k in list(adata.obsm.keys()):
@@ -638,36 +609,36 @@ def main():
                     parts.append(f"{m}={v:.4f}" if not np.isnan(v) else f"{m}=NaN")
                 print(f"    {'  '.join(parts)}")
             except Exception as e:
-                log_error(f"{file_name}/{method}: 处理异常: {e}")
+                log_error(f"{file_name}/{method}: Processing exception: {e}")
                 traceback.print_exc()
                 all_rows.append(nan_row)
 
-    # ========== 保存结果 ==========
+    # ========== Save results ==========
     df_result = pd.DataFrame(all_rows)
 
-    # 完整长表
+    # Complete long-format table
     fp_all = os.path.join(OUT_DIR, 'metrics_all_long.csv')
     df_result.to_csv(fp_all, index=False, float_format='%.6f', na_rep='NaN')
-    print(f"\n  完整长表 -> {fp_all}")
+    print(f"\n  Complete long-format table -> {fp_all}")
 
-    # 每个指标一个宽表（行=方法, 列=数据集），沿用 计算指标_中位数.py 的保存方式
+    # One wide table per metric (rows = methods, columns = datasets), as in the historical median-metrics script.
     for metric_key in METRICS:
         sub = df_result.pivot(index='Model', columns='Dataset', values=metric_key)
         fp = os.path.join(OUT_DIR, f'{metric_key}_all{node_suffix}.csv')
         sub.to_csv(fp, float_format='%.6f', na_rep='NaN')
-        print(f"  {metric_key} 宽表 -> {fp}")
+        print(f"  {metric_key} Wide table -> {fp}")
 
-    # 打印摘要
+    # Print a summary.
     print(f"\n{'=' * 50}")
-    print("摘要")
+    print('Summary')
     for mkey in METRICS:
         valid = df_result[mkey].dropna()
         if len(valid) > 0:
             print(f"  {mkey}: mean={valid.mean():.4f}, n={len(valid)}/{len(df_result)}")
         else:
-            print(f"  {mkey}: 全部 NaN")
+            print(f"  {mkey}: All values are NaN")
 
-    print(f"\n完成! 结果保存在 {OUT_DIR}")
+    print(f"\nComplete! Results saved to {OUT_DIR}")
 
 
 if __name__ == '__main__':

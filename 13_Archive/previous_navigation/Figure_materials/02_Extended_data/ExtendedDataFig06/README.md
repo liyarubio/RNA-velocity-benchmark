@@ -1,10 +1,10 @@
-# ED06 — 真实数据 GDC
+# ED06 — GDC on real-world datasets
 
 Current figure: **ED06**. Historical source ID: **ED07**. First manuscript citation: `P041`.
 
 Reproduction scope: `saved_data_recomputed`.
 
-与主图源值对齐；HuBMAP 18 配置，TopicVelo 无该任务有效值。
+Aligned with the main-figure source values; 18 HuBMAP configurations, with no valid TopicVelo value for this task.
 
 [Back to ordered index](../../README.md)
 

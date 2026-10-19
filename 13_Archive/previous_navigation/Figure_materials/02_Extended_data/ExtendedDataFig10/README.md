@@ -1,10 +1,10 @@
-# ED10 — 上下文配对一致性
+# ED10 — Paired consistency across contexts
 
 Current figure: **ED10**. Historical source ID: **ED16**. First manuscript citation: `P045a`.
 
 Reproduction scope: `saved_vectors_recomputed`.
 
-19×608=11,552 对空间结果；18 方法有基因空间分数；VeloAE 为 NA。
+19 x 608 = 11,552 paired spatial results; 18 methods have gene-space scores, while VeloAE remains NA.
 
 [Back to ordered index](../../README.md)
 

@@ -15,46 +15,46 @@ CAPTION_EN = ('Original-style blue bubble encoding of the three original cellDan
     'remains exploratory on continuous inputs. Each condition is one saved dataset, not an '
     'independent-replicate average; preprocessing and retained gene sets differ across datasets. '
     'Retained raw scores and the main composite ranking are unchanged.')
-CAPTION_ZH = ('将原版蓝色气泡编码用于 cellDancer 的三类原始场景。a–c 为细胞级中位数，'
-    'd–f 为基因级中位数。每类场景包含噪声 0.2–2.0 的十个数据集，共 30 个数据集。'
-    '颜色越浅表示条件内排名越好，圆面积按保留数据的统一最小值减 0.01 至最大值归一化，仅用于显示。'
-    '列上方数字为共有有限值基因数。灰叉表示缺失，包括九个前向分支 STT 失败输出。'
-    'biVI† 为连续输入上的探索性拟合。每个条件只有一个已保存数据集，不能当作独立重复均值；'
-    '方法预处理及保留基因范围存在差异。保留的原始得分和主文综合排名不变。')
+CAPTION_ZH = ('The original blue-bubble encoding is applied to the three original cellDancer scenarios. Panels a-c show cell-level medians, '
+    'and d-f show gene-level medians. Each scenario includes ten datasets with noise from 0.2 to 2.0, totaling 30 datasets. '
+    'Lighter colors indicate better within-condition ranks. Bubble areas use the common retained-data minimum minus 0.01 to maximum range for display only. '
+    'Numbers above columns indicate shared genes with finite values. Grey crosses mark missing results, including nine failed STT outputs in the forward-branching scenario. '
+    'biVI dagger-marked results are exploratory fits to continuous inputs. Each condition has one saved dataset and cannot be treated as a mean over independent replicates; '
+    'method preprocessing and retained gene sets differ. Retained raw scores and the main-text overall ranking are unchanged.')
 
 REPLACEMENTS = {
     '; ten additional backward-branching datasets are analyzed separately.': '.',
-    '，另将十个反向分支数据集单列分析。': '。',
+    ', with ten backward-branching datasets analyzed separately.': '.',
     ' Ten saved backward-branching datasets form a separate extension. They are not added to the original 72-dataset design or to the main composite ranking.': '',
-    '另有十个已保存的反向分支数据集，单列为扩展，不并入原始 72 数据集设计或主文综合排名。': '',
+    'Ten additional saved backward-branching datasets are shown separately as an extension and are not included in the original 72-dataset design or main-text composite ranking.': '',
     'the noise series and separate backward-branching datasets': 'the complete noise series for these three scenarios',
-    '完整噪声序列和单列的反向分支数据': '三类场景的完整噪声序列',
+    'the full noise series and separately analyzed backward-branching datasets': 'the full noise series for three scenarios',
     'The present supplementary re-evaluation retains these original 30 datasets and separately includes ten saved backward-branching datasets. Their noise mapping was not verified, and they are shown by series index. These additional datasets are not included in the original 72-dataset total (42 dyngen plus 30 cellDancer datasets).': 'The present supplementary re-evaluation includes the original 30 cellDancer datasets. Together with the 42 dyngen datasets, the simulation design contains 72 datasets.',
-    '本次附图重新评价保留上述原始 30 个数据集，另行展示已有的十个反向分支数据集；后者噪声对应关系尚未验证，因此按序列编号展示。这十个附加数据集不计入原稿 72 个模拟数据集的口径（42 个 dyngen 加 30 个 cellDancer）。': '本次附图重新评价包含上述原始 30 个 cellDancer 数据集；加上 42 个 dyngen 数据集，模拟设计共包含 72 个数据集。',
+    'This Extended Data reevaluation retains the original 30 datasets and separately shows ten existing backward-branching datasets. Their noise correspondence remains unverified, so they are labeled by sequence index. These additional datasets are not counted in the original 72 simulated datasets (42 dyngen and 30 cellDancer).': 'This Extended Data reevaluation includes the original 30 cellDancer datasets; together with 42 dyngen datasets, the simulation design contains 72 datasets.',
     'all 40 saved datasets': 'all 30 retained datasets',
     'all 40 datasets': 'all 30 retained datasets',
-    '全部 40 个已有数据集': '保留的全部 30 个数据集',
-    '全部 40 个数据集': '保留的全部 30 个数据集',
+    'all 40 existing datasets': 'all 30 retained datasets',
+    'all 40 datasets': 'all 30 retained datasets',
     '31 of 40 datasets': '21 of 30 datasets',
-    '31/40 个数据集': '21/30 个数据集',
+    '31/40 datasets': '21/30 datasets',
     'The original 30 cellDancer datasets and ten additional backward-branching datasets': 'The original 30 cellDancer datasets',
     'The full noise series and separate backward-branching extension remain': 'The full noise series for the three original scenarios is shown',
-    '完整噪声序列与反向分支扩展保留在': '三类原始场景的完整噪声序列展示在',
+    'The full noise series and backward-branching extension are retained in': 'The full noise series for the three original scenarios is shown in',
     'cellDancer conditions and backward-branching extension': TITLE,
     'Extended Data Fig. 5c shows the three original scenarios at noise 0.2, and Extended Data Fig. 7 extends the comparison to the complete noise series for these three scenarios.': 'Extended Data Fig. 5c shows the three original scenarios at noise 0.2; the complete noise-series results are retained in the source-data summary.',
-    '扩展数据图 5c 展示噪声 0.2 的三类原始场景，扩展数据图 7 将比较扩展到三类场景的完整噪声序列。': '扩展数据图 5c 展示噪声 0.2 的三类原始场景；完整噪声序列结果保留在源数据汇总中。',
+    'Extended Data Fig. 5c shows the three original scenarios at noise 0.2; Extended Data Fig. 7 extends the comparison to the full noise series for these scenarios.': 'Extended Data Fig. 5c shows the three original scenarios at noise 0.2; results for the full noise series are retained in the source-data summaries.',
     'The full noise series for the three original scenarios is shown in Extended Data Fig. 7.': 'The full noise-series results are retained in the source-data summary.',
-    '三类原始场景的完整噪声序列展示在扩展数据图 7。': '完整噪声序列结果保留在源数据汇总中。',
+    'The full noise series for the three original scenarios is shown in Extended Data Fig. 7.': 'Results for the full noise series are retained in the source-data summaries.',
     'STT is unavailable for forward branching; missing results remain missing. BiVI (dagger) is exploratory because it was fitted to continuous simulated U/S values. ': 'Methods without valid results are omitted from the corresponding subplot. ',
-    '细胞和基因不作为独立模拟重复；前向分支的 STT 缺失保留为空。biVI† 在连续 U/S 上的拟合仍属探索性结果；': '细胞和基因不作为独立模拟重复；无有效结果的方法不在对应子图中展示。',
+    'Cells and genes are not independent simulation replicates. Missing STT results for forward branching remain unavailable. biVI dagger-marked fits to continuous U/S remain exploratory; ': 'Cells and genes are not independent simulation replicates; methods without valid results are omitted from the corresponding panels.',
 }
 
 def scope_text(value):
     if not isinstance(value, str):
         return value
     if value.startswith('Original-style blue bubble encoding applied to the additional cellDancer condition summary.'):
-        return CAPTION_EN + ('\n' + CAPTION_ZH if '将原版蓝色气泡编码' in value else '')
-    if value.startswith('将原版蓝色气泡编码用于 cellDancer 条件扩展。'):
+        return CAPTION_EN + ('\n' + CAPTION_ZH if 'The original blue-bubble encoding' in value else '')
+    if value.startswith('The original blue-bubble encoding is applied to the cellDancer condition extension.'):
         return CAPTION_ZH
     for old, new in REPLACEMENTS.items():
         value = value.replace(old, new)

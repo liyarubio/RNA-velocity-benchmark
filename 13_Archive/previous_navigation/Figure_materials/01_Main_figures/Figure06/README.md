@@ -1,10 +1,10 @@
-# Figure06 — 冻结综合分数和工具
+# Figure06 — Frozen composite scores and tool capabilities
 
 Current figure: **Figure06**. Historical source ID: **Figure06**. First manuscript citation: `P048`.
 
 Reproduction scope: `frozen_summary_recomputed`.
 
-19 配置；0.6 准确性排名+0.4 可扩展性排名；稳定性不参与。与后续四领域有 8 项差异。
+19 configurations; 0.6 accuracy rank + 0.4 scalability rank, excluding stability. Eight differences remain relative to later values across four domains.
 
 [Back to ordered index](../../README.md)
 

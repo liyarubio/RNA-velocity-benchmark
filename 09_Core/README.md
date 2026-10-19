@@ -18,8 +18,11 @@ Install the [dependencies](../requirements-demo.txt) in a compatible Python envi
 python 09_Core/validation/reproduce.py --out /tmp/rna-velocity-check --no-plots
 python 09_Core/visualization/plot_saved_panels.py --out /tmp/rna-velocity-panels
 python 09_Core/validation/verify_release.py
+python 09_Core/validation/check_english.py --pdf
 ```
 
 The first command checks saved numerical results; the second draws 17 diagnostic panels, not the formal figure layouts. Neither retrains models. Diagnostic filenames and labels retain historical ED IDs; use the [numbering table](../12_Provenance/figure_index.csv) to find current figures. `--out` and `--no-plots` retain their previous meanings.
 
 [release_paths.py](release_paths.py) resolves historical source names through the [migration manifest](../12_Provenance/path_migration.json). It reads the canonical new locations and does not require the old directory tree or symlinks.
+
+The English check inspects filenames, text, decoded notebook strings, workbook XML and extracted PDF text (`--pdf` requires PyMuPDF). It does not OCR images or rewrite Git history. See the [language-update scope](../12_Provenance/ENGLISH_RELEASE.md) for translated legacy utilities and external-path configuration.

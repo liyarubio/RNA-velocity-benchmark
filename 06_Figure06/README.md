@@ -1,4 +1,4 @@
-# Figure06 — 冻结综合分数和工具
+# Figure06 — Frozen composite scores and tool capabilities
 
 Current figure: **Figure06**. Historical source ID: **Figure06**.
 
@@ -6,7 +6,7 @@ Current figure: **Figure06**. Historical source ID: **Figure06**.
 
 ## Evidence and reproduction
 
-19 配置；0.6 准确性排名+0.4 可扩展性排名；稳定性不参与。与后续四领域有 8 项差异。
+19 configurations; 0.6 accuracy rank + 0.4 scalability rank, excluding stability. Eight differences remain relative to later values across four domains.
 
 Data status: `available`. Analysis code: `historical_code_available`.
 
@@ -16,12 +16,12 @@ Portable saved-data checks: [commands and dependencies](<../09_Core/README.md>).
 
 | Role | File | Purpose |
 |---|---|---|
-| Figures | [Figure06.pdf](<figures/Figure06.pdf>) | 当前正式图件或预览 |
-| Figures | [Figure06.png](<figures/Figure06.png>) | 当前正式图件或预览 |
-| Data | [Figure06.xlsx](<data/source_data/Figure06.xlsx>) | 源表、保存结果或输入元数据 |
-| Code | [reproduce.py](<../09_Core/validation/reproduce.py>) | 保存数据的数值一致性检查；不运行模型 |
-| Code | [plot_saved_panels.py](<../09_Core/visualization/plot_saved_panels.py>) | 保存数据的诊断图；不替代正式版布局 |
-| Code | [figure6a.py](<code/historical/Figure6_sources/code/panel_a/figure6a.py>) | 历史计算或绘图实现；保留原路径、环境及外部输入依赖 |
+| Figures | [Figure06.pdf](<figures/Figure06.pdf>) | Current publication figure or preview |
+| Figures | [Figure06.png](<figures/Figure06.png>) | Current publication figure or preview |
+| Data | [Figure06.xlsx](<data/source_data/Figure06.xlsx>) | Source workbook, saved results or input metadata |
+| Code | [reproduce.py](<../09_Core/validation/reproduce.py>) | Numerical consistency checks on saved data; no model fitting |
+| Code | [plot_saved_panels.py](<../09_Core/visualization/plot_saved_panels.py>) | Diagnostic plots of saved data; not replacements for publication layouts |
+| Code | [figure6a.py](<code/historical/Figure6_sources/code/panel_a/figure6a.py>) | Historical analysis or plotting implementation; original path, environment and external-input dependencies remain |
 
 ## Additional retained files
 

@@ -1,10 +1,10 @@
-# ED08 — scLT 谱系参照
+# ED08 — scLT lineage reference
 
 Current figure: **ED08**. Historical source ID: **ED14**. First manuscript citation: `P045`.
 
 Reproduction scope: `saved_vectors_plus_historical_panel`.
 
-1,756 参照细胞、19 配置；五个克隆示例的原成员与随机选择记录不完整。
+1,756 reference cells and 19 configurations; original membership and random-selection records for the five clone examples are incomplete.
 
 [Back to ordered index](../../README.md)
 

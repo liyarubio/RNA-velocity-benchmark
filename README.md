@@ -6,13 +6,13 @@ Code, saved data and figures for a multilevel benchmark of RNA velocity inferenc
 
 | Figure | Topic | Materials |
 |---|---|---|
-| 1 | 方法时间线 | [Code, data and figures](<01_Figure01/README.md>) |
-| 2 | 评价流程 | [Code, data and figures](<02_Figure02/README.md>) |
-| 3 | 模拟与常规数据评价 | [Code, data and figures](<03_Figure03/README.md>) |
+| 1 | Timeline of RNA velocity methods | [Code, data and figures](<01_Figure01/README.md>) |
+| 2 | Benchmarking framework | [Code, data and figures](<02_Figure02/README.md>) |
+| 3 | Evaluation on simulated and conventional datasets | [Code, data and figures](<03_Figure03/README.md>) |
 | 4 | ReDeeM | [Code, data and figures](<04_Figure04/README.md>) |
-| 5 | 空间、运行时间及 reads | [Code, data and figures](<05_Figure05/README.md>) |
-| 6 | 冻结综合分数和工具 | [Code, data and figures](<06_Figure06/README.md>) |
-| 7 | 年龄示例与未来方向 | [Code, data and figures](<07_Figure07/README.md>) |
+| 5 | Spatial evaluation, runtime and read-depth sensitivity | [Code, data and figures](<05_Figure05/README.md>) |
+| 6 | Frozen composite scores and tool capabilities | [Code, data and figures](<06_Figure06/README.md>) |
+| 7 | Age-related examples and future directions | [Code, data and figures](<07_Figure07/README.md>) |
 
 ![Benchmarking framework — Figure 2](02_Figure02/figures/Figure02.png)
 
@@ -34,7 +34,7 @@ python 09_Core/visualization/plot_saved_panels.py --out /tmp/rna-velocity-panels
 python 09_Core/validation/verify_release.py
 ```
 
-Saved-data checks do not constitute model reruns. Historical scripts may require external inputs and their original environments. Manual schematics and retained historical fields are not claimed to be regenerated. Missing values and documented provenance gaps remain unchanged; the frozen overall score is not silently replaced by later source-derived values. See [verification results](12_Provenance/restructure_regression.json).
+Saved-data checks do not constitute model reruns. Historical scripts may require external inputs and their original environments. Manual schematics and retained historical fields are not claimed to be regenerated. Missing values and documented provenance gaps remain unchanged; the frozen overall score is not silently replaced by later source-derived values. See [verification results](12_Provenance/restructure_regression.json) and the [English release audit](12_Provenance/ENGLISH_RELEASE.md).
 
 Simulation datasets, annotated HuBMAP metadata and processed ReDeeM data are available on [Figshare](https://figshare.com/articles/dataset/28021724). Additional dataset details are in the source tables and per-figure records.
 

@@ -1,4 +1,4 @@
-# Figure07 — 年龄示例与未来方向
+# Figure07 — Age-related examples and future directions
 
 Current figure: **Figure07**. Historical source ID: **Figure07**.
 
@@ -6,7 +6,7 @@ Current figure: **Figure07**. Historical source ID: **Figure07**.
 
 ## Evidence and reproduction
 
-确切 784 基因清单及匹配运行未定位；不可作为已验证年龄动力学结论。
+The exact 784-gene list and matching run have not been recovered; this does not establish validated age-related dynamics.
 
 Data status: `not_recovered`. Analysis code: `no_numerical_generator_recovered`.
 
@@ -16,8 +16,8 @@ Portable saved-data checks: [commands and dependencies](<../09_Core/README.md>).
 
 | Role | File | Purpose |
 |---|---|---|
-| Figures | [Figure07.pdf](<figures/Figure07.pdf>) | 当前正式图件或预览 |
-| Figures | [Figure07.png](<figures/Figure07.png>) | 当前正式图件或预览 |
+| Figures | [Figure07.pdf](<figures/Figure07.pdf>) | Current publication figure or preview |
+| Figures | [Figure07.png](<figures/Figure07.png>) | Current publication figure or preview |
 
 ## Additional retained files
 

@@ -5,8 +5,8 @@ LEGACY_ORDER = [1, 3, 4, 5, 6, 7, 13, 14, 15, 16, 17, 18]
 NUMBER = {old: new for new, old in enumerate(LEGACY_ORDER, 1)}
 ITEM = r'\d+[a-z]?(?:[––-][a-z])?(?:,\s*[a-z](?![a-z]))*'
 ED_PATTERN = re.compile(
-    r'(Extended Data (?:Figs?\.|Figures?)\s*|扩展数据图\s*)'
-    r'(' + ITEM + r'(?:(?:\s+and\s+|\s*[和、及]\s*|,\s*(?:and\s+)?|[–-])' + ITEM + r')*)'
+    '(Extended Data (?:Figs?\\.|Figures?)\\s*)'
+    r'(' + ITEM + '(?:(?:\\s+and\\s+|\\s*(?:and|,)\\s*|,\\s*(?:and\\s+)?|[–-])' + ITEM + r')*)'
 )
 
 def renumber_text(text):
@@ -30,7 +30,7 @@ def apply_figure_order(doc):
     if node:
         for lang, old, new in [
             ('en', '(Supplementary Table 3)', '(Extended Data Fig. 4; Supplementary Table 3)'),
-            ('zh-CN', '（补充表 3）', '（扩展数据图 4；补充表 3）'),
+            ('zh-CN', '(Supplementary Table 3)', '(Extended Data Fig. 4; Supplementary Table 3)'),
         ]:
             p = node.find(lang=lang)
             if p:
@@ -66,7 +66,7 @@ def apply_figure_order(doc):
     gallery = doc.find(id='extended-data-gallery')
     if gallery:
         if gallery.h2:
-            gallery.h2.string = 'Extended Data Figures 1–12｜扩展数据图'
+            gallery.h2.string = 'Extended Data Figures 1-12'
         for num in range(1, len(NUMBER) + 1):
             section = gallery.find(id=f'ed{num}')
             assert section is not None, num

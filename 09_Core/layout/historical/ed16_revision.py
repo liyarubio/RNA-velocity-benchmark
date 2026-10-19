@@ -9,12 +9,12 @@ CAPTION_EN = (
     'These are descriptive results from this supplied dataset, not independent biological replication.'
 )
 CAPTION_ZH = (
-    'a，左侧为全部 754 个细胞的固定 UMAP，标注 UMAP1 和 UMAP2，按来源 Cluster-Name 注释着色。'
-    '右侧参照主图 Fig. 4a，以同色圆点、细胞状态名称和黑色箭头单独展示分化关系示意图。'
-    '四条箭头表示 corrected eval1 使用的直接证据参考关系；示意图位置不是 UMAP 坐标，也不是单个细胞的实测轨迹。'
-    'UMAP 上不再叠加质心箭头。历史评价中的 Lung Mixed 对应此处的 Lung progenitor-like。'
-    'b，沿用 corrected eval1 的 GDC，未混入 eval1_raw 或使用推测关系的 eval2。'
-    'TopicVelo 缺少原生转移输出、TFvelo 未找到匹配结果，均保留缺失。结果仅描述该数据集，不构成独立生物学重复。'
+    'a, Left: a fixed UMAP of all 754 cells, with UMAP1/UMAP2 labels and colors from the source Cluster-Name annotations. '
+    'Right: a separate differentiation schematic following main Fig. 4a, with matching colored nodes, cell-state names and black arrows. '
+    'Four arrows denote the direct-evidence reference relationships used in corrected eval1. Schematic positions are neither UMAP coordinates nor measured single-cell trajectories. '
+    'Centroid arrows are no longer overlaid on the UMAP. Historical Lung Mixed corresponds to Lung progenitor-like here. '
+    'b, Retain corrected eval1 GDC without mixing eval1_raw or eval2 based on inferred relationships. '
+    'Native TopicVelo transitions and matching TFvelo results are unavailable and remain missing. Results describe this dataset only and do not constitute independent biological replication.'
 )
 from ed16_completion import ready
 COMPLETED=ready()
@@ -27,10 +27,10 @@ if COMPLETED:
         'It does not use the historical base-scVelo velocity. Gene sets and preprocessing differ by method; scores do not establish absolute kinetic accuracy. '
         'The frozen main Figure 6 composite inputs are unchanged. These are descriptive results from one supplied dataset.'
     )
-    CAPTION_ZH=CAPTION_ZH.split('b，沿用 corrected eval1')[0]+(
-        'b，按四条直接证据关系评价，以涉及的六类细胞共 706 个细胞为分母。保留已有 17 项 corrected eval1 分数；描边柱新增 TFvelo 重拟合和 TopicVelo 原生转移补全结果。'
-        'TopicVelo 为转移位移代理：群内一致性使用 T @ Ms - Ms，边界方向来自原生 T 在固定 UMAP 的投影，未使用历史基础 scVelo 速度。'
-        '方法间基因范围和预处理不同，分数不代表绝对动力学准确性。主图 6 的冻结综合评分输入保持原样。结果仅描述此单一数据集。'
+    CAPTION_ZH=CAPTION_ZH.split('b, Retain corrected eval1')[0]+(
+        'b, Evaluation uses four direct-evidence relationships and a denominator of 706 cells across the six participating types. The 17 existing corrected eval1 scores are retained; outlined bars add the TFvelo refit and completed native TopicVelo transitions. '
+        'TopicVelo uses a transition-displacement proxy: within-cluster coherence uses T @ Ms - Ms, while boundary directions use native T projected into the fixed UMAP, without historical baseline scVelo velocities. '
+        'Gene coverage and preprocessing vary across methods; scores do not measure absolute kinetic accuracy. Frozen composite inputs for main Fig. 6 are unchanged. Results describe this single dataset only.'
     )
     FIELD_CAPTION=(
         'c, Nineteen available method fields on the same 754 cells. Seventeen verified historical vector fields are retained. '
@@ -52,13 +52,13 @@ CAPTION_EN=(
     'Gene sets and preprocessing differ by method. These are descriptive results from one dataset; frozen main Fig. 6 composite inputs remain unchanged.'
 )
 CAPTION_ZH=(
-    'a，754 个 KPTracer 细胞的固定 UMAP，保留 UMAP1/UMAP2 轴标及来源细胞类型配色。'
-    '示意图采用 Fig. 15 的无背景圆点和箭头样式，改绘自 Yang 等（Cell 2022，doi:10.1016/j.cell.2022.04.015）Fig. 5I。实线箭头为 GDC 使用的四条关系，虚线为未纳入 GDC 的其他文献关系；水平虚线表示无向耦合。线型表示 GDC 纳入情况，不沿用原文的证据等级。空心节点为本数据子集中未出现的文献状态；为简化展示，省略无连线的间充质状态。原文 Gastric/Endoderm 群体的进展关系展开为参与评价的 Endoderm 连线和仅作背景的 Gastric 分支；Early EMT-1/2 拆开展示以标明参与评价的 EMT-1。节点位置不表示 UMAP 坐标或实测轨迹。历史 Lung Mixed 对应 Lung progenitor-like。'
-    'b，GDC 按降序排列，以六类参考关系参与细胞共 706 个细胞为分母；保留 17 项历史 corrected eval1 分数及已补跑的 TFvelo、TopicVelo 分数。'
-    'TopicVelo 表示原生转移位移代理：群内一致性使用 T @ Ms - Ms，边界方向来自原生 T 的固定 UMAP 投影，不使用历史基础 scVelo 速度。'
-    'c，19 个方法流场与 b 同序，按从左到右、从上到下阅读；原有流线按每图的仿射变换统一到相同细胞坐标范围，细胞点统一增大；a 的细胞点也已增大。TFvelo 使用 1950 个有效拟合基因。'
-    'TopicVelo 沿用已保存拟合的第 7/8 号主题和 35 百分位阈值，包含 490 个主题细胞、727 个非零投影方向，并保留原生回退规则。'
-    '方法间基因范围和预处理不同，结果仅描述此单一数据集；主图 6 的冻结综合评分输入不变。'
+    'a, Fixed UMAP of 754 KPTracer cells, retaining UMAP1/UMAP2 labels and source cell-type colors. '
+    'The schematic uses the background-free node-and-arrow style of Fig. 15 and is adapted from Fig. 5I of Yang et al. (Cell 2022, doi:10.1016/j.cell.2022.04.015). Solid arrows show the four GDC relationships; dashed arrows show other literature relationships excluded from GDC, and horizontal dashed lines denote undirected coupling. Line styles encode inclusion in GDC, not the original evidence grading. Open nodes indicate literature states absent from this subset; the unconnected mesenchymal state is omitted for clarity. Progression of the original Gastric/Endoderm group is expanded into evaluated Endoderm edges and a contextual Gastric branch. Early EMT-1/2 are separated to identify evaluated EMT-1. Node positions are neither UMAP coordinates nor measured trajectories. Historical Lung Mixed corresponds to Lung progenitor-like. '
+    'b, GDC is ordered from highest to lowest, using 706 cells in six reference-participating types as the denominator. The 17 historical corrected eval1 scores and completed TFvelo/TopicVelo scores are retained. '
+    'TopicVelo denotes a native transition-displacement proxy: within-cluster coherence uses T @ Ms - Ms, and boundary directions use native T projected into the fixed UMAP, without historical baseline scVelo velocities. '
+    'c, Fields for 19 methods follow the order in b, read left to right and top to bottom. Existing streams are aligned to common cell-coordinate bounds by per-panel affine transforms, and cell markers are enlarged consistently, including in a. TFvelo uses 1,950 valid fitted genes. '
+    'TopicVelo retains saved fitted topics 7/8 and the 35th-percentile threshold, with 490 topic cells, 727 nonzero projected directions and native fallback rules. '
+    'Gene coverage and preprocessing differ across methods. Results describe this single dataset only; frozen composite inputs for main Fig. 6 are unchanged.'
 )
 FIELD_CAPTION=None
 CAPTION=CAPTION_EN+'\n'+CAPTION_ZH
@@ -84,23 +84,23 @@ def revise_document(doc):
     replacements={
         'The spatial reference relations are shown in a separate labeled schematic; the KPTracer centroid arrows illustrate its evaluation relations. Neither represents measured trajectories of individual cells.':
         'Spatial and KPTracer reference relations are shown in separate labeled schematics. The KPTracer cell distribution is shown in a fixed UMAP with UMAP1 and UMAP2 axes. Solid schematic arrows represent GDC evaluation relations; dashed connections add literature context. Neither represents measured trajectories of individual cells.',
-        '空间数据的参考关系以独立且带名称的分支示意图展示；KPTracer 的质心箭头表示其评价关系。两者均不表示单个细胞的实测轨迹。':
-        '空间数据与 KPTracer 的参考关系均以独立且带名称的示意图展示。KPTracer 的细胞分布采用固定 UMAP，并标注 UMAP1 和 UMAP2。示意图实线箭头表示 GDC 评价关系，虚线补充文献关系，均不表示单个细胞的实测轨迹。',
+        'Spatial reference relationships are shown in a separate labeled branching schematic; KPTracer centroid arrows represent its evaluation relationships. Neither depicts measured single-cell trajectories.':
+        'Spatial and KPTracer reference relationships are presented in separate labeled schematics. KPTracer cells use a fixed UMAP with UMAP1/UMAP2 labels. Solid schematic arrows denote GDC evaluation relationships and dashed arrows provide literature context; neither represents measured single-cell trajectories.',
     }
     replacements.update({
         'Schematic arrows represent evaluation relations, not measured trajectories of individual cells.': 'Solid schematic arrows represent GDC evaluation relations; dashed connections add literature context. Neither represents measured trajectories of individual cells.',
-        '示意图箭头表示评价关系，不是单个细胞的实测轨迹。': '示意图实线箭头表示 GDC 评价关系，虚线补充文献关系，均不表示单个细胞的实测轨迹。',
+        'Schematic arrows denote evaluation relationships, not measured single-cell trajectories.': 'Solid schematic arrows denote GDC evaluation relationships; dashed arrows add literature context. Neither represents measured single-cell trajectories.',
     })
     if COMPLETED:
         replacements.update({
             'Saved score and field provenance is retained; native TopicVelo outputs are missing for both settings, and TFvelo is missing for KPTracer. Neither gap is filled using an output from another method or configuration.':
             'Saved score and field provenance is retained. KPTracer TFvelo has now been refitted and native TopicVelo transitions completed; its transition-displacement GDC proxy is identified separately. Spatial TopicVelo results are documented separately. No base-scVelo output is substituted for native TopicVelo transitions.',
-            '保留已有分数与流场的来源记录；两个场景均缺少 TopicVelo 原生输出，KPTracer 还缺少 TFvelo。缺口不使用其他方法或配置的输出替代。':
-            '保留已有分数与流场的来源记录。KPTracer 的 TFvelo 已重新拟合，TopicVelo 原生转移已补全，其转移位移 GDC 代理单独标明。空间数据 TopicVelo 结果另有记录；不使用基础 scVelo 输出代替原生转移。',
+            'Provenance for existing scores and fields is retained. Both scenarios lack native TopicVelo outputs, and KPTracer also lacks TFvelo. Outputs from other methods or configurations are not substituted for missing results.':
+            'Provenance for existing scores and fields is retained. KPTracer TFvelo has been refitted and native TopicVelo transitions completed; the transition-displacement GDC proxy is labeled separately. Spatial TopicVelo results are documented independently. Baseline scVelo outputs do not replace native transitions.',
             'while native TopicVelo remains unavailable for KPTracer, and TFvelo is missing for KPTracer. Neither gap is filled using an output from another method or configuration.':
             'and KPTracer now includes a TFvelo refit and completed native TopicVelo transitions. TopicVelo GDC uses the documented transition-displacement proxy; no historical base-scVelo output is substituted.',
-            'KPTracer 的 TopicVelo 原生输出仍缺失，KPTracer 还缺少 TFvelo。缺口不使用其他方法或配置的输出替代。':
-            'KPTracer 的 TopicVelo 原生转移和 TFvelo 重拟合现已补全。TopicVelo GDC 使用有记录的转移位移代理，不以历史基础 scVelo 输出替代。',
+            'KPTracer still lacks native TopicVelo outputs and TFvelo. Outputs from other methods or configurations are not substituted for missing results.':
+            'Native KPTracer TopicVelo transitions and the TFvelo refit are now complete. TopicVelo GDC uses the documented transition-displacement proxy, not historical baseline scVelo outputs.',
         })
     for node in doc.iter():
         for attr in ('text','tail'):

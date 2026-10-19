@@ -197,7 +197,7 @@ def cross_boundary_correctness(adata,
     scores = {}
     all_scores = {}
 
-    # 修复：先根据字符串 x_emb 判断 velocity embedding，再取 embedding 数组
+    # Fix: identify the velocity embedding from the x_emb string before retrieving the embedding array.
     if x_emb == "X_umap":
         v_emb = adata.obsm['{}_umap'.format(k_velocity)]
     else:
@@ -312,8 +312,8 @@ def get_global(in_cluster, cross_boundary, cell_number):
             if cluster0 in edge0:
                 ss = cross_boundary[edge0]
                 count_num = count_num + 1
-                d1 = d1 + np.sign(np.median(ss))  # 统一使用 median（与 global_eval_median 一致）
-        # 除零防护：该 cluster 不参与任何 edge 时跳过
+                d1 = d1 + np.sign(np.median(ss))  # Use the median consistently with global_eval_median.
+        # Avoid division by zero: skip clusters that participate in no edge.
         if count_num == 0:
             continue
         g1.append(p1 * h1 * d1 / count_num)
@@ -363,7 +363,7 @@ for method in methods:
                     adata= adata[:,gene ]
                     adata1 = adata1[:,gene]
                     velocity_adata1 = adata.layers['velocity']
-                    adata1.layers['velocity'] = np.zeros(adata1.shape)  # 先为 adata2 创建一个全0的 velocity 层
+                    adata1.layers['velocity'] = np.zeros(adata1.shape)  # Initialize a zero-valued velocity layer.
                     adata1.layers['velocity'] = velocity_adata1
                     adata = adata1.copy()
                 if method == 'biVI':
@@ -391,16 +391,16 @@ for method in methods:
                 if 'biVI' in method :
                     sc.tl.pca(adata, svd_solver='arpack')
 
-                    # 计算邻居图（UMAP依赖于此）
+                    # Compute the neighbor graph required by UMAP.
                     sc.pp.neighbors(adata, n_neighbors=15, n_pcs=30)
 
-                    # 计算UMAP
+                    # Compute UMAP.
                     sc.tl.umap(adata, min_dist=0.3)
                 cell_number = adata.obs.shape[0]
                 # adata.obs['CytoTRACE2_Potency'] = adata1.obs['CytoTRACE2_Potency'].values.tolist()
                 # print(adata)
                 development_type = adata.obs['CytoTRACE2_Potency'].values.tolist()
-                # 修复：按 edges_direct 顺序去重，并只保留已知类别（避免 list(set) 随机顺序及 index ValueError）
+                # Deduplicate in edges_direct order and retain known categories, avoiding unordered sets and invalid category indices.
                 development_type = [x for x in edges_direct if x in development_type]
                 series = adata.obs['CytoTRACE2_Potency'].value_counts()
                 edges = []
@@ -441,7 +441,7 @@ for method in methods:
                 ic_coh_list.append(np.nan)
                 crs_bdr_crc.append(np.nan)
                 file_name.append(file)
-                print(f"在迭代{file}时发生异常：{e}")
+                print(f"Error processing {file}: {e}")
                 # continue
             # for index, value in zip(file_name, global_list):
             #     global_all.loc[index, method] = value

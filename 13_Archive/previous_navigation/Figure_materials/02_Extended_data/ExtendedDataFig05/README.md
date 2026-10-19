@@ -1,10 +1,10 @@
-# ED05 — 高低维与维数
+# ED05 — High- and low-dimensional comparisons
 
 Current figure: **ED05**. Historical source ID: **ED06**. First manuscript citation: `P039`.
 
 Reproduction scope: `saved_data_recomputed`.
 
-698 个配对数据集×方法值；按拓扑复算均值及样本 SD。
+698 paired dataset-by-method values; means and sample SDs were recomputed by topology.
 
 [Back to ordered index](../../README.md)
 

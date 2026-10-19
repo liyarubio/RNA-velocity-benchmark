@@ -1,10 +1,10 @@
-# Figure01 — 方法时间线
+# Figure01 — Timeline of RNA velocity methods
 
 Current figure: **Figure01**. Historical source ID: **Figure01**. First manuscript citation: `P019b`.
 
 Reproduction scope: `retained_artwork`.
 
-人工示意图；文献及分类表可查，未声称由数值重绘。
+Manually composed schematic; literature and taxonomy tables are available. No numerical regeneration is claimed.
 
 [Back to ordered index](../../README.md)
 

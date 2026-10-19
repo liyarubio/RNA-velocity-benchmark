@@ -10,10 +10,10 @@ CAPTION_EN = (
     'Historical base-scVelo output is not used as TopicVelo. Existing directions for other methods are retained. All panels are combined on one page.'
 )
 CAPTION_ZH = (
-    'a，全部 1292 个 ST_raw spot的两种空间着色视图使用相同坐标：一张保留原始全部 12 类细胞配色，另一张将目标六类的 608 个 spot按主图 5a 配色高亮，其他 684 个 spot统一为灰色。直接复用主图 5a 的参考示意图，五条箭头表示预定义评价关系，不是实测空间轨迹。'
-    'b，GDC 从高到低排列。沿用修正 eval2 GDC，并补算 DeepVelo(VAE) 已保存速度及当前空间投影的评分（-0.493）。eval2 以六类参考类型的 608 个 spot为权重分母；用同一流程复现三个已有分数，误差小于 1e-6。'
-    'TFvelo 保留独立评价及其原有分母、预处理，不将这些柱形描述为统一协议新排名。'
-    'c，19 个有效方法流场按与 b 相同的 GDC 降序从左到右、从上到下排列，使用相同坐标，非目标类型统一置灰。TopicVelo 从保存主题拟合补跑原生随机转移推断，剔除无可变 U/S 信号的基因和不足两个有效基因的主题，ST_raw 整合 11 个主题，ST_small 整合 5 个主题，替代历史仅用末主题的配置。高维方向采用原生转移位移代理 T @ Ms - Ms，空间流场直接由原生转移矩阵投影；GDC 分别为 -0.419 和 0.484。ST_raw 有 1 个 spot 方向未定义，方向评价中排除该 spot，参考分母仍为 608 spots。其他方法方向保持原值；a–c 合并为单页。'
+    'a, Two spatial views of all 1,292 ST_raw spots use identical coordinates. One retains the original colors of all 12 cell types; the other highlights the 608 spots in six target types using main Fig. 5a colors, with the remaining 684 spots in grey. The reference schematic is reused from main Fig. 5a; its five arrows denote predefined evaluation relationships, not observed spatial trajectories. '
+    'b, GDC scores are ordered from highest to lowest. Corrected eval2 GDC is retained, with an additional score for saved DeepVelo(VAE) velocities and their current spatial projection (-0.493). eval2 uses the 608 spots in six reference types as the weighting denominator. Three existing scores were reproduced by the same workflow with error below 1e-6. '
+    'TFvelo retains its separate evaluation, original denominator and preprocessing; these bars are not presented as a new ranking under a uniform protocol. '
+    'c, Fields for 19 valid methods follow the descending GDC order in b, read left to right and top to bottom, with common coordinates and non-target types in grey. TopicVelo native stochastic transitions were re-inferred from saved topic fits after excluding genes without variable U/S signal and topics with fewer than two valid genes. ST_raw integrates 11 topics and ST_small five topics, replacing the historical last-topic-only configuration. High-dimensional directions use the native transition-displacement proxy T @ Ms - Ms, and spatial fields are projected directly from native transitions; GDC is -0.419 and 0.484, respectively. One ST_raw spot has an undefined direction and is excluded from direction evaluation; the reference denominator remains 608 spots. Other method directions are unchanged. Panels a-c occupy one page.'
 )
 CAPTION = CAPTION_EN + '\n' + CAPTION_ZH
 
@@ -67,15 +67,15 @@ def revise_document(doc):
     revise_main_caption(doc)
     replacements = {
         'native TopicVelo outputs are missing for both settings': 'spatial TopicVelo is available from documented multi-topic re-inference, while native TopicVelo remains unavailable for KPTracer',
-        '两个场景均缺少 TopicVelo 原生输出': '空间 TopicVelo 已通过有记录的多主题重推断补全，KPTracer 的 TopicVelo 原生输出仍缺失',
+        'Both scenarios lack native TopicVelo outputs': 'Spatial TopicVelo outputs have been completed through documented multi-topic re-inference; native KPTracer TopicVelo outputs remain missing',
         '608-cell ST_small subset': '608-spot ST_small subset',
         'all 1,292 cells in the supplied ST_raw input': 'all 1,292 spots in the supplied ST_raw input',
-        '608 个细胞的 ST_small 子集': '608 个 spot 的 ST_small 子集',
-        'ST_raw 输入中的全部 1292 个细胞': 'ST_raw 输入中的全部 1292 个 spot',
+        'the ST_small subset of 608 cells': 'the ST_small subset of 608 spots',
+        'all 1,292 cells in the ST_raw input': 'all 1,292 spots in the ST_raw input',
         'Centroid arrows illustrate the relations used for evaluation, not measured trajectories of individual cells.':
         'The spatial reference relations are shown in a separate labeled schematic; the KPTracer centroid arrows illustrate its evaluation relations. Neither represents measured trajectories of individual cells.',
-        '质心之间的箭头表示评价所依据的关系，不是单个细胞的实测轨迹。':
-        '空间数据的参考关系以独立且带名称的分支示意图展示；KPTracer 的质心箭头表示其评价关系。两者均不表示单个细胞的实测轨迹。',
+        'Arrows between centroids represent evaluation relationships, not measured trajectories of individual cells.':
+        'Spatial reference relationships are shown in a separate labeled branching schematic; KPTracer centroid arrows represent its evaluation relationships. Neither depicts measured single-cell trajectories.',
     }
     for node in doc.iter():
         for attr in ('text', 'tail'):

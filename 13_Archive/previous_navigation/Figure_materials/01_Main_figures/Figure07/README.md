@@ -1,10 +1,10 @@
-# Figure07 — 年龄示例与未来方向
+# Figure07 — Age-related examples and future directions
 
 Current figure: **Figure07**. Historical source ID: **Figure07**. First manuscript citation: `P056`.
 
 Reproduction scope: `historical_only`.
 
-确切 784 基因清单及匹配运行未定位；不可作为已验证年龄动力学结论。
+The exact 784-gene list and matching run have not been recovered; this does not establish validated age-related dynamics.
 
 [Back to ordered index](../../README.md)
 

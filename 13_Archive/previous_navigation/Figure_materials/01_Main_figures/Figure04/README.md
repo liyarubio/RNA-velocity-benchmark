@@ -4,7 +4,7 @@ Current figure: **Figure04**. Historical source ID: **Figure04**. First manuscri
 
 Reproduction scope: `saved_scores_retained_fields`.
 
-21 配置；保存 GDC/CBDir；历史散点与流线保留，原始坐标链不完整。
+21 configurations with saved GDC/CBDir. Historical scatter and stream plots are retained; original coordinate provenance is incomplete.
 
 [Back to ordered index](../../README.md)
 
