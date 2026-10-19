@@ -1,0 +1,9 @@
+method,gene,status
+DeepVelo(GCN),RP11-76I14.1,not represented in returned annotation
+LatentVelo,RP11-620J15.3,not represented in returned annotation
+LatentVelo,RP11-76I14.1,not represented in returned annotation
+STT,RP11-436K8.1,not represented in returned annotation
+biVI,RP11-76I14.1,not represented in returned annotation
+dynamo,RP11-76I14.1,not represented in returned annotation
+scVelo(sto),RP11-76I14.1,not represented in returned annotation
+veloVI,RP11-76I14.1,not represented in returned annotation

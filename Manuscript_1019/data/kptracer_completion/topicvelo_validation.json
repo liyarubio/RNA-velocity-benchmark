@@ -1,0 +1,17 @@
+{
+  "status": "pass",
+  "shape": [
+    754,
+    754
+  ],
+  "native_key": "topic_modeling+scvelo_stochastic_T",
+  "saved_matrix_matches_h5ad": true,
+  "transition_nnz": 90211,
+  "row_sum_min": 0.9999997019767761,
+  "row_sum_max": 1.000000238418579,
+  "nonnegative": true,
+  "finite": true,
+  "selected_topic": 7,
+  "topic_cells": 490,
+  "base_scvelo_velocity_excluded_from_evaluation": true
+}

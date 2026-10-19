@@ -1,0 +1,10 @@
+method,submitted,mapped_unique,unmapped_symbols,merged_identifier_reduction
+DeepVelo(GCN),200,199,RP11-76I14.1,0
+LatentVelo,200,198,RP11-620J15.3;RP11-76I14.1,0
+STT,200,199,RP11-436K8.1,0
+UniTVelo,200,200,,0
+biVI,200,198,RP11-76I14.1,1
+dynamo,200,199,RP11-76I14.1,0
+scVelo(dyn),200,200,,0
+scVelo(sto),200,199,RP11-76I14.1,0
+veloVI,200,199,RP11-76I14.1,0

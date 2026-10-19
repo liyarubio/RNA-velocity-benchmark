@@ -1,0 +1,59 @@
+# ED12: Data
+
+| File | Purpose |
+|---|---|
+| [Extended_Data_Fig18.xlsx](<../../../../source_data/Extended_Data_Fig18.xlsx>) | 源表、保存结果或输入元数据 |
+| [biVI_RadialGlia_ranking_audit.csv](<../../../../data/metascape/biVI_RadialGlia_ranking_audit.csv>) | 源表、保存结果或输入元数据 |
+| [import_manifest.json](<../../../../data/metascape/import_manifest.json>) | 源表、保存结果或输入元数据 |
+| [GO_AllLists.csv](<../../../../data/metascape/top100/Enrichment_GO/GO_AllLists.csv>) | 源表、保存结果或输入元数据 |
+| [GO_membership.csv](<../../../../data/metascape/top100/Enrichment_GO/GO_membership.csv>) | 源表、保存结果或输入元数据 |
+| [GO_membership_parent.csv](<../../../../data/metascape/top100/Enrichment_GO/GO_membership_parent.csv>) | 源表、保存结果或输入元数据 |
+| [GeneGo_membership.csv](<../../../../data/metascape/top100/Enrichment_GO/GeneGo_membership.csv>) | 源表、保存结果或输入元数据 |
+| [_FINAL_GO.csv](<../../../../data/metascape/top100/Enrichment_GO/_FINAL_GO.csv>) | 源表、保存结果或输入元数据 |
+| [HeatmapSelectedGO.atr](<../../../../data/metascape/top100/Enrichment_heatmap/HeatmapSelectedGO.atr>) | 源表、保存结果或输入元数据 |
+| [HeatmapSelectedGO.cdt](<../../../../data/metascape/top100/Enrichment_heatmap/HeatmapSelectedGO.cdt>) | 源表、保存结果或输入元数据 |
+| [HeatmapSelectedGO.csv](<../../../../data/metascape/top100/Enrichment_heatmap/HeatmapSelectedGO.csv>) | 源表、保存结果或输入元数据 |
+| [HeatmapSelectedGO.gtr](<../../../../data/metascape/top100/Enrichment_heatmap/HeatmapSelectedGO.gtr>) | 源表、保存结果或输入元数据 |
+| [HeatmapSelectedGO.pdf](<../../../../data/metascape/top100/Enrichment_heatmap/HeatmapSelectedGO.pdf>) | 源表、保存结果或输入元数据 |
+| [HeatmapSelectedGOParent.atr](<../../../../data/metascape/top100/Enrichment_heatmap/HeatmapSelectedGOParent.atr>) | 源表、保存结果或输入元数据 |
+| [HeatmapSelectedGOParent.cdt](<../../../../data/metascape/top100/Enrichment_heatmap/HeatmapSelectedGOParent.cdt>) | 源表、保存结果或输入元数据 |
+| [HeatmapSelectedGOParent.csv](<../../../../data/metascape/top100/Enrichment_heatmap/HeatmapSelectedGOParent.csv>) | 源表、保存结果或输入元数据 |
+| [HeatmapSelectedGOParent.gtr](<../../../../data/metascape/top100/Enrichment_heatmap/HeatmapSelectedGOParent.gtr>) | 源表、保存结果或输入元数据 |
+| [HeatmapSelectedGOTop100.atr](<../../../../data/metascape/top100/Enrichment_heatmap/HeatmapSelectedGOTop100.atr>) | 源表、保存结果或输入元数据 |
+| [HeatmapSelectedGOTop100.cdt](<../../../../data/metascape/top100/Enrichment_heatmap/HeatmapSelectedGOTop100.cdt>) | 源表、保存结果或输入元数据 |
+| [HeatmapSelectedGOTop100.csv](<../../../../data/metascape/top100/Enrichment_heatmap/HeatmapSelectedGOTop100.csv>) | 源表、保存结果或输入元数据 |
+| [HeatmapSelectedGOTop100.gtr](<../../../../data/metascape/top100/Enrichment_heatmap/HeatmapSelectedGOTop100.gtr>) | 源表、保存结果或输入元数据 |
+| [CircosOverlapByGene.svg](<../../../../data/metascape/top100/Overlap_circos/CircosOverlapByGene.svg>) | 源表、保存结果或输入元数据 |
+| [README.txt](<../../../../data/metascape/top100/README.txt>) | 源表、保存结果或输入元数据 |
+| [list_counts.csv](<../../../../data/metascape/top100/list_counts.csv>) | 源表、保存结果或输入元数据 |
+| [mapped_membership.csv](<../../../../data/metascape/top100/mapped_membership.csv>) | 源表、保存结果或输入元数据 |
+| [metascape_result.xlsx](<../../../../data/metascape/top100/metascape_result.xlsx>) | 源表、保存结果或输入元数据 |
+| [submitted_gene_lists.csv](<../../../../data/metascape/top100/submitted_gene_lists.csv>) | 源表、保存结果或输入元数据 |
+| [unmapped_symbols.csv](<../../../../data/metascape/top100/unmapped_symbols.csv>) | 源表、保存结果或输入元数据 |
+| [GO_AllLists.csv](<../../../../data/metascape/top200/Enrichment_GO/GO_AllLists.csv>) | 源表、保存结果或输入元数据 |
+| [GO_membership.csv](<../../../../data/metascape/top200/Enrichment_GO/GO_membership.csv>) | 源表、保存结果或输入元数据 |
+| [GO_membership_parent.csv](<../../../../data/metascape/top200/Enrichment_GO/GO_membership_parent.csv>) | 源表、保存结果或输入元数据 |
+| [GeneGo_membership.csv](<../../../../data/metascape/top200/Enrichment_GO/GeneGo_membership.csv>) | 源表、保存结果或输入元数据 |
+| [_FINAL_GO.csv](<../../../../data/metascape/top200/Enrichment_GO/_FINAL_GO.csv>) | 源表、保存结果或输入元数据 |
+| [HeatmapSelectedGO.atr](<../../../../data/metascape/top200/Enrichment_heatmap/HeatmapSelectedGO.atr>) | 源表、保存结果或输入元数据 |
+| [HeatmapSelectedGO.cdt](<../../../../data/metascape/top200/Enrichment_heatmap/HeatmapSelectedGO.cdt>) | 源表、保存结果或输入元数据 |
+| [HeatmapSelectedGO.csv](<../../../../data/metascape/top200/Enrichment_heatmap/HeatmapSelectedGO.csv>) | 源表、保存结果或输入元数据 |
+| [HeatmapSelectedGO.gtr](<../../../../data/metascape/top200/Enrichment_heatmap/HeatmapSelectedGO.gtr>) | 源表、保存结果或输入元数据 |
+| [HeatmapSelectedGO.pdf](<../../../../data/metascape/top200/Enrichment_heatmap/HeatmapSelectedGO.pdf>) | 源表、保存结果或输入元数据 |
+| [HeatmapSelectedGOParent.atr](<../../../../data/metascape/top200/Enrichment_heatmap/HeatmapSelectedGOParent.atr>) | 源表、保存结果或输入元数据 |
+| [HeatmapSelectedGOParent.cdt](<../../../../data/metascape/top200/Enrichment_heatmap/HeatmapSelectedGOParent.cdt>) | 源表、保存结果或输入元数据 |
+| [HeatmapSelectedGOParent.csv](<../../../../data/metascape/top200/Enrichment_heatmap/HeatmapSelectedGOParent.csv>) | 源表、保存结果或输入元数据 |
+| [HeatmapSelectedGOParent.gtr](<../../../../data/metascape/top200/Enrichment_heatmap/HeatmapSelectedGOParent.gtr>) | 源表、保存结果或输入元数据 |
+| [HeatmapSelectedGOTop100.atr](<../../../../data/metascape/top200/Enrichment_heatmap/HeatmapSelectedGOTop100.atr>) | 源表、保存结果或输入元数据 |
+| [HeatmapSelectedGOTop100.cdt](<../../../../data/metascape/top200/Enrichment_heatmap/HeatmapSelectedGOTop100.cdt>) | 源表、保存结果或输入元数据 |
+| [HeatmapSelectedGOTop100.csv](<../../../../data/metascape/top200/Enrichment_heatmap/HeatmapSelectedGOTop100.csv>) | 源表、保存结果或输入元数据 |
+| [HeatmapSelectedGOTop100.gtr](<../../../../data/metascape/top200/Enrichment_heatmap/HeatmapSelectedGOTop100.gtr>) | 源表、保存结果或输入元数据 |
+| [CircosOverlapByGene.svg](<../../../../data/metascape/top200/Overlap_circos/CircosOverlapByGene.svg>) | 源表、保存结果或输入元数据 |
+| [README.txt](<../../../../data/metascape/top200/README.txt>) | 源表、保存结果或输入元数据 |
+| [list_counts.csv](<../../../../data/metascape/top200/list_counts.csv>) | 源表、保存结果或输入元数据 |
+| [mapped_membership.csv](<../../../../data/metascape/top200/mapped_membership.csv>) | 源表、保存结果或输入元数据 |
+| [metascape_result.xlsx](<../../../../data/metascape/top200/metascape_result.xlsx>) | 源表、保存结果或输入元数据 |
+| [submitted_gene_lists.csv](<../../../../data/metascape/top200/submitted_gene_lists.csv>) | 源表、保存结果或输入元数据 |
+| [unmapped_symbols.csv](<../../../../data/metascape/top200/unmapped_symbols.csv>) | 源表、保存结果或输入元数据 |
+
+Files are stored once at the canonical paths above. Run the portable check from the release root; historical scripts may require their original data and environment. Layout scripts do not constitute numerical generators.

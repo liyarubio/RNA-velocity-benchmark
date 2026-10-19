@@ -1,0 +1,20 @@
+method,n_cells,valid_cosines,undefined_cosines,mean,median,input_run,source_file,velocity_key
+velocyto,1756,1756,0,0.11909580154184547,0.302434028962348,supplied historical H5AD,/data1/liyaru/RNA_velocity_materials/scLT_multitag/adata_graph/Velocyto.h5ad,obsm/velocity_cce
+scVelo(sto),1756,1756,0,0.069363612911219522,0.18923081754339155,supplied historical H5AD,/data1/liyaru/RNA_velocity_materials/scLT_multitag/adata_graph/scvelo_stochastic.h5ad,obsm/velocity_cce
+scVelo(dyn),1756,1756,0,0.0071050913961463154,0.010545952626743307,supplied historical H5AD,/data1/liyaru/RNA_velocity_materials/scLT_multitag/adata_graph/scvelo_dynamical.h5ad,obsm/velocity_cce
+VeloAE,1756,1756,0,0.29023202845969953,0.56252390001072161,supplied historical H5AD,/data1/liyaru/RNA_velocity_materials/scLT_multitag/adata_graph/veloAE.h5ad,obsm/velocity_cce
+dynamo,1756,1756,0,0.085914722559169029,0.18601248368917322,supplied historical H5AD,/data1/liyaru/RNA_velocity_materials/scLT_multitag/adata_graph/Dynamo_deterministic.h5ad,obsm/velocity_cce
+VeloVAE,1756,1756,0,0.034343340757958744,0.12105473697813941,supplied historical H5AD,/data1/liyaru/RNA_velocity_materials/scLT_multitag/adata_graph/veloVAE.h5ad,obsm/velocity_cce
+UniTVelo,1756,1756,0,-0.21296069454695277,-0.58650248246859116,supplied historical H5AD,/data1/liyaru/RNA_velocity_materials/scLT_multitag/adata_graph/UniTvelo.h5ad,obsm/velocity_cce
+DeepVelo(VAE),1756,1756,0,0.26000991221026104,0.57462389921719559,supplied historical H5AD,/data1/liyaru/RNA_velocity_materials/scLT_multitag/adata_graph/DeepVelo_SA.h5ad,obsm/velocity_cce
+cellDancer,1756,1756,0,0.070816524669412365,0.15919236848421459,supplied historical H5AD,/data1/liyaru/RNA_velocity_materials/scLT_multitag/adata_graph/cellDancer.h5ad,obsm/velocity_cce
+veloVI,1756,1756,0,0.17368781030554831,0.41805527593285169,supplied historical H5AD,/data1/liyaru/RNA_velocity_materials/scLT_multitag/adata_graph/veloVI.h5ad,obsm/velocity_cce
+LatentVelo,1756,1756,0,-0.057133263245235669,-0.24951118631919805,supplied historical H5AD,/data1/liyaru/RNA_velocity_materials/scLT_multitag/adata_graph/LatentVelo.h5ad,obsm/velocity_cce
+DeepVelo(GCN),1756,1756,0,0.12364934993858991,0.35451666859191494,supplied historical H5AD,/data1/liyaru/RNA_velocity_materials/scLT_multitag/adata_graph/DeepVelo_GB.h5ad,obsm/velocity_cce
+STT,1756,1756,0,-0.051126494996230024,-0.17201935248872952,supplied historical H5AD,/data1/liyaru/RNA_velocity_materials/scLT_multitag/adata_graph/STT.h5ad,obsm/velocity_cce
+TFvelo,1756,1756,0,0.05781364414975252,0.15917924756906487,supplied historical H5AD,/data1/liyaru/RNA_velocity_materials/scLT_multitag/adata_graph/TFvelo.h5ad,velo_hat / fit_scaling_y; graph and embedding restored with scVelo 0.3.4
+TopicVelo,1756,1724,32,0.13044338133872815,0.20199586173021322,aligned_raw_counts_extension,/data1/liyaru/RNA_velocity_materials/Manuscript_1010/Code/inputs/extended_v2/Extended_Data_Fig16.xlsx,Projected directions
+biVI,1756,1756,0,-0.27061907124142942,-0.54993322099372222,aligned_raw_counts_extension,/data1/liyaru/RNA_velocity_materials/Manuscript_1010/Code/inputs/extended_v2/Extended_Data_Fig16.xlsx,Projected directions
+DeepKINET,1756,1756,0,0.13618023566003629,0.34695862390055432,aligned_raw_counts_extension,/data1/liyaru/RNA_velocity_materials/Manuscript_1010/Code/inputs/extended_v2/Extended_Data_Fig16.xlsx,Projected directions
+SDEvelo,1756,1756,0,0.12434789274718447,0.33063472688329243,previous_preprocessed_input,/data1/liyaru/RNA_velocity_materials/Manuscript_1010/Code/inputs/extended_v2/Extended_Data_Fig16.xlsx,Projected directions
+cell2fate,1756,1756,0,-0.30644931034421702,-0.6778727381253975,aligned_raw_counts_extension,/data1/liyaru/RNA_velocity_materials/Manuscript_1010/Code/inputs/extended_v2/Extended_Data_Fig16.xlsx,Projected directions

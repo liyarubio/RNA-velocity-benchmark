@@ -1,0 +1,13 @@
+{
+  "status": "pass",
+  "cells": 754,
+  "input_genes": 2000,
+  "genes_with_TF_mappings": 1955,
+  "finite_fitted_genes": 1950,
+  "nonzero_velocity_cells": 754,
+  "input_h5ad_hashes_unchanged": true,
+  "cell_ids_unchanged": true,
+  "umap_coordinates_unchanged": true,
+  "GDC": -0.6770390180379636,
+  "model_sha256": "0fe71a49a1f74adb2d02c67128ea73af4c883e0bf1ed272d38771643ac0f3543"
+}

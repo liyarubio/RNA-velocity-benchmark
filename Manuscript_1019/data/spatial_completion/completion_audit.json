@@ -1,0 +1,23 @@
+{
+  "status": "pass",
+  "DeepVelo_VAE_GDC": -0.49306762019139627,
+  "target_cell_denominator": 608,
+  "source_cells": 1292,
+  "controls_matching_archived_scores": [
+    "scVelo(sto)",
+    "DeepVelo(GCN)",
+    "UniTVelo"
+  ],
+  "maximum_control_absolute_error": 3.329886677505556e-08,
+  "TopicVelo": {
+    "ST_raw": "complete",
+    "ST_small": "complete"
+  },
+  "protocol_note": "Original single-topic failures preserved. Current native multi-topic results and explicit signal QC are documented in topicvelo_retry/summary.json.",
+  "previous_TopicVelo_failures": {
+    "ST_raw": "failed",
+    "ST_small": "failed"
+  },
+  "TopicVelo_retry": "topicvelo_retry/summary.json",
+  "previous_TopicVelo_failure": "SVD did not converge in topic-specific stochastic velocity fit"
+}

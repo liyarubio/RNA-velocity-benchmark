@@ -1,0 +1,43 @@
+{
+  "dataset": "ST_raw",
+  "status": "failed",
+  "seed": 2024,
+  "protocol": "Resume saved fastTopics fit; original topic K-1, percentile 35, stochastic transitions",
+  "python": "3.8.20 | packaged by conda-forge | (default, Sep 30 2024, 17:52:49) \n[GCC 13.3.0]",
+  "scvelo": "0.2.5",
+  "source_files": {
+    "/work/ST_XC/result/velocity/MPSTA_raw/20_TopicVelo/anndata.h5ad": "736e38e1baa3d392da0f55c35a13a9e785a469d54f6d5977834e9bc0ff28d637",
+    "/work/ST_XC/result/velocity/MPSTA_raw/20_TopicVelo/redeem/filtered_SU_Genes_names.csv": "bfd822eb25aa465583004b235a889236666fd7acd077890f46c4e7891cfa50be",
+    "/work/ST_XC/result/velocity/MPSTA_raw/20_TopicVelo/redeem/filtered_SU_Cells_names.csv": "036074b16213f81ca7fba95d70c0f5d75b114e37f438493ec0cda3e3c0ed010a",
+    "/work/ST_XC/result/velocity/MPSTA_raw/20_TopicVelo/redeem/top_genes.csv": "6fcbc3c4499c57e1fcc2f7bcb7271e9b555f86849c20d552fdddca86fb215688",
+    "/work/ST_XC/result/velocity/MPSTA_raw/20_TopicVelo/redeem/HH_fastTopics_fit_CellWeights_k=12.csv": "7a207b622716af19384c0f4aa821de60b3b46b5283c63c83c8c38aa16212cfe8",
+    "/work/ST_XC/result/velocity/MPSTA_raw/20_TopicVelo/redeem/HH_de_z_k=12.csv": "4959347033eb3b9572dc9fa60a5baf7f6f6a5df71dabadf4ac7b1bad2b786791",
+    "/work/ST_XC/result/velocity/MPSTA_raw/20_TopicVelo/redeem/HH_de_postmean_k=12.csv": "ed3f658c8e27c91271af2b18403c2cc98fb9ccad4f1d4a48af8b6b3a1ea0e296",
+    "/work/ST_XC/result/velocity/MPSTA_raw/20_TopicVelo/redeem/HH_de_lfsr_k=12.csv": "b00db1ce3890b4dff1fd3531a843aa1511267b99597ad70e347e62c1d679acf0"
+  },
+  "cells": 1292,
+  "genes": 2000,
+  "selected_topic": 11,
+  "topic_gene_counts": [
+    21,
+    6,
+    17,
+    15,
+    19,
+    6,
+    7,
+    30,
+    19,
+    8,
+    10,
+    3
+  ],
+  "repair": "Restore required adata.uns[top_genes], omitted by historical runner; do not swallow inference exceptions",
+  "compatibility_fixes": [
+    "Keep singleton gene axis in scVelo GLS",
+    "Keep heterogeneous parallel results as list"
+  ],
+  "transition_assembly": "Sparse global embedding; historical float32 accumulation and round-to-six retained",
+  "elapsed_seconds": 25.5325984954834,
+  "traceback": "Traceback (most recent call last):\n  File \"/work/spatial_completion_20261010/code/complete_topicvelo.py\", line 153, in <module>\n    T, indices = completed_transition(\n  File \"<string>\", line 98, in Combined_Topics_Transitions\n  File \"/opt/conda/envs/topicvelo/lib/python3.8/site-packages/scvelo/tools/velocity.py\", line 428, in velocity\n    velo.compute_stochastic(fit_offset, fit_offset2, mode, perc=perc)\n  File \"/opt/conda/envs/topicvelo/lib/python3.8/site-packages/scvelo/tools/velocity.py\", line 147, in compute_stochastic\n    else leastsq_generalized(\n  File \"/opt/conda/envs/topicvelo/lib/python3.8/site-packages/scvelo/tools/optimization.py\", line 173, in leastsq_generalized\n    gamma[i] = np.linalg.pinv(A.T.dot(A)).dot(A.T.dot(y[:, i]))\n  File \"<__array_function__ internals>\", line 200, in pinv\n  File \"/opt/conda/envs/topicvelo/lib/python3.8/site-packages/numpy/linalg/linalg.py\", line 1983, in pinv\n    u, s, vt = svd(a, full_matrices=False, hermitian=hermitian)\n  File \"<__array_function__ internals>\", line 200, in svd\n  File \"/opt/conda/envs/topicvelo/lib/python3.8/site-packages/numpy/linalg/linalg.py\", line 1642, in svd\n    u, s, vh = gufunc(a, signature=signature, extobj=extobj)\n  File \"/opt/conda/envs/topicvelo/lib/python3.8/site-packages/numpy/linalg/linalg.py\", line 98, in _raise_linalgerror_svd_nonconvergence\n    raise LinAlgError(\"SVD did not converge\")\nnumpy.linalg.LinAlgError: SVD did not converge\n"
+}

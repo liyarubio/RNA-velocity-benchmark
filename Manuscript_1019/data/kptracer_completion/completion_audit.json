@@ -1,0 +1,259 @@
+{
+  "status": "complete",
+  "methods": {
+    "tfvelo": {
+      "method": "tfvelo",
+      "source": "/task/results/tfvelo/tfvelo.h5ad",
+      "source_sha256": "0fe71a49a1f74adb2d02c67128ea73af4c883e0bf1ed272d38771643ac0f3543",
+      "scvelo": "0.2.5",
+      "reference_edges": [
+        [
+          "AT2-like",
+          "Gastric-like"
+        ],
+        [
+          "AT2-like",
+          "Lung progenitor-like"
+        ],
+        [
+          "Endoderm-like",
+          "Pre-EMT"
+        ],
+        [
+          "Pre-EMT",
+          "Early EMT-1"
+        ]
+      ],
+      "historical_protocol": "corrected eval1; 706 reference-participating cells denominator; incident-edge signs",
+      "fitted_genes": 1950,
+      "input_genes": 2000,
+      "prediction_type": "TFvelo fitted gene velocity",
+      "high_dimensional_definition": "velo_hat / fit_scaling_y; finite fitted genes only",
+      "status": "complete",
+      "cells": 754,
+      "genes": 1950,
+      "GDC": -0.6770390180379636,
+      "reference_cell_denominator": 706,
+      "nonzero_direction_cells": 754,
+      "ICCoh": {
+        "AT1-like": 0.9132739892949929,
+        "AT2-like": 0.9214516276080433,
+        "Early EMT-1": 0.8991032246689888,
+        "Endoderm-like": 0.8985259941973127,
+        "Gastric-like": 0.9131153860303041,
+        "High plasticity": 0.8838314818095095,
+        "Lung progenitor-like": 0.9206124872311573,
+        "Pre-EMT": 0.9107993660761463
+      },
+      "CBDir": {
+        "AT2-like -> Gastric-like": -0.9566633220628344,
+        "AT2-like -> Lung progenitor-like": -0.86962789897563,
+        "Endoderm-like -> Pre-EMT": 0.28728647808662994,
+        "Pre-EMT -> Early EMT-1": -0.7929528706776028
+      },
+      "boundary_cells": {
+        "AT2-like -> Gastric-like": 52,
+        "AT2-like -> Lung progenitor-like": 37,
+        "Endoderm-like -> Pre-EMT": 19,
+        "Pre-EMT -> Early EMT-1": 63
+      }
+    },
+    "topicvelo": {
+      "method": "topicvelo",
+      "source": "/task/results/topicvelo/topicvelo.h5ad",
+      "source_sha256": "084c2b8a2d40628c34c00b259191717c85f0a18a199200a10799c32efb952d21",
+      "scvelo": "0.2.5",
+      "reference_edges": [
+        [
+          "AT2-like",
+          "Gastric-like"
+        ],
+        [
+          "AT2-like",
+          "Lung progenitor-like"
+        ],
+        [
+          "Endoderm-like",
+          "Pre-EMT"
+        ],
+        [
+          "Pre-EMT",
+          "Early EMT-1"
+        ]
+      ],
+      "historical_protocol": "corrected eval1; 706 reference-participating cells denominator; incident-edge signs",
+      "prediction_type": "native_transition_displacement_proxy",
+      "high_dimensional_definition": "T @ Ms - Ms",
+      "embedding_definition": "scVelo velocity_embedding with explicit native T",
+      "transition_nnz": 90211,
+      "transition_rows": 754,
+      "topic_cells": 490,
+      "selected_topic": 7,
+      "uses_historical_base_scvelo_velocity": false,
+      "status": "complete",
+      "cells": 754,
+      "genes": 2000,
+      "GDC": 0.14350649905714236,
+      "reference_cell_denominator": 706,
+      "nonzero_direction_cells": 727,
+      "ICCoh": {
+        "AT1-like": 0.4023122810400449,
+        "AT2-like": 0.5068418901160504,
+        "Early EMT-1": 0.4365490986006093,
+        "Endoderm-like": 0.7419842489455876,
+        "Gastric-like": 0.8937566784711984,
+        "High plasticity": 0.514450840651989,
+        "Lung progenitor-like": 0.7610749755712116,
+        "Pre-EMT": 0.4527398348993642
+      },
+      "CBDir": {
+        "AT2-like -> Gastric-like": -0.513109134743791,
+        "AT2-like -> Lung progenitor-like": -0.3115161360183431,
+        "Endoderm-like -> Pre-EMT": 0.690602205731752,
+        "Pre-EMT -> Early EMT-1": 0.3948721296949842
+      },
+      "boundary_cells": {
+        "AT2-like -> Gastric-like": 68,
+        "AT2-like -> Lung progenitor-like": 43,
+        "Endoderm-like -> Pre-EMT": 19,
+        "Pre-EMT -> Early EMT-1": 66
+      }
+    }
+  },
+  "checks": {
+    "tfvelo": {
+      "status": "pass",
+      "cells": 754,
+      "input_genes": 2000,
+      "genes_with_TF_mappings": 1955,
+      "finite_fitted_genes": 1950,
+      "nonzero_velocity_cells": 754,
+      "input_h5ad_hashes_unchanged": true,
+      "cell_ids_unchanged": true,
+      "umap_coordinates_unchanged": true,
+      "GDC": -0.6770390180379636,
+      "model_sha256": "0fe71a49a1f74adb2d02c67128ea73af4c883e0bf1ed272d38771643ac0f3543"
+    },
+    "topicvelo": {
+      "status": "pass",
+      "shape": [
+        754,
+        754
+      ],
+      "native_key": "topic_modeling+scvelo_stochastic_T",
+      "saved_matrix_matches_h5ad": true,
+      "transition_nnz": 90211,
+      "row_sum_min": 0.9999997019767761,
+      "row_sum_max": 1.000000238418579,
+      "nonnegative": true,
+      "finite": true,
+      "selected_topic": 7,
+      "topic_cells": 490,
+      "base_scvelo_velocity_excluded_from_evaluation": true
+    }
+  },
+  "control": {
+    "method": "control",
+    "source": "/materials/velogif_XC/real_data/result/velocity/KPTracer/2_scvelo_stochastic/anndata.h5ad",
+    "source_sha256": "b6983d4c45a52e367fe8c3f203e10979eb1514f919eb47523e3e70716b8a2160",
+    "scvelo": "0.2.5",
+    "reference_edges": [
+      [
+        "AT2-like",
+        "Gastric-like"
+      ],
+      [
+        "AT2-like",
+        "Lung progenitor-like"
+      ],
+      [
+        "Endoderm-like",
+        "Pre-EMT"
+      ],
+      [
+        "Pre-EMT",
+        "Early EMT-1"
+      ]
+    ],
+    "historical_protocol": "corrected eval1; 706 reference-participating cells denominator; incident-edge signs",
+    "status": "complete",
+    "cells": 754,
+    "genes": 2000,
+    "GDC": 0.6262533370057178,
+    "reference_cell_denominator": 706,
+    "nonzero_direction_cells": 754,
+    "ICCoh": {
+      "AT1-like": 0.761584589114556,
+      "AT2-like": 0.9150643615195384,
+      "Early EMT-1": 0.8430892046669434,
+      "Endoderm-like": 0.8190724786959196,
+      "Gastric-like": 0.7624267098995355,
+      "High plasticity": 0.785157425062997,
+      "Lung progenitor-like": 0.7251823785550454,
+      "Pre-EMT": 0.8586312367561015
+    },
+    "CBDir": {
+      "AT2-like -> Gastric-like": 0.9733407826748368,
+      "AT2-like -> Lung progenitor-like": 0.9071886771842494,
+      "Endoderm-like -> Pre-EMT": -0.7360335721761241,
+      "Pre-EMT -> Early EMT-1": 0.3569654544682112
+    },
+    "boundary_cells": {
+      "AT2-like -> Gastric-like": 52,
+      "AT2-like -> Lung progenitor-like": 37,
+      "Endoderm-like -> Pre-EMT": 19,
+      "Pre-EMT -> Early EMT-1": 63
+    },
+    "historical_expected_GDC": 0.6262533588720111,
+    "absolute_difference": 2.1866293220540456e-08
+  },
+  "figure_validation": {
+    "status": "pass",
+    "cells_and_colors_verified": 754,
+    "uniform_umap_scaling": true,
+    "axis_labels": [
+      "UMAP1",
+      "UMAP2"
+    ],
+    "reference_arrows_verified": 4,
+    "schematic_nodes": 6,
+    "unchanged_source_sheets": [
+      "Cells and coordinates",
+      "Cell-type palette",
+      "Direct evidence edges",
+      "GDC direct edges",
+      "Output validation",
+      "Panel provenance",
+      "Missing data",
+      "README"
+    ],
+    "panel_b_pixel_identical": false,
+    "method_fields_pixel_identical": false,
+    "embedded_raster_images": 0,
+    "merged_pdf_page": 16,
+    "captions_synchronized": true,
+    "models_rerun": true,
+    "umap_schematic_pixel_identical": true,
+    "existing_17_fields_pixel_identical": true,
+    "existing_17_scores_unchanged": true,
+    "new_scores_recomputed": true,
+    "new_method_GDC": {
+      "TFvelo": -0.6770390180379636,
+      "TopicVelo": 0.14350649905714236
+    },
+    "TopicVelo_native_transition_proxy": true
+  },
+  "container_status": "exited; dedicated task container only",
+  "TFvelo_dynamics_runtime": "00:45:18",
+  "model_directory": "/data1/liyaru/RNA_velocity_materials/KPTracer_completion_20261010/results",
+  "manuscript": "/data1/liyaru/RNA_velocity_materials/Manuscript_1010",
+  "updated_at": "2026-10-10T14:53:10.622074+00:00",
+  "release_validation": {
+    "status": "pass",
+    "local_links": 1571,
+    "broken_links": [],
+    "source_imports_unchanged": 413,
+    "preserved_extended_workbook_sheets": 117,
+    "pdf_pages": 73
+  }
+}

@@ -1,0 +1,236 @@
+{
+  "date": "2026-10-10",
+  "database_date": "2026-07-01",
+  "background": "all genes in the genome",
+  "organism": "H. sapiens",
+  "p_cutoff": 0.01,
+  "min_hits": 3,
+  "min_enrichment": 1.5,
+  "q_value_correction": "Benjamini-Hochberg",
+  "term_cluster_similarity": 0.3,
+  "runs": {
+    "100": {
+      "archive": "dynamic_gene_metascape/all.tsuluz1m0.zip",
+      "archive_sha256": "6e0892ac236c2d6753c2744ba111e30d2518952e9666d857300029416c3955ea",
+      "mapped_union": 519,
+      "submitted_union": 520,
+      "lists": [
+        {
+          "method": "DeepVelo(GCN)",
+          "submitted": 100,
+          "mapped_unique": 100,
+          "unmapped_symbols": "",
+          "merged_identifier_reduction": 0
+        },
+        {
+          "method": "LatentVelo",
+          "submitted": 100,
+          "mapped_unique": 99,
+          "unmapped_symbols": "RP11-76I14.1",
+          "merged_identifier_reduction": 0
+        },
+        {
+          "method": "STT",
+          "submitted": 100,
+          "mapped_unique": 100,
+          "unmapped_symbols": "",
+          "merged_identifier_reduction": 0
+        },
+        {
+          "method": "UniTVelo",
+          "submitted": 100,
+          "mapped_unique": 100,
+          "unmapped_symbols": "",
+          "merged_identifier_reduction": 0
+        },
+        {
+          "method": "biVI",
+          "submitted": 100,
+          "mapped_unique": 99,
+          "unmapped_symbols": "RP11-76I14.1",
+          "merged_identifier_reduction": 0
+        },
+        {
+          "method": "dynamo",
+          "submitted": 100,
+          "mapped_unique": 99,
+          "unmapped_symbols": "RP11-76I14.1",
+          "merged_identifier_reduction": 0
+        },
+        {
+          "method": "scVelo(dyn)",
+          "submitted": 100,
+          "mapped_unique": 100,
+          "unmapped_symbols": "",
+          "merged_identifier_reduction": 0
+        },
+        {
+          "method": "scVelo(sto)",
+          "submitted": 100,
+          "mapped_unique": 99,
+          "unmapped_symbols": "RP11-76I14.1",
+          "merged_identifier_reduction": 0
+        },
+        {
+          "method": "veloVI",
+          "submitted": 100,
+          "mapped_unique": 100,
+          "unmapped_symbols": "",
+          "merged_identifier_reduction": 0
+        }
+      ],
+      "copied_source_sha256": {
+        "AnalysisReport.html": "a921d5ff55639f545b50d078892e9f50c5a2ad1ccbcff3af00fe38f4f54c06a0",
+        "metascape_result.xlsx": "c9c2e35808750675e9374753dc67c02d44385eac6a17a9757ec5eddbe733e7a3",
+        "README.txt": "203af58dd414a6969db0762eac0260d4551ffae1ecf28436ad9049f4236fc0e1",
+        "Overlap_circos/CircosOverlapByGO.svg": "e55da33f84a6170eb7eec7c71d82b15d829554935a2e99e528ffdb63d8b25f18",
+        "Overlap_circos/CircosOverlapByGO.png": "e0bf639bcb93356044b5794b3d813a47414ba00956bcefcaff2c0c95cf65d397",
+        "Overlap_circos/CircosOverlapByGene.png": "227d0a13c14d2c8af03db6f1295516aabf9c529e48ea6bec6f9809572ef40e21",
+        "Overlap_circos/CircosOverlapByGene.svg": "28d083481ba5338af0f2bd75b7d5b6a707533c661da97e8b65392a3a6992a8a3",
+        "Enrichment_heatmap/HeatmapSelectedGOTop100.png": "b91677d54045c99696c7d7b314d24343185f826342d4094d81973889b0925aca",
+        "Enrichment_heatmap/HeatmapSelectedGO.csv": "a53f12681d0b58911bc253a5edda80233471fab8f4ab464bd8898cda3b6438d1",
+        "Enrichment_heatmap/HeatmapSelectedGOParent.atr": "98cec4c0136c22348a0483866734a0eb4ac9daab2d79fe6eb54542720b085fc4",
+        "Enrichment_heatmap/HeatmapSelectedGO.atr": "0193fe73f8449053735c4b95fdac238b10352be9143d4997f5e56ea24f7ddbac",
+        "Enrichment_heatmap/HeatmapSelectedGO.gtr": "7e8a076ad60457b0774fed8bfcfc65bd5f3c8c526d7652af72a721d4e9319135",
+        "Enrichment_heatmap/HeatmapSelectedGO.png": "2dcd2ea9c6955ede083c410304d9356b23ec7392d09c49d74a8adb2d7840dcc8",
+        "Enrichment_heatmap/HeatmapSelectedGOTop100.gtr": "ab110885bd2c0d04ea32344a46f66b1bbe40ac48bcb63793bc9520d175851c8c",
+        "Enrichment_heatmap/HeatmapSelectedGOParent.cdt": "0311ca6fc5895028fc1bcdb8ff2ad7f382d09affaeee985679ec502077cbb3f1",
+        "Enrichment_heatmap/HeatmapSelectedGOParent.csv": "3ff82d2a32b3beaf2bb8e9ebdfed5f878a279c396480b2607411f4ba66b1ea95",
+        "Enrichment_heatmap/HeatmapSelectedGOTop100.pdf": "86bf7cad62bb5d4ddd96bb7385af2456f89215614f123709607f591f6587e820",
+        "Enrichment_heatmap/HeatmapSelectedGO.pdf": "b364524db1cdc1bef1ad5596b577bdacfd50e973937ae97280b8265e8f47221b",
+        "Enrichment_heatmap/HeatmapSelectedGOParent.png": "adb233670efcf7eefd2c6fd3b96cb543fc1491550764fc6c2b86ef43c0ac319f",
+        "Enrichment_heatmap/HeatmapSelectedGOTop100.atr": "9eeecd152052de95d0799571d726092f4ba100c51808d939b653a5a2018bafd7",
+        "Enrichment_heatmap/HeatmapSelectedGO.cdt": "f17121501a98c96702575a8a7f82d51a51e623d192bce39e47f69d448a8242f3",
+        "Enrichment_heatmap/HeatmapSelectedGOTop100.csv": "328e9cdc9ccddb2958ca5a2bb165e4497a53f882d7ab4ddcb7c0f49c9612cafd",
+        "Enrichment_heatmap/HeatmapSelectedGOTop100.cdt": "7b69c7119cf8f0eef14a7f63a1859f7c3e911a1f344d51e36cd6ee880ed8ca0a",
+        "Enrichment_heatmap/HeatmapSelectedGOParent.pdf": "fade94f9f8fffaaee2938cea1c75b3e73d7d6fded4ec2d3a372f49c3093124fe",
+        "Enrichment_heatmap/HeatmapSelectedGOParent.gtr": "b358619b6d813d9da09bb32b8efec7c371dd37fa5d33e60fcccd86075918d54f",
+        "Enrichment_GO/ColorByCluster.pdf": "655610ddd9ae7ebfb4ea2baaea4dd7e1555324aacab2dd99c2a06c35593442d6",
+        "Enrichment_GO/ColorByCounts.png": "e519976abfff8d76ff55bbdc53aa62549eebac8f8babb9e01f8a13faecb8c5ed",
+        "Enrichment_GO/GeneGo_membership.csv": "af0c4fb01c27e81885cf41307c0aaa5f2e894f4416d2faee62cbce118fa7f146",
+        "Enrichment_GO/GO_membership.csv": "641a0c2da7f87dadd0ceda745146b70423e0ce86122c563447626362ab868832",
+        "Enrichment_GO/ColorByPValue.pdf": "3eb3a96c3a0108a3d49fdc9f9fd1cd720265fc79f95bfd14f1cabfb6e051ce77",
+        "Enrichment_GO/_FINAL_GO.csv": "68a7faa1c4ae6b37bdd2b602190a901ae0244f2385d39eb6ce79e99c157ca0c3",
+        "Enrichment_GO/ColorByPValue.png": "15c2a094b6366c69ebac6212bf5d710d575a62da070de278c51f5c2491141851",
+        "Enrichment_GO/ColorByCluster.png": "ba26400a1bedb4a8543e07922a48a6464cd74e88348009c19cde0cc0934c686e",
+        "Enrichment_GO/ColorByCounts.pdf": "1948a4ad7d933a059bf65d2dfeb14939be7340df7cc70b1a5ea1b9b6606cd56e",
+        "Enrichment_GO/GO_AllLists.csv": "4f474a7111fed0c1aba28fab3fd8aa0a6bd5ccd99ff13a7dc5d07d6d25252cbc",
+        "Enrichment_GO/GO_membership_parent.csv": "9ae847c12d013ddb1bb421e1aea822e2a496a7fb8d3e9e91fa77fc97ae89d70e"
+      },
+      "input_sha256": "a99d894f08eeeff30fb8df0cc111ab0d86840f0a061ce913ece0bc6f2eca8192",
+      "mapping_membership_verified": true
+    },
+    "200": {
+      "archive": "dynamic_gene_metascape/all.to4our0de.zip",
+      "archive_sha256": "a3966633aa7448766c56a130cbc5e859168db120e61c7b5a2011958ea5587775",
+      "mapped_union": 809,
+      "submitted_union": 813,
+      "lists": [
+        {
+          "method": "DeepVelo(GCN)",
+          "submitted": 200,
+          "mapped_unique": 199,
+          "unmapped_symbols": "RP11-76I14.1",
+          "merged_identifier_reduction": 0
+        },
+        {
+          "method": "LatentVelo",
+          "submitted": 200,
+          "mapped_unique": 198,
+          "unmapped_symbols": "RP11-620J15.3;RP11-76I14.1",
+          "merged_identifier_reduction": 0
+        },
+        {
+          "method": "STT",
+          "submitted": 200,
+          "mapped_unique": 199,
+          "unmapped_symbols": "RP11-436K8.1",
+          "merged_identifier_reduction": 0
+        },
+        {
+          "method": "UniTVelo",
+          "submitted": 200,
+          "mapped_unique": 200,
+          "unmapped_symbols": "",
+          "merged_identifier_reduction": 0
+        },
+        {
+          "method": "biVI",
+          "submitted": 200,
+          "mapped_unique": 198,
+          "unmapped_symbols": "RP11-76I14.1",
+          "merged_identifier_reduction": 1
+        },
+        {
+          "method": "dynamo",
+          "submitted": 200,
+          "mapped_unique": 199,
+          "unmapped_symbols": "RP11-76I14.1",
+          "merged_identifier_reduction": 0
+        },
+        {
+          "method": "scVelo(dyn)",
+          "submitted": 200,
+          "mapped_unique": 200,
+          "unmapped_symbols": "",
+          "merged_identifier_reduction": 0
+        },
+        {
+          "method": "scVelo(sto)",
+          "submitted": 200,
+          "mapped_unique": 199,
+          "unmapped_symbols": "RP11-76I14.1",
+          "merged_identifier_reduction": 0
+        },
+        {
+          "method": "veloVI",
+          "submitted": 200,
+          "mapped_unique": 199,
+          "unmapped_symbols": "RP11-76I14.1",
+          "merged_identifier_reduction": 0
+        }
+      ],
+      "copied_source_sha256": {
+        "AnalysisReport.html": "93c5bd6a19d79da5ec42602b4302e742f7d4495fe14b34b0c5cade16d6ae3ad0",
+        "metascape_result.xlsx": "03a573527860e549f93775ab30c17b51c7d2ef97cf168078939537b1ca002b77",
+        "README.txt": "203af58dd414a6969db0762eac0260d4551ffae1ecf28436ad9049f4236fc0e1",
+        "Overlap_circos/CircosOverlapByGO.svg": "feea050b976ba6b9f1a81e575217744a8f3b6178622620515b94e79dd28e3360",
+        "Overlap_circos/CircosOverlapByGO.png": "7dc80a6437cf7add7286dc91c61f6538dd552813a4dcdd3a599d5c82c58ddedd",
+        "Overlap_circos/CircosOverlapByGene.png": "a1398c71d3cce4e159f95c7ab4d85166f980c81d98189cd90faa923c7341b9d8",
+        "Overlap_circos/CircosOverlapByGene.svg": "6457550d0a482241293b92c918f6c199ec2f2535f17447802e19e632d6ff4578",
+        "Enrichment_heatmap/HeatmapSelectedGOTop100.png": "dcca52e2c5cd43c4c2194a3e83623ac957bd1ee523da04c3d13aa293faae4e3a",
+        "Enrichment_heatmap/HeatmapSelectedGO.csv": "fc771af2ed71d083d5ee5bbcde99cd01ccc1ad5099e9c42d22f326e1a23bb2de",
+        "Enrichment_heatmap/HeatmapSelectedGOParent.atr": "f346ce18b18eb3e8aa33b8d1b17430d35f13fc0751278c6b06d2d747c2508f3d",
+        "Enrichment_heatmap/HeatmapSelectedGO.atr": "9646d065fccd775494e407ee614aeab31aa33009fe4e765cc1dbbb3cb4a8fd7d",
+        "Enrichment_heatmap/HeatmapSelectedGO.gtr": "000a49024d2ff15e047de1453439d9627e56b00cf4b41178fc10fe8f2d0e2b92",
+        "Enrichment_heatmap/HeatmapSelectedGO.png": "f819dca6058c88f1203673d3d93d0eaa97385024b79768aff5091fa89346099e",
+        "Enrichment_heatmap/HeatmapSelectedGOTop100.gtr": "d5c28348333ff57f71ac7655bb83fc4082e0ed2dc1143d0117ac266b26d8c5a7",
+        "Enrichment_heatmap/HeatmapSelectedGOParent.cdt": "52fae1272f57c1717bbf3b430d74ae8d24e7006bb0583868995d76139f4e09bf",
+        "Enrichment_heatmap/HeatmapSelectedGOParent.csv": "128baac812f356e44ccbfd1d9c9e01340c424f0867d6bb6b3014c6821753d862",
+        "Enrichment_heatmap/HeatmapSelectedGOTop100.pdf": "bd9a88ac1fbd7724ecd5b7bf5c2265b77eef381455ce02a02681bcafc57839c1",
+        "Enrichment_heatmap/HeatmapSelectedGO.pdf": "755027ba0dbb4d7575a76f2993864c104afe8c5b88947a44fcb710e105b47635",
+        "Enrichment_heatmap/HeatmapSelectedGOParent.png": "c7756dd2c7c95a7fa76996d4ea0b48107677e375e101fb5d906581ec6dc2f999",
+        "Enrichment_heatmap/HeatmapSelectedGOTop100.atr": "c0fc51e9512a85a26909e3cdd391fa93aa27bcf88f80598ebe89a5512232ef6e",
+        "Enrichment_heatmap/HeatmapSelectedGO.cdt": "32aff84d50fff378fb60de0f0fc23d77cc17bbaf2c4c192a28389f3761d7c465",
+        "Enrichment_heatmap/HeatmapSelectedGOTop100.csv": "4ac10fe2fa409b008a2d221d27c8a1b4c3208e28e2395f58d72bada164c39665",
+        "Enrichment_heatmap/HeatmapSelectedGOTop100.cdt": "8d7f4bda8bd8a5b8e1e8fb787420132820194978618061164fdc890d81ed7383",
+        "Enrichment_heatmap/HeatmapSelectedGOParent.pdf": "132f7d7a48dedacb81c8501e89cd32c35ae8bce8ed4b661db2a0a43b677e64bc",
+        "Enrichment_heatmap/HeatmapSelectedGOParent.gtr": "20267c8093bb0e5b63684243af77b5c67676325ba86490c8744dc054568f8434",
+        "Enrichment_GO/ColorByCluster.pdf": "0ad151189fa34b9f499ba803cb511efb4ac1b67d1455ef168da48c3ad4e4a2c5",
+        "Enrichment_GO/ColorByCounts.png": "42fb2fcefac6a0fbaf1ab755bcb3156871d7f8b8253759ade5d46578a9fc30e2",
+        "Enrichment_GO/GeneGo_membership.csv": "cb126c7ed6b6539271b0609a306d0a7d0b841de65d0325dda4128ec5ecea640d",
+        "Enrichment_GO/GO_membership.csv": "77544591da9e0b2fb94a1446223d39d8b2698ecfadcdda1ad7881241c0187caf",
+        "Enrichment_GO/ColorByPValue.pdf": "f73acaea7a0cdfbadeabbdc05a41d49d6aa42ae9890cdc1f32c34ddca70a0661",
+        "Enrichment_GO/_FINAL_GO.csv": "c9a7a7d099eabac24aea13207ca04ab09f49f2a037e5784dce61612f77b19bc2",
+        "Enrichment_GO/ColorByPValue.png": "dd463d9f7cef235a0eb965cd95eb3a496670e12c547cd6c89dbdb5d236e28865",
+        "Enrichment_GO/ColorByCluster.png": "7b3e39c0f1f650e68eee3441fc1cfe6e2fb8451bbac15d6952eabdfc0d95fa85",
+        "Enrichment_GO/ColorByCounts.pdf": "3262a08937c587559260b86dc5642788845b7391ad6d4fe28cf8d7879f367bf3",
+        "Enrichment_GO/GO_AllLists.csv": "88f06c1e3c8f35364e52e06c63e3737efc9dda7b42211c477d4d251be4608d8c",
+        "Enrichment_GO/GO_membership_parent.csv": "a0c107a616e9978b964289cacac568744c481a12fc690f6c6e74c3fa1a03cd94"
+      },
+      "input_sha256": "e23b19471664bfb0abee0f909f903c7adc516fcc2c21663541dbc828812ad8bb",
+      "mapping_membership_verified": true
+    }
+  },
+  "historical_age_source_sha256": "15b382bcb91fb96df70b16638d2d7bf93b9e64958c5764b099558062cd696c26"
+}

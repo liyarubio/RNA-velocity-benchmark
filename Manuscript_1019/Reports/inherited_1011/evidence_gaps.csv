@@ -1,0 +1,9 @@
+item,status,detail,evidence
+Figure 5a source mismatch,corrected in new workbook,TopicVelo old -0.0601187708150399; final native result 0.4838869706599916. Original source retained.,Reports/source_data_corrections.csv
+Figure 6 historical inputs,documented; preserved by scope,"Eight values differ from later scLT/scNT, ST_small or KPTracer results; protocols differ. No substituted universal ranking.",Reports/demo/Figure06_current_source_differences.csv
+Historical dyngen TopicVelo provenance,unresolved,Some supplied historical table values lack a verified native-transition run; no count-likelihood validity inferred from execution.,source_data/Extended_Data_Fig06.xlsx
+cellDancer missing outcomes,retained as unavailable,Nine forward-branching STT conditions lack valid outputs; missing values remain missing.,data/cellDancer_current_30/method_coverage.csv
+Clone example identities,historical artwork only,Exact clone-ID membership and random endpoint records for ED14b not recovered.,data/reference_restoration/scLT_saved_expected_targets.csv
+Aging comparison,historical artwork only,Exact 784 common-gene manifest and matching young/aged LatentVelo runs remain unresolved.,figures/main/Figure07.pdf
+ReDeeM artwork coordinates,retained original art,GDC/CBDir values available; exact original scatter/field source chain remains incomplete.,source_data/Figure04.xlsx
+Full model environments and raw inputs,external,Bundled model/evaluation scripts retain original environment assumptions. Demo checks saved outputs; it is not an end-to-end model benchmark.,Reports/upstream_external_paths.csv

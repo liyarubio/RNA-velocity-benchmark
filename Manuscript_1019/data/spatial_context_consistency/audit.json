@@ -1,0 +1,1255 @@
+[
+  {
+    "method": "velocyto",
+    "status": "complete",
+    "models_refit": false,
+    "scvelo": "0.2.5",
+    "sources": {
+      "ST_raw": {
+        "path": "/work/ST_XC/result/velocity/MPSTA_raw/12_velocyto/anndata.h5ad",
+        "sha256": "b7c25b66bcf66e4c946501bb0e8596904af3c8f3fb64b7566c5b67ce347f32a5"
+      },
+      "ST_small": {
+        "path": "/work/velogif_XC/real_data/result/velocity/MPSTA/12_velocyto/anndata.h5ad",
+        "sha256": "1ba832d8e75fef085df2ac8c726c552297e8349b242e613c56a03a31994d3158"
+      }
+    },
+    "coordinate_translation_to_full": {
+      "ST_raw": [
+        0.0,
+        0.0
+      ],
+      "ST_small": [
+        150.0,
+        0.0
+      ]
+    },
+    "full_spots": 1292,
+    "restricted_spots": 608,
+    "full_features": 925,
+    "restricted_features": 260,
+    "paired_coordinates_identical_after_translation": true,
+    "shared_features_before_finite_filter": 260,
+    "aligned_input_layer_differences": {
+      "matrix": {
+        "exact_equal": true,
+        "relative_l2_difference": 0.0,
+        "max_abs_difference": 0.0
+      },
+      "counts": {
+        "exact_equal": true,
+        "relative_l2_difference": 0.0,
+        "max_abs_difference": 0.0
+      },
+      "spliced": {
+        "exact_equal": false,
+        "relative_l2_difference": 0.14992316500765757,
+        "max_abs_difference": 85.33563232421875
+      },
+      "unspliced": {
+        "exact_equal": false,
+        "relative_l2_difference": 0.2871287095898688,
+        "max_abs_difference": 13.384613037109375
+      },
+      "Ms": {
+        "exact_equal": false,
+        "relative_l2_difference": 0.1669366502603886,
+        "max_abs_difference": 73.33399200439453
+      },
+      "Mu": {
+        "exact_equal": false,
+        "relative_l2_difference": 0.3025644912348514,
+        "max_abs_difference": 4.078258514404297
+      }
+    },
+    "gene_comparison": "gene_velocity_on_shared_gene_names",
+    "shared_genes_used": 260,
+    "restricted_spatial_projection": "saved_velocity_graph_projected_no_model_refit",
+    "full_spatial_projection": "exact_vectors_displayed_in_ED15",
+    "gene_valid_pairs": 608,
+    "spatial_valid_pairs": 608
+  },
+  {
+    "method": "scVelo(sto)",
+    "status": "complete",
+    "models_refit": false,
+    "scvelo": "0.2.5",
+    "sources": {
+      "ST_raw": {
+        "path": "/work/ST_XC/result/velocity/MPSTA_raw/2_scvelo_stochastic/anndata.h5ad",
+        "sha256": "7902fa114bb56a81e7e81f18e382edb8bcd6d867fda111dd0a3da84fc6de3d01"
+      },
+      "ST_small": {
+        "path": "/work/velogif_XC/real_data/result/velocity/MPSTA/2_scvelo_stochastic/anndata.h5ad",
+        "sha256": "3f800d9af073a2209c41006ff8f9712b3491bb02cf29db516d8c29be69874ed0"
+      }
+    },
+    "coordinate_translation_to_full": {
+      "ST_raw": [
+        0.0,
+        0.0
+      ],
+      "ST_small": [
+        150.0,
+        0.0
+      ]
+    },
+    "full_spots": 1292,
+    "restricted_spots": 608,
+    "full_features": 925,
+    "restricted_features": 260,
+    "paired_coordinates_identical_after_translation": true,
+    "shared_features_before_finite_filter": 260,
+    "aligned_input_layer_differences": {
+      "matrix": {
+        "exact_equal": true,
+        "relative_l2_difference": 0.0,
+        "max_abs_difference": 0.0
+      },
+      "counts": {
+        "exact_equal": true,
+        "relative_l2_difference": 0.0,
+        "max_abs_difference": 0.0
+      },
+      "spliced": {
+        "exact_equal": false,
+        "relative_l2_difference": 0.14992316500765757,
+        "max_abs_difference": 85.33563232421875
+      },
+      "unspliced": {
+        "exact_equal": false,
+        "relative_l2_difference": 0.2871287095898688,
+        "max_abs_difference": 13.384613037109375
+      },
+      "Ms": {
+        "exact_equal": false,
+        "relative_l2_difference": 0.1669366502603886,
+        "max_abs_difference": 73.33399200439453
+      },
+      "Mu": {
+        "exact_equal": false,
+        "relative_l2_difference": 0.3025644912348514,
+        "max_abs_difference": 4.078258514404297
+      }
+    },
+    "gene_comparison": "gene_velocity_on_shared_gene_names",
+    "shared_genes_used": 260,
+    "restricted_spatial_projection": "saved_velocity_graph_projected_no_model_refit",
+    "full_spatial_projection": "exact_vectors_displayed_in_ED15",
+    "gene_valid_pairs": 608,
+    "spatial_valid_pairs": 608
+  },
+  {
+    "method": "scVelo(dyn)",
+    "status": "complete",
+    "models_refit": false,
+    "scvelo": "0.2.5",
+    "sources": {
+      "ST_raw": {
+        "path": "/work/ST_XC/result/velocity/MPSTA_raw/3_scvelo_dynamical/anndata.h5ad",
+        "sha256": "039a23e4fb514c88a60e3e879dce11cedbffe3b5ea38ee904e5ad5bcbe124650"
+      },
+      "ST_small": {
+        "path": "/work/velogif_XC/real_data/result/velocity/MPSTA/3_scvelo_dynamical/anndata.h5ad",
+        "sha256": "0a1988ec22e6abd52020e0bc00e2077c7aa27354ff5b7c8723c972a81722944a"
+      }
+    },
+    "coordinate_translation_to_full": {
+      "ST_raw": [
+        0.0,
+        0.0
+      ],
+      "ST_small": [
+        150.0,
+        0.0
+      ]
+    },
+    "full_spots": 1292,
+    "restricted_spots": 608,
+    "full_features": 925,
+    "restricted_features": 260,
+    "paired_coordinates_identical_after_translation": true,
+    "shared_features_before_finite_filter": 260,
+    "aligned_input_layer_differences": {
+      "matrix": {
+        "exact_equal": true,
+        "relative_l2_difference": 0.0,
+        "max_abs_difference": 0.0
+      },
+      "counts": {
+        "exact_equal": true,
+        "relative_l2_difference": 0.0,
+        "max_abs_difference": 0.0
+      },
+      "spliced": {
+        "exact_equal": false,
+        "relative_l2_difference": 0.14992316500765757,
+        "max_abs_difference": 85.33563232421875
+      },
+      "unspliced": {
+        "exact_equal": false,
+        "relative_l2_difference": 0.2871287095898688,
+        "max_abs_difference": 13.384613037109375
+      },
+      "Ms": {
+        "exact_equal": false,
+        "relative_l2_difference": 0.1669366502603886,
+        "max_abs_difference": 73.33399200439453
+      },
+      "Mu": {
+        "exact_equal": false,
+        "relative_l2_difference": 0.3025644912348514,
+        "max_abs_difference": 4.078258514404297
+      }
+    },
+    "gene_comparison": "gene_velocity_on_shared_gene_names",
+    "shared_genes_used": 260,
+    "restricted_spatial_projection": "saved_velocity_graph_projected_no_model_refit",
+    "full_spatial_projection": "exact_vectors_displayed_in_ED15",
+    "gene_valid_pairs": 608,
+    "spatial_valid_pairs": 608
+  },
+  {
+    "method": "VeloAE",
+    "status": "complete",
+    "models_refit": false,
+    "scvelo": "0.2.5",
+    "sources": {
+      "ST_raw": {
+        "path": "/work/ST_XC/result/velocity/MPSTA_raw/14_veloAE/anndata.h5ad",
+        "sha256": "016a104c9b0d22b2f6a443c54b2d93f3d7afef548d9eb409cb6ee689e608fd30"
+      },
+      "ST_small": {
+        "path": "/work/velogif_XC/real_data/result/velocity/MPSTA/14_veloAE/anndata.h5ad",
+        "sha256": "2e5c810c7fd8da66d1e942df3a3e6854fdc33fadf01727e0475c25e1e2f151e2"
+      }
+    },
+    "coordinate_translation_to_full": {
+      "ST_raw": [
+        0.0,
+        0.0
+      ],
+      "ST_small": [
+        150.0,
+        0.0
+      ]
+    },
+    "full_spots": 1292,
+    "restricted_spots": 608,
+    "full_features": 100,
+    "restricted_features": 100,
+    "paired_coordinates_identical_after_translation": true,
+    "shared_features_before_finite_filter": 100,
+    "aligned_input_layer_differences": {},
+    "gene_comparison": "unavailable_independently_learned_latent_axes",
+    "shared_genes_used": 0,
+    "restricted_spatial_projection": "saved_velocity_spatial",
+    "full_spatial_projection": "exact_vectors_displayed_in_ED15",
+    "gene_valid_pairs": 0,
+    "spatial_valid_pairs": 608
+  },
+  {
+    "method": "dynamo",
+    "status": "complete",
+    "models_refit": false,
+    "scvelo": "0.2.5",
+    "sources": {
+      "ST_raw": {
+        "path": "/work/ST_XC/result/velocity/MPSTA_raw/10_Dynamo_stochastic/anndata.h5ad",
+        "sha256": "c9f1bbeb8271624527d5dfc8bce0a4c4b5e3e1e650471d8916be842258a674f2"
+      },
+      "ST_small": {
+        "path": "/work/velogif_XC/real_data/result/velocity/MPSTA/10_Dynamo_stochastic/anndata.h5ad",
+        "sha256": "b9543081e92f7cb4e43e53ce102e5fb8d1640b6ab9e5efcadacdc2779684ca23"
+      }
+    },
+    "coordinate_translation_to_full": {
+      "ST_raw": [
+        0.0,
+        0.0
+      ],
+      "ST_small": [
+        150.0,
+        0.0
+      ]
+    },
+    "full_spots": 1292,
+    "restricted_spots": 608,
+    "full_features": 925,
+    "restricted_features": 260,
+    "paired_coordinates_identical_after_translation": true,
+    "shared_features_before_finite_filter": 260,
+    "aligned_input_layer_differences": {
+      "matrix": {
+        "exact_equal": true,
+        "relative_l2_difference": 0.0,
+        "max_abs_difference": 0.0
+      },
+      "counts": {
+        "exact_equal": true,
+        "relative_l2_difference": 0.0,
+        "max_abs_difference": 0.0
+      },
+      "spliced": {
+        "exact_equal": false,
+        "relative_l2_difference": 0.14992316500765757,
+        "max_abs_difference": 85.33563232421875
+      },
+      "unspliced": {
+        "exact_equal": false,
+        "relative_l2_difference": 0.2871287095898688,
+        "max_abs_difference": 13.384613037109375
+      },
+      "Ms": {
+        "exact_equal": false,
+        "relative_l2_difference": 0.16693665026038854,
+        "max_abs_difference": 73.33399200439453
+      },
+      "Mu": {
+        "exact_equal": false,
+        "relative_l2_difference": 0.3025644912348514,
+        "max_abs_difference": 4.078258514404297
+      }
+    },
+    "gene_comparison": "gene_velocity_on_shared_gene_names",
+    "shared_genes_used": 260,
+    "restricted_spatial_projection": "saved_velocity_graph_projected_no_model_refit",
+    "full_spatial_projection": "exact_vectors_displayed_in_ED15",
+    "gene_valid_pairs": 608,
+    "spatial_valid_pairs": 608
+  },
+  {
+    "method": "VeloVAE",
+    "status": "complete",
+    "models_refit": false,
+    "scvelo": "0.2.5",
+    "sources": {
+      "ST_raw": {
+        "path": "/work/ST_XC/result/velocity/MPSTA_raw/13_veloVAE/anndata.h5ad",
+        "sha256": "3b6013868fa6ea5f21f1b0e4954d39328f4b3e80ff9a8eb8ee17f8f2197d49c4"
+      },
+      "ST_small": {
+        "path": "/work/velogif_XC/real_data/result/velocity/MPSTA/13_veloVAE/anndata.h5ad",
+        "sha256": "0f847fc5e4f35b9b1b5bfe69f6feea4e6a6fb2f741199dc8d86e1ce718c84c35"
+      }
+    },
+    "coordinate_translation_to_full": {
+      "ST_raw": [
+        0.0,
+        0.0
+      ],
+      "ST_small": [
+        150.0,
+        0.0
+      ]
+    },
+    "full_spots": 1292,
+    "restricted_spots": 608,
+    "full_features": 393,
+    "restricted_features": 96,
+    "paired_coordinates_identical_after_translation": true,
+    "shared_features_before_finite_filter": 96,
+    "aligned_input_layer_differences": {
+      "matrix": {
+        "exact_equal": true,
+        "relative_l2_difference": 0.0,
+        "max_abs_difference": 0.0
+      },
+      "counts": {
+        "exact_equal": true,
+        "relative_l2_difference": 0.0,
+        "max_abs_difference": 0.0
+      },
+      "spliced": {
+        "exact_equal": false,
+        "relative_l2_difference": 0.15206488255298492,
+        "max_abs_difference": 86.0
+      },
+      "unspliced": {
+        "exact_equal": false,
+        "relative_l2_difference": 0.3387038784764882,
+        "max_abs_difference": 9.0
+      },
+      "Ms": {
+        "exact_equal": false,
+        "relative_l2_difference": 0.1701459360835851,
+        "max_abs_difference": 73.33399200439453
+      },
+      "Mu": {
+        "exact_equal": false,
+        "relative_l2_difference": 0.302236448246558,
+        "max_abs_difference": 4.078258514404297
+      }
+    },
+    "gene_comparison": "gene_velocity_on_shared_gene_names",
+    "shared_genes_used": 96,
+    "restricted_spatial_projection": "saved_velocity_graph_projected_no_model_refit",
+    "full_spatial_projection": "exact_vectors_displayed_in_ED15",
+    "gene_valid_pairs": 608,
+    "spatial_valid_pairs": 608
+  },
+  {
+    "method": "UniTVelo",
+    "status": "complete",
+    "models_refit": false,
+    "scvelo": "0.2.5",
+    "sources": {
+      "ST_raw": {
+        "path": "/work/ST_XC/result/velocity/MPSTA_raw/5_unitvelo/anndata.h5ad",
+        "sha256": "b44ac791e9b41c7a2ba91c372b104c318e66d12d7d992d1b255a76d83a4e8954"
+      },
+      "ST_small": {
+        "path": "/work/velogif_XC/real_data/result/velocity/MPSTA/5_unitvelo/anndata.h5ad",
+        "sha256": "4d270c0d782774e04ba5f11476d80604f945669ecf34d784cc498cef5b3025ad"
+      }
+    },
+    "coordinate_translation_to_full": {
+      "ST_raw": [
+        0.0,
+        0.0
+      ],
+      "ST_small": [
+        150.0,
+        0.0
+      ]
+    },
+    "full_spots": 1292,
+    "restricted_spots": 608,
+    "full_features": 925,
+    "restricted_features": 260,
+    "paired_coordinates_identical_after_translation": true,
+    "shared_features_before_finite_filter": 260,
+    "aligned_input_layer_differences": {
+      "matrix": {
+        "exact_equal": true,
+        "relative_l2_difference": 0.0,
+        "max_abs_difference": 0.0
+      },
+      "counts": {
+        "exact_equal": true,
+        "relative_l2_difference": 0.0,
+        "max_abs_difference": 0.0
+      },
+      "spliced": {
+        "exact_equal": false,
+        "relative_l2_difference": 0.14992316500765757,
+        "max_abs_difference": 85.33563232421875
+      },
+      "unspliced": {
+        "exact_equal": false,
+        "relative_l2_difference": 0.2871287095898688,
+        "max_abs_difference": 13.384613037109375
+      },
+      "Ms": {
+        "exact_equal": false,
+        "relative_l2_difference": 0.1669366502603886,
+        "max_abs_difference": 73.33399200439453
+      },
+      "Mu": {
+        "exact_equal": false,
+        "relative_l2_difference": 0.3025644912348514,
+        "max_abs_difference": 4.078258514404297
+      }
+    },
+    "gene_comparison": "gene_velocity_on_shared_gene_names",
+    "shared_genes_used": 260,
+    "restricted_spatial_projection": "saved_velocity_graph_projected_no_model_refit",
+    "full_spatial_projection": "exact_vectors_displayed_in_ED15",
+    "gene_valid_pairs": 608,
+    "spatial_valid_pairs": 608
+  },
+  {
+    "method": "DeepVelo(VAE)",
+    "status": "complete",
+    "models_refit": false,
+    "scvelo": "0.2.5",
+    "sources": {
+      "ST_raw": {
+        "path": "/work/ST_XC/result/velocity/MPSTA_raw/6_DeepveloSA/anndata.h5ad",
+        "sha256": "90cb3e8ceefab36d7744a385b6fcd1575f3093d06dc169b5d185b8867cbb6ea2"
+      },
+      "ST_small": {
+        "path": "/work/velogif_XC/real_data/result/velocity/MPSTA/6_DeepveloSA/anndata.h5ad",
+        "sha256": "d4a1748a2e166292e976de1415931ba6b9e1c3b060e941ec344ca2f8af366324"
+      }
+    },
+    "coordinate_translation_to_full": {
+      "ST_raw": [
+        0.0,
+        0.0
+      ],
+      "ST_small": [
+        150.0,
+        0.0
+      ]
+    },
+    "full_spots": 1292,
+    "restricted_spots": 608,
+    "full_features": 925,
+    "restricted_features": 260,
+    "paired_coordinates_identical_after_translation": true,
+    "shared_features_before_finite_filter": 260,
+    "aligned_input_layer_differences": {
+      "matrix": {
+        "exact_equal": true,
+        "relative_l2_difference": 0.0,
+        "max_abs_difference": 0.0
+      },
+      "counts": {
+        "exact_equal": true,
+        "relative_l2_difference": 0.0,
+        "max_abs_difference": 0.0
+      },
+      "spliced": {
+        "exact_equal": false,
+        "relative_l2_difference": 0.14992316500765757,
+        "max_abs_difference": 85.33563232421875
+      },
+      "unspliced": {
+        "exact_equal": false,
+        "relative_l2_difference": 0.2871287095898688,
+        "max_abs_difference": 13.384613037109375
+      },
+      "Ms": {
+        "exact_equal": false,
+        "relative_l2_difference": 0.1669366502603886,
+        "max_abs_difference": 73.33399200439453
+      },
+      "Mu": {
+        "exact_equal": false,
+        "relative_l2_difference": 0.3025644912348514,
+        "max_abs_difference": 4.078258514404297
+      }
+    },
+    "gene_comparison": "gene_velocity_on_shared_gene_names",
+    "shared_genes_used": 260,
+    "restricted_spatial_projection": "saved_velocity_graph_projected_no_model_refit",
+    "full_spatial_projection": "exact_vectors_displayed_in_ED15",
+    "gene_valid_pairs": 608,
+    "spatial_valid_pairs": 608
+  },
+  {
+    "method": "cellDancer",
+    "status": "complete",
+    "models_refit": false,
+    "scvelo": "0.2.5",
+    "sources": {
+      "ST_raw": {
+        "path": "/work/ST_XC/result/velocity/MPSTA_raw/1_celldancer/anndata.h5ad",
+        "sha256": "13573075d1d9f9f4630bb8ac43aa93c3b5cddd083b01ef10d22dc8b4ea1a5c6c"
+      },
+      "ST_small": {
+        "path": "/work/velogif_XC/real_data/result/velocity/MPSTA/1_celldancer/anndata.h5ad",
+        "sha256": "ac1ef11d8f99785d2f2612182fc9017c9ff83ffadcf99bcff30d50b3735a16c5"
+      }
+    },
+    "coordinate_translation_to_full": {
+      "ST_raw": [
+        0.0,
+        0.0
+      ],
+      "ST_small": [
+        150.0,
+        0.0
+      ]
+    },
+    "full_spots": 1292,
+    "restricted_spots": 608,
+    "full_features": 925,
+    "restricted_features": 260,
+    "paired_coordinates_identical_after_translation": true,
+    "shared_features_before_finite_filter": 260,
+    "aligned_input_layer_differences": {
+      "matrix": {
+        "exact_equal": true,
+        "relative_l2_difference": 0.0,
+        "max_abs_difference": 0.0
+      },
+      "counts": {
+        "exact_equal": true,
+        "relative_l2_difference": 0.0,
+        "max_abs_difference": 0.0
+      },
+      "spliced": {
+        "exact_equal": false,
+        "relative_l2_difference": 0.14992316500765757,
+        "max_abs_difference": 85.33563232421875
+      },
+      "unspliced": {
+        "exact_equal": false,
+        "relative_l2_difference": 0.2871287095898688,
+        "max_abs_difference": 13.384613037109375
+      },
+      "Ms": {
+        "exact_equal": false,
+        "relative_l2_difference": 0.1669366502603886,
+        "max_abs_difference": 73.33399200439453
+      },
+      "Mu": {
+        "exact_equal": false,
+        "relative_l2_difference": 0.3025644912348514,
+        "max_abs_difference": 4.078258514404297
+      }
+    },
+    "gene_comparison": "gene_velocity_on_shared_gene_names",
+    "shared_genes_used": 260,
+    "restricted_spatial_projection": "saved_velocity_graph_projected_no_model_refit",
+    "full_spatial_projection": "exact_vectors_displayed_in_ED15",
+    "gene_valid_pairs": 608,
+    "spatial_valid_pairs": 608
+  },
+  {
+    "method": "veloVI",
+    "status": "complete",
+    "models_refit": false,
+    "scvelo": "0.2.5",
+    "sources": {
+      "ST_raw": {
+        "path": "/work/ST_XC/result/velocity/MPSTA_raw/8_veloVI/anndata.h5ad",
+        "sha256": "61ee35767e4b2fa70aa4266471d8fe5d73ccbefe4b03c08478209e094b79c7d2"
+      },
+      "ST_small": {
+        "path": "/work/velogif_XC/real_data/result/velocity/MPSTA/8_veloVI/anndata.h5ad",
+        "sha256": "bda0ecd09485af17e6bd73815091133a8f867c2e5bb7975cd13751390b681235"
+      }
+    },
+    "coordinate_translation_to_full": {
+      "ST_raw": [
+        0.0,
+        0.0
+      ],
+      "ST_small": [
+        150.0,
+        0.0
+      ]
+    },
+    "full_spots": 1292,
+    "restricted_spots": 608,
+    "full_features": 91,
+    "restricted_features": 44,
+    "paired_coordinates_identical_after_translation": true,
+    "shared_features_before_finite_filter": 39,
+    "aligned_input_layer_differences": {
+      "matrix": {
+        "exact_equal": true,
+        "relative_l2_difference": 0.0,
+        "max_abs_difference": 0.0
+      },
+      "counts": {
+        "exact_equal": true,
+        "relative_l2_difference": 0.0,
+        "max_abs_difference": 0.0
+      },
+      "spliced": {
+        "exact_equal": false,
+        "relative_l2_difference": 0.14992316449147938,
+        "max_abs_difference": 85.33563232421875
+      },
+      "unspliced": {
+        "exact_equal": false,
+        "relative_l2_difference": 0.2871287096961767,
+        "max_abs_difference": 2.4063825607299805
+      },
+      "Ms": {
+        "exact_equal": false,
+        "relative_l2_difference": 0.1735765551301271,
+        "max_abs_difference": 0.6099888384342194
+      },
+      "Mu": {
+        "exact_equal": false,
+        "relative_l2_difference": 0.25420944670919515,
+        "max_abs_difference": 0.9090908169746399
+      }
+    },
+    "gene_comparison": "gene_velocity_on_shared_gene_names",
+    "shared_genes_used": 39,
+    "restricted_spatial_projection": "saved_velocity_graph_projected_no_model_refit",
+    "full_spatial_projection": "exact_vectors_displayed_in_ED15",
+    "gene_valid_pairs": 608,
+    "spatial_valid_pairs": 608
+  },
+  {
+    "method": "LatentVelo",
+    "status": "complete",
+    "models_refit": false,
+    "scvelo": "0.2.5",
+    "sources": {
+      "ST_raw": {
+        "path": "/work/ST_XC/result/velocity/MPSTA_raw/9_latentvelo/anndata.h5ad",
+        "sha256": "f46ef315fc3941217364dc589c6dc8ddfd04c7edafade2bb74628e741fd22952"
+      },
+      "ST_small": {
+        "path": "/work/velogif_XC/real_data/result/velocity/MPSTA/9_latentvelo/anndata.h5ad",
+        "sha256": "864c08f70d48b1cb8db7b555d8c50ba90d31947b671a475bd8b9fae9d79be746"
+      }
+    },
+    "coordinate_translation_to_full": {
+      "ST_raw": [
+        0.0,
+        0.0
+      ],
+      "ST_small": [
+        150.0,
+        0.0
+      ]
+    },
+    "full_spots": 1292,
+    "restricted_spots": 608,
+    "full_features": 925,
+    "restricted_features": 260,
+    "paired_coordinates_identical_after_translation": true,
+    "shared_features_before_finite_filter": 260,
+    "aligned_input_layer_differences": {
+      "matrix": {
+        "exact_equal": true,
+        "relative_l2_difference": 0.0,
+        "max_abs_difference": 0.0
+      },
+      "counts": {
+        "exact_equal": true,
+        "relative_l2_difference": 0.0,
+        "max_abs_difference": 0.0
+      },
+      "spliced": {
+        "exact_equal": false,
+        "relative_l2_difference": 0.25557343567751095,
+        "max_abs_difference": 1.0009482502937317
+      },
+      "unspliced": {
+        "exact_equal": false,
+        "relative_l2_difference": 0.29878763418541615,
+        "max_abs_difference": 0.30912208557128906
+      },
+      "Ms": {
+        "exact_equal": false,
+        "relative_l2_difference": 0.20307338946446615,
+        "max_abs_difference": 93.40985107421875
+      },
+      "Mu": {
+        "exact_equal": false,
+        "relative_l2_difference": 0.3679799654679554,
+        "max_abs_difference": 5.1227240562438965
+      }
+    },
+    "gene_comparison": "gene_velocity_on_shared_gene_names",
+    "shared_genes_used": 260,
+    "restricted_spatial_projection": "saved_velocity_graph_projected_no_model_refit",
+    "full_spatial_projection": "exact_vectors_displayed_in_ED15",
+    "gene_valid_pairs": 608,
+    "spatial_valid_pairs": 608
+  },
+  {
+    "method": "DeepVelo(GCN)",
+    "status": "complete",
+    "models_refit": false,
+    "scvelo": "0.2.5",
+    "sources": {
+      "ST_raw": {
+        "path": "/work/ST_XC/result/velocity/MPSTA_raw/7_DeepveloGB/anndata.h5ad",
+        "sha256": "c05e024385c9da45d1d49251cc68234a8c7efc1879473e19c56f426bde0018ab"
+      },
+      "ST_small": {
+        "path": "/work/velogif_XC/real_data/result/velocity/MPSTA/7_DeepveloGB/anndata.h5ad",
+        "sha256": "d1d309fac10874c95e37e68d9989299d230d46fa38fbd0d682a8b4465a1f92b3"
+      }
+    },
+    "coordinate_translation_to_full": {
+      "ST_raw": [
+        0.0,
+        0.0
+      ],
+      "ST_small": [
+        150.0,
+        0.0
+      ]
+    },
+    "full_spots": 1292,
+    "restricted_spots": 608,
+    "full_features": 925,
+    "restricted_features": 260,
+    "paired_coordinates_identical_after_translation": true,
+    "shared_features_before_finite_filter": 260,
+    "aligned_input_layer_differences": {
+      "matrix": {
+        "exact_equal": true,
+        "relative_l2_difference": 0.0,
+        "max_abs_difference": 0.0
+      },
+      "counts": {
+        "exact_equal": true,
+        "relative_l2_difference": 0.0,
+        "max_abs_difference": 0.0
+      },
+      "spliced": {
+        "exact_equal": false,
+        "relative_l2_difference": 0.14992316500765757,
+        "max_abs_difference": 85.33563232421875
+      },
+      "unspliced": {
+        "exact_equal": false,
+        "relative_l2_difference": 0.2871287095898688,
+        "max_abs_difference": 13.384613037109375
+      },
+      "Ms": {
+        "exact_equal": false,
+        "relative_l2_difference": 0.1669366502603886,
+        "max_abs_difference": 73.33399200439453
+      },
+      "Mu": {
+        "exact_equal": false,
+        "relative_l2_difference": 0.3025644912348514,
+        "max_abs_difference": 4.078258514404297
+      }
+    },
+    "gene_comparison": "gene_velocity_on_shared_gene_names",
+    "shared_genes_used": 260,
+    "restricted_spatial_projection": "saved_velocity_graph_projected_no_model_refit",
+    "full_spatial_projection": "exact_vectors_displayed_in_ED15",
+    "gene_valid_pairs": 608,
+    "spatial_valid_pairs": 608
+  },
+  {
+    "method": "TFvelo",
+    "status": "complete",
+    "models_refit": false,
+    "scvelo": "0.2.5",
+    "sources": {
+      "ST_raw": {
+        "path": "/work/Manuscript_2607/Figure5_sources/runs/tfvelo_20260913/results/ST_raw/tfvelo_visualized.h5ad",
+        "sha256": "49e6fd323dbd4fd7d98511b3644917cca0ca1edaf20b5461c5907b3671b1d863"
+      },
+      "ST_small": {
+        "path": "/work/Manuscript_2607/Figure5_sources/runs/tfvelo_20260913/results/ST_small/tfvelo_visualized.h5ad",
+        "sha256": "e83171e8d3ce80e721368167daa11ff3b27dc85c57364ce4cd793f810b453b6b"
+      }
+    },
+    "coordinate_translation_to_full": {
+      "ST_raw": [
+        0.0,
+        0.0
+      ],
+      "ST_small": [
+        150.0,
+        0.0
+      ]
+    },
+    "full_spots": 1292,
+    "restricted_spots": 608,
+    "full_features": 925,
+    "restricted_features": 919,
+    "paired_coordinates_identical_after_translation": true,
+    "shared_features_before_finite_filter": 919,
+    "aligned_input_layer_differences": {
+      "spliced": {
+        "exact_equal": true,
+        "relative_l2_difference": 0.0,
+        "max_abs_difference": 0.0
+      },
+      "unspliced": {
+        "exact_equal": true,
+        "relative_l2_difference": 0.0,
+        "max_abs_difference": 0.0
+      }
+    },
+    "gene_comparison": "gene_velocity_on_shared_gene_names",
+    "shared_genes_used": 870,
+    "restricted_spatial_projection": "saved_velocity_spatial",
+    "full_spatial_projection": "exact_vectors_displayed_in_ED15",
+    "gene_valid_pairs": 608,
+    "spatial_valid_pairs": 608
+  },
+  {
+    "method": "TopicVelo",
+    "status": "complete",
+    "models_refit": false,
+    "scvelo": "0.2.5",
+    "sources": {
+      "ST_raw": {
+        "path": "/work/ST_XC/result/velocity/MPSTA_raw/20_TopicVelo/anndata.h5ad",
+        "sha256": "736e38e1baa3d392da0f55c35a13a9e785a469d54f6d5977834e9bc0ff28d637"
+      },
+      "ST_small": {
+        "path": "/work/velogif_XC/real_data/result/velocity/MPSTA/20_TopicVelo/anndata.h5ad",
+        "sha256": "0efe6d0adfffb23d6ece9ec7a7f8fa524bc2203351f72b065cc2e81e7debe68c"
+      }
+    },
+    "coordinate_translation_to_full": {
+      "ST_raw": [
+        0.0,
+        0.0
+      ],
+      "ST_small": [
+        150.0,
+        0.0
+      ]
+    },
+    "full_spots": 1292,
+    "restricted_spots": 608,
+    "full_features": 2000,
+    "restricted_features": 2000,
+    "paired_coordinates_identical_after_translation": true,
+    "shared_features_before_finite_filter": 1259,
+    "aligned_input_layer_differences": {
+      "matrix": {
+        "exact_equal": true,
+        "relative_l2_difference": 0.0,
+        "max_abs_difference": 0.0
+      },
+      "counts": {
+        "exact_equal": true,
+        "relative_l2_difference": 0.0,
+        "max_abs_difference": 0.0
+      },
+      "spliced": {
+        "exact_equal": false,
+        "relative_l2_difference": 0.14992316572442305,
+        "max_abs_difference": 35.90299987792969
+      },
+      "unspliced": {
+        "exact_equal": false,
+        "relative_l2_difference": 0.2871287056506554,
+        "max_abs_difference": 13.384613037109375
+      },
+      "Ms": {
+        "exact_equal": false,
+        "relative_l2_difference": 0.17425572773472764,
+        "max_abs_difference": 22.706989288330078
+      },
+      "Mu": {
+        "exact_equal": false,
+        "relative_l2_difference": 0.380364662894838,
+        "max_abs_difference": 1.0384615659713745
+      }
+    },
+    "gene_comparison": "native_transition_displacement_in_fixed_full_Ms",
+    "topic_counts": [
+      11,
+      5
+    ],
+    "topic_thresholds_and_topic_counts_differ": true,
+    "shared_genes_used": 1259,
+    "spatial_projection": "saved_native_transition_projection_in_fixed_spatial_coordinates",
+    "gene_valid_pairs": 608,
+    "spatial_valid_pairs": 608
+  },
+  {
+    "method": "STT",
+    "status": "complete",
+    "models_refit": false,
+    "scvelo": "0.2.5",
+    "sources": {
+      "ST_raw": {
+        "path": "/work/ST_XC/result/velocity/MPSTA_raw/4_STT/anndata.h5ad",
+        "sha256": "f34281bec3fa0cbc58c38d48cfae35668c1942bd9f6547047eeb010435d4daf7"
+      },
+      "ST_small": {
+        "path": "/work/velogif_XC/real_data/result/velocity/MPSTA/4_STT/anndata.h5ad",
+        "sha256": "884e670b649e7274819de640dc24f54e064a9e7fc83f586ff440ac3a67fbe440"
+      }
+    },
+    "coordinate_translation_to_full": {
+      "ST_raw": [
+        0.0,
+        0.0
+      ],
+      "ST_small": [
+        150.0,
+        0.0
+      ]
+    },
+    "full_spots": 1292,
+    "restricted_spots": 608,
+    "full_features": 112,
+    "restricted_features": 52,
+    "paired_coordinates_identical_after_translation": true,
+    "shared_features_before_finite_filter": 48,
+    "aligned_input_layer_differences": {
+      "spliced": {
+        "exact_equal": false,
+        "relative_l2_difference": 0.1511052187940296,
+        "max_abs_difference": 26.964981079101562
+      },
+      "Ms": {
+        "exact_equal": false,
+        "relative_l2_difference": 0.16781005622484607,
+        "max_abs_difference": 9.537139892578125
+      }
+    },
+    "gene_comparison": "gene_velocity_on_shared_gene_names",
+    "shared_genes_used": 48,
+    "restricted_spatial_projection": "saved_velocity_spatial",
+    "full_spatial_projection": "exact_vectors_displayed_in_ED15",
+    "gene_valid_pairs": 608,
+    "spatial_valid_pairs": 608
+  },
+  {
+    "method": "biVI",
+    "status": "complete",
+    "models_refit": false,
+    "scvelo": "0.2.5",
+    "sources": {
+      "ST_raw": {
+        "path": "/work/ST_XC/result/velocity/MPSTA_raw/15_biVI/anndata.h5ad",
+        "sha256": "5451df5d52422d4eeef5152f01a91207c89ba03abccee256a9cb30c7fb2e1654"
+      },
+      "ST_small": {
+        "path": "/work/velogif_XC/real_data/result/velocity/MPSTA/15_biVI/anndata.h5ad",
+        "sha256": "f6565fb70a059c2646458c796f185f29623e0e5ebe23131062e6f08d28e0b943"
+      }
+    },
+    "coordinate_translation_to_full": {
+      "ST_raw": [
+        0.0,
+        0.0
+      ],
+      "ST_small": [
+        150.0,
+        0.0
+      ]
+    },
+    "full_spots": 1292,
+    "restricted_spots": 608,
+    "full_features": 925,
+    "restricted_features": 260,
+    "paired_coordinates_identical_after_translation": true,
+    "shared_features_before_finite_filter": 260,
+    "aligned_input_layer_differences": {
+      "matrix": {
+        "exact_equal": true,
+        "relative_l2_difference": 0.0,
+        "max_abs_difference": 0.0
+      },
+      "counts": {
+        "exact_equal": true,
+        "relative_l2_difference": 0.0,
+        "max_abs_difference": 0.0
+      },
+      "spliced": {
+        "exact_equal": false,
+        "relative_l2_difference": 0.14992316500765757,
+        "max_abs_difference": 85.33563232421875
+      },
+      "unspliced": {
+        "exact_equal": false,
+        "relative_l2_difference": 0.2871287095898688,
+        "max_abs_difference": 13.384613037109375
+      },
+      "Ms": {
+        "exact_equal": false,
+        "relative_l2_difference": 0.1669366502603886,
+        "max_abs_difference": 73.33399200439453
+      },
+      "Mu": {
+        "exact_equal": false,
+        "relative_l2_difference": 0.3025644912348514,
+        "max_abs_difference": 4.078258514404297
+      }
+    },
+    "gene_comparison": "gene_velocity_on_shared_gene_names",
+    "shared_genes_used": 260,
+    "restricted_spatial_projection": "saved_velocity_spatial",
+    "full_spatial_projection": "exact_vectors_displayed_in_ED15",
+    "gene_valid_pairs": 608,
+    "spatial_valid_pairs": 608
+  },
+  {
+    "method": "DeepKINET",
+    "status": "complete",
+    "models_refit": false,
+    "scvelo": "0.2.5",
+    "sources": {
+      "ST_raw": {
+        "path": "/work/ST_XC/result/velocity/MPSTA_raw/17_DeepKINET/anndata.h5ad",
+        "sha256": "8cc8341232127b4fdfa7fff1dc9420eb770a2c7c9ad8f8dee89836c01ffc8432"
+      },
+      "ST_small": {
+        "path": "/work/velogif_XC/real_data/result/velocity/MPSTA/17_DeepKINET/anndata.h5ad",
+        "sha256": "ef642651323fc9417ed4db27276191ad2536ba59b3804f9301e5d53f4b7461fa"
+      }
+    },
+    "coordinate_translation_to_full": {
+      "ST_raw": [
+        0.0,
+        0.0
+      ],
+      "ST_small": [
+        150.0,
+        0.0
+      ]
+    },
+    "full_spots": 1292,
+    "restricted_spots": 608,
+    "full_features": 2000,
+    "restricted_features": 2000,
+    "paired_coordinates_identical_after_translation": true,
+    "shared_features_before_finite_filter": 1259,
+    "aligned_input_layer_differences": {
+      "matrix": {
+        "exact_equal": true,
+        "relative_l2_difference": 0.0,
+        "max_abs_difference": 0.0
+      },
+      "counts": {
+        "exact_equal": true,
+        "relative_l2_difference": 0.0,
+        "max_abs_difference": 0.0
+      },
+      "spliced": {
+        "exact_equal": true,
+        "relative_l2_difference": 0.0,
+        "max_abs_difference": 0.0
+      },
+      "unspliced": {
+        "exact_equal": true,
+        "relative_l2_difference": 0.0,
+        "max_abs_difference": 0.0
+      }
+    },
+    "gene_comparison": "gene_velocity_on_shared_gene_names",
+    "shared_genes_used": 1259,
+    "restricted_spatial_projection": "saved_velocity_spatial",
+    "full_spatial_projection": "exact_vectors_displayed_in_ED15",
+    "gene_valid_pairs": 608,
+    "spatial_valid_pairs": 608
+  },
+  {
+    "method": "SDEvelo",
+    "status": "complete",
+    "models_refit": false,
+    "scvelo": "0.2.5",
+    "sources": {
+      "ST_raw": {
+        "path": "/work/ST_XC/result/velocity/MPSTA_raw/18_SDEvelo/anndata.h5ad",
+        "sha256": "4e6663dc2f4aa15573d0702e43e98fbfc171186c490ac7f083ded84e1884be51"
+      },
+      "ST_small": {
+        "path": "/work/velogif_XC/real_data/result/velocity/MPSTA/18_SDEvelo/anndata.h5ad",
+        "sha256": "d9e5359b5ddc4c8ca3a0985f8b7a503d488f5b37290fdaef12ff5838cf2756bf"
+      }
+    },
+    "coordinate_translation_to_full": {
+      "ST_raw": [
+        0.0,
+        0.0
+      ],
+      "ST_small": [
+        150.0,
+        0.0
+      ]
+    },
+    "full_spots": 1292,
+    "restricted_spots": 608,
+    "full_features": 925,
+    "restricted_features": 260,
+    "paired_coordinates_identical_after_translation": true,
+    "shared_features_before_finite_filter": 260,
+    "aligned_input_layer_differences": {
+      "matrix": {
+        "exact_equal": true,
+        "relative_l2_difference": 0.0,
+        "max_abs_difference": 0.0
+      },
+      "counts": {
+        "exact_equal": true,
+        "relative_l2_difference": 0.0,
+        "max_abs_difference": 0.0
+      },
+      "spliced": {
+        "exact_equal": false,
+        "relative_l2_difference": 0.14992316500765757,
+        "max_abs_difference": 85.33563232421875
+      },
+      "unspliced": {
+        "exact_equal": false,
+        "relative_l2_difference": 0.2871287095898688,
+        "max_abs_difference": 13.384613037109375
+      },
+      "Ms": {
+        "exact_equal": false,
+        "relative_l2_difference": 0.1795508948273846,
+        "max_abs_difference": 85.02432250976562
+      },
+      "Mu": {
+        "exact_equal": false,
+        "relative_l2_difference": 0.32593141316700247,
+        "max_abs_difference": 5.292780876159668
+      }
+    },
+    "gene_comparison": "gene_velocity_on_shared_gene_names",
+    "shared_genes_used": 260,
+    "restricted_spatial_projection": "graph_recomputed_from_saved_velocity_no_model_refit",
+    "full_spatial_projection": "exact_vectors_displayed_in_ED15",
+    "gene_valid_pairs": 608,
+    "spatial_valid_pairs": 608
+  },
+  {
+    "method": "cell2fate",
+    "status": "complete",
+    "models_refit": false,
+    "scvelo": "0.2.5",
+    "sources": {
+      "ST_raw": {
+        "path": "/work/ST_XC/result/velocity/MPSTA_raw/16_cell2fate/anndata.h5ad",
+        "sha256": "fcfde90fb41af3c92a6ecc77decbaa9d89071849ffc47cf2632dc6ed14f0accb"
+      },
+      "ST_small": {
+        "path": "/work/velogif_XC/real_data/result/velocity/MPSTA/16_cell2fate/anndata.h5ad",
+        "sha256": "4c38da8849b3e4513500ed81b7c0ace36399eaa7a735596a3a742d4756cd6084"
+      }
+    },
+    "coordinate_translation_to_full": {
+      "ST_raw": [
+        0.0,
+        0.0
+      ],
+      "ST_small": [
+        150.0,
+        0.0
+      ]
+    },
+    "full_spots": 1292,
+    "restricted_spots": 608,
+    "full_features": 2000,
+    "restricted_features": 2000,
+    "paired_coordinates_identical_after_translation": true,
+    "shared_features_before_finite_filter": 1247,
+    "aligned_input_layer_differences": {
+      "matrix": {
+        "exact_equal": true,
+        "relative_l2_difference": 0.0,
+        "max_abs_difference": 0.0
+      },
+      "counts": {
+        "exact_equal": true,
+        "relative_l2_difference": 0.0,
+        "max_abs_difference": 0.0
+      },
+      "spliced": {
+        "exact_equal": false,
+        "relative_l2_difference": 0.14992316574991377,
+        "max_abs_difference": 35.90299987792969
+      },
+      "unspliced": {
+        "exact_equal": false,
+        "relative_l2_difference": 0.2871287061598409,
+        "max_abs_difference": 13.384613037109375
+      },
+      "Ms": {
+        "exact_equal": false,
+        "relative_l2_difference": 0.17424859523233494,
+        "max_abs_difference": 22.70699691772461
+      },
+      "Mu": {
+        "exact_equal": false,
+        "relative_l2_difference": 0.37996745489047223,
+        "max_abs_difference": 1.0384615659713745
+      }
+    },
+    "gene_comparison": "gene_velocity_on_shared_gene_names",
+    "shared_genes_used": 1247,
+    "restricted_spatial_projection": "saved_velocity_spatial",
+    "full_spatial_projection": "exact_vectors_displayed_in_ED15",
+    "gene_valid_pairs": 608,
+    "spatial_valid_pairs": 608
+  }
+]

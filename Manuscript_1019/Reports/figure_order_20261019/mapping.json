@@ -1,0 +1,110 @@
+[
+  {
+    "old": 1,
+    "new": 1,
+    "title": "Extended Data Fig. 1 | RNA velocity method taxonomy and dyngen simulation datasets",
+    "source_data": "source_data/Extended_Data_Fig01.xlsx; tables/Table S1 RNA velocity algorithms summary.xlsx",
+    "artwork": "figures/extended_numbered/Extended_Data_Fig01",
+    "final_pdf": "submission_figures/numbered_extended/Extended_Data_Fig01.pdf",
+    "first_citation": "P023"
+  },
+  {
+    "old": 3,
+    "new": 2,
+    "title": "Extended Data Fig. 2 | cellDancer simulation datasets",
+    "source_data": "source_data/Extended_Data_Fig03.xlsx",
+    "artwork": "figures/extended_numbered/Extended_Data_Fig02",
+    "final_pdf": "submission_figures/numbered_extended/Extended_Data_Fig02.pdf",
+    "first_citation": "P034"
+  },
+  {
+    "old": 4,
+    "new": 3,
+    "title": "Extended Data Fig. 3 | Real-world benchmark datasets",
+    "source_data": "source_data/Extended_Data_Fig04.xlsx",
+    "artwork": "figures/extended_numbered/Extended_Data_Fig03",
+    "final_pdf": "submission_figures/numbered_extended/Extended_Data_Fig03.pdf",
+    "first_citation": "P035"
+  },
+  {
+    "old": 5,
+    "new": 4,
+    "title": "Extended Data Fig. 4 | Cosine similarity on simulation datasets",
+    "source_data": "source_data/Extended_Data_Fig05.xlsx; data/cellDancer_current_30",
+    "artwork": "figures/extended_numbered/Extended_Data_Fig04",
+    "final_pdf": "submission_figures/numbered_extended/Extended_Data_Fig04.pdf",
+    "first_citation": "P038"
+  },
+  {
+    "old": 6,
+    "new": 5,
+    "title": "Extended Data Fig. 5 | High- and low-dimensional velocity evaluation",
+    "source_data": "source_data/Extended_Data_Fig06.xlsx",
+    "artwork": "figures/extended_numbered/Extended_Data_Fig05",
+    "final_pdf": "submission_figures/numbered_extended/Extended_Data_Fig05.pdf",
+    "first_citation": "P039"
+  },
+  {
+    "old": 7,
+    "new": 6,
+    "title": "Extended Data Fig. 6 | Global direction-weighted coherence on real-world datasets",
+    "source_data": "source_data/Extended_Data_Fig07.xlsx",
+    "artwork": "figures/extended_numbered/Extended_Data_Fig06",
+    "final_pdf": "submission_figures/numbered_extended/Extended_Data_Fig06.pdf",
+    "first_citation": "P041"
+  },
+  {
+    "old": 13,
+    "new": 7,
+    "title": "Extended Data Fig. 7 | Metabolic-labeling reference: scNT-seq",
+    "source_data": "source_data/Extended_Data_Fig13.xlsx; data/reference_restoration/scNT_projected_directions.csv",
+    "artwork": "figures/extended_numbered/Extended_Data_Fig07",
+    "final_pdf": "submission_figures/numbered_extended/Extended_Data_Fig07.pdf",
+    "first_citation": "P044"
+  },
+  {
+    "old": 14,
+    "new": 8,
+    "title": "Extended Data Fig. 8 | Lineage-tracing reference: scLT-seq",
+    "source_data": "source_data/Extended_Data_Fig14.xlsx; data/reference_restoration/scLT_projected_directions.csv",
+    "artwork": "figures/extended_numbered/Extended_Data_Fig08",
+    "final_pdf": "submission_figures/numbered_extended/Extended_Data_Fig08.pdf",
+    "first_citation": "P045"
+  },
+  {
+    "old": 15,
+    "new": 9,
+    "title": "Extended Data Fig. 9 | Spatial transcriptomics: reference, scores and method fields",
+    "source_data": "source_data/Extended_Data_Fig15.xlsx; data/spatial_completion",
+    "artwork": "figures/extended_numbered/Extended_Data_Fig09",
+    "final_pdf": "submission_figures/numbered_extended/Extended_Data_Fig09.pdf",
+    "first_citation": "P045a"
+  },
+  {
+    "old": 16,
+    "new": 10,
+    "title": "Extended Data Fig. 10 | RNA velocity consistency with and without non-target spots",
+    "source_data": "source_data/Extended_Data_Fig16.xlsx; data/spatial_context_consistency",
+    "artwork": "figures/extended_numbered/Extended_Data_Fig10",
+    "final_pdf": "submission_figures/numbered_extended/Extended_Data_Fig10.pdf",
+    "first_citation": "P045a"
+  },
+  {
+    "old": 17,
+    "new": 11,
+    "title": "Extended Data Fig. 11 | KPTracer: reference, scores and method fields",
+    "source_data": "source_data/Extended_Data_Fig17.xlsx; data/kptracer_completion",
+    "artwork": "figures/extended_numbered/Extended_Data_Fig11",
+    "final_pdf": "submission_figures/numbered_extended/Extended_Data_Fig11.pdf",
+    "first_citation": "P045a"
+  },
+  {
+    "old": 18,
+    "new": 12,
+    "title": "Extended Data Fig. 12 | Top100 and top200 gene overlap and enrichment",
+    "source_data": "source_data/Extended_Data_Fig18.xlsx; data/metascape",
+    "artwork": "figures/extended_numbered/Extended_Data_Fig12",
+    "final_pdf": "submission_figures/numbered_extended/Extended_Data_Fig12.pdf",
+    "first_citation": "P049"
+  }
+]

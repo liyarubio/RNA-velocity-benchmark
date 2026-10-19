@@ -1,0 +1,12 @@
+{
+  "status": "pass",
+  "figures_checked": 19,
+  "file_mappings_checked": 453,
+  "unique_files_hashed": 411,
+  "tables_checked": 5,
+  "html_links_checked": 539,
+  "protected_scientific_and_manuscript_files_unchanged": 402,
+  "errors": [],
+  "model_runs_performed": false,
+  "scope": "Ordering, links, file identities and preservation; no new biological or numerical verification."
+}

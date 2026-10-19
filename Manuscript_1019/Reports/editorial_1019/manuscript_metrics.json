@@ -1,0 +1,17 @@
+{
+  "main_text_words": 2896,
+  "abstract_status": "deferred_by_user",
+  "abstract_words": 0,
+  "references": 77,
+  "uncited_reference_ids": [],
+  "main_figures": 7,
+  "main_tables": 1,
+  "extended_figures": 12,
+  "models_rerun": false,
+  "numeric_inputs_changed": false,
+  "changed_blocks": 37,
+  "inserted_blocks": [
+    "P019b"
+  ],
+  "author_verification": "pending"
+}

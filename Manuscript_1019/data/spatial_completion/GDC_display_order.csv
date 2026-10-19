@@ -1,0 +1,20 @@
+method,GDC,source_protocol
+DeepVelo(GCN),0.7308525175444389,MPSTA eval2 ST_raw archived evaluation
+UniTVelo,0.6277434456309205,MPSTA eval2 ST_raw archived evaluation
+cell2fate,0.4457399921589775,MPSTA eval2 ST_raw archived evaluation
+TFvelo,0.2861820386442927,TFvelo 20260913 saved evaluation
+VeloAE,0.2366569576490866,MPSTA eval2 ST_raw archived evaluation
+STT,0.1367412360588325,MPSTA eval2 ST_raw archived evaluation
+veloVI,0.0738468109384963,MPSTA eval2 ST_raw archived evaluation
+cellDancer,-0.0416602082178659,MPSTA eval2 ST_raw archived evaluation
+scVelo(sto),-0.0635040582794892,MPSTA eval2 ST_raw archived evaluation
+DeepKINET,-0.066993957900099,MPSTA eval2 ST_raw archived evaluation
+biVI,-0.1220751309669331,MPSTA eval2 ST_raw archived evaluation
+LatentVelo,-0.2456865859659094,MPSTA eval2 ST_raw archived evaluation
+dynamo,-0.4096607467935227,MPSTA eval2 ST_raw archived evaluation
+TopicVelo,-0.4187311306645585,Native multi-topic stochastic transition rerun; U/S signal QC; T@Ms-Ms proxy; 608 reference spots denominator; undefined directions excluded; 2026-10-10
+SDEvelo,-0.4763898269937721,MPSTA eval2 ST_raw archived evaluation
+DeepVelo(VAE),-0.4930676201913962,Re-evaluated saved velocity and displayed spatial projection; corrected eval2 target-cell denominator 608; 2026-10-10
+scVelo(dyn),-0.6077223929276809,MPSTA eval2 ST_raw archived evaluation
+velocyto,-0.8916792471247228,MPSTA eval2 ST_raw archived evaluation
+VeloVAE,-0.9238214083162029,MPSTA eval2 ST_raw archived evaluation

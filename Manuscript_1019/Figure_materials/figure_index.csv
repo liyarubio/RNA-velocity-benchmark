@@ -1,0 +1,20 @@
+order,group,figure,legacy_figure,title,first_citation,directory,source_directory,reproduction_level,boundary,data_status,analysis_code_status,files
+1,主图,Figure01,Figure01,方法时间线,P019b,Figure_materials/01_Main_figures/Figure01,Figure1_sources,retained_artwork,人工示意图；文献及分类表可查，未声称由数值重绘。,available,no_numerical_generator_recovered,8
+2,主图,Figure02,Figure02,评价流程,P019b,Figure_materials/01_Main_figures/Figure02,Figure2_sources,retained_artwork,流程示意与设计表；不含方法性能数值。,available,no_numerical_generator_recovered,8
+3,主图,Figure03,Figure03,模拟与常规数据评价,P038,Figure_materials/01_Main_figures/Figure03,Figure3_sources,saved_data,740 对主图配对；拓展图 698 对。逐数据集最大值为事后包络。,available,historical_code_available,51
+4,主图,Figure04,Figure04,ReDeeM,P043,Figure_materials/01_Main_figures/Figure04,Figure4_sources,saved_scores_retained_fields,21 配置；保存 GDC/CBDir；历史散点与流线保留，原始坐标链不完整。,available,historical_code_available,30
+5,主图,Figure05,Figure05,空间、运行时间及 reads,P045a,Figure_materials/01_Main_figures/Figure05,Figure5_sources,saved_data_native_transition,ST_small 608 位点；TopicVelo 源表修正至 0.4838869706599916，与最终图一致。,available,historical_code_available,38
+6,主图,Figure06,Figure06,冻结综合分数和工具,P048,Figure_materials/01_Main_figures/Figure06,Figure6_sources,frozen_summary_recomputed,19 配置；0.6 准确性排名+0.4 可扩展性排名；稳定性不参与。与后续四领域有 8 项差异。,available,historical_code_available,8
+7,主图,Figure07,Figure07,年龄示例与未来方向,P056,Figure_materials/01_Main_figures/Figure07,Figure7_sources,historical_only,确切 784 基因清单及匹配运行未定位；不可作为已验证年龄动力学结论。,not_recovered,no_numerical_generator_recovered,2
+8,附图,ED01,ED01,分类及 dyngen 模拟设计,P023,Figure_materials/02_Extended_data/ExtendedDataFig01,ExtendedDataFig01_sources,retained_artwork_metadata,14 拓扑、42 种子数据集；原 ED2 已并入。,available,no_numerical_generator_recovered,10
+9,附图,ED02,ED03,cellDancer 模拟设计,P034,Figure_materials/02_Extended_data/ExtendedDataFig02,ExtendedDataFig02_sources,retained_artwork_metadata,三场景、30 数据集；连续 U/S 不是整数观测计数。,available,no_numerical_generator_recovered,8
+10,附图,ED03,ED04,真实数据概览,P035,Figure_materials/02_Extended_data/ExtendedDataFig03,ExtendedDataFig03_sources,retained_artwork_metadata,10 经典数据集与 176 HuBMAP 元数据；示例嵌入为历史图。,available,no_numerical_generator_recovered,9
+11,附图,ED04,ED05,模拟余弦比较,P038,Figure_materials/02_Extended_data/ExtendedDataFig04,ExtendedDataFig04_sources,saved_data_recomputed,逐单元值重新核对箱线图 n、中位数和四分位数；缺失不填零。,available,historical_code_available,20
+12,附图,ED05,ED06,高低维与维数,P039,Figure_materials/02_Extended_data/ExtendedDataFig05,ExtendedDataFig05_sources,saved_data_recomputed,698 个配对数据集×方法值；按拓扑复算均值及样本 SD。,available,historical_code_available,13
+13,附图,ED06,ED07,真实数据 GDC,P041,Figure_materials/02_Extended_data/ExtendedDataFig06,ExtendedDataFig06_sources,saved_data_recomputed,与主图源值对齐；HuBMAP 18 配置，TopicVelo 无该任务有效值。,available,historical_code_available,12
+14,附图,ED07,ED13,scNT 代谢标记参照,P044,Figure_materials/02_Extended_data/ExtendedDataFig07,ExtendedDataFig07_sources,saved_vectors_recomputed,"1,947 参照细胞、19 配置；逐细胞重新计算投影余弦，流程预处理不统一。",available,historical_code_available,23
+15,附图,ED08,ED14,scLT 谱系参照,P045,Figure_materials/02_Extended_data/ExtendedDataFig08,ExtendedDataFig08_sources,saved_vectors_plus_historical_panel,"1,756 参照细胞、19 配置；五个克隆示例的原成员与随机选择记录不完整。",available,historical_code_available,25
+16,附图,ED09,ED15,ST_raw 空间评价,P045a,Figure_materials/02_Extended_data/ExtendedDataFig09,ExtendedDataFig09_sources,saved_scores_native_transition,"1,292 位点、五条关系；与主图 5a 的 ST_small 区分。",available,historical_code_available,41
+17,附图,ED10,ED16,上下文配对一致性,P045a,Figure_materials/02_Extended_data/ExtendedDataFig10,ExtendedDataFig10_sources,saved_vectors_recomputed,"19×608=11,552 对空间结果；18 方法有基因空间分数；VeloAE 为 NA。",available,historical_code_available,38
+18,附图,ED11,ED17,KPTracer,P045a,Figure_materials/02_Extended_data/ExtendedDataFig11,ExtendedDataFig11_sources,saved_scores_native_transition,754 细胞、四条 corrected eval1 关系、分母 706；核对 TFvelo 和 TopicVelo 补全输出。,available,historical_code_available,45
+19,附图,ED12,ED18,Metascape 与历史年龄图,P049,Figure_materials/02_Extended_data/ExtendedDataFig12,ExtendedDataFig12_sources,imported_enrichment_retained_age_fields,九配置 top100/top200 分别有 519/809 个映射基因；富集为导入报告，年龄图来源缺口保留。,available,historical_code_available,64

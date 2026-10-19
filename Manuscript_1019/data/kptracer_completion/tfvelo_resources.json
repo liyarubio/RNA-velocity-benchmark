@@ -1,0 +1,565 @@
+{
+  "ENCODE_matching_TFs": [
+    "ATF3",
+    "MYC",
+    "BHLHE40",
+    "STAT1",
+    "ZBTB7A",
+    "MEF2A",
+    "FOXP2",
+    "FOSL1",
+    "E2F1",
+    "TCF7L2",
+    "EGR1",
+    "ETS1",
+    "NR2F2",
+    "SP1",
+    "HMGN3",
+    "NFIC",
+    "IRF1",
+    "MAFK",
+    "ZEB1",
+    "NFATC1",
+    "MXI1",
+    "HNF4A",
+    "MAFF",
+    "BACH1",
+    "FOS"
+  ],
+  "ChEA_matching_TFs": [
+    "AHR",
+    "ATF3",
+    "BACH1",
+    "BCL3",
+    "BCOR",
+    "CCND1",
+    "DNAJC2",
+    "E2F1",
+    "EGR1",
+    "ELF3",
+    "ELF5",
+    "EP300",
+    "ETS1",
+    "EZH2",
+    "FOXO1",
+    "FOXO3",
+    "FOXP2",
+    "GRHL2",
+    "HNF4A",
+    "IGF1R",
+    "IRF1",
+    "JARID2",
+    "KLF4",
+    "KLF5",
+    "KLF6",
+    "MECOM",
+    "MEF2A",
+    "MYC",
+    "NR4A2",
+    "NUCKS1",
+    "PBX1",
+    "PDX1",
+    "PPARG",
+    "RUNX2",
+    "SMC4",
+    "SOX9",
+    "STAT1",
+    "TCF7L2",
+    "ZFP57"
+  ],
+  "ChEA_matching_records": 90,
+  "source_files": {
+    "resources/TFvelo/TFvelo_run_demo.py": {
+      "bytes": 6400,
+      "sha256": "74d4f37701f70400309a4118c4c159482e0486d84723314eaa97672f775fd4c7"
+    },
+    "resources/TFvelo/ChEA/ChEA_2016.txt": {
+      "bytes": 6859790,
+      "sha256": "b1eeb5cebd0000479b11ad62a500d55e678ab9d2405c90d37e1463d1c80fc223"
+    },
+    "resources/TFvelo/TFvelo/preprocessing/utils.py": {
+      "bytes": 39929,
+      "sha256": "aeb7ccabab60502ab60b224b2f7cfc56cd2bab8bdd2b57d80a0c9d4fcb41185a"
+    },
+    "resources/TFvelo/ENCODE/processed/E2F6.txt": {
+      "bytes": 94723,
+      "sha256": "b7a3658aff19a49e752e1a9fddc4dd6cabc4950fe7cf762f03cc4e0e6ceba040"
+    },
+    "resources/TFvelo/ENCODE/processed/ATF3.txt": {
+      "bytes": 55705,
+      "sha256": "938f9ba8700a28b7a05d915131e8b0c30fc36548c9d4be82d959bb58c4bd23c2"
+    },
+    "resources/TFvelo/ENCODE/processed/NFYA.txt": {
+      "bytes": 44827,
+      "sha256": "c2506668138889c0505b8de3a145944f0c7443953bb78a3526d48a27bca53825"
+    },
+    "resources/TFvelo/ENCODE/processed/MYC.txt": {
+      "bytes": 123402,
+      "sha256": "2dbc65bce487e872d6579d55e256d191231ec85bda8a538f5f6c2868891db2c0"
+    },
+    "resources/TFvelo/ENCODE/processed/ZNF274.txt": {
+      "bytes": 6661,
+      "sha256": "0b5177d4b603ef47d3d300bc6ee45db7171b40e379e8ec8b015677a5b26fe783"
+    },
+    "resources/TFvelo/ENCODE/processed/THAP1.txt": {
+      "bytes": 30022,
+      "sha256": "fcc61b13efd5aab0fc33317c9c4b7f39a550ce641e7d4e6f846bddbecebe48fa"
+    },
+    "resources/TFvelo/ENCODE/processed/BCL11A.txt": {
+      "bytes": 18487,
+      "sha256": "d4c7f52177863d140eed12af1f23c9209c4a36c4dfa9ce7068a50a4dc47dce9a"
+    },
+    "resources/TFvelo/ENCODE/processed/GATA1.txt": {
+      "bytes": 62514,
+      "sha256": "00070cedbd36115a0cf6a29a2f02914ab5aed45e1f09e7677e6225055ad79005"
+    },
+    "resources/TFvelo/ENCODE/processed/BHLHE40.txt": {
+      "bytes": 104124,
+      "sha256": "d25a7757f9a9ffdfa48df6d91bb559096936819f583f3b6eeea6cc746e263baf"
+    },
+    "resources/TFvelo/ENCODE/processed/RUNX3.txt": {
+      "bytes": 85048,
+      "sha256": "075373b65e6caf05687ccb356074b90d851720cc0d31c46ad2405b6e75d65b7a"
+    },
+    "resources/TFvelo/ENCODE/processed/FLI1.txt": {
+      "bytes": 19322,
+      "sha256": "c501af10da2615557925364145537c9eff4adf24e07eaea9c4e7ece91e2f6ae5"
+    },
+    "resources/TFvelo/ENCODE/processed/STAT1.txt": {
+      "bytes": 77401,
+      "sha256": "287d54065d328c9adc90e1e9390e419b0a1767fa414c0d9beab34068202e529e"
+    },
+    "resources/TFvelo/ENCODE/processed/ZBTB7A.txt": {
+      "bytes": 87295,
+      "sha256": "462c5b41741862078a413c9ca1944eca0e90581a47e343583aa209284997dd1e"
+    },
+    "resources/TFvelo/ENCODE/processed/ELK4.txt": {
+      "bytes": 40323,
+      "sha256": "572bb33de0e9c0b3283974f59de7166cbd4f5b29d186c712ff3b9a41f2dc309c"
+    },
+    "resources/TFvelo/ENCODE/processed/ZNF384.txt": {
+      "bytes": 88929,
+      "sha256": "5ed11df64b090131175ad6880f1ef89ceaefbc009c83df3b73bf1393472d3150"
+    },
+    "resources/TFvelo/ENCODE/processed/USF1.txt": {
+      "bytes": 82382,
+      "sha256": "77c21118532b8a35cd32e75d85d903afa92ac47f5b47fb9b502c122791a5a7fd"
+    },
+    "resources/TFvelo/ENCODE/processed/ELK1.txt": {
+      "bytes": 81544,
+      "sha256": "69f40823ed84af61313a1ea1f73fcef4b011d2d00ac68ed02866999511cc4bfe"
+    },
+    "resources/TFvelo/ENCODE/processed/STAT5A.txt": {
+      "bytes": 71171,
+      "sha256": "ef9b5499a5b39ebefecefcd441033174d4250fd00d959d698f56d7f661ab64b0"
+    },
+    "resources/TFvelo/ENCODE/processed/SREBF1.txt": {
+      "bytes": 10591,
+      "sha256": "67aab2599259a7275d1cc5189c2520e263196cc841722ade0314ff03de67864a"
+    },
+    "resources/TFvelo/ENCODE/processed/POU2F2.txt": {
+      "bytes": 71844,
+      "sha256": "dfb906cad36d7199889ff5f6a7ea420615c56082b6f19e7cd56a0b7296503bc3"
+    },
+    "resources/TFvelo/ENCODE/processed/YY1.txt": {
+      "bytes": 105205,
+      "sha256": "23c0260f4654bd21b0b7b24b6f4e0b56109c81ed45ebc9d85a565dcd0804ab15"
+    },
+    "resources/TFvelo/ENCODE/processed/MYOD1.txt": {
+      "bytes": 28114,
+      "sha256": "36520dd83c4c959b8f00a3a08f932025ede24087eb2d2cd36b86c2e704062333"
+    },
+    "resources/TFvelo/ENCODE/processed/CTCF.txt": {
+      "bytes": 144416,
+      "sha256": "a55e0a90401497d9bd4ae0f8cfdb99544fe1d7e6fc1d5a12c3f8869ef798ace4"
+    },
+    "resources/TFvelo/ENCODE/processed/HSF1.txt": {
+      "bytes": 1501,
+      "sha256": "f82eb4f3b72355399a5ab550dec3d7d5b72db65f80e6797fad7f4253a529e953"
+    },
+    "resources/TFvelo/ENCODE/processed/MEF2A.txt": {
+      "bytes": 19983,
+      "sha256": "7af744169def06e93bfac6b4c82160aac23236de7ca972d253c2f05cd4cb9a25"
+    },
+    "resources/TFvelo/ENCODE/processed/FOXA2.txt": {
+      "bytes": 58800,
+      "sha256": "1ad62101e23d2a2f6d85e3cffc9a041a25b3c313d07a8a874272d23aaf6e6555"
+    },
+    "resources/TFvelo/ENCODE/processed/TCF3.txt": {
+      "bytes": 70332,
+      "sha256": "9ab0deb7930b473e7ca48ab3dbef24a1cc6a5c2ed7f05c97ebb5b7d82af366bd"
+    },
+    "resources/TFvelo/ENCODE/processed/SETDB1.txt": {
+      "bytes": 60967,
+      "sha256": "c0d8837a4370c5046002d23cfda2f70660440cfcf073ef30f77252ea4516c2cc"
+    },
+    "resources/TFvelo/ENCODE/processed/IRF3.txt": {
+      "bytes": 27663,
+      "sha256": "88b80445833c0570f58b5c0a33ce48dd424f38e3712e7ed6b58673aa8282f2d3"
+    },
+    "resources/TFvelo/ENCODE/processed/E2F4.txt": {
+      "bytes": 90746,
+      "sha256": "4ac088eeb7d80c0381d708d4d6b78b4ad42a2d1f6640ad2728a1556ae9ff7036"
+    },
+    "resources/TFvelo/ENCODE/processed/ZNF143.txt": {
+      "bytes": 108147,
+      "sha256": "5fb2f910570559bac431a91d14d9dceafaf62b7818792391568f96fd07df25a7"
+    },
+    "resources/TFvelo/ENCODE/processed/SREBF2.txt": {
+      "bytes": 2731,
+      "sha256": "bf21c1d0291751dd9b3067c90bd4cc6d574b8bf7e088021e5c27e0d96cd2f12c"
+    },
+    "resources/TFvelo/ENCODE/processed/GATA2.txt": {
+      "bytes": 49792,
+      "sha256": "a2a6a88c41410bb67293c0efd81aedfc4f1aeeb81fc41ec97a7fc5ce82d0ceb8"
+    },
+    "resources/TFvelo/ENCODE/processed/EBF1.txt": {
+      "bytes": 86742,
+      "sha256": "f52a30873feb4ebb6afc4aafe30d5e5c2a4494e0b5036d674ae928be19125d58"
+    },
+    "resources/TFvelo/ENCODE/processed/CEBPD.txt": {
+      "bytes": 70982,
+      "sha256": "430cb0d1469996b879c443614d36c75ea3076c732de230ec89a67f6fb9ff7c78"
+    },
+    "resources/TFvelo/ENCODE/processed/PRDM1.txt": {
+      "bytes": 10103,
+      "sha256": "ec8ab17e1f3d6c99085a0c08d1e09f073b69e377c1deaf503eb76ac3d9aafc8b"
+    },
+    "resources/TFvelo/ENCODE/processed/BATF.txt": {
+      "bytes": 30077,
+      "sha256": "2dfd8da25b4c8221441e56bda5c2b3e67c76a49dfb74b833158594cfea8e9d6a"
+    },
+    "resources/TFvelo/ENCODE/processed/RELA.txt": {
+      "bytes": 56421,
+      "sha256": "0fa2533ab0171948349370d13e3a8cc82f78f286c5c8cbbce1bf52aeadc041c0"
+    },
+    "resources/TFvelo/ENCODE/processed/GTF2B.txt": {
+      "bytes": 44579,
+      "sha256": "9971b8319b2ba28e89f0ebd1de8e4fa971bd1e8467fc709ccf013b4baea76c7d"
+    },
+    "resources/TFvelo/ENCODE/processed/CEBPZ.txt": {
+      "bytes": 5554,
+      "sha256": "85c1996ef177125da24d54c7b8bf0ee46d0ef6cd99cdfb8d4b415a69fddf17e0"
+    },
+    "resources/TFvelo/ENCODE/processed/FOXP2.txt": {
+      "bytes": 73428,
+      "sha256": "bee1fe40a516ce587828e41c468bac505c81e3818b7ee9bf46150947cd6e26c7"
+    },
+    "resources/TFvelo/ENCODE/processed/FOSL1.txt": {
+      "bytes": 17519,
+      "sha256": "0a6e3675a79484fb33b7a74acfac0ef0700e08180e90478a30205d35cdd24f8b"
+    },
+    "resources/TFvelo/ENCODE/processed/ATF2.txt": {
+      "bytes": 66968,
+      "sha256": "c32ddb966b0759f2e563b05c32ba4eddb9ebee1ca0dc430f13d85d94a7aca326"
+    },
+    "resources/TFvelo/ENCODE/processed/KDM5B.txt": {
+      "bytes": 94765,
+      "sha256": "c9c79b85984c989c9133724d83ef685577a0453cb87735c236928b165b17b24b"
+    },
+    "resources/TFvelo/ENCODE/processed/SIX5.txt": {
+      "bytes": 47670,
+      "sha256": "ec2d9cec5471d443a51ae06843538b7de50d6a6fa3b30999f41ec5bde8c981b9"
+    },
+    "resources/TFvelo/ENCODE/processed/E2F1.txt": {
+      "bytes": 19561,
+      "sha256": "56e3189467e0247cecadd07bb0b20aaa260f2c229a1601f5e1167c8d918bb451"
+    },
+    "resources/TFvelo/ENCODE/processed/REST.txt": {
+      "bytes": 103034,
+      "sha256": "11ab3bf80dd713dccc877e0e513ce2492885f2b1d038866bf61a99cd8ff0c310"
+    },
+    "resources/TFvelo/ENCODE/processed/SP2.txt": {
+      "bytes": 24636,
+      "sha256": "7b76e6dcdb3a9d1fd551b09edafbd2a439b34a799def5444f4e7b4948ab4aca5"
+    },
+    "resources/TFvelo/ENCODE/processed/TCF7L2.txt": {
+      "bytes": 79249,
+      "sha256": "8f90a9cf0397a5df0fdd8e4cec77db12b55ae7f7dfa0633c8db6ea157bb9c408"
+    },
+    "resources/TFvelo/ENCODE/processed/EGR1.txt": {
+      "bytes": 84116,
+      "sha256": "cb8b077866b5a6aeb2b8d2483ac3cc475bd0f2a5eb51f7e0ad3bb4d13ff65354"
+    },
+    "resources/TFvelo/ENCODE/processed/FOSL2.txt": {
+      "bytes": 62643,
+      "sha256": "4b3bcdcbbc20f04c48649dd34b2927acedc6109b5a06ecb0dda730bc5742eeae"
+    },
+    "resources/TFvelo/ENCODE/processed/ETS1.txt": {
+      "bytes": 79361,
+      "sha256": "f9ab0dd07bfd9e72f8d05a3257a5e75fbbcaf075a9e66493077ea03d3ddcb1eb"
+    },
+    "resources/TFvelo/ENCODE/processed/ZBTB33.txt": {
+      "bytes": 44505,
+      "sha256": "ff03169afe2df9d6e2df3d9020d30ea2a893a423d9d978d2cc0690198d9bec12"
+    },
+    "resources/TFvelo/ENCODE/processed/MYOG.txt": {
+      "bytes": 56102,
+      "sha256": "506f70ad01e0f01706cc1a394b913cced1d3e38ff0c63b341db1c5ff2aa5c4ab"
+    },
+    "resources/TFvelo/ENCODE/processed/ZNF217.txt": {
+      "bytes": 9552,
+      "sha256": "fe6aa7d96c5010dd155c1a36dc0e2cbec87781b1f20a62426390ed209bbaacd2"
+    },
+    "resources/TFvelo/ENCODE/processed/NR2F2.txt": {
+      "bytes": 70621,
+      "sha256": "32673e6b65c37d3d11186efa26272042458f4fe2db759c6ebb6ff963d133422a"
+    },
+    "resources/TFvelo/ENCODE/processed/NR3C1.txt": {
+      "bytes": 27586,
+      "sha256": "feb19ec63f5943fc8e88136afd433d29563b05793a35ee0a14932d00b6ed9c25"
+    },
+    "resources/TFvelo/ENCODE/processed/MYBL2.txt": {
+      "bytes": 69033,
+      "sha256": "976334136db9b94033d7cd9e6544c07873747b0b9a54fe4d8c57cb26253f3166"
+    },
+    "resources/TFvelo/ENCODE/processed/NR2C2.txt": {
+      "bytes": 10459,
+      "sha256": "d0a4cb021e882dc44ce5a0639480c15b3a81c3ccd8a1cbbc0fed65b12de63e8a"
+    },
+    "resources/TFvelo/ENCODE/processed/SRF.txt": {
+      "bytes": 51255,
+      "sha256": "db4c3fa84614e090f7de9494a0ce548faab5061488fdeadc6572d031485d7604"
+    },
+    "resources/TFvelo/ENCODE/processed/SP1.txt": {
+      "bytes": 93024,
+      "sha256": "561c0c4ebc2baf3bbdf04c8a62457f35ba922f491cfb723583e1085e16a5044d"
+    },
+    "resources/TFvelo/ENCODE/processed/GABPA.txt": {
+      "bytes": 86576,
+      "sha256": "4e5168b87c211afa68b41cc20d210c12560eb0f54d4b73eefc4168fadf63e547"
+    },
+    "resources/TFvelo/ENCODE/processed/CEBPB.txt": {
+      "bytes": 109243,
+      "sha256": "5cf1312e452a91c75b1514367ae195e43c93c21f3e98159c596d1eda06affb04"
+    },
+    "resources/TFvelo/ENCODE/processed/TEAD4.txt": {
+      "bytes": 93360,
+      "sha256": "c8c1adce090dd2b2aa473c3ced8ce6408a7f4ae1461dadd25b93f8a4626ef851"
+    },
+    "resources/TFvelo/ENCODE/processed/HMGN3.txt": {
+      "bytes": 84049,
+      "sha256": "0c26b1d166995ea2c783025b39513a805bb8994ed32fb01c45afa40a9d70f926"
+    },
+    "resources/TFvelo/ENCODE/processed/ZKSCAN1.txt": {
+      "bytes": 71639,
+      "sha256": "3185d82670632c6a1bfba0b8ac458d90f342dfaa23188d246d964ba992f4c292"
+    },
+    "resources/TFvelo/ENCODE/processed/NFIC.txt": {
+      "bytes": 86640,
+      "sha256": "2b9e94d8a89a9649e206b0fac23c9daa133ba1156e2effd216a193583ccf0091"
+    },
+    "resources/TFvelo/ENCODE/processed/PBX3.txt": {
+      "bytes": 59965,
+      "sha256": "3c2166cc420c1532cd25bcebcf01ece2ff424c1e7afc602163711d7e287c291c"
+    },
+    "resources/TFvelo/ENCODE/processed/IRF1.txt": {
+      "bytes": 77176,
+      "sha256": "c082dd0058171da20837f691db10604227b5d6e316ee75aa06687a10dfe00e55"
+    },
+    "resources/TFvelo/ENCODE/processed/STAT2.txt": {
+      "bytes": 1593,
+      "sha256": "27056aca77157de67832608382ae8b7a503d03f424ce453e6711d9f5a5d7a50e"
+    },
+    "resources/TFvelo/ENCODE/processed/TAL1.txt": {
+      "bytes": 66098,
+      "sha256": "24443318aac7def43828ff8c56f654a66de6839a5b17669848b795df969fbb68"
+    },
+    "resources/TFvelo/ENCODE/processed/IRF4.txt": {
+      "bytes": 31731,
+      "sha256": "2c48fcdbf4e0cbd54e23fe2b7c5b523b442c433b7ec5de258006a998993f46f9"
+    },
+    "resources/TFvelo/ENCODE/processed/MAX.txt": {
+      "bytes": 120240,
+      "sha256": "57e438fc4911dc15e4c82ef2a457d479692982b6d9a6b5cf2c84007142df721e"
+    },
+    "resources/TFvelo/ENCODE/processed/NFE2.txt": {
+      "bytes": 22891,
+      "sha256": "dca5327be65d86a060dd875497220c7a9c28186dfb69f48bf177e9a893e67cb5"
+    },
+    "resources/TFvelo/ENCODE/processed/MBD4.txt": {
+      "bytes": 42118,
+      "sha256": "6aa03a2225f79f9fe8f80841476e812a25fb1b0894f5ff715b952495d9c40555"
+    },
+    "resources/TFvelo/ENCODE/processed/NFYB.txt": {
+      "bytes": 51431,
+      "sha256": "609d977108cdfb432a64d3d6cf0dcb1d2cce3f9f799c9d3b72f10a35e1b6a38c"
+    },
+    "resources/TFvelo/ENCODE/processed/SP4.txt": {
+      "bytes": 59576,
+      "sha256": "e0938bc15f1997f52b7b69ae8bbf7657eac3d7a0af79540ed654d6e16a1bedd8"
+    },
+    "resources/TFvelo/ENCODE/processed/MEF2C.txt": {
+      "bytes": 6466,
+      "sha256": "fd5e73fcaf015c9bc01b950d0967c08f670a05fcb1469e00ef873b6f001767d7"
+    },
+    "resources/TFvelo/ENCODE/processed/IKZF1.txt": {
+      "bytes": 14595,
+      "sha256": "b03a912d580d5b8651fd7689aa81457451804a8fee4326023ea515d1e7be1348"
+    },
+    "resources/TFvelo/ENCODE/processed/MAFK.txt": {
+      "bytes": 102877,
+      "sha256": "d82ce398e01de83fe2ffd9daab5478633d98451e895fb7ae560ab37ede0dce58"
+    },
+    "resources/TFvelo/ENCODE/processed/CUX1.txt": {
+      "bytes": 67696,
+      "sha256": "6919e20944e0e5aedcef73e4c83d4c82618a5f45070bc093b94c4f7d2cd69ef2"
+    },
+    "resources/TFvelo/ENCODE/processed/MAZ.txt": {
+      "bytes": 109784,
+      "sha256": "896bd8e8477e0a30610bcb652b8907701a0ceb45bd08155389b476081effb689"
+    },
+    "resources/TFvelo/ENCODE/processed/USF2.txt": {
+      "bytes": 94446,
+      "sha256": "3c4b683754ad2070d7e7cd392c3d530abd7d9a155c26301bdab5a3b36ceef595"
+    },
+    "resources/TFvelo/ENCODE/processed/RXRA.txt": {
+      "bytes": 28746,
+      "sha256": "c223233eaf64630ca7e49f438bb8b98d38cff5b6db87367499a175ea6c41a977"
+    },
+    "resources/TFvelo/ENCODE/processed/TFAP2C.txt": {
+      "bytes": 17086,
+      "sha256": "c6fc267fb2779ecf2f40b1220a6fc0637f7027964d04e9b60c5c2e7a045d993a"
+    },
+    "resources/TFvelo/ENCODE/processed/ESR1.txt": {
+      "bytes": 11954,
+      "sha256": "c1acc57e58d2b3eeb6d754adf3eda689857f182eeff2d522ddc6450bdd46364e"
+    },
+    "resources/TFvelo/ENCODE/processed/ZEB1.txt": {
+      "bytes": 57320,
+      "sha256": "758b9c9fe783da0b3fc6f3314286dba8df5c5588a3f38b4a0f7f5ab177d7fc6c"
+    },
+    "resources/TFvelo/ENCODE/processed/GATA3.txt": {
+      "bytes": 71374,
+      "sha256": "95d082ded0029b1a937bd0c66cba7c1b08582be86bd1ca036b9b93875ad14237"
+    },
+    "resources/TFvelo/ENCODE/processed/JUND.txt": {
+      "bytes": 115206,
+      "sha256": "4729842e7584a6f4e753a10a0ddd9bd5ebd1210d5145e40e1120f83b4b000bdb"
+    },
+    "resources/TFvelo/ENCODE/processed/HNF4G.txt": {
+      "bytes": 27388,
+      "sha256": "97a46af152c4274f93ead49999f7cb016283676f10fd9c150ae247b56fcde691"
+    },
+    "resources/TFvelo/ENCODE/processed/ZNF263.txt": {
+      "bytes": 70724,
+      "sha256": "d05b033de2cab1d7de32a09df77e5ccc11ad316994e7008d9182498e08a540ab"
+    },
+    "resources/TFvelo/ENCODE/processed/FOXM1.txt": {
+      "bytes": 65538,
+      "sha256": "53434a86d09a2c77fa2406953dbdcca8bd079d9556ad537b0f9769e55ba20a04"
+    },
+    "resources/TFvelo/ENCODE/processed/MYB.txt": {
+      "bytes": 3697,
+      "sha256": "3db87974837d33e385ad61119eb4dc91c8498e8fcbc9b9999e9c4c96696a2ec0"
+    },
+    "resources/TFvelo/ENCODE/processed/BRF2.txt": {
+      "bytes": 107,
+      "sha256": "72d83e62f520a5716763f394afb11791a8bf8e58e950076ac6be18be6c29d2bd"
+    },
+    "resources/TFvelo/ENCODE/processed/ARID3A.txt": {
+      "bytes": 77761,
+      "sha256": "50b98073e902de2df2d344085dfabba572362b9463b524c84476d8301a187b11"
+    },
+    "resources/TFvelo/ENCODE/processed/ATF1.txt": {
+      "bytes": 42830,
+      "sha256": "646513331f82c53a42488f00db0b818ae0def2ad93d05c1acde0c08288e425ff"
+    },
+    "resources/TFvelo/ENCODE/processed/POU5F1.txt": {
+      "bytes": 1338,
+      "sha256": "f15479754cd5bd2753f74398db4070333911ff0748e31d8a2b38ae4f068f0176"
+    },
+    "resources/TFvelo/ENCODE/processed/NANOG.txt": {
+      "bytes": 29933,
+      "sha256": "9cb379d4900f100186eaa356a9b172386e870ffa0c0dbecd23aa805a5a0b341b"
+    },
+    "resources/TFvelo/ENCODE/processed/TBP.txt": {
+      "bytes": 108006,
+      "sha256": "e370bf48ab4b1a77169062d2b54944192d69438a5d1836fd6512fb57fccdb8f1"
+    },
+    "resources/TFvelo/ENCODE/processed/SPI1.txt": {
+      "bytes": 70018,
+      "sha256": "41ad8b678ad68a8339d8e83b6563f8db9312ba968575a8b92fe8f3691b8175a9"
+    },
+    "resources/TFvelo/ENCODE/processed/RFX5.txt": {
+      "bytes": 94578,
+      "sha256": "8a90281938047581143aa530739d7c04cac8566c1a96388b1c26ae2fb561dfca"
+    },
+    "resources/TFvelo/ENCODE/processed/TFAP2A.txt": {
+      "bytes": 12363,
+      "sha256": "d7428c168346b6615bed6753fb76994d7afad3b55c22e54ab41b08cca8d2f8f8"
+    },
+    "resources/TFvelo/ENCODE/processed/TCF12.txt": {
+      "bytes": 102858,
+      "sha256": "fd381deec2fd9105a1c3d383c98f7225b2fd4b303992e240a479037852a086cd"
+    },
+    "resources/TFvelo/ENCODE/processed/ZZZ3.txt": {
+      "bytes": 2334,
+      "sha256": "096cad92a95feebe58ebfff9a148d1d442d1bf08d6b1846f7297c18a1737e0ee"
+    },
+    "resources/TFvelo/ENCODE/processed/CTCFL.txt": {
+      "bytes": 29875,
+      "sha256": "a07ad1b6a66f866b8652c82839d4f5f1b74ccc3f55f1edae0af591880efcf93d"
+    },
+    "resources/TFvelo/ENCODE/processed/ELF1.txt": {
+      "bytes": 94750,
+      "sha256": "87505d3ee13f1272d6a6a9e90efd1949e7249baee595dd3be8596a36e411a709"
+    },
+    "resources/TFvelo/ENCODE/processed/CBX2.txt": {
+      "bytes": 8432,
+      "sha256": "5f2c8083c1c8e202e14daef5c4b4ea1d4e30dee897d279cf3b0b0d2316a234a8"
+    },
+    "resources/TFvelo/ENCODE/processed/JUN.txt": {
+      "bytes": 70962,
+      "sha256": "67d55db1c16b2b304a0770c5284d929ecab8f811bc440eb7fa26e52b22299b6d"
+    },
+    "resources/TFvelo/ENCODE/processed/STAT3.txt": {
+      "bytes": 93540,
+      "sha256": "0a5a6dcfa701c965f958b0bd0bbca6a9373b9497fb96a05c85e97bd73424f963"
+    },
+    "resources/TFvelo/ENCODE/processed/NRF1.txt": {
+      "bytes": 74789,
+      "sha256": "58dce7ecd8f382d638571da45e2cdb65b40f152e5be01b45c095f7a453498799"
+    },
+    "resources/TFvelo/ENCODE/processed/PAX5.txt": {
+      "bytes": 83026,
+      "sha256": "1b5f75644cc2ca43a6cb79dc200e1e0ffe12d3ed958ede9b199ed8ea76b40def"
+    },
+    "resources/TFvelo/ENCODE/processed/NFATC1.txt": {
+      "bytes": 45430,
+      "sha256": "e8b6f08a5e9645a0e87ebb5df2ebb0f55e0bf4a0ac1311607c4be6490b52aec2"
+    },
+    "resources/TFvelo/ENCODE/processed/MXI1.txt": {
+      "bytes": 109027,
+      "sha256": "290a6f00a127d0c42300b03566e160934ba2e2567549df835263ce3447f0b5f9"
+    },
+    "resources/TFvelo/ENCODE/processed/CREB1.txt": {
+      "bytes": 87816,
+      "sha256": "4e1ed9cd8263562d63494cc346b7d6b7e327da5d05fd4ec2e8f8f43735a68de2"
+    },
+    "resources/TFvelo/ENCODE/processed/ESRRA.txt": {
+      "bytes": 6494,
+      "sha256": "028c48b21a810795819b2872b0527b515177af6e3c2b35979357c5d29f556fef"
+    },
+    "resources/TFvelo/ENCODE/processed/HNF4A.txt": {
+      "bytes": 27956,
+      "sha256": "af9b042a80b4f79d55ed06cca5024073b4da74ece44b98324d373181aada90b4"
+    },
+    "resources/TFvelo/ENCODE/processed/MAFF.txt": {
+      "bytes": 62460,
+      "sha256": "6e0f207bff7a43d7fdaa346b8c8d4a31c2828ff7b272c76122532721d61ff6ca"
+    },
+    "resources/TFvelo/ENCODE/processed/BACH1.txt": {
+      "bytes": 82381,
+      "sha256": "ad3c3840d60a8818b986f62cf2c3bfadc922aefa03abbeeb56bf800e36591ba8"
+    },
+    "resources/TFvelo/ENCODE/processed/FOXA1.txt": {
+      "bytes": 74969,
+      "sha256": "81157507ff7884bec851c544c980fb46089469546ad8a98ebddf5bf9afd866f0"
+    },
+    "resources/TFvelo/ENCODE/processed/FOS.txt": {
+      "bytes": 87805,
+      "sha256": "1f7b005c8e45c14a1309b4334aaa1abfc221bbe480b37238b43b8e6abb3ca5d2"
+    }
+  }
+}

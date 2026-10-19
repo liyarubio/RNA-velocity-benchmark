@@ -1,0 +1,90 @@
+[
+  {
+    "method": "DeepVelo(VAE)",
+    "cells": 1292,
+    "target_cells": 608,
+    "GDC_all_denom": -0.23203182126653943,
+    "GDC_target_denom": -0.49306762019139627,
+    "inner": {
+      "Inner EPC 1": 0.9992405949754918,
+      "Inner EPC 2": 0.9993230508661818,
+      "Outer EPC 1": 0.9992726789787412,
+      "Outer EPC 2": 0.9993991705237842,
+      "P-TGC (Sec. P-TGC 1)": 0.9993229138305764,
+      "P-TGC (Sec. P-TGC 2)": 0.9992899575403759
+    },
+    "cross": {
+      "('Inner EPC 1', 'Inner EPC 2')": -0.1736746990069011,
+      "('Inner EPC 2', 'Outer EPC 1')": 0.38164468531579354,
+      "('Outer EPC 1', 'Outer EPC 2')": 0.6898111073966322,
+      "('Inner EPC 2', 'P-TGC (Sec. P-TGC 1)')": -0.24211975564812752,
+      "('P-TGC (Sec. P-TGC 1)', 'P-TGC (Sec. P-TGC 2)')": -0.017950762068001197
+    }
+  },
+  {
+    "method": "scVelo(sto)",
+    "cells": 1292,
+    "target_cells": 608,
+    "GDC_all_denom": -0.029884261981621627,
+    "GDC_target_denom": -0.06350405671094594,
+    "inner": {
+      "Inner EPC 1": 0.7346341445090923,
+      "Inner EPC 2": 0.7256158657115082,
+      "Outer EPC 1": 0.9152449844405055,
+      "Outer EPC 2": 0.8873301109329599,
+      "P-TGC (Sec. P-TGC 1)": 0.5901387834471036,
+      "P-TGC (Sec. P-TGC 2)": 0.7032058039033899
+    },
+    "cross": {
+      "('Inner EPC 1', 'Inner EPC 2')": -0.11769214935956838,
+      "('Inner EPC 2', 'Outer EPC 1')": 0.12684365385147522,
+      "('Outer EPC 1', 'Outer EPC 2')": 0.5242734763974479,
+      "('Inner EPC 2', 'P-TGC (Sec. P-TGC 1)')": 0.13195633312569482,
+      "('P-TGC (Sec. P-TGC 1)', 'P-TGC (Sec. P-TGC 2)')": -0.0717492822851373
+    }
+  },
+  {
+    "method": "DeepVelo(GCN)",
+    "cells": 1292,
+    "target_cells": 608,
+    "GDC_all_denom": 0.3439306121615556,
+    "GDC_target_denom": 0.7308525508433057,
+    "inner": {
+      "Inner EPC 1": 0.9673619283006546,
+      "Inner EPC 2": 0.9511745976305556,
+      "Outer EPC 1": 0.922374440357089,
+      "Outer EPC 2": 0.9507780524550892,
+      "P-TGC (Sec. P-TGC 1)": 0.9080312754593644,
+      "P-TGC (Sec. P-TGC 2)": 0.889704237787091
+    },
+    "cross": {
+      "('Inner EPC 1', 'Inner EPC 2')": 0.21144809553124283,
+      "('Inner EPC 2', 'Outer EPC 1')": -0.5450061668789408,
+      "('Outer EPC 1', 'Outer EPC 2')": 0.5094955548686436,
+      "('Inner EPC 2', 'P-TGC (Sec. P-TGC 1)')": 0.22007112789351016,
+      "('P-TGC (Sec. P-TGC 1)', 'P-TGC (Sec. P-TGC 2)')": 0.042811462224939575
+    }
+  },
+  {
+    "method": "UniTVelo",
+    "cells": 1292,
+    "target_cells": 608,
+    "GDC_all_denom": 0.2954086693478566,
+    "GDC_target_denom": 0.6277434223641952,
+    "inner": {
+      "Inner EPC 1": 0.9696250253535331,
+      "Inner EPC 2": 0.8854779203732809,
+      "Outer EPC 1": 0.9019161928445101,
+      "Outer EPC 2": 0.9990326986938226,
+      "P-TGC (Sec. P-TGC 1)": 0.876531230468376,
+      "P-TGC (Sec. P-TGC 2)": 0.9783323160847839
+    },
+    "cross": {
+      "('Inner EPC 1', 'Inner EPC 2')": 0.27531525929047174,
+      "('Inner EPC 2', 'Outer EPC 1')": 0.37334611843034904,
+      "('Outer EPC 1', 'Outer EPC 2')": 0.6718600666421153,
+      "('Inner EPC 2', 'P-TGC (Sec. P-TGC 1)')": -0.3089606248993164,
+      "('P-TGC (Sec. P-TGC 1)', 'P-TGC (Sec. P-TGC 2)')": 0.03878762469415149
+    }
+  }
+]

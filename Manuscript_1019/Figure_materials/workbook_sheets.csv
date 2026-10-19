@@ -1,0 +1,155 @@
+figure,legacy_figure,source_path,sheet
+Figure01,Figure01,tables/Table S1 RNA velocity algorithms summary.xlsx,Summary
+Figure01,Figure01,tables/Table S1 RNA velocity algorithms summary.xlsx,Input data
+Figure01,Figure01,tables/Table S1 RNA velocity algorithms summary.xlsx,Added methods evidence
+Figure01,Figure01,tables/Table S1 RNA velocity algorithms summary.xlsx,Revision notes
+Figure02,Figure02,tables/Table S2 Simulation Datasets.xlsx,dyngen simulation
+Figure02,Figure02,tables/Table S2 Simulation Datasets.xlsx,cellDancer simulation
+Figure02,Figure02,tables/Table S2 Simulation Datasets.xlsx,Revision notes
+Figure02,Figure02,tables/Table S3 Real-world Datasets.xlsx,Datasets10
+Figure02,Figure02,tables/Table S3 Real-world Datasets.xlsx,HuBMAP
+Figure02,Figure02,tables/Table S3 Real-world Datasets.xlsx,multi-omics datasets
+Figure02,Figure02,tables/Table S3 Real-world Datasets.xlsx,Current figure datasets
+Figure02,Figure02,tables/Table S3 Real-world Datasets.xlsx,MPSTA reference transitions
+Figure02,Figure02,tables/Table S3 Real-world Datasets.xlsx,Revision notes
+Figure03,Figure03,source_data/Figure03.xlsx,README
+Figure03,Figure03,source_data/Figure03.xlsx,3a High dim
+Figure03,Figure03,source_data/Figure03.xlsx,3bc Low dim
+Figure03,Figure03,source_data/Figure03.xlsx,3d PCA source
+Figure03,Figure03,source_data/Figure03.xlsx,3f CBDir
+Figure03,Figure03,source_data/Figure03.xlsx,3f GDC
+Figure03,Figure03,source_data/Figure03.xlsx,3f ICCoh
+Figure03,Figure03,source_data/Figure03.xlsx,3f Transition
+Figure03,Figure03,source_data/Figure03.xlsx,3g HuBMAP
+Figure03,Figure03,source_data/Figure03.xlsx,3h Dataset10
+Figure03,Figure03,source_data/Figure03.xlsx,3bc Paired
+Figure03,Figure03,source_data/Figure03.xlsx,3d Plotted
+Figure03,Figure03,source_data/Figure03.xlsx,3f Correlation
+Figure03,Figure03,source_data/Figure03.xlsx,3f Aligned
+Figure03,Figure03,source_data/Figure03.xlsx,3g Plotted
+Figure03,Figure03,source_data/Figure03.xlsx,3g Best per dataset
+Figure04,Figure04,source_data/Figure04.xlsx,README
+Figure04,Figure04,source_data/Figure04.xlsx,4a GDC
+Figure04,Figure04,source_data/Figure04.xlsx,4b CBDir
+Figure05,Figure05,source_data/Figure05.xlsx,README
+Figure05,Figure05,source_data/Figure05.xlsx,5a GDC
+Figure05,Figure05,source_data/Figure05.xlsx,5b Runtime seconds
+Figure05,Figure05,source_data/Figure05.xlsx,5c Pairwise reads
+Figure05,Figure05,source_data/Figure05.xlsx,5c Plotted vs full
+Figure05,Figure05,source_data/Figure05.xlsx,5c Added methods protocol
+Figure05,Figure05,source_data/Figure05.xlsx,5a Reference edges
+Figure05,Figure05,source_data/Figure05.xlsx,Stability valid cells
+Figure06,Figure06,source_data/Figure06.xlsx,README
+Figure06,Figure06,source_data/Figure06.xlsx,6a Summary
+Figure06,Figure06,source_data/Figure06.xlsx,Dataset10_global
+Figure06,Figure06,source_data/Figure06.xlsx,HuBMAP_global
+Figure06,Figure06,source_data/Figure06.xlsx,KPTracer_global
+Figure06,Figure06,source_data/Figure06.xlsx,MPSTA_global
+Figure06,Figure06,source_data/Figure06.xlsx,ReDeeM_global
+Figure06,Figure06,source_data/Figure06.xlsx,updated_method_summary
+Figure06,Figure06,source_data/Figure06.xlsx,updated_per_cell
+Figure06,Figure06,source_data/Figure06.xlsx,reads_velocity_cosine_similarit
+Figure06,Figure06,source_data/Figure06.xlsx,runtime_seconds
+Figure06,Figure06,source_data/Figure06.xlsx,scLT_cosine
+Figure06,Figure06,source_data/Figure06.xlsx,scNT_cosine
+Figure06,Figure06,source_data/Figure06.xlsx,simulation_cosine
+Figure06,Figure06,source_data/Figure06.xlsx,Field definitions
+Figure06,Figure06,source_data/Figure06.xlsx,Added stability protocol
+Figure06,Figure06,source_data/Figure06.xlsx,TopicVelo native T check
+Figure06,Figure06,source_data/Figure06.xlsx,Stability valid cells
+ED01,ED01,source_data/Extended_Data_Fig01.xlsx,Simulation dyngen simulation
+ED01,ED01,source_data/Extended_Data_Fig01.xlsx,Panel provenance
+ED01,ED01,source_data/Extended_Data_Fig01.xlsx,README
+ED01,ED01,tables/Table S1 RNA velocity algorithms summary.xlsx,Summary
+ED01,ED01,tables/Table S1 RNA velocity algorithms summary.xlsx,Input data
+ED01,ED01,tables/Table S1 RNA velocity algorithms summary.xlsx,Added methods evidence
+ED01,ED01,tables/Table S1 RNA velocity algorithms summary.xlsx,Revision notes
+ED02,ED03,source_data/Extended_Data_Fig03.xlsx,Simulation cellDancer simulatio
+ED02,ED03,source_data/Extended_Data_Fig03.xlsx,Panel provenance
+ED02,ED03,source_data/Extended_Data_Fig03.xlsx,README
+ED03,ED04,source_data/Extended_Data_Fig04.xlsx,Real Datasets10
+ED03,ED04,source_data/Extended_Data_Fig04.xlsx,Real HuBMAP
+ED03,ED04,source_data/Extended_Data_Fig04.xlsx,Panel provenance
+ED03,ED04,source_data/Extended_Data_Fig04.xlsx,README
+ED04,ED05,source_data/Extended_Data_Fig05.xlsx,Gene-level cosine
+ED04,ED05,source_data/Extended_Data_Fig05.xlsx,Cell-level PCA2 cosine
+ED04,ED05,source_data/Extended_Data_Fig05.xlsx,Dataset axis labels
+ED04,ED05,source_data/Extended_Data_Fig05.xlsx,a display_area
+ED04,ED05,source_data/Extended_Data_Fig05.xlsx,a summaries
+ED04,ED05,source_data/Extended_Data_Fig05.xlsx,b display_area
+ED04,ED05,source_data/Extended_Data_Fig05.xlsx,b summaries
+ED04,ED05,source_data/Extended_Data_Fig05.xlsx,c Box statistics
+ED04,ED05,source_data/Extended_Data_Fig05.xlsx,c Unit scores
+ED04,ED05,source_data/Extended_Data_Fig05.xlsx,c Dataset coordinates
+ED04,ED05,source_data/Extended_Data_Fig05.xlsx,Panel provenance
+ED04,ED05,source_data/Extended_Data_Fig05.xlsx,Missing data
+ED04,ED05,source_data/Extended_Data_Fig05.xlsx,README
+ED05,ED06,source_data/Extended_Data_Fig06.xlsx,Paired cell-level values
+ED05,ED06,source_data/Extended_Data_Fig06.xlsx,PCA dimension values
+ED05,ED06,source_data/Extended_Data_Fig06.xlsx,Method summary
+ED05,ED06,source_data/Extended_Data_Fig06.xlsx,Topology scatter
+ED05,ED06,source_data/Extended_Data_Fig06.xlsx,Dimension accuracy
+ED05,ED06,source_data/Extended_Data_Fig06.xlsx,Panel provenance
+ED05,ED06,source_data/Extended_Data_Fig06.xlsx,README
+ED06,ED07,source_data/Extended_Data_Fig07.xlsx,HuBMAP raw GDC
+ED06,ED07,source_data/Extended_Data_Fig07.xlsx,HuBMAP coverage
+ED06,ED07,source_data/Extended_Data_Fig07.xlsx,Ten datasets raw GDC
+ED06,ED07,source_data/Extended_Data_Fig07.xlsx,Cluster organ mapping
+ED06,ED07,source_data/Extended_Data_Fig07.xlsx,Classical summaries
+ED06,ED07,source_data/Extended_Data_Fig07.xlsx,Panel provenance
+ED06,ED07,source_data/Extended_Data_Fig07.xlsx,README
+ED07,ED13,source_data/Extended_Data_Fig13.xlsx,Reference cells
+ED07,ED13,source_data/Extended_Data_Fig13.xlsx,Projected directions
+ED07,ED13,source_data/Extended_Data_Fig13.xlsx,Per-cell cosine
+ED07,ED13,source_data/Extended_Data_Fig13.xlsx,Method summary
+ED07,ED13,source_data/Extended_Data_Fig13.xlsx,README
+ED08,ED14,source_data/Extended_Data_Fig14.xlsx,Reference cells
+ED08,ED14,source_data/Extended_Data_Fig14.xlsx,Projected directions
+ED08,ED14,source_data/Extended_Data_Fig14.xlsx,Per-cell cosine
+ED08,ED14,source_data/Extended_Data_Fig14.xlsx,Method summary
+ED08,ED14,source_data/Extended_Data_Fig14.xlsx,Full timepoint coordinates
+ED08,ED14,source_data/Extended_Data_Fig14.xlsx,Saved expected targets
+ED08,ED14,source_data/Extended_Data_Fig14.xlsx,README
+ED09,ED15,source_data/Extended_Data_Fig15.xlsx,Cells and coordinates
+ED09,ED15,source_data/Extended_Data_Fig15.xlsx,Output validation
+ED09,ED15,source_data/Extended_Data_Fig15.xlsx,Cell-type counts
+ED09,ED15,source_data/Extended_Data_Fig15.xlsx,Direction edges
+ED09,ED15,source_data/Extended_Data_Fig15.xlsx,Projected directions
+ED09,ED15,source_data/Extended_Data_Fig15.xlsx,GDC source values
+ED09,ED15,source_data/Extended_Data_Fig15.xlsx,GDC display order
+ED09,ED15,source_data/Extended_Data_Fig15.xlsx,Full cell-type palette
+ED09,ED15,source_data/Extended_Data_Fig15.xlsx,TopicVelo ST_raw
+ED09,ED15,source_data/Extended_Data_Fig15.xlsx,TopicVelo ST_small
+ED09,ED15,source_data/Extended_Data_Fig15.xlsx,Spatial revision 1010
+ED09,ED15,source_data/Extended_Data_Fig15.xlsx,README
+ED10,ED16,source_data/Extended_Data_Fig16.xlsx,Summary
+ED10,ED16,source_data/Extended_Data_Fig16.xlsx,All metrics
+ED10,ED16,source_data/Extended_Data_Fig16.xlsx,By cell type
+ED10,ED16,source_data/Extended_Data_Fig16.xlsx,Paired spots
+ED10,ED16,source_data/Extended_Data_Fig16.xlsx,Preprocessing audit
+ED11,ED17,source_data/Extended_Data_Fig17.xlsx,Cells and coordinates
+ED11,ED17,source_data/Extended_Data_Fig17.xlsx,Cell-type palette
+ED11,ED17,source_data/Extended_Data_Fig17.xlsx,Direct evidence edges
+ED11,ED17,source_data/Extended_Data_Fig17.xlsx,GDC direct edges
+ED11,ED17,source_data/Extended_Data_Fig17.xlsx,Rerun summary
+ED11,ED17,source_data/Extended_Data_Fig17.xlsx,Rerun directions
+ED11,ED17,source_data/Extended_Data_Fig17.xlsx,GDC display order
+ED11,ED17,source_data/Extended_Data_Fig17.xlsx,Rerun protocol
+ED11,ED17,source_data/Extended_Data_Fig17.xlsx,Literature schematic
+ED11,ED17,source_data/Extended_Data_Fig17.xlsx,Literature connections
+ED11,ED17,source_data/Extended_Data_Fig17.xlsx,README
+ED12,ED18,source_data/Extended_Data_Fig18.xlsx,MS100 Inputs
+ED12,ED18,source_data/Extended_Data_Fig18.xlsx,MS100 Mapped genes
+ED12,ED18,source_data/Extended_Data_Fig18.xlsx,MS100 List counts
+ED12,ED18,source_data/Extended_Data_Fig18.xlsx,MS100 Heatmap
+ED12,ED18,source_data/Extended_Data_Fig18.xlsx,MS100 All enrichment
+ED12,ED18,source_data/Extended_Data_Fig18.xlsx,MS200 Inputs
+ED12,ED18,source_data/Extended_Data_Fig18.xlsx,MS200 Mapped genes
+ED12,ED18,source_data/Extended_Data_Fig18.xlsx,MS200 List counts
+ED12,ED18,source_data/Extended_Data_Fig18.xlsx,MS200 Heatmap
+ED12,ED18,source_data/Extended_Data_Fig18.xlsx,MS200 All enrichment
+ED12,ED18,source_data/Extended_Data_Fig18.xlsx,Metascape notes
+ED12,ED18,data/metascape/top100/metascape_result.xlsx,Annotation
+ED12,ED18,data/metascape/top100/metascape_result.xlsx,Enrichment
+ED12,ED18,data/metascape/top200/metascape_result.xlsx,Annotation
+ED12,ED18,data/metascape/top200/metascape_result.xlsx,Enrichment

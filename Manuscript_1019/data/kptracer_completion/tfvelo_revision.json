@@ -1,0 +1,7 @@
+{
+  "reason": "All 2000 genes had zero TF matches with mixed-case input symbols",
+  "repair": "Uppercase var_names following TFvelo_run_demo.py lines 71-75; retain original identifiers and mapping CSV",
+  "initial_fitted_genes": 0,
+  "initial_nonzero_velocity": 0,
+  "scientific_fit_hyperparameters_changed": false
+}

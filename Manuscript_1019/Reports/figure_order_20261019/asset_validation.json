@@ -1,0 +1,198 @@
+{
+  "status": "pass",
+  "figures_checked": 12,
+  "combined_pages": 22,
+  "figures": [
+    {
+      "old": 1,
+      "new": 1,
+      "artwork_pixels_identical": true,
+      "artwork_comparison_clip": "entire original artwork page",
+      "png_identical": true,
+      "svg_identical": true,
+      "pages": 2,
+      "caption": "a, RNA velocity methods grouped by modeling strategy and input information. Categories summarize principal strategies and can overlap. Method coverage varies by evaluation task. b, Overview of 42 dyngen simulation datasets, covering 14 topologies with three seed datasets per topology. Original simulated velocity streams and simulated-time colors are retained. Dataset names and experimental design are documented in Table S2; these are input-data illustrations, not new method evaluations."
+    },
+    {
+      "old": 3,
+      "new": 2,
+      "artwork_pixels_identical": true,
+      "artwork_comparison_clip": [
+        0.0,
+        0.0,
+        595.2755737304688,
+        743.3709716796875
+      ],
+      "png_identical": true,
+      "svg_identical": true,
+      "pages": 1,
+      "caption": "Overview of 30 cellDancer simulation datasets. a, Spliced/unspliced phase portraits. b, Simulated velocity streams in PCA coordinates. Original simulation conditions and time colors are retained; no new simulation or inference was performed."
+    },
+    {
+      "old": 4,
+      "new": 3,
+      "artwork_pixels_identical": true,
+      "artwork_comparison_clip": "entire original artwork page",
+      "png_identical": true,
+      "svg_identical": true,
+      "pages": 2,
+      "caption": "Overview of benchmark datasets. a, Original UMAP/t-SNE illustrations of ten classical datasets, colored by cell type or time point. b, Two HuBMAP examples colored by CytoTRACE2 developmental potential. These historical input illustrations are retained; updated quantitative method comparisons are presented in Extended Data Fig. 6. Full spatial and KPTracer datasets are shown separately in Extended Data Figs. 9 and 11."
+    },
+    {
+      "old": 5,
+      "new": 4,
+      "artwork_pixels_identical": true,
+      "artwork_comparison_clip": "entire original artwork page",
+      "png_identical": true,
+      "svg_identical": true,
+      "pages": 2,
+      "caption": "a, Gene-level cosine similarity between predicted high-dimensional RNA velocity and simulated truth on 42 dyngen datasets. b, Cell-level cosine similarity in PCA2 on the same 42 datasets. The original simulation-comparison layout is retained with current data: alternating grey rows, blue bubble matrices and Median/Mean bars. Dot area is normalized within each panel using the global minimum minus 0.01 and maximum; blue fill shows within-dataset rank (lighter is better). Median/Mean summarize raw dataset scores; their bar widths share a minimum-minus-0.01/max display scale within each panel. Numbers mark the top six ranks, with ties retained. Display normalization does not change the raw cosine values. c, Updated cell-level (upper row) and gene-level (lower row) cosine similarities in the original cellDancer mono-kinetic, transcriptional-boost and multi-forward-branching scenarios at noise 0.2. The original vertical boxplot design is retained; methods are ordered by median within each subplot. Boxes show median and interquartile range, whiskers extend to 1.5 IQR, and outliers are shown. These are the existing common-finite-gene re-evaluation scores provided in the accompanying source workbook, not values digitized from historical artwork. Each scenario has one simulated dataset with 2,000 source cells; the source workbook records shared gene counts and valid denominators. Cells and genes are within-dataset observations, not independent simulation replicates. Methods without valid results are omitted from the corresponding subplot. Saved preprocessing differs by method; alignment does not establish physical velocity units. TopicVelo values in a-b retain their historical-table provenance limitation and are not independently verified native-transition estimates. The full noise-series results are retained in the source-data summary. No model was rerun and the composite ranking is unchanged."
+    },
+    {
+      "old": 6,
+      "new": 5,
+      "artwork_pixels_identical": true,
+      "artwork_comparison_clip": "entire original artwork page",
+      "png_identical": true,
+      "svg_identical": true,
+      "pages": 2,
+      "caption": "a, Original-style scatter plots separated by the 14 dyngen topologies. Each point summarizes one method across available matched seed datasets (mean and sample SD); high-dimensional and PCA2 scores are cell-level cosine similarities. b, Paired high/low-dimensional violin plots, faceted by method; lines join the same dataset, with dataset medians shown as points. c, Cosine similarity between predicted and simulated true RNA velocity in PCA spaces of 2–30 dimensions, restoring the original accuracy-curve definition. Each colored point is the median of finite method–dataset cell-level cosine scores within one topology at that dimension; the black total curve is the median across all 42 datasets and available methods. These are projected velocity-accuracy scores, distinct from the high/low-dimensional score-vector consistency in Fig. 3d. Seventeen available configurations are included; missing scores are excluded without imputation. Source scores and valid counts are supplied. TopicVelo table values retain unverified native-transition provenance. No model was rerun."
+    },
+    {
+      "old": 7,
+      "new": 6,
+      "artwork_pixels_identical": true,
+      "artwork_comparison_clip": [
+        0.0,
+        0.0,
+        595.2755737304688,
+        476.06414794921875
+      ],
+      "png_identical": true,
+      "svg_identical": true,
+      "pages": 1,
+      "caption": "a, Original-style row-clustered heatmap of saved GDC values for 176 HuBMAP datasets and 18 available configurations, with organ annotations recovered by exact UUID matching to Supplementary Table 3. Best performance is the maximum finite value per dataset and is displayed separately; it is not an additional method. The shared raw GDC color scale is -1 to 1. Grey denotes missing data. Average-linkage clustering uses Euclidean distances with column-median filling only to define display order; plotted values and numerical summaries remain unfilled. b, Original-style green bubble matrix for ten classical datasets and 19 configurations, with Median/Mean bars and top-six rank labels. Dot area is globally normalized from the panel minimum minus 0.01 to its maximum; lighter color denotes better within-dataset rank. Raw values, display order, coverage and organ mapping are provided in source data. Missing entries are not scored as zero."
+    },
+    {
+      "old": 13,
+      "new": 7,
+      "artwork_pixels_identical": true,
+      "artwork_comparison_clip": "entire original artwork page",
+      "png_identical": true,
+      "svg_identical": true,
+      "pages": 2,
+      "caption": "a, UMAP annotation of 1,947 scNT-seq cells, restoring the original metabolic-labeling design and cell-type colors. b, Velocity streams for the dynamo metabolic-labeling reference and all 19 method configurations, arranged in five columns. c, Per-cell cosine similarity to the metabolic-labeling reference. Numbers below method names in the stream panels are the median per-cell reference-direction cosines, shown to three decimal places in the style of main Fig. 4a. Boxes show the median and interquartile range, with 1.5-IQR whiskers and outliers; methods are ordered by median. All 19 configurations use barcode-aligned cells and the same reference coordinates. Fourteen configurations come from the supplied historical H5AD results; SDEvelo uses the previous preprocessed-input run, and TopicVelo, biVI, DeepKINET and cell2fate use the aligned raw-count extension. These runs do not constitute a uniform-preprocessing ranking. TFvelo projections were restored from saved velo_hat / fit_scaling_y fits using the original graph-and-embedding workflow because the stored projection duplicated scVelo(sto); no model was retrained. Cosines were calculated from the displayed per-cell directions. Main Fig. 6 retains its previously selected run summaries and was not recomputed."
+    },
+    {
+      "old": 14,
+      "new": 8,
+      "artwork_pixels_identical": true,
+      "artwork_comparison_clip": "entire original artwork page",
+      "png_identical": true,
+      "svg_identical": true,
+      "pages": 2,
+      "caption": "a, CCE views of Day 2.5 (1,756 cells) and Day 5 (675 and 755 cells in two replicates), restoring the original lineage-tracing design. b, Original clone-transition examples for clone IDs 4, 6, 7, 23 and 32 retained as historical artwork; the exact clone-ID membership table is unavailable, so these arrows were not reconstructed from the separately saved expected-target pairs. c, Clone-based reference streams and all 19 method configurations for 1,756 cells, using the original cell-type grouping and colors. d, Per-cell cosine similarity to the clone-based reference. Numbers below method names in the stream panels are the median per-cell reference-direction cosines, shown to three decimal places in the style of main Fig. 4a. Boxes show the median and interquartile range, with 1.5-IQR whiskers and outliers; methods are ordered by median. All 19 configurations use barcode-aligned cells and the same reference coordinates. Fourteen configurations come from the supplied historical H5AD results; SDEvelo uses the previous preprocessed-input run, and TopicVelo, biVI, DeepKINET and cell2fate use the aligned raw-count extension. These runs do not constitute a uniform-preprocessing ranking. TFvelo projections were restored from saved velo_hat / fit_scaling_y fits using the original graph-and-embedding workflow because the stored projection duplicated scVelo(sto); no model was retrained. Cosines were calculated from the displayed per-cell directions. Main Fig. 6 retains its previously selected run summaries and was not recomputed. TopicVelo has 1,724 valid cosines; its 32 zero-direction cells remain undefined and are excluded from its boxplot. All other configurations have 1,756 valid cosines."
+    },
+    {
+      "old": 15,
+      "new": 9,
+      "artwork_pixels_identical": true,
+      "artwork_comparison_clip": "entire original artwork page",
+      "png_identical": true,
+      "svg_identical": true,
+      "pages": 2,
+      "caption": "a, Two views of all 1,292 supplied ST_raw spots in identical fixed spatial coordinates: all 12 cell types in their original colors, and the six target cell types (608 spots) highlighted in the Fig. 5a colors with the other 684 spots in grey. The reference schematic is reused directly from Fig. 5a. Its five arrows indicate predefined evaluation relations, not measured spatial trajectories. b, GDC values displayed in descending order. Saved corrected eval2 GDC is supplemented with DeepVelo(VAE) re-evaluation from its saved velocity and displayed spatial projection (GDC = -0.493). The corrected eval2 weighting uses the 608 spots in the six reference types as denominator; three archived scores were reproduced within 1e-6 to verify this protocol. TFvelo retains its separately recorded evaluation with its original denominator and preprocessing; the bars are not a new uniform-protocol ranking. c, Nineteen available method fields arranged left to right and top to bottom in the same descending-GDC order as panel b, with identical spot coordinates and a shared grey background for non-target types. TopicVelo uses native stochastic transitions rerun from the saved topic fits after excluding genes without variable U/S signal and topics with fewer than two usable genes. Eleven topics are integrated for ST_raw and five for ST_small, replacing the historical last-topic-only configuration. Its high-dimensional direction is the transition-displacement proxy T @ Ms - Ms, and its spatial field is projected directly from the native transition matrix. GDC is -0.419 for ST_raw and 0.484 for ST_small. One ST_raw spot has an undefined direction and is excluded from directional scoring; the reference denominator remains 608 spots. Historical base-scVelo output is not used as TopicVelo. Existing directions for other methods are retained. All panels are combined on one page."
+    },
+    {
+      "old": 16,
+      "new": 10,
+      "artwork_pixels_identical": true,
+      "artwork_comparison_clip": "entire original artwork page",
+      "png_identical": true,
+      "svg_identical": true,
+      "pages": 2,
+      "caption": "Paired direction consistency for the same 608 target spots in the 1,292-spot ST_raw dataset and the 608-spot ST_small subset. a, Per-spot cosine similarity of gene-space velocities on each method's shared finite genes; the number of genes is shown at right. b, Cosine similarity of spatial directions, with medians at right. Boxes show the median and interquartile range; whiskers show the 5th and 95th percentiles. c, Median spatial cosine for Inner EPC1 (47 spots), Inner EPC2 (87), Outer EPC1 (64), Outer EPC2 (61), Secondary P-TGC1 (153), and Secondary P-TGC2 (196). d, Per-spot spatial cosines without spatial smoothing; the other 684 spots are grey, and medians appear in parentheses. Red denotes positive cosine (same direction at +1), white denotes zero (perpendicular), and blue denotes negative cosine (opposite at -1) in c-d. All panels use the descending spatial-median order. Each of 19 methods has 608 valid spatial pairs. Gene comparisons have 608 valid pairs for 17 conventional gene-velocity outputs and the TopicVelo proxy; VeloAE is unavailable because its independently learned latent axes cannot be matched. TopicVelo uses the previously rerun native transitions: its gene-space quantity is a transition-displacement proxy T @ Ms - Ms evaluated in one fixed full-data expression reference, and its spatial directions use the native transition matrices. Eleven and five usable topics are integrated for ST_raw and ST_small, respectively. Spot IDs and annotations were matched; a constant horizontal coordinate translation of 150 units was verified and does not affect directions. Shared gene sets differ across methods (39-1,259 genes). Preprocessing, retained genes, neighborhoods and fitted models differ between the two saved runs. This is a descriptive comparison of saved-output sensitivity, not a controlled estimate of the isolated effect of non-target spots. Spots are observations from one supplied dataset, not independent biological replicates. No new model fitting or significance testing was performed; consistency does not establish directional accuracy or velocity magnitude."
+    },
+    {
+      "old": 17,
+      "new": 11,
+      "artwork_pixels_identical": true,
+      "artwork_comparison_clip": "entire original artwork page",
+      "png_identical": true,
+      "svg_identical": true,
+      "pages": 2,
+      "caption": "a, All 754 KPTracer cells in the fixed UMAP, with UMAP1/UMAP2 axes and source cell-type colors. The schematic uses the plain node-and-arrow style of Extended Data Fig. 9, without background regions, and is adapted from Yang et al. (Cell 2022, doi:10.1016/j.cell.2022.04.015), Fig. 5I. Solid arrows mark the four relations used for GDC; dashed connections show other literature relations and are excluded from GDC. The dashed horizontal connection denotes an undirected coupling. Line style encodes GDC inclusion, not the original evidence categories. Hollow nodes are literature states absent from this subset. Unconnected mesenchymal states are omitted for clarity. The source Gastric/Endoderm progression is expanded into the evaluated Endoderm relation and a contextual Gastric branch; Early EMT-1/2 is split to identify the evaluated EMT-1 state. Node positions are schematic, not UMAP coordinates or measured trajectories. Historical Lung Mixed labels correspond to Lung progenitor-like. b, GDC ranked in descending order, using the 706 cells in the six reference-participating states as denominator. The 17 historical corrected eval1 scores and the completed TFvelo/TopicVelo scores are unchanged. TopicVelo denotes a native-transition displacement proxy: within-state coherence uses T @ Ms - Ms; boundary directions use native T projected into the fixed UMAP, without historical base-scVelo velocity. c, Nineteen method fields in the same order as b, read left to right and then top to bottom. Saved streamline paths are aligned by per-panel affine transforms to identical cell-coordinate bounds, with uniformly enlarged cell markers. Panel a also uses enlarged cell markers. TFvelo uses 1,950 finite fitted genes. TopicVelo resumes topic 7 of 8 from the saved fit at the 35th-percentile threshold (490 topic cells; 727 nonzero projected directions), retaining the native package fallback. Gene sets and preprocessing differ by method. These are descriptive results from one dataset; frozen main Fig. 6 composite inputs remain unchanged."
+    },
+    {
+      "old": 18,
+      "new": 12,
+      "artwork_pixels_identical": true,
+      "artwork_comparison_clip": "entire original artwork page",
+      "png_identical": true,
+      "svg_identical": true,
+      "pages": 2,
+      "caption": "Top row, Gene overlap and enrichment for nine-configuration top100 lists (99–100 mapped genes per list; 519 distinct mapped genes). Middle row, Corresponding top200 results (198–200 mapped genes per list; 809 distinct mapped genes). Metascape used human Entrez mapping (database 2026-07-01), a whole-genome background, P < 0.01, at least three hits and enrichment factor > 1.5; q-values use Benjamini-Hochberg correction. Purple chords link identical mapped genes; dark/light orange denotes shared/list-specific genes. Heatmaps retain each report’s 20 representative clusters, independent clustering and -log10(P) scale; grey denotes zero/no enrichment in the supplied matrix. List definitions differ across methods. biVI ranks Radial Glia-versus-other-cell norm_spliced_mean differential results by Bayes factor, including both LFC signs; this is not a direct velocity-gene ranking. These are descriptive gene-list comparisons, not method-accuracy tests. Bottom row, Historical young and aged ReDeeM LatentVelo fields, respectively, using the reported 784 shared genes; these are separate from the forebrain enrichment analyses. The exact 784-gene manifest and matching run remain unresolved. No new aging comparison or velocity model fitting was performed."
+    }
+  ],
+  "main_figure2": {
+    "artwork_checks": [
+      {
+        "path": "submission_figures/Figure02.pdf",
+        "artwork_pixels_identical": true,
+        "clip": [
+          0.0,
+          0.0,
+          595.2755737304688,
+          391.13519287109375
+        ],
+        "caption_style": {
+          "lines": 14,
+          "font_size_pt": 10,
+          "line_height_pt": 13,
+          "title_bold": true,
+          "alignment": "justified; last line left",
+          "panel_markers_present": []
+        }
+      },
+      {
+        "path": "figures/main/Figure02.pdf",
+        "artwork_pixels_identical": true,
+        "clip": [
+          0.0,
+          0.0,
+          595.2755737304688,
+          391.13519287109375
+        ],
+        "caption_style": {
+          "lines": 14,
+          "font_size_pt": 10,
+          "line_height_pt": 13,
+          "title_bold": true,
+          "alignment": "justified; last line left",
+          "panel_markers_present": []
+        }
+      }
+    ],
+    "combined_unchanged_pages": [
+      1,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10
+    ],
+    "updated_cross_reference": "Extended Data Fig. 5c -> Extended Data Fig. 4c"
+  },
+  "outputs_sha256": {
+    "submission_figures/Extended_Data_Figures_combined.pdf": "0ae6f7fb857c9000e39cef9a4cc4b8b00763f1aaf7d4931b8c42c83e869dbd6d",
+    "submission_figures/Figure02.pdf": "36013d5727aa5c59ea39f2103fee209ddf7e0cc5fdedf6ef56b007f5dc2995a3",
+    "figures/main/Figure02.pdf": "97ccce3dea192ff33967cdbfc53f310aef1cbbddfc1308d701e3e9871a269e6d",
+    "submission_figures/Main_Figures_1-7_combined.pdf": "14cb12aa3a65eaf2681b619e409cdd53557469c33d4c577fac491a142f54b0e3"
+  },
+  "source_id_policy": "Legacy artwork and numerical workbook paths retained; current exports are explicitly numbered.",
+  "models_rerun": false,
+  "numeric_inputs_changed": false
+}

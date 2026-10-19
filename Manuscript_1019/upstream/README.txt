@@ -1,0 +1,1 @@
+Original implementations retained for final-figure provenance. Use ../Code/reproduce.py for the tested portable entrypoint. Internal ED16 corresponds to final KPTracer ED17; internal ED17 Metascape corresponds to final ED18. Original scripts retain original path/environment requirements; see ../Reports/upstream_external_paths.csv. Do not execute all scripts as a release rebuild.

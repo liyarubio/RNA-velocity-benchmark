@@ -1,0 +1,57 @@
+{
+  "method": "tfvelo",
+  "source": "/task/results/tfvelo/tfvelo.h5ad",
+  "source_sha256": "0fe71a49a1f74adb2d02c67128ea73af4c883e0bf1ed272d38771643ac0f3543",
+  "scvelo": "0.2.5",
+  "reference_edges": [
+    [
+      "AT2-like",
+      "Gastric-like"
+    ],
+    [
+      "AT2-like",
+      "Lung progenitor-like"
+    ],
+    [
+      "Endoderm-like",
+      "Pre-EMT"
+    ],
+    [
+      "Pre-EMT",
+      "Early EMT-1"
+    ]
+  ],
+  "historical_protocol": "corrected eval1; 706 reference-participating cells denominator; incident-edge signs",
+  "fitted_genes": 1950,
+  "input_genes": 2000,
+  "prediction_type": "TFvelo fitted gene velocity",
+  "high_dimensional_definition": "velo_hat / fit_scaling_y; finite fitted genes only",
+  "status": "complete",
+  "cells": 754,
+  "genes": 1950,
+  "GDC": -0.6770390180379636,
+  "reference_cell_denominator": 706,
+  "nonzero_direction_cells": 754,
+  "ICCoh": {
+    "AT1-like": 0.9132739892949929,
+    "AT2-like": 0.9214516276080433,
+    "Early EMT-1": 0.8991032246689888,
+    "Endoderm-like": 0.8985259941973127,
+    "Gastric-like": 0.9131153860303041,
+    "High plasticity": 0.8838314818095095,
+    "Lung progenitor-like": 0.9206124872311573,
+    "Pre-EMT": 0.9107993660761463
+  },
+  "CBDir": {
+    "AT2-like -> Gastric-like": -0.9566633220628344,
+    "AT2-like -> Lung progenitor-like": -0.86962789897563,
+    "Endoderm-like -> Pre-EMT": 0.28728647808662994,
+    "Pre-EMT -> Early EMT-1": -0.7929528706776028
+  },
+  "boundary_cells": {
+    "AT2-like -> Gastric-like": 52,
+    "AT2-like -> Lung progenitor-like": 37,
+    "Endoderm-like -> Pre-EMT": 19,
+    "Pre-EMT -> Early EMT-1": 63
+  }
+}

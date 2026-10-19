@@ -1,0 +1,58 @@
+{
+  "status": "pass",
+  "source": "Reports/figure1_landscape_20261019/before/submission_figures/Figure01.pdf",
+  "source_sha256": "8ac50d0a36dd6e7b39fa45d320f44164c6fa8e62a122b74b21b190146c060b89",
+  "output": "submission_figures/Figure01.pdf",
+  "sha256": "4729c583b9230e70c63d984b40fca6eedeff3ba4582fe3abbae6fed4bafe45f3",
+  "page_size_pt": [
+    841.8897637795276,
+    595.2755905511812
+  ],
+  "page_size_mm": [
+    297,
+    210
+  ],
+  "orientation": "landscape",
+  "pages": 1,
+  "artwork_scale_relative_to_portrait": 1.4641925279074128,
+  "artwork_crop_pt": [
+    32.0,
+    54.0,
+    563.2756,
+    324.0
+  ],
+  "artwork_target_pt": [
+    32.0,
+    28.0,
+    809.8897637795276,
+    423.3319825350015
+  ],
+  "caption_lines": 3,
+  "caption_font_pt": 10,
+  "caption_text_preserved": true,
+  "artwork_word_multiset_preserved": true,
+  "artwork_word_count": 529,
+  "artwork_rasterized": false,
+  "scientific_data_changed": false,
+  "combined_pages": 10,
+  "combined_pages_pixel_identical_to_previous": [
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10
+  ],
+  "combined_first_page_pixel_identical": true,
+  "preview": "Reports/figure1_landscape_20261019/Figure01_landscape_A4_preview.png",
+  "outputs_sha256": {
+    "submission_figures/Figure01.pdf": "4729c583b9230e70c63d984b40fca6eedeff3ba4582fe3abbae6fed4bafe45f3",
+    "submission_figures/Main_Figures_1-7_combined.pdf": "c8bd98940260a16326abcaf2039792c08102a7995a8bfd072f14645a57e3d96c",
+    "figures/main/Figure01.pdf": "8c70372f4c7a21cbd8564d2375d1068b3dcc739e5aaee538d441059cd92d04df",
+    "figures/main/Figure01.png": "46a53ab546aaad8491bb64b745ca63ce66fbe8c3a9172bf81b9d84d509a7aac2",
+    "figures/main/Figure01.svg": "52ddd1d20a2dff7b55dfa97eab3df43a4712dd23ffa8fd597a293bb51ff433a8"
+  }
+}

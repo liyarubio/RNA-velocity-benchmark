@@ -1,0 +1,20 @@
+{
+  "scope": "KPTracer missing TFvelo and native TopicVelo transitions",
+  "cells": 754,
+  "seed": 2024,
+  "inputs": {
+    "velogif_XC/real_data/anndata/KPTracer/anndata.h5ad": {
+      "sha256": "097ae5be805e2d4b7bef2adaf06669d8008cea378504320ed4c389bf237c307d",
+      "bytes": 67652878
+    },
+    "velogif_XC/real_data/result/velocity/KPTracer/20_TopicVelo/anndata.h5ad": {
+      "sha256": "ae60ee5ac0316d3aca1f2ac459656180b7276ced677a925eeda6011d2e6d520f",
+      "bytes": 67278794
+    },
+    "Manuscript_1010/Extended_Data/source_data/Extended_Data_Fig16.xlsx": {
+      "sha256": "88bfd220a2821424f90a8b4e17b1b965c4c917cf3a91c8cf65f77a391ca90b08",
+      "bytes": 48377
+    }
+  },
+  "preprocessing_note": "Supplied historical spliced/unspliced are continuous normalized values, not original integer counts. TFvelo uses the supplied input; TopicVelo resumes its separate saved topic fit. No claim of identical gene scope or raw-count preprocessing."
+}

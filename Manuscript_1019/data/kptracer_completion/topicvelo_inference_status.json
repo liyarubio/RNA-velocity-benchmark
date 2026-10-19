@@ -1,0 +1,43 @@
+{
+  "dataset": "KPTracer",
+  "status": "complete",
+  "seed": 2024,
+  "protocol": "Resume saved fastTopics fit; original topic K-1, percentile 35, stochastic transitions",
+  "python": "3.8.20 | packaged by conda-forge | (default, Sep 30 2024, 17:52:49) \n[GCC 13.3.0]",
+  "scvelo": "0.2.5",
+  "source_files": {
+    "/materials/velogif_XC/real_data/result/velocity/KPTracer/20_TopicVelo/anndata.h5ad": "ae60ee5ac0316d3aca1f2ac459656180b7276ced677a925eeda6011d2e6d520f",
+    "/materials/velogif_XC/real_data/result/velocity/KPTracer/20_TopicVelo/redeem/filtered_SU_Genes_names.csv": "13d2296e8267bcb4d3b7c37da7e8ba2fd7d32112c7738a8e4df23eae51b6c0a5",
+    "/materials/velogif_XC/real_data/result/velocity/KPTracer/20_TopicVelo/redeem/filtered_SU_Cells_names.csv": "e0e96d9abd3beadc0b93f1a004cd3741b0b02fc727f34db89d141781f09c772f",
+    "/materials/velogif_XC/real_data/result/velocity/KPTracer/20_TopicVelo/redeem/HH_fastTopics_fit_CellWeights_k=8.csv": "873e9cb45c5ba6018c04a55c10cd3958b2cb859f479cceab150714276b38eca6",
+    "/materials/velogif_XC/real_data/result/velocity/KPTracer/20_TopicVelo/redeem/top_genes.csv": "e7a5f2086adfbaaa2ccbf297107b04bd78b665aaecac5eba14a292c6d55c5c6e",
+    "/materials/velogif_XC/real_data/result/velocity/KPTracer/20_TopicVelo/redeem/HH_de_postmean_k=8.csv": "a55fd63bfb46a353c9e614b3cde72b9254c4dafb4baaca38a055451698651a27",
+    "/materials/velogif_XC/real_data/result/velocity/KPTracer/20_TopicVelo/redeem/HH_de_z_k=8.csv": "efada1f9eb5eb62bf4cf1b2c3604edd76c698f65f0bb0aeb8de2e214732457aa",
+    "/materials/velogif_XC/real_data/result/velocity/KPTracer/20_TopicVelo/redeem/HH_de_lfsr_k=8.csv": "8575085998b766794d0617d71fb415ce4e3d9a51a86f3667f86967af2c6b256d"
+  },
+  "cells": 754,
+  "genes": 2000,
+  "selected_topic": 7,
+  "topic_gene_counts": [
+    46,
+    34,
+    131,
+    97,
+    92,
+    56,
+    56,
+    16
+  ],
+  "repair": "Restore required adata.uns[top_genes], omitted by historical runner; do not swallow inference exceptions",
+  "compatibility_fixes": [
+    "Keep singleton gene axis in scVelo GLS",
+    "Keep heterogeneous parallel results as list"
+  ],
+  "transition_assembly": "Sparse global embedding; historical float32 accumulation and round-to-six retained",
+  "elapsed_seconds": 33.74034142494202,
+  "transition_nnz": 90211,
+  "row_sum_min": 0.9999997019767761,
+  "row_sum_max": 1.000000238418579,
+  "topic_cells": 490,
+  "output": "/task/results/topicvelo/topicvelo.h5ad"
+}

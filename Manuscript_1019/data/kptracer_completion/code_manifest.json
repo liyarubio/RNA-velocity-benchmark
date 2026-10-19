@@ -1,0 +1,9 @@
+{
+  "code/evaluation_metrics.py": "137e00058f0d923c424c73b0ec1e7a88c92fc8534cdbf35f9d32bab0d5b7b88b",
+  "code/validate_tfvelo.py": "6d46b1ed96688701bebdf0eff1958b303b3ec6e7bb67af122d9869ea4cb35d0c",
+  "code/run_tfvelo.py": "521343ed575bfa13357dc0ed43bbc46efb8979cbb2ff3f9d6cbd18a0bc829313",
+  "code/complete_topicvelo.py": "fd7a99ac0836d6f316d628a7b5aec9be50b167a239f7d82f2000b84e04ed75e7",
+  "code/import_to_manuscript.py": "2c16d85aaefd824d00df15b9296bb9a160503acc2a8f6053444e0a7ad2ab68a6",
+  "code/evaluate.py": "132ef1d19707d271b7354c5b7da9a87ba4d77d9c1d7161663244c7cb3abf5410",
+  "code/config.py": "24207c132d52e78a01f256113fb51753679bae2adf7ac5fc4f01cc825b74918c"
+}

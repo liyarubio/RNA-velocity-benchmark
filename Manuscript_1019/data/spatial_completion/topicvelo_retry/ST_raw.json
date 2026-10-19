@@ -1,0 +1,71 @@
+{
+  "dataset": "ST_raw",
+  "status": "complete",
+  "attempt": "all_topics_qc",
+  "GDC": -0.4187311306645585,
+  "spots": 1292,
+  "reference_spot_denominator": 608,
+  "topics_run": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10
+  ],
+  "topic_gene_counts_after_qc": [
+    18,
+    5,
+    15,
+    11,
+    15,
+    4,
+    3,
+    21,
+    14,
+    7,
+    8,
+    0
+  ],
+  "native_uniform_neighbor_fallback_rows": 0,
+  "native_transition_sha256": "89f6f259c4428e6971a712ef2be866688a6fc3796c6107a3fafa68f0adc39c22",
+  "gene_direction": "native T @ Ms - Ms; transition-displacement proxy, not a fitted gene velocity",
+  "spatial_direction": "scVelo velocity_embedding with explicit native T; autoscale=False; undefined directions excluded from scoring",
+  "uses_historical_base_scvelo_velocity": false,
+  "scvelo": "0.2.5",
+  "nonzero_direction_spots": 1291,
+  "invalid_spatial_direction_spots": [
+    "12650_12350"
+  ],
+  "invalid_high_dimensional_direction_spots": [
+    "12650_12350"
+  ],
+  "ICCoh_spots_by_type": {
+    "Inner EPC 1": 47,
+    "Inner EPC 2": 87,
+    "Outer EPC 1": 64,
+    "Outer EPC 2": 61,
+    "P-TGC (Sec. P-TGC 1)": 153,
+    "P-TGC (Sec. P-TGC 2)": 196
+  },
+  "ICCoh": {
+    "Inner EPC 1": 0.8748961598315137,
+    "Inner EPC 2": 0.7333955836707148,
+    "Outer EPC 1": 0.6962940880766837,
+    "Outer EPC 2": 0.745268875763553,
+    "P-TGC (Sec. P-TGC 1)": 0.5118028942961246,
+    "P-TGC (Sec. P-TGC 2)": 0.5960130140147343
+  },
+  "CBDir": {
+    "('Inner EPC 1', 'Inner EPC 2')": -0.07618817871025986,
+    "('Inner EPC 2', 'Outer EPC 1')": -0.004609275288388226,
+    "('Outer EPC 1', 'Outer EPC 2')": 0.5636849264911837,
+    "('Inner EPC 2', 'P-TGC (Sec. P-TGC 1)')": -0.18440207960985122,
+    "('P-TGC (Sec. P-TGC 1)', 'P-TGC (Sec. P-TGC 2)')": -0.03798073446915623
+  }
+}

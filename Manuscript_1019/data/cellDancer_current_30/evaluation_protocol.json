@@ -1,0 +1,28 @@
+{
+  "truth": "source input layers/ground_truth_velocity, never transformed result-file truth",
+  "estimate": "saved layers/velocity, cell/gene identifiers aligned, no scale recalibration",
+  "plotted_scope": "same finite genes across available non-exploratory methods within each dataset; biVI evaluated on that set separately",
+  "sensitivity_scope": "method_retained_genes in dataset_summary.csv",
+  "unit": "cell across genes or gene across cells; median of finite cosines per dataset",
+  "invalid": "zero norm or nonfinite vector -> missing; never assign zero",
+  "replication": "one saved simulated dataset per scenario/noise condition; cells and genes are not independent simulation replicates",
+  "preprocessing": "saved protocols differ across methods; coordinate alignment is not a calibration of physical velocity units",
+  "original_scope": "30 datasets: 3 scenarios x 10 noise levels; FigS2 uses noise 0.2",
+  "excluded": {
+    "veloae": "latent coordinates are not gene-space velocities",
+    "tfvelo": "synthetic identifiers have no verified TF mapping; four historical outputs not validated",
+    "deepkinet": "integer count input unavailable",
+    "cell2fate": "integer count input unavailable",
+    "topicvelo": "native count-based inference not validated on continuous input",
+    "topovelo": "physical spatial coordinates unavailable",
+    "multivelo": "chromatin accessibility unavailable",
+    "phylovelo": "lineage information unavailable"
+  },
+  "exploratory": [
+    "bivi"
+  ],
+  "main_figures_and_rankings": "unchanged; these results are not added to the dyngen or composite benchmark",
+  "source_code": "/data1/liyaru/RNA_velocity_materials/Manuscript_1009/V1/celldancer_supplement_20261009/evaluate.py",
+  "current_scope": "30 datasets: three original scenarios, ten noise levels (0.2-2.0) each",
+  "historical_records": "../cellDancer_simulations contains frozen evaluation records, including excluded inputs; it is not the active scenario inventory."
+}

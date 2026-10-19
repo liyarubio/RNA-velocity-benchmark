@@ -1,0 +1,48 @@
+{
+  "generated_at": "2026-10-10T14:30:58.221507+00:00",
+  "status": "complete",
+  "source_prediction_files": "audit.json",
+  "other_source_hashes": [
+    {
+      "path": "/data1/liyaru/RNA_velocity_materials/Manuscript_1010/Source_data/spatial_completion/spatial_cells.csv",
+      "bytes": 53720,
+      "sha256": "b80c7ddfe0bed8fa5c0ec489df774063d1c1624f0ccf29f7a37d06899cc48e49"
+    },
+    {
+      "path": "/data1/liyaru/RNA_velocity_materials/Manuscript_1010/Source_data/spatial_completion/spatial_directions.csv",
+      "bytes": 2269039,
+      "sha256": "a8eb4723687ec1db9d97a46728888be67b54d7cb6f66cfb34ceaff54030519b1"
+    },
+    {
+      "path": "/data1/liyaru/RNA_velocity_materials/Manuscript_1010/Source_data/spatial_completion/topicvelo_retry/ST_raw_directions.csv",
+      "bytes": 110475,
+      "sha256": "15aaf01fbcbfed72fd89471b758ba1d499e6759f58a164ddc285f9b4106e1b06"
+    },
+    {
+      "path": "/data1/liyaru/RNA_velocity_materials/spatial_topicvelo_retry_20261010/results/all_topics_qc/ST_raw/native_transition.npz",
+      "bytes": 2306746,
+      "sha256": "89f6f259c4428e6971a712ef2be866688a6fc3796c6107a3fafa68f0adc39c22"
+    },
+    {
+      "path": "/data1/liyaru/RNA_velocity_materials/Manuscript_1010/Source_data/spatial_completion/topicvelo_retry/ST_small_directions.csv",
+      "bytes": 52348,
+      "sha256": "bb21f1b58b56b002e250352fe3b7150e4d1ec5e6ae50c92d70becf6fdc0d2f8f"
+    },
+    {
+      "path": "/data1/liyaru/RNA_velocity_materials/spatial_topicvelo_retry_20261010/results/all_topics_qc/ST_small/native_transition.npz",
+      "bytes": 641403,
+      "sha256": "00406bb24c8af9890873b83eed7685959e011106845cbc12110bfa19a6913e22"
+    }
+  ],
+  "model_training_performed": false,
+  "new_transition_inference": false,
+  "new_projection_from_saved_results": true,
+  "coordinate_translation_ST_small_to_ST_raw": [
+    150,
+    0
+  ],
+  "no_rotation_or_axis_rescaling": true,
+  "statistical_unit": "paired spot within one supplied spatial dataset",
+  "strict_controlled_retraining": false,
+  "velocity_magnitude_compared": false
+}

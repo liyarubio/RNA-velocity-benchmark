@@ -1,0 +1,22 @@
+{
+  "status": "pass",
+  "checks": {
+    "English_text_preserved": true,
+    "English_bold_justified": true,
+    "submission_text_preserved": true,
+    "submission_bold_justified": true,
+    "bilingual_text_preserved": true,
+    "bilingual_bold_justified": true,
+    "bilingual_standalone_text_preserved": true,
+    "bilingual_standalone_bold_justified": true,
+    "docx_all_text_preserved": true,
+    "docx_justified": true,
+    "docx_title_bold": true,
+    "submission_figures/Figure02.pdf_bold_title": true,
+    "submission_figures/Figure02.pdf_justified_edges": true,
+    "figures/main/Figure02.pdf_bold_title": true,
+    "figures/main/Figure02.pdf_justified_edges": true,
+    "visual_review": "pass: title bold, full-line edges aligned, artwork unchanged; no panel markers exist in Figure 2"
+  },
+  "scope": "Formatting only; caption wording preserved; no a/b/c panel labels in Figure 2"
+}

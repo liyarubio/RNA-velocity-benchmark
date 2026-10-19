@@ -1,0 +1,11 @@
+{
+  "status": "pass",
+  "figures": 19,
+  "source_files_checked": 318,
+  "figure_file_mappings": 419,
+  "local_markdown_links_checked": 577,
+  "errors": [],
+  "models_rerun": false,
+  "manuscript_included": false,
+  "scope": "Copied-source SHA256, figure order, links, file size and credential-pattern checks."
+}

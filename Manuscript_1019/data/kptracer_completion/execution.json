@@ -1,0 +1,19 @@
+{
+  "container": "velogif-kptracer-completion-20261010",
+  "image": "velogif:v1",
+  "cpu_limit": 12,
+  "memory_limit_gb": 128,
+  "TFvelo_jobs": 10,
+  "BLAS_threads_per_worker": 1,
+  "TopicVelo_graph_jobs": 2,
+  "output_mount": "/task",
+  "readonly_project_mount": "/materials",
+  "environments": {
+    "TFvelo": "/opt/conda/envs/tfvelo/bin/python",
+    "TopicVelo": "/opt/conda/envs/topicvelo/bin/python",
+    "evaluation": "/opt/conda/envs/scvelo/bin/python"
+  },
+  "tfvelo_cache": "/tmp/numba-tfvelo",
+  "topicvelo_cache": "/tmp/numba-topicvelo",
+  "memory_limit_revision": "Raised from 32 via 64 to 128 GiB during TFvelo fitting to accommodate native retained gene models and result serialization; host available memory approximately 810 GiB; CPU limit unchanged."
+}
