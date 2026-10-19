@@ -8,6 +8,7 @@ import re
 
 ROOT = Path(__file__).resolve().parents[2]
 PROVENANCE = ROOT / '12_Provenance'
+LOCAL_OUTPUTS = {'.git', '.venv', '__pycache__', 'demo_output', 'panel_checks'}
 
 
 def digest(path):
@@ -69,7 +70,7 @@ def main():
     links = 0
     for path in ROOT.rglob('*.md'):
         rel = path.relative_to(ROOT).as_posix()
-        if '.git' in path.parts or rel.startswith(inherited_prefixes):
+        if LOCAL_OUTPUTS.intersection(path.relative_to(ROOT).parts) or rel.startswith(inherited_prefixes):
             continue
         for value in re.findall(r'!?\[[^\]]*\]\((<[^>]+>|[^)\s]+)\)', path.read_text()):
             uri = urlsplit(value.strip('<>'))
@@ -83,12 +84,12 @@ def main():
                 errors.append(['local_link', rel, value])
     expected_roots = {f'{i:02}_Figure{i:02}' for i in range(1, 8)} | {
         '08_Extended_Data', '09_Core', '10_Shared', '11_Tables', '12_Provenance', '13_Archive'}
-    observed = {p.name for p in ROOT.iterdir() if p.is_dir() and not p.name.startswith('.')}
+    observed = {p.name for p in ROOT.iterdir() if p.is_dir() and not p.name.startswith('.') and p.name not in LOCAL_OUTPUTS}
     if observed != expected_roots:
         errors.append(['root_directories', sorted(observed ^ expected_roots)])
     secret_pattern = re.compile(r'-----BEGIN (?:OPENSSH |RSA |EC )?PRIVATE KEY-----|gh[pousr]_[A-Za-z0-9]{30,}|github_pat_[A-Za-z0-9_]{30,}')
     for path in ROOT.rglob('*'):
-        if '.git' in path.relative_to(ROOT).parts or '__pycache__' in path.parts or not path.is_file():
+        if LOCAL_OUTPUTS.intersection(path.relative_to(ROOT).parts) or not path.is_file():
             continue
         rel = path.relative_to(ROOT).as_posix()
         if path.is_symlink():
