@@ -1,0 +1,123 @@
+{
+  "status": "pass",
+  "baseline_commit": "2955a8e2ba4d08845699ae429f7fef2dea85d877",
+  "numerical_checks": 97,
+  "numerical_check_details_identical": true,
+  "numerical_csv_files_identical": [
+    "Figure06_current_source_differences.csv",
+    "Figure06_recomputed.csv",
+    "scLT_recomputed_cosines.csv",
+    "scNT_recomputed_cosines.csv"
+  ],
+  "diagnostic_plot_count": 17,
+  "diagnostic_output_names_and_manifest_identical": true,
+  "diagnostic_pdf_render_checks": [
+    {
+      "file": "ED05a.pdf",
+      "pages": 1,
+      "render_identical_at_72dpi": true
+    },
+    {
+      "file": "ED05b.pdf",
+      "pages": 1,
+      "render_identical_at_72dpi": true
+    },
+    {
+      "file": "ED06_paired.pdf",
+      "pages": 1,
+      "render_identical_at_72dpi": true
+    },
+    {
+      "file": "ED07_HuBMAP.pdf",
+      "pages": 1,
+      "render_identical_at_72dpi": true
+    },
+    {
+      "file": "ED13_median.pdf",
+      "pages": 1,
+      "render_identical_at_72dpi": true
+    },
+    {
+      "file": "ED14_median.pdf",
+      "pages": 1,
+      "render_identical_at_72dpi": true
+    },
+    {
+      "file": "ED15_GDC.pdf",
+      "pages": 1,
+      "render_identical_at_72dpi": true
+    },
+    {
+      "file": "ED16_spatial.pdf",
+      "pages": 1,
+      "render_identical_at_72dpi": true
+    },
+    {
+      "file": "ED17_GDC.pdf",
+      "pages": 1,
+      "render_identical_at_72dpi": true
+    },
+    {
+      "file": "ED18_top100_overlap.pdf",
+      "pages": 1,
+      "render_identical_at_72dpi": true
+    },
+    {
+      "file": "ED18_top200_overlap.pdf",
+      "pages": 1,
+      "render_identical_at_72dpi": true
+    },
+    {
+      "file": "Figure03a.pdf",
+      "pages": 1,
+      "render_identical_at_72dpi": true
+    },
+    {
+      "file": "Figure04a_GDC.pdf",
+      "pages": 1,
+      "render_identical_at_72dpi": true
+    },
+    {
+      "file": "Figure05a_GDC.pdf",
+      "pages": 1,
+      "render_identical_at_72dpi": true
+    },
+    {
+      "file": "Figure05b_runtime.pdf",
+      "pages": 1,
+      "render_identical_at_72dpi": true
+    },
+    {
+      "file": "Figure05c_stability.pdf",
+      "pages": 1,
+      "render_identical_at_72dpi": true
+    },
+    {
+      "file": "Figure06a_frozen.pdf",
+      "pages": 1,
+      "render_identical_at_72dpi": true
+    }
+  ],
+  "original_workspace_files_checked": {
+    "Figures_data_code_1019.html": "801033361e07c7aed6afa5b401c2a9879edb8d635df404fac2d33f605a22f9b7",
+    "Figure_materials/README.md": "36e87ca6d0b8a98e12446728fa8565e5294260d01c37622c22042d309de4aa83",
+    "Figure_materials/file_inventory.csv": "41f35b7912f0006312963c7a4d10882c7b6505feef411b090f693ada2802294f",
+    "tables/Table1 Function.xlsx": "3b06f54fb7365b52b4f029bceb7afccd483c91ecf686f7dc5b67878682944044",
+    "Manuscript_1019_NM_bilingual.html": "fba7c4613423b769d574be936844009a4cda1de5e86fc7fe306d9584d4405ce2"
+  },
+  "models_rerun": false,
+  "frozen_vs_current_differences": 8,
+  "environment": {
+    "python": "3.13.0",
+    "platform": "Linux-5.15.0-139-generic-x86_64-with-glibc2.31",
+    "packages": {
+      "numpy": "2.2.6",
+      "pandas": "2.3.2",
+      "scipy": "1.16.2",
+      "matplotlib": "3.10.6",
+      "openpyxl": "3.1.5"
+    }
+  },
+  "environment_note": "Executed in the existing local Python environment with prior Manuscript_1010/Code/vendor on PYTHONPATH for dependency imports only. New data paths resolve exclusively inside this checkout. A fresh pip installation was not tested.",
+  "pdf_comparison_note": "PDF metadata timestamps and SVG object identifiers may vary; all 17 PDFs render identically at 72 dpi."
+}

@@ -1,46 +1,41 @@
 # RNA velocity benchmark
 
-Code and data for evaluating RNA velocity inference across prediction spaces, datasets and biological references.
+Code, saved data and figures for a multilevel benchmark of RNA velocity inference. The repository is organized by **Main Figures 1–7**, followed by **Extended Data Figures 1–12**. Per-figure folders contain actual files; reusable workflows and shared data have separate locations.
 
-## Current figure-ordered materials — 19 October 2026
+## Main figures
 
-The [1019 code/data release](Manuscript_1019/README.md) provides **7 main figures and 12 Extended Data figures** in first-citation order, with source workbooks, saved numerical results, available implementations and current PDF/PNG figures.
+| Figure | Topic | Materials |
+|---|---|---|
+| 1 | 方法时间线 | [Code, data and figures](<01_Figure01/README.md>) |
+| 2 | 评价流程 | [Code, data and figures](<02_Figure02/README.md>) |
+| 3 | 模拟与常规数据评价 | [Code, data and figures](<03_Figure03/README.md>) |
+| 4 | ReDeeM | [Code, data and figures](<04_Figure04/README.md>) |
+| 5 | 空间、运行时间及 reads | [Code, data and figures](<05_Figure05/README.md>) |
+| 6 | 冻结综合分数和工具 | [Code, data and figures](<06_Figure06/README.md>) |
+| 7 | 年龄示例与未来方向 | [Code, data and figures](<07_Figure07/README.md>) |
 
-- [Browse code and data by figure](Manuscript_1019/Figure_materials/README.md)
-- [Main and supplementary tables](Manuscript_1019/Figure_materials/03_Tables/README.md)
-- [File inventory and source hashes](Manuscript_1019/Figure_materials/file_inventory.csv)
-- [Verification and reproduction limits](Manuscript_1019/README.md#saved-data-verification)
+![Benchmarking framework — Figure 2](02_Figure02/figures/Figure02.png)
 
-![Benchmarking framework](Manuscript_1019/figures/main/Figure02.png)
+## Extended Data, core workflows and tables
 
-The update preserves the earlier analysis directories below. Saved-data checks are distinct from full model reruns; incomplete provenance and nonuniform historical preprocessing remain documented in the per-figure READMEs. No new blanket license is assigned.
+- [Extended Data Figures 1–12](08_Extended_Data/README.md)
+- [Core workflows: simulation, model execution, gene selection and checks](09_Core/README.md)
+- [Shared data](10_Shared/README.md)
+- [Tables](11_Tables/README.md)
+- [Provenance, inventories and validation](12_Provenance/README.md)
+- [Historical materials](13_Archive/README.md)
 
-## Earlier analysis directories and dataset access
+## Verification and evidence limits
 
+```bash
+python -m pip install -r requirements-demo.txt
+python 09_Core/validation/reproduce.py --out /tmp/rna-velocity-check --no-plots
+python 09_Core/visualization/plot_saved_panels.py --out /tmp/rna-velocity-panels
+python 09_Core/validation/verify_release.py
+```
 
-### Benchmarking framework and datasets
-The simulation datasets, the annotated metadata of HuBMAP，and processed Redeem dataset are uploaded on [figshare](https://figshare.com/articles/dataset/28021724)
+Saved-data checks do not constitute model reruns. Historical scripts may require external inputs and their original environments. Manual schematics and retained historical fields are not claimed to be regenerated. Missing values and documented provenance gaps remain unchanged; the frozen overall score is not silently replaced by later source-derived values. See [verification results](12_Provenance/restructure_regression.json).
 
-Other processed real-world datasets are download from published work (more detailed in supplementary table3 of our manuscript), and the visualization of datasets are summarized in [Datasets visualization](https://github.com/liyarubio/RNA-velocity-benchmark/tree/main/Visualization/Vis_datasets)
+Simulation datasets, annotated HuBMAP metadata and processed ReDeeM data are available on [Figshare](https://figshare.com/articles/dataset/28021724). Additional dataset details are in the source tables and per-figure records.
 
-
-### Accuracy in conventional scRNA-seq datasets
-#### [Dyngen simulation results](https://github.com/liyarubio/RNA-velocity-benchmark/tree/main/Simulation_by_dyngen)
-
-#### [HuBAMP datasets results](https://github.com/liyarubio/RNA-velocity-benchmark/tree/main/HuBMAP)
-#### [Classic 10 datasets results](https://github.com/liyarubio/RNA-velocity-benchmark/tree/main/Real_Datasets10)
-
-### Accuracy in scRNA-seq with additional information
-#### [Redeem Dadaset results](https://github.com/liyarubio/RNA-velocity-benchmark/tree/main/Redeem)
-#### [single-cell metabolic labeling dataset results (scNT-seq)](https://github.com/liyarubio/RNA-velocity-benchmark/tree/main/scNT)
-#### [single-cell lineage tracing dataset (scLT)](https://github.com/liyarubio/RNA-velocity-benchmark/tree/main/scLT)
-
-### Scalability and Stability
-#### [Scalability](https://github.com/liyarubio/RNA-velocity-benchmark/tree/main/Scalability)
-#### [Stability](https://github.com/liyarubio/RNA-velocity-benchmark/tree/main/Simulation_by_cellDancer)
-
-### Overall performance
-#### [Overall score](https://github.com/liyarubio/RNA-velocity-benchmark/tree/main/Visualization/Vis_summary)
-
-### Discussion
-#### [Redeem Aged](https://github.com/liyarubio/RNA-velocity-benchmark/tree/main/Redeem/4_Aged)
+The full manuscript and editorial backups are not included. No new blanket license is assigned; see [LICENSE_STATUS.txt](LICENSE_STATUS.txt). The previous structure remains available in [the baseline commit](https://github.com/liyarubio/RNA-velocity-benchmark/tree/2955a8e2ba4d08845699ae429f7fef2dea85d877).

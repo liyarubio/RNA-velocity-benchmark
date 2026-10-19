@@ -1,0 +1,155 @@
+figure,legacy_figure,source_path,sheet,original_source_path
+Figure01,Figure01,11_Tables/Table S1 RNA velocity algorithms summary.xlsx,Summary,tables/Table S1 RNA velocity algorithms summary.xlsx
+Figure01,Figure01,11_Tables/Table S1 RNA velocity algorithms summary.xlsx,Input data,tables/Table S1 RNA velocity algorithms summary.xlsx
+Figure01,Figure01,11_Tables/Table S1 RNA velocity algorithms summary.xlsx,Added methods evidence,tables/Table S1 RNA velocity algorithms summary.xlsx
+Figure01,Figure01,11_Tables/Table S1 RNA velocity algorithms summary.xlsx,Revision notes,tables/Table S1 RNA velocity algorithms summary.xlsx
+Figure02,Figure02,11_Tables/Table S2 Simulation Datasets.xlsx,dyngen simulation,tables/Table S2 Simulation Datasets.xlsx
+Figure02,Figure02,11_Tables/Table S2 Simulation Datasets.xlsx,cellDancer simulation,tables/Table S2 Simulation Datasets.xlsx
+Figure02,Figure02,11_Tables/Table S2 Simulation Datasets.xlsx,Revision notes,tables/Table S2 Simulation Datasets.xlsx
+Figure02,Figure02,11_Tables/Table S3 Real-world Datasets.xlsx,Datasets10,tables/Table S3 Real-world Datasets.xlsx
+Figure02,Figure02,11_Tables/Table S3 Real-world Datasets.xlsx,HuBMAP,tables/Table S3 Real-world Datasets.xlsx
+Figure02,Figure02,11_Tables/Table S3 Real-world Datasets.xlsx,multi-omics datasets,tables/Table S3 Real-world Datasets.xlsx
+Figure02,Figure02,11_Tables/Table S3 Real-world Datasets.xlsx,Current figure datasets,tables/Table S3 Real-world Datasets.xlsx
+Figure02,Figure02,11_Tables/Table S3 Real-world Datasets.xlsx,MPSTA reference transitions,tables/Table S3 Real-world Datasets.xlsx
+Figure02,Figure02,11_Tables/Table S3 Real-world Datasets.xlsx,Revision notes,tables/Table S3 Real-world Datasets.xlsx
+Figure03,Figure03,03_Figure03/data/source_data/Figure03.xlsx,README,source_data/Figure03.xlsx
+Figure03,Figure03,03_Figure03/data/source_data/Figure03.xlsx,3a High dim,source_data/Figure03.xlsx
+Figure03,Figure03,03_Figure03/data/source_data/Figure03.xlsx,3bc Low dim,source_data/Figure03.xlsx
+Figure03,Figure03,03_Figure03/data/source_data/Figure03.xlsx,3d PCA source,source_data/Figure03.xlsx
+Figure03,Figure03,03_Figure03/data/source_data/Figure03.xlsx,3f CBDir,source_data/Figure03.xlsx
+Figure03,Figure03,03_Figure03/data/source_data/Figure03.xlsx,3f GDC,source_data/Figure03.xlsx
+Figure03,Figure03,03_Figure03/data/source_data/Figure03.xlsx,3f ICCoh,source_data/Figure03.xlsx
+Figure03,Figure03,03_Figure03/data/source_data/Figure03.xlsx,3f Transition,source_data/Figure03.xlsx
+Figure03,Figure03,03_Figure03/data/source_data/Figure03.xlsx,3g HuBMAP,source_data/Figure03.xlsx
+Figure03,Figure03,03_Figure03/data/source_data/Figure03.xlsx,3h Dataset10,source_data/Figure03.xlsx
+Figure03,Figure03,03_Figure03/data/source_data/Figure03.xlsx,3bc Paired,source_data/Figure03.xlsx
+Figure03,Figure03,03_Figure03/data/source_data/Figure03.xlsx,3d Plotted,source_data/Figure03.xlsx
+Figure03,Figure03,03_Figure03/data/source_data/Figure03.xlsx,3f Correlation,source_data/Figure03.xlsx
+Figure03,Figure03,03_Figure03/data/source_data/Figure03.xlsx,3f Aligned,source_data/Figure03.xlsx
+Figure03,Figure03,03_Figure03/data/source_data/Figure03.xlsx,3g Plotted,source_data/Figure03.xlsx
+Figure03,Figure03,03_Figure03/data/source_data/Figure03.xlsx,3g Best per dataset,source_data/Figure03.xlsx
+Figure04,Figure04,04_Figure04/data/source_data/Figure04.xlsx,README,source_data/Figure04.xlsx
+Figure04,Figure04,04_Figure04/data/source_data/Figure04.xlsx,4a GDC,source_data/Figure04.xlsx
+Figure04,Figure04,04_Figure04/data/source_data/Figure04.xlsx,4b CBDir,source_data/Figure04.xlsx
+Figure05,Figure05,05_Figure05/data/source_data/Figure05.xlsx,README,source_data/Figure05.xlsx
+Figure05,Figure05,05_Figure05/data/source_data/Figure05.xlsx,5a GDC,source_data/Figure05.xlsx
+Figure05,Figure05,05_Figure05/data/source_data/Figure05.xlsx,5b Runtime seconds,source_data/Figure05.xlsx
+Figure05,Figure05,05_Figure05/data/source_data/Figure05.xlsx,5c Pairwise reads,source_data/Figure05.xlsx
+Figure05,Figure05,05_Figure05/data/source_data/Figure05.xlsx,5c Plotted vs full,source_data/Figure05.xlsx
+Figure05,Figure05,05_Figure05/data/source_data/Figure05.xlsx,5c Added methods protocol,source_data/Figure05.xlsx
+Figure05,Figure05,05_Figure05/data/source_data/Figure05.xlsx,5a Reference edges,source_data/Figure05.xlsx
+Figure05,Figure05,05_Figure05/data/source_data/Figure05.xlsx,Stability valid cells,source_data/Figure05.xlsx
+Figure06,Figure06,06_Figure06/data/source_data/Figure06.xlsx,README,source_data/Figure06.xlsx
+Figure06,Figure06,06_Figure06/data/source_data/Figure06.xlsx,6a Summary,source_data/Figure06.xlsx
+Figure06,Figure06,06_Figure06/data/source_data/Figure06.xlsx,Dataset10_global,source_data/Figure06.xlsx
+Figure06,Figure06,06_Figure06/data/source_data/Figure06.xlsx,HuBMAP_global,source_data/Figure06.xlsx
+Figure06,Figure06,06_Figure06/data/source_data/Figure06.xlsx,KPTracer_global,source_data/Figure06.xlsx
+Figure06,Figure06,06_Figure06/data/source_data/Figure06.xlsx,MPSTA_global,source_data/Figure06.xlsx
+Figure06,Figure06,06_Figure06/data/source_data/Figure06.xlsx,ReDeeM_global,source_data/Figure06.xlsx
+Figure06,Figure06,06_Figure06/data/source_data/Figure06.xlsx,updated_method_summary,source_data/Figure06.xlsx
+Figure06,Figure06,06_Figure06/data/source_data/Figure06.xlsx,updated_per_cell,source_data/Figure06.xlsx
+Figure06,Figure06,06_Figure06/data/source_data/Figure06.xlsx,reads_velocity_cosine_similarit,source_data/Figure06.xlsx
+Figure06,Figure06,06_Figure06/data/source_data/Figure06.xlsx,runtime_seconds,source_data/Figure06.xlsx
+Figure06,Figure06,06_Figure06/data/source_data/Figure06.xlsx,scLT_cosine,source_data/Figure06.xlsx
+Figure06,Figure06,06_Figure06/data/source_data/Figure06.xlsx,scNT_cosine,source_data/Figure06.xlsx
+Figure06,Figure06,06_Figure06/data/source_data/Figure06.xlsx,simulation_cosine,source_data/Figure06.xlsx
+Figure06,Figure06,06_Figure06/data/source_data/Figure06.xlsx,Field definitions,source_data/Figure06.xlsx
+Figure06,Figure06,06_Figure06/data/source_data/Figure06.xlsx,Added stability protocol,source_data/Figure06.xlsx
+Figure06,Figure06,06_Figure06/data/source_data/Figure06.xlsx,TopicVelo native T check,source_data/Figure06.xlsx
+Figure06,Figure06,06_Figure06/data/source_data/Figure06.xlsx,Stability valid cells,source_data/Figure06.xlsx
+ED01,ED01,08_Extended_Data/ExtendedDataFig01/data/source_data/Extended_Data_Fig01.xlsx,Simulation dyngen simulation,source_data/Extended_Data_Fig01.xlsx
+ED01,ED01,08_Extended_Data/ExtendedDataFig01/data/source_data/Extended_Data_Fig01.xlsx,Panel provenance,source_data/Extended_Data_Fig01.xlsx
+ED01,ED01,08_Extended_Data/ExtendedDataFig01/data/source_data/Extended_Data_Fig01.xlsx,README,source_data/Extended_Data_Fig01.xlsx
+ED01,ED01,11_Tables/Table S1 RNA velocity algorithms summary.xlsx,Summary,tables/Table S1 RNA velocity algorithms summary.xlsx
+ED01,ED01,11_Tables/Table S1 RNA velocity algorithms summary.xlsx,Input data,tables/Table S1 RNA velocity algorithms summary.xlsx
+ED01,ED01,11_Tables/Table S1 RNA velocity algorithms summary.xlsx,Added methods evidence,tables/Table S1 RNA velocity algorithms summary.xlsx
+ED01,ED01,11_Tables/Table S1 RNA velocity algorithms summary.xlsx,Revision notes,tables/Table S1 RNA velocity algorithms summary.xlsx
+ED02,ED03,08_Extended_Data/ExtendedDataFig02/data/source_data/Extended_Data_Fig03.xlsx,Simulation cellDancer simulatio,source_data/Extended_Data_Fig03.xlsx
+ED02,ED03,08_Extended_Data/ExtendedDataFig02/data/source_data/Extended_Data_Fig03.xlsx,Panel provenance,source_data/Extended_Data_Fig03.xlsx
+ED02,ED03,08_Extended_Data/ExtendedDataFig02/data/source_data/Extended_Data_Fig03.xlsx,README,source_data/Extended_Data_Fig03.xlsx
+ED03,ED04,08_Extended_Data/ExtendedDataFig03/data/source_data/Extended_Data_Fig04.xlsx,Real Datasets10,source_data/Extended_Data_Fig04.xlsx
+ED03,ED04,08_Extended_Data/ExtendedDataFig03/data/source_data/Extended_Data_Fig04.xlsx,Real HuBMAP,source_data/Extended_Data_Fig04.xlsx
+ED03,ED04,08_Extended_Data/ExtendedDataFig03/data/source_data/Extended_Data_Fig04.xlsx,Panel provenance,source_data/Extended_Data_Fig04.xlsx
+ED03,ED04,08_Extended_Data/ExtendedDataFig03/data/source_data/Extended_Data_Fig04.xlsx,README,source_data/Extended_Data_Fig04.xlsx
+ED04,ED05,08_Extended_Data/ExtendedDataFig04/data/source_data/Extended_Data_Fig05.xlsx,Gene-level cosine,source_data/Extended_Data_Fig05.xlsx
+ED04,ED05,08_Extended_Data/ExtendedDataFig04/data/source_data/Extended_Data_Fig05.xlsx,Cell-level PCA2 cosine,source_data/Extended_Data_Fig05.xlsx
+ED04,ED05,08_Extended_Data/ExtendedDataFig04/data/source_data/Extended_Data_Fig05.xlsx,Dataset axis labels,source_data/Extended_Data_Fig05.xlsx
+ED04,ED05,08_Extended_Data/ExtendedDataFig04/data/source_data/Extended_Data_Fig05.xlsx,a display_area,source_data/Extended_Data_Fig05.xlsx
+ED04,ED05,08_Extended_Data/ExtendedDataFig04/data/source_data/Extended_Data_Fig05.xlsx,a summaries,source_data/Extended_Data_Fig05.xlsx
+ED04,ED05,08_Extended_Data/ExtendedDataFig04/data/source_data/Extended_Data_Fig05.xlsx,b display_area,source_data/Extended_Data_Fig05.xlsx
+ED04,ED05,08_Extended_Data/ExtendedDataFig04/data/source_data/Extended_Data_Fig05.xlsx,b summaries,source_data/Extended_Data_Fig05.xlsx
+ED04,ED05,08_Extended_Data/ExtendedDataFig04/data/source_data/Extended_Data_Fig05.xlsx,c Box statistics,source_data/Extended_Data_Fig05.xlsx
+ED04,ED05,08_Extended_Data/ExtendedDataFig04/data/source_data/Extended_Data_Fig05.xlsx,c Unit scores,source_data/Extended_Data_Fig05.xlsx
+ED04,ED05,08_Extended_Data/ExtendedDataFig04/data/source_data/Extended_Data_Fig05.xlsx,c Dataset coordinates,source_data/Extended_Data_Fig05.xlsx
+ED04,ED05,08_Extended_Data/ExtendedDataFig04/data/source_data/Extended_Data_Fig05.xlsx,Panel provenance,source_data/Extended_Data_Fig05.xlsx
+ED04,ED05,08_Extended_Data/ExtendedDataFig04/data/source_data/Extended_Data_Fig05.xlsx,Missing data,source_data/Extended_Data_Fig05.xlsx
+ED04,ED05,08_Extended_Data/ExtendedDataFig04/data/source_data/Extended_Data_Fig05.xlsx,README,source_data/Extended_Data_Fig05.xlsx
+ED05,ED06,08_Extended_Data/ExtendedDataFig05/data/source_data/Extended_Data_Fig06.xlsx,Paired cell-level values,source_data/Extended_Data_Fig06.xlsx
+ED05,ED06,08_Extended_Data/ExtendedDataFig05/data/source_data/Extended_Data_Fig06.xlsx,PCA dimension values,source_data/Extended_Data_Fig06.xlsx
+ED05,ED06,08_Extended_Data/ExtendedDataFig05/data/source_data/Extended_Data_Fig06.xlsx,Method summary,source_data/Extended_Data_Fig06.xlsx
+ED05,ED06,08_Extended_Data/ExtendedDataFig05/data/source_data/Extended_Data_Fig06.xlsx,Topology scatter,source_data/Extended_Data_Fig06.xlsx
+ED05,ED06,08_Extended_Data/ExtendedDataFig05/data/source_data/Extended_Data_Fig06.xlsx,Dimension accuracy,source_data/Extended_Data_Fig06.xlsx
+ED05,ED06,08_Extended_Data/ExtendedDataFig05/data/source_data/Extended_Data_Fig06.xlsx,Panel provenance,source_data/Extended_Data_Fig06.xlsx
+ED05,ED06,08_Extended_Data/ExtendedDataFig05/data/source_data/Extended_Data_Fig06.xlsx,README,source_data/Extended_Data_Fig06.xlsx
+ED06,ED07,08_Extended_Data/ExtendedDataFig06/data/source_data/Extended_Data_Fig07.xlsx,HuBMAP raw GDC,source_data/Extended_Data_Fig07.xlsx
+ED06,ED07,08_Extended_Data/ExtendedDataFig06/data/source_data/Extended_Data_Fig07.xlsx,HuBMAP coverage,source_data/Extended_Data_Fig07.xlsx
+ED06,ED07,08_Extended_Data/ExtendedDataFig06/data/source_data/Extended_Data_Fig07.xlsx,Ten datasets raw GDC,source_data/Extended_Data_Fig07.xlsx
+ED06,ED07,08_Extended_Data/ExtendedDataFig06/data/source_data/Extended_Data_Fig07.xlsx,Cluster organ mapping,source_data/Extended_Data_Fig07.xlsx
+ED06,ED07,08_Extended_Data/ExtendedDataFig06/data/source_data/Extended_Data_Fig07.xlsx,Classical summaries,source_data/Extended_Data_Fig07.xlsx
+ED06,ED07,08_Extended_Data/ExtendedDataFig06/data/source_data/Extended_Data_Fig07.xlsx,Panel provenance,source_data/Extended_Data_Fig07.xlsx
+ED06,ED07,08_Extended_Data/ExtendedDataFig06/data/source_data/Extended_Data_Fig07.xlsx,README,source_data/Extended_Data_Fig07.xlsx
+ED07,ED13,08_Extended_Data/ExtendedDataFig07/data/source_data/Extended_Data_Fig13.xlsx,Reference cells,source_data/Extended_Data_Fig13.xlsx
+ED07,ED13,08_Extended_Data/ExtendedDataFig07/data/source_data/Extended_Data_Fig13.xlsx,Projected directions,source_data/Extended_Data_Fig13.xlsx
+ED07,ED13,08_Extended_Data/ExtendedDataFig07/data/source_data/Extended_Data_Fig13.xlsx,Per-cell cosine,source_data/Extended_Data_Fig13.xlsx
+ED07,ED13,08_Extended_Data/ExtendedDataFig07/data/source_data/Extended_Data_Fig13.xlsx,Method summary,source_data/Extended_Data_Fig13.xlsx
+ED07,ED13,08_Extended_Data/ExtendedDataFig07/data/source_data/Extended_Data_Fig13.xlsx,README,source_data/Extended_Data_Fig13.xlsx
+ED08,ED14,08_Extended_Data/ExtendedDataFig08/data/source_data/Extended_Data_Fig14.xlsx,Reference cells,source_data/Extended_Data_Fig14.xlsx
+ED08,ED14,08_Extended_Data/ExtendedDataFig08/data/source_data/Extended_Data_Fig14.xlsx,Projected directions,source_data/Extended_Data_Fig14.xlsx
+ED08,ED14,08_Extended_Data/ExtendedDataFig08/data/source_data/Extended_Data_Fig14.xlsx,Per-cell cosine,source_data/Extended_Data_Fig14.xlsx
+ED08,ED14,08_Extended_Data/ExtendedDataFig08/data/source_data/Extended_Data_Fig14.xlsx,Method summary,source_data/Extended_Data_Fig14.xlsx
+ED08,ED14,08_Extended_Data/ExtendedDataFig08/data/source_data/Extended_Data_Fig14.xlsx,Full timepoint coordinates,source_data/Extended_Data_Fig14.xlsx
+ED08,ED14,08_Extended_Data/ExtendedDataFig08/data/source_data/Extended_Data_Fig14.xlsx,Saved expected targets,source_data/Extended_Data_Fig14.xlsx
+ED08,ED14,08_Extended_Data/ExtendedDataFig08/data/source_data/Extended_Data_Fig14.xlsx,README,source_data/Extended_Data_Fig14.xlsx
+ED09,ED15,08_Extended_Data/ExtendedDataFig09/data/source_data/Extended_Data_Fig15.xlsx,Cells and coordinates,source_data/Extended_Data_Fig15.xlsx
+ED09,ED15,08_Extended_Data/ExtendedDataFig09/data/source_data/Extended_Data_Fig15.xlsx,Output validation,source_data/Extended_Data_Fig15.xlsx
+ED09,ED15,08_Extended_Data/ExtendedDataFig09/data/source_data/Extended_Data_Fig15.xlsx,Cell-type counts,source_data/Extended_Data_Fig15.xlsx
+ED09,ED15,08_Extended_Data/ExtendedDataFig09/data/source_data/Extended_Data_Fig15.xlsx,Direction edges,source_data/Extended_Data_Fig15.xlsx
+ED09,ED15,08_Extended_Data/ExtendedDataFig09/data/source_data/Extended_Data_Fig15.xlsx,Projected directions,source_data/Extended_Data_Fig15.xlsx
+ED09,ED15,08_Extended_Data/ExtendedDataFig09/data/source_data/Extended_Data_Fig15.xlsx,GDC source values,source_data/Extended_Data_Fig15.xlsx
+ED09,ED15,08_Extended_Data/ExtendedDataFig09/data/source_data/Extended_Data_Fig15.xlsx,GDC display order,source_data/Extended_Data_Fig15.xlsx
+ED09,ED15,08_Extended_Data/ExtendedDataFig09/data/source_data/Extended_Data_Fig15.xlsx,Full cell-type palette,source_data/Extended_Data_Fig15.xlsx
+ED09,ED15,08_Extended_Data/ExtendedDataFig09/data/source_data/Extended_Data_Fig15.xlsx,TopicVelo ST_raw,source_data/Extended_Data_Fig15.xlsx
+ED09,ED15,08_Extended_Data/ExtendedDataFig09/data/source_data/Extended_Data_Fig15.xlsx,TopicVelo ST_small,source_data/Extended_Data_Fig15.xlsx
+ED09,ED15,08_Extended_Data/ExtendedDataFig09/data/source_data/Extended_Data_Fig15.xlsx,Spatial revision 1010,source_data/Extended_Data_Fig15.xlsx
+ED09,ED15,08_Extended_Data/ExtendedDataFig09/data/source_data/Extended_Data_Fig15.xlsx,README,source_data/Extended_Data_Fig15.xlsx
+ED10,ED16,08_Extended_Data/ExtendedDataFig10/data/source_data/Extended_Data_Fig16.xlsx,Summary,source_data/Extended_Data_Fig16.xlsx
+ED10,ED16,08_Extended_Data/ExtendedDataFig10/data/source_data/Extended_Data_Fig16.xlsx,All metrics,source_data/Extended_Data_Fig16.xlsx
+ED10,ED16,08_Extended_Data/ExtendedDataFig10/data/source_data/Extended_Data_Fig16.xlsx,By cell type,source_data/Extended_Data_Fig16.xlsx
+ED10,ED16,08_Extended_Data/ExtendedDataFig10/data/source_data/Extended_Data_Fig16.xlsx,Paired spots,source_data/Extended_Data_Fig16.xlsx
+ED10,ED16,08_Extended_Data/ExtendedDataFig10/data/source_data/Extended_Data_Fig16.xlsx,Preprocessing audit,source_data/Extended_Data_Fig16.xlsx
+ED11,ED17,08_Extended_Data/ExtendedDataFig11/data/source_data/Extended_Data_Fig17.xlsx,Cells and coordinates,source_data/Extended_Data_Fig17.xlsx
+ED11,ED17,08_Extended_Data/ExtendedDataFig11/data/source_data/Extended_Data_Fig17.xlsx,Cell-type palette,source_data/Extended_Data_Fig17.xlsx
+ED11,ED17,08_Extended_Data/ExtendedDataFig11/data/source_data/Extended_Data_Fig17.xlsx,Direct evidence edges,source_data/Extended_Data_Fig17.xlsx
+ED11,ED17,08_Extended_Data/ExtendedDataFig11/data/source_data/Extended_Data_Fig17.xlsx,GDC direct edges,source_data/Extended_Data_Fig17.xlsx
+ED11,ED17,08_Extended_Data/ExtendedDataFig11/data/source_data/Extended_Data_Fig17.xlsx,Rerun summary,source_data/Extended_Data_Fig17.xlsx
+ED11,ED17,08_Extended_Data/ExtendedDataFig11/data/source_data/Extended_Data_Fig17.xlsx,Rerun directions,source_data/Extended_Data_Fig17.xlsx
+ED11,ED17,08_Extended_Data/ExtendedDataFig11/data/source_data/Extended_Data_Fig17.xlsx,GDC display order,source_data/Extended_Data_Fig17.xlsx
+ED11,ED17,08_Extended_Data/ExtendedDataFig11/data/source_data/Extended_Data_Fig17.xlsx,Rerun protocol,source_data/Extended_Data_Fig17.xlsx
+ED11,ED17,08_Extended_Data/ExtendedDataFig11/data/source_data/Extended_Data_Fig17.xlsx,Literature schematic,source_data/Extended_Data_Fig17.xlsx
+ED11,ED17,08_Extended_Data/ExtendedDataFig11/data/source_data/Extended_Data_Fig17.xlsx,Literature connections,source_data/Extended_Data_Fig17.xlsx
+ED11,ED17,08_Extended_Data/ExtendedDataFig11/data/source_data/Extended_Data_Fig17.xlsx,README,source_data/Extended_Data_Fig17.xlsx
+ED12,ED18,08_Extended_Data/ExtendedDataFig12/data/source_data/Extended_Data_Fig18.xlsx,MS100 Inputs,source_data/Extended_Data_Fig18.xlsx
+ED12,ED18,08_Extended_Data/ExtendedDataFig12/data/source_data/Extended_Data_Fig18.xlsx,MS100 Mapped genes,source_data/Extended_Data_Fig18.xlsx
+ED12,ED18,08_Extended_Data/ExtendedDataFig12/data/source_data/Extended_Data_Fig18.xlsx,MS100 List counts,source_data/Extended_Data_Fig18.xlsx
+ED12,ED18,08_Extended_Data/ExtendedDataFig12/data/source_data/Extended_Data_Fig18.xlsx,MS100 Heatmap,source_data/Extended_Data_Fig18.xlsx
+ED12,ED18,08_Extended_Data/ExtendedDataFig12/data/source_data/Extended_Data_Fig18.xlsx,MS100 All enrichment,source_data/Extended_Data_Fig18.xlsx
+ED12,ED18,08_Extended_Data/ExtendedDataFig12/data/source_data/Extended_Data_Fig18.xlsx,MS200 Inputs,source_data/Extended_Data_Fig18.xlsx
+ED12,ED18,08_Extended_Data/ExtendedDataFig12/data/source_data/Extended_Data_Fig18.xlsx,MS200 Mapped genes,source_data/Extended_Data_Fig18.xlsx
+ED12,ED18,08_Extended_Data/ExtendedDataFig12/data/source_data/Extended_Data_Fig18.xlsx,MS200 List counts,source_data/Extended_Data_Fig18.xlsx
+ED12,ED18,08_Extended_Data/ExtendedDataFig12/data/source_data/Extended_Data_Fig18.xlsx,MS200 Heatmap,source_data/Extended_Data_Fig18.xlsx
+ED12,ED18,08_Extended_Data/ExtendedDataFig12/data/source_data/Extended_Data_Fig18.xlsx,MS200 All enrichment,source_data/Extended_Data_Fig18.xlsx
+ED12,ED18,08_Extended_Data/ExtendedDataFig12/data/source_data/Extended_Data_Fig18.xlsx,Metascape notes,source_data/Extended_Data_Fig18.xlsx
+ED12,ED18,08_Extended_Data/ExtendedDataFig12/data/metascape/top100/metascape_result.xlsx,Annotation,data/metascape/top100/metascape_result.xlsx
+ED12,ED18,08_Extended_Data/ExtendedDataFig12/data/metascape/top100/metascape_result.xlsx,Enrichment,data/metascape/top100/metascape_result.xlsx
+ED12,ED18,08_Extended_Data/ExtendedDataFig12/data/metascape/top200/metascape_result.xlsx,Annotation,data/metascape/top200/metascape_result.xlsx
+ED12,ED18,08_Extended_Data/ExtendedDataFig12/data/metascape/top200/metascape_result.xlsx,Enrichment,data/metascape/top200/metascape_result.xlsx

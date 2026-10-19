@@ -1,0 +1,16 @@
+{
+  "status": "pass",
+  "baseline_commit": "2955a8e2ba4d08845699ae429f7fef2dea85d877",
+  "migrated_files": 598,
+  "unchanged_files": 596,
+  "figures": 19,
+  "figure_file_mappings": 419,
+  "current_local_links_checked": 728,
+  "inherited_navigation_excluded": [
+    "13_Archive/",
+    "12_Provenance/reports/",
+    "12_Provenance/baseline_1019/"
+  ],
+  "errors": [],
+  "models_rerun": false
+}
