@@ -1,0 +1,203 @@
+{
+  "inputs": [
+    {
+      "dataset": "ST_small",
+      "cells": 608,
+      "genes": 96,
+      "GDC": 0.6339289841095084,
+      "denominator": 608,
+      "sha256": "3e9b8f832de4b62e6f73f3199d20df61f26380e0c1e67cff0463f4ea2464b27f",
+      "velocity_key": "gat_velocity",
+      "zero_velocity_ids": [
+        "12200_10750"
+      ],
+      "zero_velocity_indices": [
+        607
+      ],
+      "scvelo": "0.2.5",
+      "evaluation_neighbors": "preserved uns.neighbors.indices",
+      "models_refit": false,
+      "inner": {
+        "Inner EPC 1": {
+          "n": 47,
+          "mean": 0.9892612188420398
+        },
+        "Inner EPC 2": {
+          "n": 87,
+          "mean": 0.983832977969071
+        },
+        "Outer EPC 1": {
+          "n": 64,
+          "mean": 0.9898754386231303
+        },
+        "Outer EPC 2": {
+          "n": 61,
+          "mean": 0.9939683284915861
+        },
+        "P-TGC (Sec. P-TGC 1)": {
+          "n": 153,
+          "mean": 0.9678750938060237
+        },
+        "P-TGC (Sec. P-TGC 2)": {
+          "n": 196,
+          "mean": 0.9511137376634442
+        }
+      },
+      "edges": [
+        {
+          "source": "Inner EPC 1",
+          "target": "Inner EPC 2",
+          "n": 21,
+          "median": 0.21947668135760215
+        },
+        {
+          "source": "Inner EPC 2",
+          "target": "Outer EPC 1",
+          "n": 47,
+          "median": 0.294129803489752
+        },
+        {
+          "source": "Outer EPC 1",
+          "target": "Outer EPC 2",
+          "n": 18,
+          "median": 0.6470263310873197
+        },
+        {
+          "source": "Inner EPC 2",
+          "target": "P-TGC (Sec. P-TGC 1)",
+          "n": 77,
+          "median": -0.20229780832910596
+        },
+        {
+          "source": "P-TGC (Sec. P-TGC 1)",
+          "target": "P-TGC (Sec. P-TGC 2)",
+          "n": 117,
+          "median": 0.017337543730915946
+        }
+      ]
+    },
+    {
+      "dataset": "ST_raw",
+      "cells": 1292,
+      "genes": 200,
+      "GDC": 0.6439580811808506,
+      "denominator": 608,
+      "sha256": "b2d13177e258222476dcb2088c04c2eaae3270fcf4dcf48cb9627e12c59ad126",
+      "velocity_key": "gat_velocity",
+      "zero_velocity_ids": [
+        "13000_12850",
+        "12200_10750"
+      ],
+      "zero_velocity_indices": [
+        1023,
+        1291
+      ],
+      "scvelo": "0.2.5",
+      "evaluation_neighbors": "preserved uns.neighbors.indices",
+      "models_refit": false,
+      "inner": {
+        "Inner EPC 1": {
+          "n": 47,
+          "mean": 0.9985818786824003
+        },
+        "Inner EPC 2": {
+          "n": 87,
+          "mean": 0.9989982480290293
+        },
+        "Outer EPC 1": {
+          "n": 64,
+          "mean": 0.9990452723577619
+        },
+        "Outer EPC 2": {
+          "n": 61,
+          "mean": 0.9988763410536969
+        },
+        "P-TGC (Sec. P-TGC 1)": {
+          "n": 153,
+          "mean": 0.9986436955289903
+        },
+        "P-TGC (Sec. P-TGC 2)": {
+          "n": 196,
+          "mean": 0.9732237838360728
+        }
+      },
+      "edges": [
+        {
+          "source": "Inner EPC 1",
+          "target": "Inner EPC 2",
+          "n": 17,
+          "median": 0.31712106172394117
+        },
+        {
+          "source": "Inner EPC 2",
+          "target": "Outer EPC 1",
+          "n": 46,
+          "median": 0.2920181209044631
+        },
+        {
+          "source": "Outer EPC 1",
+          "target": "Outer EPC 2",
+          "n": 18,
+          "median": 0.6092101698400492
+        },
+        {
+          "source": "Inner EPC 2",
+          "target": "P-TGC (Sec. P-TGC 1)",
+          "n": 77,
+          "median": -0.03475812020113084
+        },
+        {
+          "source": "P-TGC (Sec. P-TGC 1)",
+          "target": "P-TGC (Sec. P-TGC 2)",
+          "n": 116,
+          "median": 0.05651450291387301
+        }
+      ]
+    }
+  ],
+  "coordinate_translation_full_minus_small": [
+    150.0,
+    0.0
+  ],
+  "shared_genes": 47,
+  "paired_summary": [
+    {
+      "method": "TopoVelo",
+      "metric": "gene",
+      "paired_spots": 608,
+      "shared_genes_used": 47,
+      "interpretation": "gene_velocity_on_shared_gene_names",
+      "valid_pairs": 606,
+      "median": 0.9157834876194753,
+      "q25": 0.858535867705712,
+      "q75": 0.9473517688437059,
+      "mean": 0.8980621319523283,
+      "fraction_positive": 1.0,
+      "fraction_negative": 0.0,
+      "fraction_ge_0_9": 0.5891089108910891,
+      "median_angle_degrees": 23.68272460237352
+    },
+    {
+      "method": "TopoVelo",
+      "metric": "spatial",
+      "paired_spots": 608,
+      "shared_genes_used": 47,
+      "interpretation": "fixed_spatial_direction",
+      "valid_pairs": 606,
+      "median": 0.9774073750421759,
+      "q25": 0.8758506829768887,
+      "q75": 0.9962851452635106,
+      "mean": 0.7986880204371152,
+      "fraction_positive": 0.9207920792079208,
+      "fraction_negative": 0.07920792079207921,
+      "fraction_ge_0_9": 0.7161716171617162,
+      "median_angle_degrees": 12.201957884555412
+    }
+  ],
+  "undefined_pair_ids": [
+    "13000_12850",
+    "12200_10750"
+  ],
+  "zero_velocity_GDC_policy": "Retain archived zeros and legacy sklearn cosine zero convention; do not drop or impute them.",
+  "paired_zero_policy": "Undefined directions excluded; spatial vectors set to zero for undefined archived gene velocities."
+}

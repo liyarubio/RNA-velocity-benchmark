@@ -621,8 +621,8 @@
       "check": "ED16_population",
       "passed": true,
       "details": {
-        "rows": 11552,
-        "methods": 19
+        "rows": 12160,
+        "methods": 20
       }
     },
     {
@@ -631,7 +631,7 @@
       "details": {
         "max_absolute_error": 1.5996926006067724e-13,
         "tolerance": 1e-10,
-        "n": 11552
+        "n": 12160
       }
     },
     {
@@ -640,7 +640,7 @@
       "details": {
         "max_absolute_error": 3.3306690738754696e-16,
         "tolerance": 1e-10,
-        "n": 19
+        "n": 20
       }
     },
     {
@@ -649,7 +649,7 @@
       "details": {
         "max_absolute_error": 2.220446049250313e-16,
         "tolerance": 1e-10,
-        "n": 19
+        "n": 20
       }
     },
     {
@@ -658,7 +658,7 @@
       "details": {
         "max_absolute_error": 0.0,
         "tolerance": 1e-10,
-        "n": 19
+        "n": 20
       }
     },
     {
@@ -667,16 +667,16 @@
       "details": {
         "max_absolute_error": 1.1102230246251565e-16,
         "tolerance": 1e-10,
-        "n": 19
+        "n": 20
       }
     },
     {
       "check": "ED16_gene_q75",
       "passed": true,
       "details": {
-        "max_absolute_error": 1.1102230246251565e-16,
+        "max_absolute_error": 2.220446049250313e-16,
         "tolerance": 1e-10,
-        "n": 19
+        "n": 20
       }
     },
     {
@@ -685,7 +685,7 @@
       "details": {
         "max_absolute_error": 1.1102230246251565e-16,
         "tolerance": 1e-10,
-        "n": 114
+        "n": 120
       }
     },
     {
@@ -694,16 +694,16 @@
       "details": {
         "max_absolute_error": 1.1102230246251565e-16,
         "tolerance": 1e-10,
-        "n": 19
+        "n": 20
       }
     },
     {
       "check": "ED16_spatial_median",
       "passed": true,
       "details": {
-        "max_absolute_error": 1.1102230246251565e-16,
+        "max_absolute_error": 2.220446049250313e-16,
         "tolerance": 1e-10,
-        "n": 19
+        "n": 20
       }
     },
     {
@@ -712,7 +712,7 @@
       "details": {
         "max_absolute_error": 0.0,
         "tolerance": 1e-10,
-        "n": 19
+        "n": 20
       }
     },
     {
@@ -721,7 +721,7 @@
       "details": {
         "max_absolute_error": 1.1102230246251565e-16,
         "tolerance": 1e-10,
-        "n": 19
+        "n": 20
       }
     },
     {
@@ -730,7 +730,7 @@
       "details": {
         "max_absolute_error": 2.220446049250313e-16,
         "tolerance": 1e-10,
-        "n": 19
+        "n": 20
       }
     },
     {
@@ -739,7 +739,7 @@
       "details": {
         "max_absolute_error": 2.220446049250313e-16,
         "tolerance": 1e-10,
-        "n": 114
+        "n": 120
       }
     },
     {
@@ -843,15 +843,15 @@
   ],
   "failed_checks": [],
   "number_of_checks": 97,
-  "elapsed_seconds": 17.964,
+  "elapsed_seconds": 16.356,
   "environment": {
-    "python": "3.13.0",
+    "python": "3.9.23",
     "platform": "Linux-5.15.0-139-generic-x86_64-with-glibc2.31",
     "packages": {
-      "numpy": "2.2.6",
-      "pandas": "2.3.2",
-      "scipy": "1.16.2",
-      "matplotlib": "3.10.6",
+      "numpy": "2.0.2",
+      "pandas": "2.3.3",
+      "scipy": "1.13.1",
+      "matplotlib": "3.9.4",
       "openpyxl": "3.1.5"
     }
   },

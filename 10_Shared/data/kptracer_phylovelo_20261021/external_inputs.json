@@ -1,0 +1,12 @@
+{
+  "/data1/liyaru/RNA_velocity_materials/KPTracer_phylovelo_20261021/inputs/adata_processed.nt.h5ad": {
+    "bytes": 2282515558,
+    "packaged": false,
+    "reason": "large raw source retained at original location; original fetch provenance is in records"
+  },
+  "/data1/liyaru/RNA_velocity_materials/KPTracer_phylovelo_20261021/inputs/KPTracer-Data.tar.gz": {
+    "bytes": 1304975216,
+    "packaged": false,
+    "reason": "large raw source retained at original location; original fetch provenance is in records"
+  }
+}

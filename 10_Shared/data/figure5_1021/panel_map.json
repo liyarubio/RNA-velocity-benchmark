@@ -1,0 +1,1571 @@
+{
+  "page_pt": [
+    600,
+    820
+  ],
+  "a_grid": [
+    4,
+    6
+  ],
+  "a_order": [
+    "TopoVelo",
+    "UniTVelo",
+    "TopicVelo",
+    "DeepVelo(VAE)",
+    "TFvelo",
+    "VeloVAE",
+    "STT",
+    "veloVI",
+    "DeepKINET",
+    "biVI",
+    "DeepVelo(GCN)",
+    "scVelo(dyn)",
+    "cellDancer",
+    "scVelo(sto)",
+    "VeloAE",
+    "LatentVelo",
+    "velocyto",
+    "dynamo",
+    "SDEvelo",
+    "cell2fate"
+  ],
+  "a_positions": [
+    {
+      "panel": "a",
+      "method": "TopoVelo",
+      "GDC": 0.6339289841095084,
+      "row": 1,
+      "column": 5,
+      "target": [
+        400,
+        47,
+        484,
+        119
+      ]
+    },
+    {
+      "panel": "a",
+      "method": "UniTVelo",
+      "GDC": 0.537752464903813,
+      "row": 1,
+      "column": 6,
+      "target": [
+        496,
+        47,
+        580,
+        119
+      ]
+    },
+    {
+      "panel": "a",
+      "method": "TopicVelo",
+      "GDC": 0.4838869706599916,
+      "row": 2,
+      "column": 1,
+      "target": [
+        16,
+        147,
+        100,
+        219
+      ]
+    },
+    {
+      "panel": "a",
+      "method": "DeepVelo(VAE)",
+      "GDC": 0.243421023123358,
+      "row": 2,
+      "column": 2,
+      "target": [
+        112,
+        147,
+        196,
+        219
+      ]
+    },
+    {
+      "panel": "a",
+      "method": "TFvelo",
+      "GDC": 0.1828297035383347,
+      "row": 2,
+      "column": 3,
+      "target": [
+        208,
+        147,
+        292,
+        219
+      ]
+    },
+    {
+      "panel": "a",
+      "method": "VeloVAE",
+      "GDC": 0.113154263707711,
+      "row": 2,
+      "column": 4,
+      "target": [
+        304,
+        147,
+        388,
+        219
+      ]
+    },
+    {
+      "panel": "a",
+      "method": "STT",
+      "GDC": 0.103781295822726,
+      "row": 2,
+      "column": 5,
+      "target": [
+        400,
+        147,
+        484,
+        219
+      ]
+    },
+    {
+      "panel": "a",
+      "method": "veloVI",
+      "GDC": -0.0451213787064741,
+      "row": 2,
+      "column": 6,
+      "target": [
+        496,
+        147,
+        580,
+        219
+      ]
+    },
+    {
+      "panel": "a",
+      "method": "DeepKINET",
+      "GDC": -0.0477764539812741,
+      "row": 3,
+      "column": 1,
+      "target": [
+        16,
+        247,
+        100,
+        319
+      ]
+    },
+    {
+      "panel": "a",
+      "method": "biVI",
+      "GDC": -0.10692157851238,
+      "row": 3,
+      "column": 2,
+      "target": [
+        112,
+        247,
+        196,
+        319
+      ]
+    },
+    {
+      "panel": "a",
+      "method": "DeepVelo(GCN)",
+      "GDC": -0.114117740114269,
+      "row": 3,
+      "column": 3,
+      "target": [
+        208,
+        247,
+        292,
+        319
+      ]
+    },
+    {
+      "panel": "a",
+      "method": "scVelo(dyn)",
+      "GDC": -0.186610163803234,
+      "row": 3,
+      "column": 4,
+      "target": [
+        304,
+        247,
+        388,
+        319
+      ]
+    },
+    {
+      "panel": "a",
+      "method": "cellDancer",
+      "GDC": -0.190151408215941,
+      "row": 3,
+      "column": 5,
+      "target": [
+        400,
+        247,
+        484,
+        319
+      ]
+    },
+    {
+      "panel": "a",
+      "method": "scVelo(sto)",
+      "GDC": -0.220778434488334,
+      "row": 3,
+      "column": 6,
+      "target": [
+        496,
+        247,
+        580,
+        319
+      ]
+    },
+    {
+      "panel": "a",
+      "method": "VeloAE",
+      "GDC": -0.459279710230859,
+      "row": 4,
+      "column": 1,
+      "target": [
+        16,
+        347,
+        100,
+        419
+      ]
+    },
+    {
+      "panel": "a",
+      "method": "LatentVelo",
+      "GDC": -0.493011843119013,
+      "row": 4,
+      "column": 2,
+      "target": [
+        112,
+        347,
+        196,
+        419
+      ]
+    },
+    {
+      "panel": "a",
+      "method": "velocyto",
+      "GDC": -0.556035598529867,
+      "row": 4,
+      "column": 3,
+      "target": [
+        208,
+        347,
+        292,
+        419
+      ]
+    },
+    {
+      "panel": "a",
+      "method": "dynamo",
+      "GDC": -0.569378907099274,
+      "row": 4,
+      "column": 4,
+      "target": [
+        304,
+        347,
+        388,
+        419
+      ]
+    },
+    {
+      "panel": "a",
+      "method": "SDEvelo",
+      "GDC": -0.620163275709223,
+      "row": 4,
+      "column": 5,
+      "target": [
+        400,
+        347,
+        484,
+        419
+      ]
+    },
+    {
+      "panel": "a",
+      "method": "cell2fate",
+      "GDC": -0.648127283018671,
+      "row": 4,
+      "column": 6,
+      "target": [
+        496,
+        347,
+        580,
+        419
+      ]
+    }
+  ],
+  "b_order": [
+    "TopoVelo",
+    "UniTVelo",
+    "TopicVelo",
+    "DeepVelo(VAE)",
+    "TFvelo"
+  ],
+  "b_selection": "Top five by panel a GDC; b numeric annotations hidden",
+  "a_reference_order": [
+    "all_cells",
+    "target_cells",
+    "cell_type_legend",
+    "differentiation"
+  ],
+  "d_legend": "lower-right vertical legend centered under DeepVelo(VAE) at x=343 pt",
+  "d_selection": "PhyloVelo above UniTVelo on left, DeepVelo(VAE) upper right; adapted PhyloVelo score is not a comparable rank",
+  "d_style": {
+    "method_order": [
+      "PhyloVelo",
+      "UniTVelo",
+      "DeepVelo(VAE)"
+    ],
+    "plot_directions": {
+      "PhyloVelo": "native backward",
+      "UniTVelo": "native forward",
+      "DeepVelo(VAE)": "native forward"
+    },
+    "cells": 754,
+    "same_cell_order_coordinates_labels": true,
+    "page_pt": [
+      80,
+      107
+    ],
+    "axes_rect_pt": [
+      6.235523051916894,
+      0.0,
+      67.52895389616623,
+      107.0
+    ],
+    "equal_aspect": true,
+    "xlim": [
+      -7.128897649049759,
+      2.2700649321079256
+    ],
+    "ylim": [
+      -6.175955653190613,
+      8.716752409934998
+    ],
+    "grid": [
+      35,
+      35
+    ],
+    "neighbors": 30,
+    "bandwidth_factor": 0.75,
+    "mass_threshold": 0.2,
+    "density": 1,
+    "marker_area": 3.5,
+    "linewidth": 0.4,
+    "arrowsize": 0.5,
+    "velocity_signs_changed": false,
+    "model_or_embedding_rerun": false,
+    "source_sha256": {
+      "/data1/liyaru/RNA_velocity_materials/KPTracer_phylovelo_20261021/results/phylovelo.h5ad": "c35e81e1c0286b55dd73e89558f755193c62cda692d898bd82b2e16b53dac7e9",
+      "/data1/liyaru/RNA_velocity_materials/velogif_XC/real_data/result/velocity/KPTracer/5_unitvelo/anndata.h5ad": "e5c95a51dfed2068b6a47989082d19aef86e04eccc08d54568f9fdeae34f4301",
+      "/data1/liyaru/RNA_velocity_materials/velogif_XC/real_data/result/velocity/KPTracer/6_DeepveloSA/anndata.h5ad": "5702020ff7f8e65941720d41fcc6e045ae34f776ae75c87327309bafff2826b7"
+    }
+  },
+  "removed_annotations": [
+    "b medians",
+    "b colorbar caption and prose",
+    "c subtitle",
+    "e subtitle",
+    "figure bottom note"
+  ],
+  "c_order": [
+    "TopoVelo",
+    "UniTVelo",
+    "LatentVelo",
+    "velocyto",
+    "STT",
+    "dynamo",
+    "scVelo(sto)",
+    "cell2fate",
+    "SDEvelo",
+    "DeepVelo(GCN)",
+    "TFvelo",
+    "biVI",
+    "cellDancer",
+    "veloVI",
+    "scVelo(dyn)",
+    "DeepKINET",
+    "TopicVelo",
+    "DeepVelo(VAE)",
+    "VeloAE",
+    "VeloVAE"
+  ],
+  "d_order": [
+    "PhyloVelo",
+    "UniTVelo",
+    "DeepVelo(VAE)"
+  ],
+  "e_order": [
+    "PhyloVelo",
+    "UniTVelo",
+    "DeepVelo(VAE)",
+    "SDEvelo",
+    "STT",
+    "scVelo(dyn)",
+    "scVelo(sto)",
+    "cellDancer",
+    "veloVI",
+    "VeloVAE",
+    "cell2fate",
+    "TopicVelo",
+    "DeepKINET",
+    "biVI",
+    "VeloAE",
+    "dynamo",
+    "DeepVelo(GCN)",
+    "TFvelo",
+    "LatentVelo",
+    "velocyto"
+  ],
+  "colors": {
+    "primary": "figures/main/Figure03.pdf panel g, vector box fills",
+    "additional": {
+      "TopicVelo": "Code/render_topovelo_ed09_20261021.py existing method mapping",
+      "TopoVelo": "Code/render_topovelo_ed09_20261021.py existing olive green"
+    },
+    "PhyloVelo": "Fixed brown #8c564b; sorted by displayed value; adaptation documented in report",
+    "colors": {
+      "DeepVelo(GCN)": "#87cefa",
+      "cellDancer": "#ffb6c1",
+      "scVelo(dyn)": "#6a3d9a",
+      "scVelo(sto)": "#cab2d6",
+      "dynamo": "#ffb547",
+      "DeepVelo(VAE)": "#0000cd",
+      "cell2fate": "#cd5c5c",
+      "LatentVelo": "#20b2aa",
+      "veloVI": "#db7093",
+      "biVI": "#1e90ff",
+      "DeepKINET": "#ff6347",
+      "VeloAE": "#33a02c",
+      "SDEvelo": "#4682b4",
+      "velocyto": "#d62728",
+      "STT": "#ff8c00",
+      "UniTVelo": "#e6cf5c",
+      "TFvelo": "#7b4173",
+      "VeloVAE": "#b2df8a",
+      "TopicVelo": "#9acd32",
+      "TopoVelo": "#6b8e23",
+      "PhyloVelo": "#8c564b"
+    },
+    "figure3_sha256": "e717dc7487199ea13846b63920d60c347f5b4d399f1fe7f862a8253b8bd51910"
+  },
+  "lower_axes_band": [
+    559,
+    795
+  ],
+  "common_a_clip": [
+    19.860000610351562,
+    1.6380000114440918,
+    90.25700378417969,
+    70.49500274658203
+  ],
+  "placements": [
+    {
+      "panel": "a_reference",
+      "source_clip": [
+        38,
+        70,
+        186,
+        197
+      ],
+      "target": [
+        13,
+        49,
+        103,
+        121
+      ],
+      "kind": "all_cells",
+      "source": "Ext9a"
+    },
+    {
+      "panel": "a_reference",
+      "source_clip": [
+        201,
+        70,
+        349,
+        197
+      ],
+      "target": [
+        109,
+        49,
+        199,
+        121
+      ],
+      "kind": "target_cells",
+      "source": "Ext9a"
+    },
+    {
+      "panel": "a_reference",
+      "source_clip": [
+        0.0,
+        0.0,
+        111.5999984741211,
+        98.0
+      ],
+      "target": [
+        302,
+        44,
+        390,
+        119
+      ],
+      "kind": "differentiation",
+      "source": "Fig5a_reference.pdf"
+    },
+    {
+      "panel": "a",
+      "source_clip": [
+        19.860000610351562,
+        1.6380000114440918,
+        90.25700378417969,
+        70.49500274658203
+      ],
+      "target": [
+        400,
+        47,
+        484,
+        119
+      ],
+      "method": "TopoVelo",
+      "source": "Reports/fig5a_compact_20261021/unified_style/artwork/00_TopoVelo.svg",
+      "source_sha256": "073b59a70c2c209eafda3214da87b7658e11d56ed17de32e6772b6e367a40c99",
+      "scale": 1.045645281380483
+    },
+    {
+      "panel": "a",
+      "source_clip": [
+        19.860000610351562,
+        1.6380000114440918,
+        90.25700378417969,
+        70.49500274658203
+      ],
+      "target": [
+        496,
+        47,
+        580,
+        119
+      ],
+      "method": "UniTVelo",
+      "source": "Reports/fig5a_compact_20261021/unified_style/artwork/01_UniTVelo.svg",
+      "source_sha256": "0e8055423259ec009c3fe0254d3a88946b74d532f39eadc5eaf128b270eefdbf",
+      "scale": 1.045645281380483
+    },
+    {
+      "panel": "a",
+      "source_clip": [
+        19.860000610351562,
+        1.6380000114440918,
+        90.25700378417969,
+        70.49500274658203
+      ],
+      "target": [
+        16,
+        147,
+        100,
+        219
+      ],
+      "method": "TopicVelo",
+      "source": "Reports/fig5a_compact_20261021/unified_style/artwork/02_TopicVelo.svg",
+      "source_sha256": "e3acd6986f816f199c7e760cda30e89aac97ab1d59afc6254bf172c53c14bfa7",
+      "scale": 1.045645281380483
+    },
+    {
+      "panel": "a",
+      "source_clip": [
+        19.860000610351562,
+        1.6380000114440918,
+        90.25700378417969,
+        70.49500274658203
+      ],
+      "target": [
+        112,
+        147,
+        196,
+        219
+      ],
+      "method": "DeepVelo(VAE)",
+      "source": "Reports/fig5a_compact_20261021/unified_style/artwork/03_DeepVelo_VAE_.svg",
+      "source_sha256": "6141772a1cd537f720055bffe771521c7bcfd2cbff6f023112dabe1307fdf4e8",
+      "scale": 1.045645281380483
+    },
+    {
+      "panel": "a",
+      "source_clip": [
+        19.860000610351562,
+        1.6380000114440918,
+        90.25700378417969,
+        70.49500274658203
+      ],
+      "target": [
+        208,
+        147,
+        292,
+        219
+      ],
+      "method": "TFvelo",
+      "source": "Reports/fig5a_compact_20261021/unified_style/artwork/04_TFvelo.svg",
+      "source_sha256": "cf3cc1971cc3e2811aa0e395689bacfa582fc99112b6deb2e621d4d3fef5173d",
+      "scale": 1.045645281380483
+    },
+    {
+      "panel": "a",
+      "source_clip": [
+        19.860000610351562,
+        1.6380000114440918,
+        90.25700378417969,
+        70.49500274658203
+      ],
+      "target": [
+        304,
+        147,
+        388,
+        219
+      ],
+      "method": "VeloVAE",
+      "source": "Reports/fig5a_compact_20261021/unified_style/artwork/05_VeloVAE.svg",
+      "source_sha256": "036880b561a65e637947fe0ad443426aa9bf6ce9edc22816e2eae8fbc9aceb7a",
+      "scale": 1.045645281380483
+    },
+    {
+      "panel": "a",
+      "source_clip": [
+        19.860000610351562,
+        1.6380000114440918,
+        90.25700378417969,
+        70.49500274658203
+      ],
+      "target": [
+        400,
+        147,
+        484,
+        219
+      ],
+      "method": "STT",
+      "source": "Reports/fig5a_compact_20261021/unified_style/artwork/06_STT.svg",
+      "source_sha256": "804cfbb59a5dcdd9923c6b05d08e5f748c5da92058bf3ed6fe8c6c1a692052cc",
+      "scale": 1.045645281380483
+    },
+    {
+      "panel": "a",
+      "source_clip": [
+        19.860000610351562,
+        1.6380000114440918,
+        90.25700378417969,
+        70.49500274658203
+      ],
+      "target": [
+        496,
+        147,
+        580,
+        219
+      ],
+      "method": "veloVI",
+      "source": "Reports/fig5a_compact_20261021/unified_style/artwork/07_veloVI.svg",
+      "source_sha256": "d0cd84a0869b2432d0606a4651903caa68d2c9d1cd4033bfaf8d3f717c5aebdb",
+      "scale": 1.045645281380483
+    },
+    {
+      "panel": "a",
+      "source_clip": [
+        19.860000610351562,
+        1.6380000114440918,
+        90.25700378417969,
+        70.49500274658203
+      ],
+      "target": [
+        16,
+        247,
+        100,
+        319
+      ],
+      "method": "DeepKINET",
+      "source": "Reports/fig5a_compact_20261021/unified_style/artwork/08_DeepKINET.svg",
+      "source_sha256": "ea180c4e3bc4271dd24f3ef740ad9962decfd5aedcc6b5cf82ce0249b1e24fb8",
+      "scale": 1.045645281380483
+    },
+    {
+      "panel": "a",
+      "source_clip": [
+        19.860000610351562,
+        1.6380000114440918,
+        90.25700378417969,
+        70.49500274658203
+      ],
+      "target": [
+        112,
+        247,
+        196,
+        319
+      ],
+      "method": "biVI",
+      "source": "Reports/fig5a_compact_20261021/unified_style/artwork/09_biVI.svg",
+      "source_sha256": "3e606b31528ff70cfa8ce66fbee417cb21ab72427499603f75ba28b55c6a06ac",
+      "scale": 1.045645281380483
+    },
+    {
+      "panel": "a",
+      "source_clip": [
+        19.860000610351562,
+        1.6380000114440918,
+        90.25700378417969,
+        70.49500274658203
+      ],
+      "target": [
+        208,
+        247,
+        292,
+        319
+      ],
+      "method": "DeepVelo(GCN)",
+      "source": "Reports/fig5a_compact_20261021/unified_style/artwork/10_DeepVelo_GCN_.svg",
+      "source_sha256": "94d6e0eaeed4c2ab25711e8a3c2fc00d3168eb96b72d2311475c0a3d35df2ab6",
+      "scale": 1.045645281380483
+    },
+    {
+      "panel": "a",
+      "source_clip": [
+        19.860000610351562,
+        1.6380000114440918,
+        90.25700378417969,
+        70.49500274658203
+      ],
+      "target": [
+        304,
+        247,
+        388,
+        319
+      ],
+      "method": "scVelo(dyn)",
+      "source": "Reports/fig5a_compact_20261021/unified_style/artwork/11_scVelo_dyn_.svg",
+      "source_sha256": "f62a0ee3767264e3bc16b0c36b36728ea608ef301a743b94d9940ef27a8c7b0b",
+      "scale": 1.045645281380483
+    },
+    {
+      "panel": "a",
+      "source_clip": [
+        19.860000610351562,
+        1.6380000114440918,
+        90.25700378417969,
+        70.49500274658203
+      ],
+      "target": [
+        400,
+        247,
+        484,
+        319
+      ],
+      "method": "cellDancer",
+      "source": "Reports/fig5a_compact_20261021/unified_style/artwork/12_cellDancer.svg",
+      "source_sha256": "4d7fa677e5b0823bb8e797f4efc606c26754d79f5b52146e2fe693d7cedef30e",
+      "scale": 1.045645281380483
+    },
+    {
+      "panel": "a",
+      "source_clip": [
+        19.860000610351562,
+        1.6380000114440918,
+        90.25700378417969,
+        70.49500274658203
+      ],
+      "target": [
+        496,
+        247,
+        580,
+        319
+      ],
+      "method": "scVelo(sto)",
+      "source": "Reports/fig5a_compact_20261021/unified_style/artwork/13_scVelo_sto_.svg",
+      "source_sha256": "2c27069ad8187072da94d53ddf1faeb1f1aaf67d6f5b0f13786feabd8d5ce3c5",
+      "scale": 1.045645281380483
+    },
+    {
+      "panel": "a",
+      "source_clip": [
+        19.860000610351562,
+        1.6380000114440918,
+        90.25700378417969,
+        70.49500274658203
+      ],
+      "target": [
+        16,
+        347,
+        100,
+        419
+      ],
+      "method": "VeloAE",
+      "source": "Reports/fig5a_compact_20261021/unified_style/artwork/14_VeloAE.svg",
+      "source_sha256": "b7b966b400a7c117af653291d9b0445c6a31b903c1df593904adac5d40b625e7",
+      "scale": 1.045645281380483
+    },
+    {
+      "panel": "a",
+      "source_clip": [
+        19.860000610351562,
+        1.6380000114440918,
+        90.25700378417969,
+        70.49500274658203
+      ],
+      "target": [
+        112,
+        347,
+        196,
+        419
+      ],
+      "method": "LatentVelo",
+      "source": "Reports/fig5a_compact_20261021/unified_style/artwork/15_LatentVelo.svg",
+      "source_sha256": "c75b598f1381d62ced9340bec5a63dc7a09a7a208b3bd0586ecabdcae67c57ab",
+      "scale": 1.045645281380483
+    },
+    {
+      "panel": "a",
+      "source_clip": [
+        19.860000610351562,
+        1.6380000114440918,
+        90.25700378417969,
+        70.49500274658203
+      ],
+      "target": [
+        208,
+        347,
+        292,
+        419
+      ],
+      "method": "velocyto",
+      "source": "Reports/fig5a_compact_20261021/unified_style/artwork/16_velocyto.svg",
+      "source_sha256": "59b5d8e6fef7ca798ea9cb8b37d31bc49e858c299a7279cfd3594b8b74c35466",
+      "scale": 1.045645281380483
+    },
+    {
+      "panel": "a",
+      "source_clip": [
+        19.860000610351562,
+        1.6380000114440918,
+        90.25700378417969,
+        70.49500274658203
+      ],
+      "target": [
+        304,
+        347,
+        388,
+        419
+      ],
+      "method": "dynamo",
+      "source": "Reports/fig5a_compact_20261021/unified_style/artwork/17_dynamo.svg",
+      "source_sha256": "11a79b6d37d46442afaa8b544114ecb27642bfe132fef708459fc581a4645203",
+      "scale": 1.045645281380483
+    },
+    {
+      "panel": "a",
+      "source_clip": [
+        19.860000610351562,
+        1.6380000114440918,
+        90.25700378417969,
+        70.49500274658203
+      ],
+      "target": [
+        400,
+        347,
+        484,
+        419
+      ],
+      "method": "SDEvelo",
+      "source": "Reports/fig5a_compact_20261021/unified_style/artwork/18_SDEvelo.svg",
+      "source_sha256": "c6287e1c785f71cfce883c2af97478cd3b7191e1e9a8d34c2f74dc3b9363ee0c",
+      "scale": 1.045645281380483
+    },
+    {
+      "panel": "a",
+      "source_clip": [
+        19.860000610351562,
+        1.6380000114440918,
+        90.25700378417969,
+        70.49500274658203
+      ],
+      "target": [
+        496,
+        347,
+        580,
+        419
+      ],
+      "method": "cell2fate",
+      "source": "Reports/fig5a_compact_20261021/unified_style/artwork/19_cell2fate.svg",
+      "source_sha256": "506874a6fd19c8483d9449aa9ea1af5236db79e7454b1955204d3f234949ba3e",
+      "scale": 1.045645281380483
+    },
+    {
+      "panel": "b",
+      "source_clip": [
+        24,
+        405,
+        129,
+        492
+      ],
+      "target": [
+        13,
+        451,
+        103,
+        526
+      ],
+      "method": "TopoVelo",
+      "source": "figures/extended_numbered/Extended_Data_Fig10.pdf"
+    },
+    {
+      "panel": "b",
+      "source_clip": [
+        135,
+        405,
+        240,
+        492
+      ],
+      "target": [
+        109,
+        451,
+        199,
+        526
+      ],
+      "method": "UniTVelo",
+      "source": "figures/extended_numbered/Extended_Data_Fig10.pdf"
+    },
+    {
+      "panel": "b",
+      "source_clip": [
+        135,
+        702,
+        240,
+        789
+      ],
+      "target": [
+        205,
+        451,
+        295,
+        526
+      ],
+      "method": "TopicVelo",
+      "source": "figures/extended_numbered/Extended_Data_Fig10.pdf"
+    },
+    {
+      "panel": "b",
+      "source_clip": [
+        246,
+        702,
+        351,
+        789
+      ],
+      "target": [
+        301,
+        451,
+        391,
+        526
+      ],
+      "method": "DeepVelo(VAE)",
+      "source": "figures/extended_numbered/Extended_Data_Fig10.pdf"
+    },
+    {
+      "panel": "b",
+      "source_clip": [
+        24,
+        603,
+        129,
+        690
+      ],
+      "target": [
+        397,
+        451,
+        487,
+        526
+      ],
+      "method": "TFvelo",
+      "source": "figures/extended_numbered/Extended_Data_Fig10.pdf"
+    },
+    {
+      "panel": "d",
+      "source_clip": [
+        0.0,
+        0.0,
+        80.0,
+        107.0
+      ],
+      "target": [
+        207,
+        565,
+        287,
+        672
+      ],
+      "method": "PhyloVelo",
+      "source": "/data1/liyaru/RNA_velocity_materials/Manuscript_1019/Reports/figure_structure_design_20261021/layout_v12/PhyloVelo_field.pdf",
+      "source_sha256": "6d01941ddef2cfe969f92fc9c197f41f4910ca8ed982894f111c564e829ef713",
+      "crop": "none; identical full frame for all three methods",
+      "direction": "native backward",
+      "axes_rect_pt": [
+        6.235523051916894,
+        0.0,
+        67.52895389616623,
+        107.0
+      ]
+    },
+    {
+      "panel": "d",
+      "source_clip": [
+        0.0,
+        0.0,
+        80.0,
+        107.0
+      ],
+      "target": [
+        207,
+        687,
+        287,
+        794
+      ],
+      "method": "UniTVelo",
+      "source": "/data1/liyaru/RNA_velocity_materials/Manuscript_1019/Reports/figure_structure_design_20261021/layout_v12/UniTVelo_field.pdf",
+      "source_sha256": "303e64c823f6c2f803bdcea91a852cf14ba27eace2546d2c0b8ab53a9afc40d2",
+      "crop": "none; identical full frame for all three methods",
+      "direction": "native forward",
+      "axes_rect_pt": [
+        6.235523051916894,
+        0.0,
+        67.52895389616623,
+        107.0
+      ]
+    },
+    {
+      "panel": "d",
+      "source_clip": [
+        0.0,
+        0.0,
+        80.0,
+        107.0
+      ],
+      "target": [
+        303,
+        565,
+        383,
+        672
+      ],
+      "method": "DeepVelo(VAE)",
+      "source": "/data1/liyaru/RNA_velocity_materials/Manuscript_1019/Reports/figure_structure_design_20261021/layout_v12/DeepVelo(VAE)_field.pdf",
+      "source_sha256": "8905380d04ec2ed1fdc2d0e526c2a86eba8d4b5c483aece26f2bab647342d792",
+      "crop": "none; identical full frame for all three methods",
+      "direction": "native forward",
+      "axes_rect_pt": [
+        6.235523051916894,
+        0.0,
+        67.52895389616623,
+        107.0
+      ]
+    }
+  ],
+  "box_statistics": [
+    {
+      "method": "TopoVelo",
+      "n": 606,
+      "q05_q25_median_q75_q95": [
+        -0.2968354314905894,
+        0.8758506829768887,
+        0.9774073750421758,
+        0.9962851452635106,
+        0.9998934028675512
+      ],
+      "color": "#6b8e23"
+    },
+    {
+      "method": "UniTVelo",
+      "n": 608,
+      "q05_q25_median_q75_q95": [
+        -0.047800706687383836,
+        0.8642999365104295,
+        0.9718921916190516,
+        0.9956847052493275,
+        0.9996889202140203
+      ],
+      "color": "#e6cf5c"
+    },
+    {
+      "method": "LatentVelo",
+      "n": 608,
+      "q05_q25_median_q75_q95": [
+        -0.8290886563649056,
+        0.6600490159370559,
+        0.9417355714460043,
+        0.9904026389393563,
+        0.9996465474851255
+      ],
+      "color": "#20b2aa"
+    },
+    {
+      "method": "velocyto",
+      "n": 608,
+      "q05_q25_median_q75_q95": [
+        -0.8864903679440173,
+        0.5674259952730062,
+        0.9392367017008,
+        0.9919676740324587,
+        0.9996908644034184
+      ],
+      "color": "#d62728"
+    },
+    {
+      "method": "STT",
+      "n": 608,
+      "q05_q25_median_q75_q95": [
+        -0.375951765317029,
+        0.7033600518573959,
+        0.9358462081042414,
+        0.9935083198342218,
+        0.9999136867219058
+      ],
+      "color": "#ff8c00"
+    },
+    {
+      "method": "dynamo",
+      "n": 608,
+      "q05_q25_median_q75_q95": [
+        -0.9725475149188771,
+        0.21616620152827107,
+        0.9095766925331044,
+        0.9891722915216516,
+        0.9996301598309161
+      ],
+      "color": "#ffb547"
+    },
+    {
+      "method": "scVelo(sto)",
+      "n": 608,
+      "q05_q25_median_q75_q95": [
+        -0.9676705736120159,
+        -0.0035282114652402,
+        0.832326769035847,
+        0.9814683827657713,
+        0.9995359445764831
+      ],
+      "color": "#cab2d6"
+    },
+    {
+      "method": "cell2fate",
+      "n": 608,
+      "q05_q25_median_q75_q95": [
+        -0.9203362128485745,
+        0.10341144688592221,
+        0.7967157367171754,
+        0.9734037086110106,
+        0.9993171065683752
+      ],
+      "color": "#cd5c5c"
+    },
+    {
+      "method": "SDEvelo",
+      "n": 608,
+      "q05_q25_median_q75_q95": [
+        -0.9918454789280552,
+        -0.27886558690288793,
+        0.777978073928186,
+        0.9728090384983936,
+        0.9994946821967192
+      ],
+      "color": "#4682b4"
+    },
+    {
+      "method": "DeepVelo(GCN)",
+      "n": 608,
+      "q05_q25_median_q75_q95": [
+        -0.9876504454101788,
+        -0.47739052330606563,
+        0.7254401155708352,
+        0.954559654182147,
+        0.9984080449750082
+      ],
+      "color": "#87cefa"
+    },
+    {
+      "method": "TFvelo",
+      "n": 608,
+      "q05_q25_median_q75_q95": [
+        -0.9590474636828152,
+        -0.4045443011305674,
+        0.7231780623205889,
+        0.975955559055429,
+        0.9990233484058308
+      ],
+      "color": "#7b4173"
+    },
+    {
+      "method": "biVI",
+      "n": 608,
+      "q05_q25_median_q75_q95": [
+        -0.9589426513624124,
+        -0.16349479044673287,
+        0.7147225905801309,
+        0.9715676206184635,
+        0.9993372443356067
+      ],
+      "color": "#1e90ff"
+    },
+    {
+      "method": "cellDancer",
+      "n": 608,
+      "q05_q25_median_q75_q95": [
+        -0.9869712024230975,
+        -0.5047140340208729,
+        0.5271249282861128,
+        0.9628734215252157,
+        0.9993140516158907
+      ],
+      "color": "#ffb6c1"
+    },
+    {
+      "method": "veloVI",
+      "n": 608,
+      "q05_q25_median_q75_q95": [
+        -0.9879204936792435,
+        -0.743966994247447,
+        0.39853372630272754,
+        0.8968410288743168,
+        0.9973651454913006
+      ],
+      "color": "#db7093"
+    },
+    {
+      "method": "scVelo(dyn)",
+      "n": 608,
+      "q05_q25_median_q75_q95": [
+        -0.9699721883145564,
+        -0.6738298706959247,
+        0.25210673706283565,
+        0.8646769526050613,
+        0.9985006268499329
+      ],
+      "color": "#6a3d9a"
+    },
+    {
+      "method": "DeepKINET",
+      "n": 608,
+      "q05_q25_median_q75_q95": [
+        -0.9967405408003298,
+        -0.8561322286489162,
+        0.22062570973147405,
+        0.9263865379319574,
+        0.998475735757835
+      ],
+      "color": "#ff6347"
+    },
+    {
+      "method": "TopicVelo",
+      "n": 608,
+      "q05_q25_median_q75_q95": [
+        -0.9848697853603181,
+        -0.726584364642388,
+        0.08364400393297405,
+        0.8112831151545248,
+        0.9951790691171934
+      ],
+      "color": "#9acd32"
+    },
+    {
+      "method": "DeepVelo(VAE)",
+      "n": 608,
+      "q05_q25_median_q75_q95": [
+        -0.9990708168059734,
+        -0.9641231521672079,
+        -0.7450803802797294,
+        0.4037375257749102,
+        0.9891147627459622
+      ],
+      "color": "#0000cd"
+    },
+    {
+      "method": "VeloAE",
+      "n": 608,
+      "q05_q25_median_q75_q95": [
+        -0.99941889386222,
+        -0.9841865420010947,
+        -0.8556289392164471,
+        -0.15598757432864802,
+        0.9263747008204288
+      ],
+      "color": "#33a02c"
+    },
+    {
+      "method": "VeloVAE",
+      "n": 608,
+      "q05_q25_median_q75_q95": [
+        -0.9997502538737358,
+        -0.990305717575569,
+        -0.8785702937791053,
+        0.768772035408855,
+        0.9944407559598113
+      ],
+      "color": "#b2df8a"
+    }
+  ],
+  "e_values": [
+    {
+      "method": "PhyloVelo",
+      "GDC": 1.0
+    },
+    {
+      "method": "UniTVelo",
+      "GDC": 0.9599484078607208
+    },
+    {
+      "method": "DeepVelo(VAE)",
+      "GDC": 0.7455454866372828
+    },
+    {
+      "method": "SDEvelo",
+      "GDC": 0.7434475074916147
+    },
+    {
+      "method": "STT",
+      "GDC": 0.7351630674788643
+    },
+    {
+      "method": "scVelo(dyn)",
+      "GDC": 0.6823961317232285
+    },
+    {
+      "method": "scVelo(sto)",
+      "GDC": 0.6262533588720111
+    },
+    {
+      "method": "cellDancer",
+      "GDC": 0.5035596598661953
+    },
+    {
+      "method": "veloVI",
+      "GDC": 0.4266342264481374
+    },
+    {
+      "method": "VeloVAE",
+      "GDC": 0.4206425105534134
+    },
+    {
+      "method": "cell2fate",
+      "GDC": 0.1746777277492598
+    },
+    {
+      "method": "TopicVelo",
+      "GDC": 0.1435064990571423
+    },
+    {
+      "method": "DeepKINET",
+      "GDC": 0.0991701781538661
+    },
+    {
+      "method": "biVI",
+      "GDC": -0.196685834990547
+    },
+    {
+      "method": "VeloAE",
+      "GDC": -0.3486732198901622
+    },
+    {
+      "method": "dynamo",
+      "GDC": -0.3834949635438471
+    },
+    {
+      "method": "DeepVelo(GCN)",
+      "GDC": -0.5971090168858385
+    },
+    {
+      "method": "TFvelo",
+      "GDC": -0.6770390180379636
+    },
+    {
+      "method": "LatentVelo",
+      "GDC": -0.7261191884282627
+    },
+    {
+      "method": "velocyto",
+      "GDC": -0.8769070075368346
+    }
+  ],
+  "e_display_positions": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18,
+    19
+  ],
+  "phylovelo": {
+    "sources": {
+      "/data1/liyaru/RNA_velocity_materials/KPTracer_phylovelo_20261021/presentation_backward_metrics_forward/evaluation.json": "8e25881fcac4677b2a63b6f61db1d577934b0d717fdd07c4aa7abb698a9dd983",
+      "/data1/liyaru/RNA_velocity_materials/KPTracer_phylovelo_20261021/presentation_backward_metrics_forward/PhyloVelo_backward_panel.pdf": "15655e53a05317f7a78d42040222a1f011c7388ba16c617b3e6f059ff8a05ff5",
+      "/data1/liyaru/RNA_velocity_materials/KPTracer_phylovelo_20261021/presentation_backward_metrics_forward/panel_style.json": "f0c7592690ea50c499b3478b4ff27b8d326b42d3201ea6cbb615f3787a3d02e3",
+      "/data1/liyaru/RNA_velocity_materials/KPTracer_phylovelo_20261021/presentation_backward_metrics_forward/PhyloVelo_backward_manuscript.pdf": "c3cc7a66f9d93d2fb27c222342e5092bc56020c733fb2fde1514fefa4b912f97",
+      "/data1/liyaru/RNA_velocity_materials/KPTracer_phylovelo_20261021/results/evaluation.json": "9f06ebdfb8319109e587f669af257c3a62798d7aaad912483eeaaf5106d918e1",
+      "/data1/liyaru/RNA_velocity_materials/KPTracer_phylovelo_20261021/records/validation.json": "b7523ba1c44a484e9c76af1ba1f14a9b58ac0cde4d8315a69566211b2983e462",
+      "/data1/liyaru/RNA_velocity_materials/KPTracer_phylovelo_20261021/results/PhyloVelo_KPTracer_manuscript.pdf": "a280feea6336df2b9502a281949341440a6fd1bb50fc870310f143cbe79a2228",
+      "/data1/liyaru/RNA_velocity_materials/KPTracer_phylovelo_20261021/results/PhyloVelo_KPTracer_manuscript.png": "4a05f573c756dbf6a9a8fe4f74f0b5d40e6ac930b00fbbbbb302343e818be810"
+    },
+    "comparison_status": "forward adapted diagnostic, excluded from comparable ranking",
+    "current_conventions": {
+      "plot_label": "PhyloVelo (backward)",
+      "plot_vector_key": "velocity_umap_backward",
+      "metric_vector_key": "velocity_umap_forward",
+      "metric_transform": "-native velocity_embeded; convention alignment defined by PhyloVelo backward mapping",
+      "GDC_comparable": null,
+      "GDC_adapted_forward": 1.0,
+      "GDC_rank": null,
+      "ICCoh_adapter": "Repeated global gene-wise vector; ICCoh structurally one; adapted GDC excluded from comparable ranking",
+      "CBDir": [
+        {
+          "source": "AT2-like",
+          "target": "Gastric-like",
+          "CBDir_median": 0.861789450623569,
+          "n_boundary_cells": 52,
+          "evaluation_direction": "forward"
+        },
+        {
+          "source": "AT2-like",
+          "target": "Lung progenitor-like",
+          "CBDir_median": 0.7347075668194205,
+          "n_boundary_cells": 37,
+          "evaluation_direction": "forward"
+        },
+        {
+          "source": "Endoderm-like",
+          "target": "Pre-EMT",
+          "CBDir_median": 0.47190495225586243,
+          "n_boundary_cells": 19,
+          "evaluation_direction": "forward"
+        },
+        {
+          "source": "Pre-EMT",
+          "target": "Early EMT-1",
+          "CBDir_median": 0.8556599618098009,
+          "n_boundary_cells": 63,
+          "evaluation_direction": "forward"
+        }
+      ],
+      "cells": 754,
+      "reference_cells": 706,
+      "source_sha256": {
+        "results/phylovelo.h5ad": "c35e81e1c0286b55dd73e89558f755193c62cda692d898bd82b2e16b53dac7e9",
+        "results/evaluation.json": "9f06ebdfb8319109e587f669af257c3a62798d7aaad912483eeaaf5106d918e1",
+        "results/evaluation_unit_scores.csv": "16fc1a5ffade7bdf056f35371924aee3d2c9f66496d7e7c78fb9cafc0c996b0e",
+        "results/PhyloVelo_KPTracer_manuscript.pdf": "a280feea6336df2b9502a281949341440a6fd1bb50fc870310f143cbe79a2228",
+        "results/PhyloVelo_KPTracer_tutorial.pdf": "0a5f9e5c108c3fbc1dd84345931b1416f51156560d5714148619e9d11169cf39"
+      },
+      "models_rerun": false,
+      "embedding_recomputed": false,
+      "source": "https://communities.springernature.com/posts/phylovelo-enhances-transcriptomic-velocity-field-mapping-using-monotonically-expressed-genes?badge_id=nature-biotechnology",
+      "wording_basis": "Fig.1d: backward directions",
+      "native_plot_artwork_pixel_identical": true
+    },
+    "limitation": "Historical ICCoh adapter repeats the single gene-wise vector across cells, so within-cluster coherence is structurally 1; GDC is not an independent measure of cell-specific high-dimensional velocity quality.",
+    "direction_audit": {
+      "status": "pass",
+      "native_direction": "backward / toward past state",
+      "comparison_transform": "v_forward = -v_native_embedded at the same cells and coordinates; local orientation normalization, not a new forward transition matrix",
+      "transform_basis": "documented method definition, not score optimization",
+      "cells": 754,
+      "reference_cells": 706,
+      "models_rerun": false,
+      "embedding_recomputed": false,
+      "neighbor_graph_recomputed": false,
+      "GDC": null,
+      "GDC_status": "not comparable: native cell-specific high-dimensional velocities unavailable; repeated-vector ICCoh is structural",
+      "legacy_adapter_GDC_native": -1.0,
+      "legacy_adapter_GDC_forward": 1.0,
+      "legacy_adapter_warning": "Both extremes are diagnostic artifacts of ICCoh=1 plus the sign-only direction term; neither is a comparable benchmark score.",
+      "CBDir": [
+        {
+          "orientation": "native_backward",
+          "source": "AT2-like",
+          "target": "Gastric-like",
+          "n_boundary_cells": 52,
+          "CBDir_median": -0.861789450623569
+        },
+        {
+          "orientation": "native_backward",
+          "source": "AT2-like",
+          "target": "Lung progenitor-like",
+          "n_boundary_cells": 37,
+          "CBDir_median": -0.7347075668194205
+        },
+        {
+          "orientation": "native_backward",
+          "source": "Endoderm-like",
+          "target": "Pre-EMT",
+          "n_boundary_cells": 19,
+          "CBDir_median": -0.47190495225586243
+        },
+        {
+          "orientation": "native_backward",
+          "source": "Pre-EMT",
+          "target": "Early EMT-1",
+          "n_boundary_cells": 63,
+          "CBDir_median": -0.8556599618098009
+        },
+        {
+          "orientation": "forward_convention",
+          "source": "AT2-like",
+          "target": "Gastric-like",
+          "n_boundary_cells": 52,
+          "CBDir_median": 0.861789450623569
+        },
+        {
+          "orientation": "forward_convention",
+          "source": "AT2-like",
+          "target": "Lung progenitor-like",
+          "n_boundary_cells": 37,
+          "CBDir_median": 0.7347075668194205
+        },
+        {
+          "orientation": "forward_convention",
+          "source": "Endoderm-like",
+          "target": "Pre-EMT",
+          "n_boundary_cells": 19,
+          "CBDir_median": 0.47190495225586243
+        },
+        {
+          "orientation": "forward_convention",
+          "source": "Pre-EMT",
+          "target": "Early EMT-1",
+          "n_boundary_cells": 63,
+          "CBDir_median": 0.8556599618098009
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://communities.springernature.com/posts/phylovelo-enhances-transcriptomic-velocity-field-mapping-using-monotonically-expressed-genes?badge_id=nature-biotechnology",
+          "locator": "Kun Wang, 2023-09-07, Fig. 1c-d and explanatory paragraph",
+          "finding": "Native embedded fields point to past states (backward)."
+        },
+        {
+          "url": "https://doi.org/10.1038/s41587-023-01887-5",
+          "accessible_manuscript": "https://assets-eu.researchsquare.com/files/rs-2197712/v1_covered_485ad5a2-7e23-4ea4-9fd4-c68409c1abd9.pdf",
+          "locator": "manuscript lines 132-140; Fig. 1c-d",
+          "finding": "Past-state extrapolation s*=s-v*delta_t; backward fate-transition maps."
+        },
+        {
+          "local": "records/phylovelo_source/embedding.py",
+          "locator": "VelocityEmbedding.__init__, self.v = -np.array([v])",
+          "finding": "Negative gene slope used in native projection."
+        }
+      ],
+      "input_sha256": {
+        "results/phylovelo.h5ad": "c35e81e1c0286b55dd73e89558f755193c62cda692d898bd82b2e16b53dac7e9",
+        "results/evaluation.json": "9f06ebdfb8319109e587f669af257c3a62798d7aaad912483eeaaf5106d918e1",
+        "results/evaluation_unit_scores.csv": "16fc1a5ffade7bdf056f35371924aee3d2c9f66496d7e7c78fb9cafc0c996b0e",
+        "results/phylovelo_directions.csv": "60cfa45da91ee30d713900e68eaaa12bf8c88f3781574ed37577dfd1b391a539",
+        "records/phylovelo_source/embedding.py": "2b9b883f9b3811d9d6984c23c0d613e579e2a739378fe08f44971702715abbb9"
+      },
+      "previous_interpretation": "superseded: negative raw scores compare backward outputs to forward references, not evidence of reversed biological predictions"
+    },
+    "direction_audit_sha256": "bbdeaac1855e01d4b40e92bfd07eb370bfba67bdde89e943f1beb8b78a6178d6"
+  },
+  "draft_only": true
+}

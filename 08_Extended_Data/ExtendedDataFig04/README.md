@@ -1,42 +1,43 @@
-# ED04 — Cosine comparisons on simulated data
+# ED04 — Simulation cosine comparisons and full noise series
 
-Current figure: **ED04**. Historical source ID: **ED05**.
+Current release: **Manuscript_1021**, including updates through **22 October 2026**. Historical numerical source ID: **ED05**.
+
+Noise panel c contains 840 slots (822 finite, 18 missing), with 84 cross-noise means. STT forward branching has 1/10 coverage; other groups have 10/10. Conditions are not independent replicates.
 
 ![ED04](<figures/Extended_Data_Fig04.png>)
 
-## Evidence and reproduction
+## Current files
 
-Boxplot sample sizes, medians and quartiles were checked against unit-level values; missing values are not replaced with zeros.
+| Role | File |
+|---|---|
+| results | [figures/Extended_Data_Fig04.pdf](<figures/Extended_Data_Fig04.pdf>) |
+| results | [figures/Extended_Data_Fig04.png](<figures/Extended_Data_Fig04.png>) |
+| results | [figures/Extended_Data_Fig04.svg](<figures/Extended_Data_Fig04.svg>) |
+| results | [figures/legends/Extended_Data_Fig04_legend.pdf](<figures/legends/Extended_Data_Fig04_legend.pdf>) |
+| data | [data/source_data/Extended_Data_Fig05.xlsx](<data/source_data/Extended_Data_Fig05.xlsx>) |
+| data | [data/cellDancer_current_30/README.txt](<data/cellDancer_current_30/README.txt>) |
+| data | [data/cellDancer_current_30/dataset_inventory.csv](<data/cellDancer_current_30/dataset_inventory.csv>) |
+| data | [data/cellDancer_current_30/dataset_summary.csv](<data/cellDancer_current_30/dataset_summary.csv>) |
+| data | [data/cellDancer_current_30/evaluation_protocol.json](<data/cellDancer_current_30/evaluation_protocol.json>) |
+| data | [data/cellDancer_current_30/method_coverage.csv](<data/cellDancer_current_30/method_coverage.csv>) |
+| code | [../../09_Core/shared/plots/redraw_ed5.py](<../../09_Core/shared/plots/redraw_ed5.py>) |
+| code | [../../09_Core/shared/plots/redraw_extended.py](<../../09_Core/shared/plots/redraw_extended.py>) |
+| data | [data/cellDancer_noise_20261020/README.txt](<data/cellDancer_noise_20261020/README.txt>) |
+| data | [data/cellDancer_noise_20261020/dataset_inventory.csv](<data/cellDancer_noise_20261020/dataset_inventory.csv>) |
+| data | [data/cellDancer_noise_20261020/method_coverage.csv](<data/cellDancer_noise_20261020/method_coverage.csv>) |
+| data | [data/cellDancer_noise_20261020/noise_means.csv](<data/cellDancer_noise_20261020/noise_means.csv>) |
+| data | [data/cellDancer_noise_20261020/panel_color_scales.csv](<data/cellDancer_noise_20261020/panel_color_scales.csv>) |
+| data | [data/cellDancer_noise_20261020/plot_data.csv](<data/cellDancer_noise_20261020/plot_data.csv>) |
+| results | [figures/Extended_Data_Fig04_noise.pdf](<figures/Extended_Data_Fig04_noise.pdf>) |
+| results | [figures/Extended_Data_Fig04_noise.svg](<figures/Extended_Data_Fig04_noise.svg>) |
+| results | [figures/Extended_Data_Fig04_noise.png](<figures/Extended_Data_Fig04_noise.png>) |
+| code | [code/historical/cellDancer_evaluation/evaluate.py](<code/historical/cellDancer_evaluation/evaluate.py>) |
+| code | [code/historical/cellDancer_evaluation/validate_data.py](<code/historical/cellDancer_evaluation/validate_data.py>) |
 
-Data status: `available`. Analysis code: `historical_code_available`.
+## Code and validation
 
-Portable saved-data checks: [commands and dependencies](<../../09_Core/README.md>). Historical scripts retain their original environment and external-input requirements. Layout scripts are provenance, not standalone numerical generators.
+[Portable checks and workflow boundaries](<../../09_Core/README.md>). Saved-data checks do not rerun models. Historical scripts require their original environments and external inputs.
 
-## Files
+[Retained figure-specific code](<code>)
 
-| Role | File | Purpose |
-|---|---|---|
-| Figures | [Extended_Data_Fig04.pdf](<figures/Extended_Data_Fig04.pdf>) | Current publication figure or preview |
-| Figures | [Extended_Data_Fig04.png](<figures/Extended_Data_Fig04.png>) | Current publication figure or preview |
-| Figures | [Extended_Data_Fig04_legend.pdf](<figures/Extended_Data_Fig04_legend.pdf>) | Current publication figure or preview |
-| Data | [Extended_Data_Fig05.xlsx](<data/source_data/Extended_Data_Fig05.xlsx>) | Source workbook, saved results or input metadata |
-| Data | [README.txt](<data/cellDancer_current_30/README.txt>) | Source workbook, saved results or input metadata |
-| Data | [dataset_inventory.csv](<data/cellDancer_current_30/dataset_inventory.csv>) | Source workbook, saved results or input metadata |
-| Data | [dataset_summary.csv](<data/cellDancer_current_30/dataset_summary.csv>) | Source workbook, saved results or input metadata |
-| Data | [evaluation_protocol.json](<data/cellDancer_current_30/evaluation_protocol.json>) | Source workbook, saved results or input metadata |
-| Data | [method_coverage.csv](<data/cellDancer_current_30/method_coverage.csv>) | Source workbook, saved results or input metadata |
-| Code | [reproduce.py](<../../09_Core/validation/reproduce.py>) | Numerical consistency checks on saved data; no model fitting |
-| Code | [plot_saved_panels.py](<../../09_Core/visualization/plot_saved_panels.py>) | Diagnostic plots of saved data; not replacements for publication layouts |
-| Code | [redraw_ed5.py](<../../09_Core/shared/plots/redraw_ed5.py>) | Historical analysis or plotting implementation; original path, environment and external-input dependencies remain |
-| Code | [redraw_extended.py](<../../09_Core/shared/plots/redraw_extended.py>) | Historical analysis or plotting implementation; original path, environment and external-input dependencies remain |
-| Code | [evaluate.py](<code/historical/cellDancer_evaluation/evaluate.py>) | Historical analysis or plotting implementation; original path, environment and external-input dependencies remain |
-| Code | [validate_data.py](<code/historical/cellDancer_evaluation/validate_data.py>) | Historical analysis or plotting implementation; original path, environment and external-input dependencies remain |
-| Code | [build_figure_order_assets.py](<../../09_Core/layout/build_figure_order_assets.py>) | Current layout, numbering or caption utilities; no new numerical results |
-| Code | [figure_order_1019.py](<../../09_Core/layout/figure_order_1019.py>) | Current layout, numbering or caption utilities; no new numerical results |
-| Code | [figure2_legend_style.py](<../../09_Core/layout/figure2_legend_style.py>) | Current layout, numbering or caption utilities; no new numerical results |
-
-## Related figures
-
-[Figure03](<../../03_Figure03/README.md>)
-
-[Repository overview](<../../README.md>) · [Current / historical numbering](<../../12_Provenance/figure_index.csv>)
+[Repository overview](<../../README.md>) · [Release notes](<../../12_Provenance/RELEASE_1021.md>)

@@ -1,3 +1,5 @@
+> Historical 19 October release note. Current release and validation: [RELEASE_1021.md](RELEASE_1021.md). The original English validation is preserved in [baseline_1019](baseline_1019/public_1019_english_validation.json).
+
 # English release
 
 The current release uses English for navigation, archived documentation, figure descriptions, code comments and messages, saved notebook messages, and workbook captions and style names. The original bilingual manuscript workspace is outside this repository and remains unchanged. Git history is retained.

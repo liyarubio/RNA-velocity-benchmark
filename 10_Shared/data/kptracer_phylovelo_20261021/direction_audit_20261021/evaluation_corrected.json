@@ -1,0 +1,100 @@
+{
+  "status": "pass",
+  "native_direction": "backward / toward past state",
+  "comparison_transform": "v_forward = -v_native_embedded at the same cells and coordinates; local orientation normalization, not a new forward transition matrix",
+  "transform_basis": "documented method definition, not score optimization",
+  "cells": 754,
+  "reference_cells": 706,
+  "models_rerun": false,
+  "embedding_recomputed": false,
+  "neighbor_graph_recomputed": false,
+  "GDC": null,
+  "GDC_status": "not comparable: native cell-specific high-dimensional velocities unavailable; repeated-vector ICCoh is structural",
+  "legacy_adapter_GDC_native": -1.0,
+  "legacy_adapter_GDC_forward": 1.0,
+  "legacy_adapter_warning": "Both extremes are diagnostic artifacts of ICCoh=1 plus the sign-only direction term; neither is a comparable benchmark score.",
+  "CBDir": [
+    {
+      "orientation": "native_backward",
+      "source": "AT2-like",
+      "target": "Gastric-like",
+      "n_boundary_cells": 52,
+      "CBDir_median": -0.861789450623569
+    },
+    {
+      "orientation": "native_backward",
+      "source": "AT2-like",
+      "target": "Lung progenitor-like",
+      "n_boundary_cells": 37,
+      "CBDir_median": -0.7347075668194205
+    },
+    {
+      "orientation": "native_backward",
+      "source": "Endoderm-like",
+      "target": "Pre-EMT",
+      "n_boundary_cells": 19,
+      "CBDir_median": -0.47190495225586243
+    },
+    {
+      "orientation": "native_backward",
+      "source": "Pre-EMT",
+      "target": "Early EMT-1",
+      "n_boundary_cells": 63,
+      "CBDir_median": -0.8556599618098009
+    },
+    {
+      "orientation": "forward_convention",
+      "source": "AT2-like",
+      "target": "Gastric-like",
+      "n_boundary_cells": 52,
+      "CBDir_median": 0.861789450623569
+    },
+    {
+      "orientation": "forward_convention",
+      "source": "AT2-like",
+      "target": "Lung progenitor-like",
+      "n_boundary_cells": 37,
+      "CBDir_median": 0.7347075668194205
+    },
+    {
+      "orientation": "forward_convention",
+      "source": "Endoderm-like",
+      "target": "Pre-EMT",
+      "n_boundary_cells": 19,
+      "CBDir_median": 0.47190495225586243
+    },
+    {
+      "orientation": "forward_convention",
+      "source": "Pre-EMT",
+      "target": "Early EMT-1",
+      "n_boundary_cells": 63,
+      "CBDir_median": 0.8556599618098009
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://communities.springernature.com/posts/phylovelo-enhances-transcriptomic-velocity-field-mapping-using-monotonically-expressed-genes?badge_id=nature-biotechnology",
+      "locator": "Kun Wang, 2023-09-07, Fig. 1c-d and explanatory paragraph",
+      "finding": "Native embedded fields point to past states (backward)."
+    },
+    {
+      "url": "https://doi.org/10.1038/s41587-023-01887-5",
+      "accessible_manuscript": "https://assets-eu.researchsquare.com/files/rs-2197712/v1_covered_485ad5a2-7e23-4ea4-9fd4-c68409c1abd9.pdf",
+      "locator": "manuscript lines 132-140; Fig. 1c-d",
+      "finding": "Past-state extrapolation s*=s-v*delta_t; backward fate-transition maps."
+    },
+    {
+      "local": "records/phylovelo_source/embedding.py",
+      "locator": "VelocityEmbedding.__init__, self.v = -np.array([v])",
+      "finding": "Negative gene slope used in native projection."
+    }
+  ],
+  "input_sha256": {
+    "results/phylovelo.h5ad": "c35e81e1c0286b55dd73e89558f755193c62cda692d898bd82b2e16b53dac7e9",
+    "results/evaluation.json": "9f06ebdfb8319109e587f669af257c3a62798d7aaad912483eeaaf5106d918e1",
+    "results/evaluation_unit_scores.csv": "16fc1a5ffade7bdf056f35371924aee3d2c9f66496d7e7c78fb9cafc0c996b0e",
+    "results/phylovelo_directions.csv": "60cfa45da91ee30d713900e68eaaa12bf8c88f3781574ed37577dfd1b391a539",
+    "records/phylovelo_source/embedding.py": "2b9b883f9b3811d9d6984c23c0d613e579e2a739378fe08f44971702715abbb9"
+  },
+  "previous_interpretation": "superseded: negative raw scores compare backward outputs to forward references, not evidence of reversed biological predictions"
+}

@@ -1,0 +1,3 @@
+# PhyloVelo on KPTracer
+
+The native display field is backward; evaluation.json is the current forward-metric contract. Earlier results/evaluation.json and audit tables record previous stages and must not substitute for that contract. results/phylovelo.h5ad and presentation_backward_metrics_forward/phylovelo_forward_metrics.h5ad are included for independent validation. Run 09_Core/validation/validate_phylovelo.py from the repository root. Raw downloads, pickles, report generators and upstream source mirrors are excluded; external_inputs.json and records retain acquisition provenance. Historical code requires external inputs and its original environment.

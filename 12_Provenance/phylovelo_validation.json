@@ -1,0 +1,40 @@
+{
+  "status": "pass",
+  "cells": 754,
+  "genes": 11273,
+  "nonzero_gene_velocities": 339,
+  "reference_cells": 706,
+  "CBDir": [
+    {
+      "source": "AT2-like",
+      "target": "Gastric-like",
+      "n": 52,
+      "median": 0.861789450623569
+    },
+    {
+      "source": "AT2-like",
+      "target": "Lung progenitor-like",
+      "n": 37,
+      "median": 0.7347075668194205
+    },
+    {
+      "source": "Endoderm-like",
+      "target": "Pre-EMT",
+      "n": 19,
+      "median": 0.47190495225586243
+    },
+    {
+      "source": "Pre-EMT",
+      "target": "Early EMT-1",
+      "n": 63,
+      "median": 0.8556599618098011
+    }
+  ],
+  "direction_negated_exactly_once_for_metrics": true,
+  "plot_native_backward_preserved": true,
+  "ICCoh_global_vector_adapter": 0.9999999999999999,
+  "adapted_GDC": 1.0,
+  "comparable_GDC": null,
+  "comparable_rank": null,
+  "model_fitting": false
+}

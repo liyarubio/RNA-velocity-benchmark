@@ -1,0 +1,101 @@
+{
+  "status": "pass",
+  "checks": [
+    {
+      "check": "noise_grid",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "noise_saved_medians",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "noise_valid_units",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "noise_missing_slots",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "noise_cross_condition_means",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "noise_coverage",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "noise_limited_groups",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "noise_workbook_values",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "TopoVelo_ST_small_GDC",
+      "passed": true,
+      "details": {
+        "recomputed": 0.6339289841095084,
+        "saved": 0.6339289841095084,
+        "denominator": 608
+      }
+    },
+    {
+      "check": "TopoVelo_ST_raw_GDC",
+      "passed": true,
+      "details": {
+        "recomputed": 0.6439580811808506,
+        "saved": 0.6439580811808506,
+        "denominator": 608
+      }
+    },
+    {
+      "check": "paired_population",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "TopoVelo_missing_pairs",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "TopoVelo_shared_genes",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "PhyloVelo_no_comparable_rank",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "PhyloVelo_direction_contract",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "PhyloVelo_display_missing_rank",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "frozen_composite_19_configurations",
+      "passed": true,
+      "details": null
+    }
+  ],
+  "number_of_checks": 17,
+  "models_rerun": false,
+  "scope": "Saved-summary recalculation. TopoVelo gene-level input audit and model training are not rerun. PhyloVelo H5AD audit is a separate command."
+}

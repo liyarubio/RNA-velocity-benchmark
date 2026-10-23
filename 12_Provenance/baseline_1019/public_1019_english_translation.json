@@ -1,0 +1,888 @@
+{
+  "baseline_commit": "032a1db845c893a22fd08cb480206906d61622bc",
+  "scope": "English current release; original Git history retained",
+  "files": {
+    "01_Figure01/README.md": {
+      "sha256_before": "54380a5634804ddd68bae7a8ea279472d470d3ffbfd6cdcf0dbf86d642a233a3",
+      "sha256_after": "0b21b449656860fa4cdebb2c70d3d6153e1e997a543afff18fd572704ae910e9",
+      "previous_migration_change": "not_in_original_migration",
+      "scope": "English text, documentation or language-verification support"
+    },
+    "02_Figure02/README.md": {
+      "sha256_before": "0d38c3e746bea7e0c1e76d78994411ae197fac7293f1b1dbc5e9b9dd56467ccb",
+      "sha256_after": "938d51a0daa2041361004d6ad0ab06f3c9ecc6104053234e2ed3394199665230",
+      "previous_migration_change": "not_in_original_migration",
+      "scope": "English text, documentation or language-verification support"
+    },
+    "03_Figure03/README.md": {
+      "sha256_before": "733cb189b058b2307d6b4a0641cdb53790e821d34103efe96cb6857b0b530a70",
+      "sha256_after": "d0dff0380d39430c574dd2a07405b8ec64baf38deb4346f662ab045c75014cab",
+      "previous_migration_change": "not_in_original_migration",
+      "scope": "English text, documentation or language-verification support"
+    },
+    "03_Figure03/code/historical/figure3/Figure3g_01a_hubmap_global_eval_cell2fate.py": {
+      "sha256_before": "8e75e1809a97250f2f4291183c0ef44a0c719c6ae3e98609a466c88ab0df0456",
+      "sha256_after": "2e9d5d22c500ace1e32be905c04bc32ffdff612ec88f0f29fc137019742ced8f",
+      "previous_migration_change": "moved",
+      "scope": "English text, documentation or language-verification support"
+    },
+    "03_Figure03/code/historical/figure3/Figure3g_01b_hubmap_global_eval_topicvelo.py": {
+      "sha256_before": "e87575ae9eaa7d08643cbf9de56ca3eb46849fbec1ba5a1dbc01ed41171e5819",
+      "sha256_after": "f30d4177e7a6bf0cc8eb3eb0b975dbc5949c72fa0e6f306bb3856b38c3718f31",
+      "previous_migration_change": "moved",
+      "scope": "English text, documentation or language-verification support"
+    },
+    "03_Figure03/code/historical/figure3/Figure3h_01_dataset10_compute_global_metrics.py": {
+      "sha256_before": "5c4f9bb9208206bbcf08f05af37110102a73771f0a63800fff35a91883f92ac0",
+      "sha256_after": "7a29054949d9421be47561ebe9f552cb3a663d7c05437e6fadc203781bcd54e0",
+      "previous_migration_change": "moved",
+      "scope": "English text, documentation or language-verification support"
+    },
+    "03_Figure03/code/legacy/HuBMAP/3_eval.py": {
+      "sha256_before": "e6f7332739415ae9da803e10fa647b711eed7e9e1b4f50ea55543e47b2ad329d",
+      "sha256_after": "5c2f79534528884f929f2f8241ffb9df8d24626b166768fb8d0d12e1d761db7c",
+      "previous_migration_change": "moved",
+      "scope": "English text, documentation or language-verification support"
+    },
+    "03_Figure03/code/legacy/Real_Datasets10/2_Run_velocity/run_TFvelo.py": {
+      "sha256_before": "0dcc2c0c4867aad35ed879aa1d0486ab35a7def06a2114434745db2872dedbf4",
+      "sha256_after": "c9c0503f1d9787b57e8d9cd82498810be7b3fa7cbfbe7ec90326175da29798b7",
+      "previous_migration_change": "moved",
+      "scope": "English text, documentation or language-verification support"
+    },
+    "03_Figure03/data/source_data/Figure03.xlsx": {
+      "sha256_before": "f6cf8199c1cb9af2c00a519d625b14ebfa5ca376eb099081dd3ee4a24e3eec4c",
+      "sha256_after": "dedc252571267526c38728706a0198669a5fb10c7fcd7a47e3b404964449dc49",
+      "previous_migration_change": "moved",
+      "scope": "Workbook annotations and font/style names; numeric cells and formulas preserved"
+    },
+    "04_Figure04/README.md": {
+      "sha256_before": "150685caac572acb4a74f9b0ad8d74b5f0bb81b28cccf5224d852ee0305982f5",
+      "sha256_after": "d5ffdfc03d331572fea73d20153020d208d2551aa51fdfa4099510141ef032a4",
+      "previous_migration_change": "not_in_original_migration",
+      "scope": "English text, documentation or language-verification support"
+    },
+    "04_Figure04/code/legacy/Redeem/2_Run_RNA_velocity/2_PhyloVelo.ipynb": {
+      "sha256_before": "4086b489a64c374680b402a2057469f388e8bda93ce0040c44b9be4d5fbe4dbc",
+      "sha256_after": "0e322a38dcc0cd1e7f6200602cda733d9f529014b7e436134075cf0e71025a04",
+      "previous_migration_change": "moved",
+      "scope": "English text, documentation or language-verification support"
+    },
+    "04_Figure04/data/source_data/Figure04.xlsx": {
+      "sha256_before": "ce833ca69bbcc0ff74f53408af15fe79853a015bbec7f9385afc9172436a9f17",
+      "sha256_after": "96c0fbc0f5960a1772ab6c5b7bb68ce1a7499b23d5e56bed13d4c559c4ba7f41",
+      "previous_migration_change": "moved",
+      "scope": "Workbook annotations and font/style names; numeric cells and formulas preserved"
+    },
+    "05_Figure05/README.md": {
+      "sha256_before": "188f51e3a98fa93e9fa66972533eed65746a16efbc4ee498891e3c02cca4be74",
+      "sha256_after": "04774f6656dfb231632f16ccdd827a2ee8526f385c88ee26d39cc0c0531279ae",
+      "previous_migration_change": "not_in_original_migration",
+      "scope": "English text, documentation or language-verification support"
+    },
+    "05_Figure05/code/legacy/Scalability/2_Run_velocity/run_Latentvelo.py": {
+      "sha256_before": "5fcf10b6338e83d891edd41e0b3e62bcfbf09b2f521a89a50a9771edfe3278f1",
+      "sha256_after": "54b1effbeae54345d1c85ec70addc8e3c1ac9ee0a49c6363ebe0efe1663c0a57",
+      "previous_migration_change": "moved",
+      "scope": "English text, documentation or language-verification support"
+    },
+    "05_Figure05/data/source_data/Figure05.xlsx": {
+      "sha256_before": "3e96246e471ca888ebeb96868e5d7b900b32f8ff1dcde3e0c2cfe27ec2c9bb13",
+      "sha256_after": "a43db3d6a1c7844e834ef5413fd020e6671af0d5dcd2cd2a8d93ff5a87947c35",
+      "previous_migration_change": "moved",
+      "scope": "Workbook annotations and font/style names; numeric cells and formulas preserved"
+    },
+    "06_Figure06/README.md": {
+      "sha256_before": "1d65235f30bfc3c42933dbdabba4820ab62cbadd93050998dfd80cd98321f64a",
+      "sha256_after": "2ce8d4e19b6ae6a8e052ab2ea8b77ddbce6269dd6fac317c6d6d04fa2b1d0f8f",
+      "previous_migration_change": "not_in_original_migration",
+      "scope": "English text, documentation or language-verification support"
+    },
+    "06_Figure06/data/source_data/Figure06.xlsx": {
+      "sha256_before": "51f17538aedbc0a6fd35128fdbaa7c3bbaaff41aeb3f1bed9337acdc07920eee",
+      "sha256_after": "b1b4d9bbaf99ffad507cdcebf6756256ae3dcdb590d685276b192360534bbe38",
+      "previous_migration_change": "moved",
+      "scope": "Workbook annotations and font/style names; numeric cells and formulas preserved"
+    },
+    "07_Figure07/README.md": {
+      "sha256_before": "05019f684bbfcbc7694a78ae347e800f567d1e24ea88bdaf9663d15e8873c035",
+      "sha256_after": "798b46795f00b14bd1d17ca45e6d6b82c56d13432beb7293552ac06bbdbbe1d2",
+      "previous_migration_change": "not_in_original_migration",
+      "scope": "English text, documentation or language-verification support"
+    },
+    "08_Extended_Data/ExtendedDataFig01/README.md": {
+      "sha256_before": "e3688dfbfdba315dfd5d299f1010ea979975b4b349932e1ba5044df52524286d",
+      "sha256_after": "42e8605e44a77a780e90903782e307594d381ab363900ccac7ae460b8b0c7ea3",
+      "previous_migration_change": "not_in_original_migration",
+      "scope": "English text, documentation or language-verification support"
+    },
+    "08_Extended_Data/ExtendedDataFig01/data/source_data/Extended_Data_Fig01.xlsx": {
+      "sha256_before": "8ac0375aa2d86903d841934e7ddc88d19b23cfc7935504637e57b5800634afc3",
+      "sha256_after": "9375ba462b5242e79e0477258411992df997e79def098f1b8f08215f97cb4c01",
+      "previous_migration_change": "moved",
+      "scope": "Workbook annotations and font/style names; numeric cells and formulas preserved"
+    },
+    "08_Extended_Data/ExtendedDataFig02/README.md": {
+      "sha256_before": "6417167bcb6ae119fd5b751b34469b65ade679b3254d41c9fcaf60f7fc24b83d",
+      "sha256_after": "83e9bc8918fa4278b22b633b3e1c78ef16c556e0cdbe893f87c49b1186ca2da7",
+      "previous_migration_change": "not_in_original_migration",
+      "scope": "English text, documentation or language-verification support"
+    },
+    "08_Extended_Data/ExtendedDataFig02/data/source_data/Extended_Data_Fig03.xlsx": {
+      "sha256_before": "0eaf23f7113770810ffa9e5d2a584cd8ae0838141a33c578d4d6b89185345479",
+      "sha256_after": "ee5f5413c39e06598dcd217a4a284e7627e90a046b1bd5536ca8ae83d66e70e8",
+      "previous_migration_change": "moved",
+      "scope": "Workbook annotations and font/style names; numeric cells and formulas preserved"
+    },
+    "08_Extended_Data/ExtendedDataFig03/README.md": {
+      "sha256_before": "3e9a519b3f68cf8f9c9a3ccdfcf557f457c7c9c4102f729f2f339bd8573115f1",
+      "sha256_after": "e321244a28d2a876ccdfd65880e995dbe22220d13b833807405eda418967eafd",
+      "previous_migration_change": "not_in_original_migration",
+      "scope": "English text, documentation or language-verification support"
+    },
+    "08_Extended_Data/ExtendedDataFig03/data/source_data/Extended_Data_Fig04.xlsx": {
+      "sha256_before": "7d7d0eaf1f68868012e1ec6558f36001efab19931d4d48099cf3da35b4d54039",
+      "sha256_after": "19a3ba837388e2a74e63daa84481e4bb05c911a1838b3ecbc1f7817da25b294a",
+      "previous_migration_change": "moved",
+      "scope": "Workbook annotations and font/style names; numeric cells and formulas preserved"
+    },
+    "08_Extended_Data/ExtendedDataFig04/README.md": {
+      "sha256_before": "000265ffbbc375c23e714103d33977e069ed22f7358671eca7c7f1613368e753",
+      "sha256_after": "ccad1d2d47984da39a3fb928f0ce4dc09e16236aa549599af707bab2bbd2263c",
+      "previous_migration_change": "not_in_original_migration",
+      "scope": "English text, documentation or language-verification support"
+    },
+    "08_Extended_Data/ExtendedDataFig04/data/source_data/Extended_Data_Fig05.xlsx": {
+      "sha256_before": "241f00a91e1f0173c6b26ae1f8ee90b7d9fbcf1475cd88c740e95b8b7fe96f0b",
+      "sha256_after": "f2f877fcc94e7524fc5046bc0d78674352f2aff602a9e83c2f9da4c4d45eccc5",
+      "previous_migration_change": "moved",
+      "scope": "Workbook annotations and font/style names; numeric cells and formulas preserved"
+    },
+    "08_Extended_Data/ExtendedDataFig05/README.md": {
+      "sha256_before": "0d3e2d798cb8307c518ddc0b82ba99551b70bcd204ffe952f46441a570fffb15",
+      "sha256_after": "6f261c9c6eed0be7999c1832e8de01f283aa2de5df6f41d3e030e0bf94b12427",
+      "previous_migration_change": "not_in_original_migration",
+      "scope": "English text, documentation or language-verification support"
+    },
+    "08_Extended_Data/ExtendedDataFig05/data/source_data/Extended_Data_Fig06.xlsx": {
+      "sha256_before": "4141aa83a24748011ffca086242b878ff9c91272daae1ee650ce46550a290c98",
+      "sha256_after": "afdde83b593b4830478db6cd9369673618479fb4f4cd5e907144e68654b4ec40",
+      "previous_migration_change": "moved",
+      "scope": "Workbook annotations and font/style names; numeric cells and formulas preserved"
+    },
+    "08_Extended_Data/ExtendedDataFig06/README.md": {
+      "sha256_before": "af510da8fa31d61895ef3d926f1d99aa46d27f20dd9d8e487962adf15fa84c08",
+      "sha256_after": "c4b1691fc7357971bc48b2dfbf4da799ba0607de1520f982146f24f378e008b3",
+      "previous_migration_change": "not_in_original_migration",
+      "scope": "English text, documentation or language-verification support"
+    },
+    "08_Extended_Data/ExtendedDataFig06/data/source_data/Extended_Data_Fig07.xlsx": {
+      "sha256_before": "17b34e7cf1ad445c13fd9090cb8056c48786ce831814226b8d8a0e1c5f49c274",
+      "sha256_after": "755dad5aa614757189b56538f2af6cdc2bfa581f496a82836ba78044416ba3a6",
+      "previous_migration_change": "moved",
+      "scope": "Workbook annotations and font/style names; numeric cells and formulas preserved"
+    },
+    "08_Extended_Data/ExtendedDataFig07/README.md": {
+      "sha256_before": "4e4efbbb49b87a80d06925fbee278d35ca5cdb34f22ddf621e8189d2226e42f4",
+      "sha256_after": "a8c5cb223afc2429f3f226e8c7171a33772e7af5e56ea41d598bc740ee516031",
+      "previous_migration_change": "not_in_original_migration",
+      "scope": "English text, documentation or language-verification support"
+    },
+    "08_Extended_Data/ExtendedDataFig07/data/source_data/Extended_Data_Fig13.xlsx": {
+      "sha256_before": "073c1ddfa717e3bafea8276b976af639d3ac2bf20eeffa949a24258fc03ac53f",
+      "sha256_after": "c3a4451aee45f96fbe74bfb6d35e97643ecd90af13e1962c8bbb01a6ef8045d9",
+      "previous_migration_change": "moved",
+      "scope": "Workbook annotations and font/style names; numeric cells and formulas preserved"
+    },
+    "08_Extended_Data/ExtendedDataFig08/README.md": {
+      "sha256_before": "27139910f8532fa0f9f078c1478c96c86e258b9bc0d68fc10b33bdb0484f6953",
+      "sha256_after": "d7fa53a90f95caa7f1adb6e5a46ed7394e75d83f61c4ad2e91db43a193e93ce0",
+      "previous_migration_change": "not_in_original_migration",
+      "scope": "English text, documentation or language-verification support"
+    },
+    "08_Extended_Data/ExtendedDataFig08/data/source_data/Extended_Data_Fig14.xlsx": {
+      "sha256_before": "fef33c5f4c7b56aad3e995663de2c7905dd9517fd32af90a564d52ccb787a632",
+      "sha256_after": "3af660aedb9f4efb92bff77d9121c11bbfb1b57e7c60f6c4440645e87c335221",
+      "previous_migration_change": "moved",
+      "scope": "Workbook annotations and font/style names; numeric cells and formulas preserved"
+    },
+    "08_Extended_Data/ExtendedDataFig09/README.md": {
+      "sha256_before": "188db745f52bc41603535c2208a747bc46903a4896e5a0443e4aa5259b715036",
+      "sha256_after": "1bf492f60f36ef7ec932b9a3a7ca801011b9f1630a5287379e598726a5e00407",
+      "previous_migration_change": "not_in_original_migration",
+      "scope": "English text, documentation or language-verification support"
+    },
+    "08_Extended_Data/ExtendedDataFig09/data/source_data/Extended_Data_Fig15.xlsx": {
+      "sha256_before": "be989046f7faf58dacbbbce031657fe5cede7702231dcf307dee9e4cb989a41f",
+      "sha256_after": "6716224a54f5dbc0b9cdd545039451180eefed52d5831ea70dafe59edae28429",
+      "previous_migration_change": "moved",
+      "scope": "Workbook annotations and font/style names; numeric cells and formulas preserved"
+    },
+    "08_Extended_Data/ExtendedDataFig10/README.md": {
+      "sha256_before": "0030e7bff49abe9dd74a848101a9519677762d43d4b9b912ef2bcb99bfd19141",
+      "sha256_after": "86fc7eb2c3e375d6292d564def1028a0353c0dd507130a13541f33dfc9ebbf2c",
+      "previous_migration_change": "not_in_original_migration",
+      "scope": "English text, documentation or language-verification support"
+    },
+    "08_Extended_Data/ExtendedDataFig10/data/source_data/Extended_Data_Fig16.xlsx": {
+      "sha256_before": "51346f727f05fcaad88d4af5a09a95cfab5e42cb029f30731fbe618015f02120",
+      "sha256_after": "89068519c2977122c04b833bbc9fed778ae22c3acbcdb180b0721c2554f7dd26",
+      "previous_migration_change": "moved",
+      "scope": "Workbook annotations and font/style names; numeric cells and formulas preserved"
+    },
+    "08_Extended_Data/ExtendedDataFig11/README.md": {
+      "sha256_before": "cc0cc31d278e0541195986f8c47aae1244cc3e7468825bd09badd3466c66a1b2",
+      "sha256_after": "780d8bde227cb96de6d6120b662d3c556d3cac09dae8130e2dde98b0985ea8e0",
+      "previous_migration_change": "not_in_original_migration",
+      "scope": "English text, documentation or language-verification support"
+    },
+    "08_Extended_Data/ExtendedDataFig11/data/source_data/Extended_Data_Fig17.xlsx": {
+      "sha256_before": "b8d0d696f3a30411534abb97fd6334e9ee7ffa1d16554c16e093d7b45b82a5e3",
+      "sha256_after": "421e7212e7830cc67fb053785e933e2835349da215de2973aa00bd9474515a28",
+      "previous_migration_change": "moved",
+      "scope": "Workbook annotations and font/style names; numeric cells and formulas preserved"
+    },
+    "08_Extended_Data/ExtendedDataFig12/README.md": {
+      "sha256_before": "c1f7f7f131c721a93ebc21d5724aa75ec38705888fdbaf12b69faec85c1447a2",
+      "sha256_after": "3e762211bb4617ac50872fd9f888428294eaa7639a4d3a8e145d8ee34dd1106d",
+      "previous_migration_change": "not_in_original_migration",
+      "scope": "English text, documentation or language-verification support"
+    },
+    "08_Extended_Data/ExtendedDataFig12/code/historical/ed17_metascape.py": {
+      "sha256_before": "c3fce308091193b59cbf40549c33b1526834380684f1442fa65edfc6607cbe87",
+      "sha256_after": "209381ae97f279910ec7907d30c30561a6e4bbede8f19558e7552c7b19e49ad0",
+      "previous_migration_change": "moved",
+      "scope": "English text, documentation or language-verification support"
+    },
+    "08_Extended_Data/ExtendedDataFig12/data/metascape/top100/metascape_result.xlsx": {
+      "sha256_before": "c9c2e35808750675e9374753dc67c02d44385eac6a17a9757ec5eddbe733e7a3",
+      "sha256_after": "726d5cefd88d60f0d0ae35312cdf4b178aac5bbc4a653d5001e72e7a1f91bd6c",
+      "previous_migration_change": "moved",
+      "scope": "Workbook annotations and font/style names; numeric cells and formulas preserved"
+    },
+    "08_Extended_Data/ExtendedDataFig12/data/metascape/top200/metascape_result.xlsx": {
+      "sha256_before": "03a573527860e549f93775ab30c17b51c7d2ef97cf168078939537b1ca002b77",
+      "sha256_after": "f23f0bc55f2fd54ca6059a3d4c3cb08f49d8cbc2e3b8d2e6e0196c0735c9cc1e",
+      "previous_migration_change": "moved",
+      "scope": "Workbook annotations and font/style names; numeric cells and formulas preserved"
+    },
+    "08_Extended_Data/ExtendedDataFig12/data/source_data/Extended_Data_Fig18.xlsx": {
+      "sha256_before": "ec5476043e22c9bc4aa5918cf9ae958700678da47df3b8b4bd26eb05923b62ee",
+      "sha256_after": "dbf095d5e0b39ef7abe9f97a98674f361866229fe8639414e8ecf881ff7cfb73",
+      "previous_migration_change": "moved",
+      "scope": "Workbook annotations and font/style names; numeric cells and formulas preserved"
+    },
+    "08_Extended_Data/README.md": {
+      "sha256_before": "e3d1c1c65c1893e49aa79ec1497a8ff8d78f2e701e0ac0d59db5f4fa9d5b3dd3",
+      "sha256_after": "c0292c323032300a49420eed3bcfe15b16042f24b3c762ca40097fc8addcafa5",
+      "previous_migration_change": "not_in_original_migration",
+      "scope": "English text, documentation or language-verification support"
+    },
+    "09_Core/README.md": {
+      "sha256_before": "b883e0e1bfad049886d64e3c93cdadd3bc6200518e44004fb96140a54807355e",
+      "sha256_after": "4526c01fd882880160e781f81b520ee37b3d79cb4c095f513ddd810578792490",
+      "previous_migration_change": "not_in_original_migration",
+      "scope": "English text, documentation or language-verification support"
+    },
+    "09_Core/layout/figure_order_1019.py": {
+      "sha256_before": "daff30004f64f34dcdc9dab4ecd90355a0b7ca295be9ba96e6b41cef41dd9150",
+      "sha256_after": "cedf235df8108c8e02fe46e4b80541cccdc1015c56b188e92f5e32a3978a103b",
+      "previous_migration_change": "moved",
+      "scope": "English text, documentation or language-verification support"
+    },
+    "09_Core/layout/historical/ed15_revision.py": {
+      "sha256_before": "dad75a4d8ef1600bc710851d4627fb4b9ac1c5076c73722888be6f6e5c26c16f",
+      "sha256_after": "165d9a7dc0cc986b3900aca3bb3083357de99521c913c953a8221d1c277ef9b2",
+      "previous_migration_change": "moved",
+      "scope": "English text, documentation or language-verification support"
+    },
+    "09_Core/layout/historical/ed16_revision.py": {
+      "sha256_before": "d36324a6374e8216604de13a353597b2395c2e4da07a2b242a7c9d82fac13084",
+      "sha256_after": "cf67aebe1492afc29c8ddef357ff12f0e41b85f5f64e7ec75a802e55008e3578",
+      "previous_migration_change": "moved",
+      "scope": "English text, documentation or language-verification support"
+    },
+    "09_Core/layout/historical/ed6_revision.py": {
+      "sha256_before": "101d4800874e18e2ee166bbcefe4bd6149aac3fa7239fffc2228ea5662811e69",
+      "sha256_after": "81712a90ebdc616a6906947d020906b3a8ff7035fe739f3a6f9e8cd8b9e06270",
+      "previous_migration_change": "moved",
+      "scope": "English text, documentation or language-verification support"
+    },
+    "09_Core/layout/historical/reference_revision.py": {
+      "sha256_before": "21c7ba8c6965a651378bff82b11de1dbea8554bc0d879f1c13a82aa787ac8c1f",
+      "sha256_after": "e2c203c8b2a4c2405a97f1f25b6909ed37f6682e0b254b7cb086546c927db946",
+      "previous_migration_change": "moved",
+      "scope": "English text, documentation or language-verification support"
+    },
+    "09_Core/layout/historical/scenario_scope.py": {
+      "sha256_before": "7efed073fdc6bfe96198a67b794fc9feabbba43692d930bca146a38fc2e9f49f",
+      "sha256_after": "7036d77d3ba6d7eca052965e73f55e20484cbd65bfbce14b1138651d2f052e75",
+      "previous_migration_change": "moved",
+      "scope": "English text, documentation or language-verification support"
+    },
+    "09_Core/reference_evaluation/scLT_scNT_velogif/finalize.py": {
+      "sha256_before": "bf32f156ee9f53b27042442189d10ddfe7674c9b2476faa9561b16700d2e0785",
+      "sha256_after": "f5397a065044d74bc142e1985d5bcc9050dd63b7e1b1355ade8ef5eab58aaf1e",
+      "previous_migration_change": "moved",
+      "scope": "English text, documentation or language-verification support"
+    },
+    "09_Core/shared/stability_completion/update_html.py": {
+      "sha256_before": "e8eca0dbcdc538c0b46a7f35d615af0aac600da94144a3a8c6a4ae7e314a3402",
+      "sha256_after": "5c791175c7d80a6157dab578a0458a4d6d7cb915c0d0811d8312cf2b1c3541c1",
+      "previous_migration_change": "moved",
+      "scope": "English text, documentation or language-verification support"
+    },
+    "09_Core/simulation/dyngen/1_simulation/1_generate_dataset.R": {
+      "sha256_before": "ce625b3eba74c9be52d4a10d61c95093f2beb83bf56cc1a45a4b04821a9f79b2",
+      "sha256_after": "ebbcf3bc6ddaaeb902c22ee4a1d74a97df403e7e2e81ee422ac031a8a8209656",
+      "previous_migration_change": "moved",
+      "scope": "English text, documentation or language-verification support"
+    },
+    "09_Core/simulation/dyngen/1_simulation/2_process_anndata.ipynb": {
+      "sha256_before": "f9cdb839b10d5da41ee1f9dfaaafb5c7646cc9293023f39b6cf1c172aacaaa9d",
+      "sha256_after": "23e1897f6ad4b24e569723de8d1b9ecf326155902d318b7bd6fe457bf6c984de",
+      "previous_migration_change": "moved",
+      "scope": "English text, documentation or language-verification support"
+    },
+    "09_Core/validation/verify_release.py": {
+      "sha256_before": "f152de088b1bdd41fe2406b0bb5385774745fda487e79cc20f1a4df80373bbf7",
+      "sha256_after": "95bc831f91d7fb8effe1f1c6f6a966fc6aa7589e6f1536dbe5d5a3c4afded92d",
+      "previous_migration_change": "not_in_original_migration",
+      "scope": "English text, documentation or language-verification support"
+    },
+    "11_Tables/Table S1 RNA velocity algorithms summary.xlsx": {
+      "sha256_before": "6496400796343358ea56dc7404fb42e53ec98a0e22f5b817e2e4c8c32b972081",
+      "sha256_after": "6d2a0d9f2eff826d5a05e47ddc7e897e8cbb2bcd4f9eb7235255a892f7563136",
+      "previous_migration_change": "moved",
+      "scope": "Workbook annotations and font/style names; numeric cells and formulas preserved"
+    },
+    "11_Tables/Table S2 Simulation Datasets.xlsx": {
+      "sha256_before": "c858124d69c64d73a6fa541e986b31f1a14aa9b090bab4bdd4b92f410963003e",
+      "sha256_after": "a53570217e4b5e92d94dd19ba5fb2a96507384ccb352140b262d3112745b8e66",
+      "previous_migration_change": "moved",
+      "scope": "Workbook annotations and font/style names; numeric cells and formulas preserved"
+    },
+    "11_Tables/Table S3 Real-world Datasets.xlsx": {
+      "sha256_before": "1980b77bbf35b8f85b86770aba943c39e72598f7ee169e5c21357a866bd6844f",
+      "sha256_after": "03694216f068d95806bd1d6113bf2fb45d3e3063ebf59d39dd4bccbeefa22dc7",
+      "previous_migration_change": "moved",
+      "scope": "Workbook annotations and font/style names; numeric cells and formulas preserved"
+    },
+    "11_Tables/Table S4 Velocity-related genes identification.xlsx": {
+      "sha256_before": "8ff5bda0902ef2493e600d4a0c747515ee4ee5789a333fca958e77e5e96a1509",
+      "sha256_after": "44ec368b0e347778b77600b31cb949cf73123f0dbf46df61ab88d57182284dd8",
+      "previous_migration_change": "moved",
+      "scope": "Workbook annotations and font/style names; numeric cells and formulas preserved"
+    },
+    "11_Tables/Table1 Function.xlsx": {
+      "sha256_before": "3b06f54fb7365b52b4f029bceb7afccd483c91ecf686f7dc5b67878682944044",
+      "sha256_after": "22180f2cd80ada153207022dd4cccd10b757b2d25922a57e46bc852e45523ea8",
+      "previous_migration_change": "moved",
+      "scope": "Workbook annotations and font/style names; numeric cells and formulas preserved"
+    },
+    "12_Provenance/README.md": {
+      "sha256_before": "f160da6cff408093182f106441d3bf711dce284266e03bd9c9aa7595b82cd1dd",
+      "sha256_after": "fc0a5f789f9776ed5f4bf125c9190444a04fdf6400b494ba938404eafc9a5e34",
+      "previous_migration_change": "not_in_original_migration",
+      "scope": "English text, documentation or language-verification support"
+    },
+    "12_Provenance/baseline_1019/Figure_materials/figure_index.csv": {
+      "sha256_before": "5832e6e1a11a3ba3395c010dc6c553f761d8847a3d6d47a95acaa39985aa76b3",
+      "sha256_after": "8df5f4042d6df0c230ce6497fb042657ab0943755ce1d92748ff501df36fbcc8",
+      "previous_migration_change": "moved",
+      "scope": "English text, documentation or language-verification support"
+    },
+    "12_Provenance/baseline_1019/Figure_materials/file_inventory.csv": {
+      "sha256_before": "4f83102c884a728da952a29f3d26b6e02d3cca17c4a50075402553628ed80f46",
+      "sha256_after": "a19188bf3eb3d532682ff092278da295afe8cc98fb00484bf3b507cdf7f48998",
+      "previous_migration_change": "moved",
+      "scope": "English text, documentation or language-verification support"
+    },
+    "12_Provenance/figure_index.csv": {
+      "sha256_before": "eb5bf170125679a76065941e2a324ad6f93f858019dba387bd1a1bbe58c0395c",
+      "sha256_after": "42f9432946e94b12e375d061a876a1e4d677372229d8accdc55ddcd25aab5a20",
+      "previous_migration_change": "not_in_original_migration",
+      "scope": "English text, documentation or language-verification support"
+    },
+    "12_Provenance/file_inventory.csv": {
+      "sha256_before": "fb8b16aa6a5b63cb99898c4c7eae9bc1a9335fc1e730e46a01d6dbbf77348b05",
+      "sha256_after": "4854734d911076595df695cbb53c679c1d6c9bde934d6dc61714078ec64813d7",
+      "previous_migration_change": "not_in_original_migration",
+      "scope": "English text, documentation or language-verification support"
+    },
+    "13_Archive/previous_navigation/Figure_materials/01_Main_figures/Figure01/README.md": {
+      "sha256_before": "6caac7431021c6a1c218d83a1bb41120b6ca4a20eee3f7f2fb6fec39414389b1",
+      "sha256_after": "cc02e1951bb11b091e7b5e58ed6f2ac7a8ba5cea43b5ee1a8dd7af8fac70fc95",
+      "previous_migration_change": "moved",
+      "scope": "English text, documentation or language-verification support"
+    },
+    "13_Archive/previous_navigation/Figure_materials/01_Main_figures/Figure01/code/README.md": {
+      "sha256_before": "e2297b47bb056de2a78d3e45eeea1c5d9d1ccabdfe9e8686d946886de25f50f3",
+      "sha256_after": "934ca3d5262fa3a7ce7d892f224410e706dc8b9ebc42e4e9c44e0b2240deb93e",
+      "previous_migration_change": "moved",
+      "scope": "English text, documentation or language-verification support"
+    },
+    "13_Archive/previous_navigation/Figure_materials/01_Main_figures/Figure01/data/README.md": {
+      "sha256_before": "270c96024a961d95670d93cd4e5a643d2e2549bf252abe884d7bdd4a3d292259",
+      "sha256_after": "64889c9c458916759fc9e78285721115f128252d0500c18328b41167e18bb06a",
+      "previous_migration_change": "moved",
+      "scope": "English text, documentation or language-verification support"
+    },
+    "13_Archive/previous_navigation/Figure_materials/01_Main_figures/Figure01/records/README.md": {
+      "sha256_before": "5df984b62f826180c45d00f0264d1d23dfa276730d21b3fc2b6287f2d90f2168",
+      "sha256_after": "2c9afac23354a418b4fb71ce7a2ded92d34d223d9f2012b06903858b33db4397",
+      "previous_migration_change": "moved",
+      "scope": "English text, documentation or language-verification support"
+    },
+    "13_Archive/previous_navigation/Figure_materials/01_Main_figures/Figure01/results/README.md": {
+      "sha256_before": "fb5ad9f834ac33a1b004cee978eea2c7fc1f1146650dce3c26b5c0dd379b4810",
+      "sha256_after": "057f8d7eb620a49e8198e1df8bc303ffada2dea527bc9a9423530aeb913dcd21",
+      "previous_migration_change": "moved",
+      "scope": "English text, documentation or language-verification support"
+    },
+    "13_Archive/previous_navigation/Figure_materials/01_Main_figures/Figure02/README.md": {
+      "sha256_before": "9b09881930d91076c431dfc5ac1146b0fece60ba6cd72c0f4592967ccd5b5d92",
+      "sha256_after": "3a806d9eec82e87cc8c3fa705c2bbd28d6badd0b8ad0e50878dc2be1896f39bf",
+      "previous_migration_change": "moved",
+      "scope": "English text, documentation or language-verification support"
+    },
+    "13_Archive/previous_navigation/Figure_materials/01_Main_figures/Figure02/code/README.md": {
+      "sha256_before": "dc97973dfb008198b0d3d7ec4f6386db472bccbd89c67572d9f867f9ef659063",
+      "sha256_after": "cda7184c398e6db1e769ff78f229ce3f87617fdfbd39815b7e9f37144f35d81e",
+      "previous_migration_change": "moved",
+      "scope": "English text, documentation or language-verification support"
+    },
+    "13_Archive/previous_navigation/Figure_materials/01_Main_figures/Figure02/data/README.md": {
+      "sha256_before": "11b4f583c3e4637ca637dba9d957a6ad7bfedb203e7337a641052c1ccb3639c8",
+      "sha256_after": "304610183a8c2b86d5a7a6c325dd00696148b8d7dadf332341f82b461090250a",
+      "previous_migration_change": "moved",
+      "scope": "English text, documentation or language-verification support"
+    },
+    "13_Archive/previous_navigation/Figure_materials/01_Main_figures/Figure02/results/README.md": {
+      "sha256_before": "61e2133d93c007a146677c21f8813c53216c5041e2fdc166e7035c2611946723",
+      "sha256_after": "4669a7acb49af9bc0a94f455c4806657ee742d2d1ca7aa8a8987bd0bec734e80",
+      "previous_migration_change": "moved",
+      "scope": "English text, documentation or language-verification support"
+    },
+    "13_Archive/previous_navigation/Figure_materials/01_Main_figures/Figure03/README.md": {
+      "sha256_before": "34a83ee2450c22feb744ae7ae85afb4ffe44e012670a4b9e3c73609107d090a0",
+      "sha256_after": "b12db088994105037f8b3eb40b776c23215f45210aa40bc3bf4babd3b6b28721",
+      "previous_migration_change": "moved",
+      "scope": "English text, documentation or language-verification support"
+    },
+    "13_Archive/previous_navigation/Figure_materials/01_Main_figures/Figure03/code/README.md": {
+      "sha256_before": "697c99fd9f269f5f76fc4233864a30af9cf9f0d5b763311c214371838b7fe38b",
+      "sha256_after": "7f6c6e29656707c11dae3f461d3ff604e44e931996334aa582f3a6082b38f51f",
+      "previous_migration_change": "moved",
+      "scope": "English text, documentation or language-verification support"
+    },
+    "13_Archive/previous_navigation/Figure_materials/01_Main_figures/Figure03/data/README.md": {
+      "sha256_before": "6343e8d654e7c26e08e627d6e65ccbe0da64d4d21bc7ab24089eb9d50626bf4d",
+      "sha256_after": "166e2e636d87343de053707d98cc501ecfcf7961995e3071f238936cf643702a",
+      "previous_migration_change": "moved",
+      "scope": "English text, documentation or language-verification support"
+    },
+    "13_Archive/previous_navigation/Figure_materials/01_Main_figures/Figure03/results/README.md": {
+      "sha256_before": "09002776d06781744b97076824cb1225f2757fefa61545a2f55c2e3ff9fc88c0",
+      "sha256_after": "6ac91c89c44e6e02a8edc9e372ea2f360f2dd8a3b1a9c460197567876c0e22e9",
+      "previous_migration_change": "moved",
+      "scope": "English text, documentation or language-verification support"
+    },
+    "13_Archive/previous_navigation/Figure_materials/01_Main_figures/Figure04/README.md": {
+      "sha256_before": "078141363d71e0825d088d19740dc8e4be97b3ad9cf211260fa44cb53fab0b20",
+      "sha256_after": "b95c327dc995380820920e92dab00e8476bebf7fbeedaafe96d5e4821a74a091",
+      "previous_migration_change": "moved",
+      "scope": "English text, documentation or language-verification support"
+    },
+    "13_Archive/previous_navigation/Figure_materials/01_Main_figures/Figure04/code/README.md": {
+      "sha256_before": "a0435da89b04f695c7cc06ebb1a12c85c0eb3c29d61e0b81b3b60769854cefa0",
+      "sha256_after": "6f2575c9e5ddc2d936c592cd6c5c114d032ba618ecf65230dfebda4e22b12478",
+      "previous_migration_change": "moved",
+      "scope": "English text, documentation or language-verification support"
+    },
+    "13_Archive/previous_navigation/Figure_materials/01_Main_figures/Figure04/data/README.md": {
+      "sha256_before": "2618ace1828aacb399b2c24c24dc108e0d68e776d2aae2fa6a6785fa149571e8",
+      "sha256_after": "33604866dda968308afa67f23dfc54456b4d09518e9245a2c67451a4e4977645",
+      "previous_migration_change": "moved",
+      "scope": "English text, documentation or language-verification support"
+    },
+    "13_Archive/previous_navigation/Figure_materials/01_Main_figures/Figure04/results/README.md": {
+      "sha256_before": "623824980a8a7db016ea860a6192b19261d4854d723403c605cfa960e899dde7",
+      "sha256_after": "86226ed386df4d870daea3b71a1752546f3d3a2c30f8e9e77f956cf5522e7de9",
+      "previous_migration_change": "moved",
+      "scope": "English text, documentation or language-verification support"
+    },
+    "13_Archive/previous_navigation/Figure_materials/01_Main_figures/Figure05/README.md": {
+      "sha256_before": "0e57cfa304c2a19ae8fd991aea28f9dfaae3ce3063c3c6a1b7bbcf52d68e0c5d",
+      "sha256_after": "6b2f8651c4847dc17d604ee4833c69c71ce32583b0a21f5ca1657e13192a8c95",
+      "previous_migration_change": "moved",
+      "scope": "English text, documentation or language-verification support"
+    },
+    "13_Archive/previous_navigation/Figure_materials/01_Main_figures/Figure05/code/README.md": {
+      "sha256_before": "2e764de51939b35a6e4c9f6fdf03903133920eecaac99548910d0a5eaf3dc2ed",
+      "sha256_after": "39b5f99461f69525f83714778616f32f6c4426fe0a95a93a5f32204ad60ba3a6",
+      "previous_migration_change": "moved",
+      "scope": "English text, documentation or language-verification support"
+    },
+    "13_Archive/previous_navigation/Figure_materials/01_Main_figures/Figure05/data/README.md": {
+      "sha256_before": "7f134b42e844709e8039c3c09241a563d1c7e6fa43c80c1226f4d55795dcc06b",
+      "sha256_after": "bfedebb0dc94901693db6a255333275af1f5cbf45ec040cc3428f09760f636da",
+      "previous_migration_change": "moved",
+      "scope": "English text, documentation or language-verification support"
+    },
+    "13_Archive/previous_navigation/Figure_materials/01_Main_figures/Figure05/results/README.md": {
+      "sha256_before": "460b8fd006fc3d259edf212c2fa893d19a974e770fdf46f281fe4fccc235ca01",
+      "sha256_after": "1e838db26a7433ec6559aeb94fc385858056dcd077d21c503c9ba80be12633e4",
+      "previous_migration_change": "moved",
+      "scope": "English text, documentation or language-verification support"
+    },
+    "13_Archive/previous_navigation/Figure_materials/01_Main_figures/Figure06/README.md": {
+      "sha256_before": "9a66a64f1a44134b032630ba2bf8ec1cde018ae2b9565b525d2206741f5679d6",
+      "sha256_after": "0f0cfe3c44efacd7a385b3ae1c7c84fece5e732f00073a129e29eddb318af07c",
+      "previous_migration_change": "moved",
+      "scope": "English text, documentation or language-verification support"
+    },
+    "13_Archive/previous_navigation/Figure_materials/01_Main_figures/Figure06/code/README.md": {
+      "sha256_before": "b1799c1cfbf1dbe1f2426f573338857efb73842af90e769451fb46cf042890ab",
+      "sha256_after": "335ec80faa02cb55b8d1b1d30be04ddbbc126333cd9c5d37538f2ee7124f4bb9",
+      "previous_migration_change": "moved",
+      "scope": "English text, documentation or language-verification support"
+    },
+    "13_Archive/previous_navigation/Figure_materials/01_Main_figures/Figure06/data/README.md": {
+      "sha256_before": "c0ed64f970ba92ab664e33d54f8d5025bc3f462116589588105ad49076171cca",
+      "sha256_after": "5b85641df0cc26a20f8fe3d0856b2c143361de0f59f6e7eac4655a14fea24a2b",
+      "previous_migration_change": "moved",
+      "scope": "English text, documentation or language-verification support"
+    },
+    "13_Archive/previous_navigation/Figure_materials/01_Main_figures/Figure06/results/README.md": {
+      "sha256_before": "e6990876e4f78512b1724bc2f42a494853faeab075c4933ed242269b3ee4a88c",
+      "sha256_after": "3c1d716a48435e9430d67b1a8c74e86715ff096db5363cd3ab20603f2802e1dd",
+      "previous_migration_change": "moved",
+      "scope": "English text, documentation or language-verification support"
+    },
+    "13_Archive/previous_navigation/Figure_materials/01_Main_figures/Figure07/README.md": {
+      "sha256_before": "a689a119759296ee3363bbe35293c056bc3663c1d8addc213ff10b71dbd8ff9c",
+      "sha256_after": "6f474335a948b812f0466cec9f2f6d342a89c4a68018a2fcc8cd25275581119d",
+      "previous_migration_change": "moved",
+      "scope": "English text, documentation or language-verification support"
+    },
+    "13_Archive/previous_navigation/Figure_materials/01_Main_figures/Figure07/results/README.md": {
+      "sha256_before": "c9e5c7c94ea501a1a4356188972ab99d94b01de849909b51ad7804a1fa104053",
+      "sha256_after": "854f7c82a8aa512c70d0ab05d3b0a45b4f06203373e48c57c5652d069fd0dcd2",
+      "previous_migration_change": "moved",
+      "scope": "English text, documentation or language-verification support"
+    },
+    "13_Archive/previous_navigation/Figure_materials/02_Extended_data/ExtendedDataFig01/README.md": {
+      "sha256_before": "20018c5753b19a9ec04f208fd35439f98acd91246175a4870daa204556bcbb08",
+      "sha256_after": "2d99180bb384d46965974f4e274d376aac30355bb158ede21ed1794cdac59d4c",
+      "previous_migration_change": "moved",
+      "scope": "English text, documentation or language-verification support"
+    },
+    "13_Archive/previous_navigation/Figure_materials/02_Extended_data/ExtendedDataFig01/code/README.md": {
+      "sha256_before": "3dbe9f81c6eea5366348d66f4f9e0ed3c3ae494d1a11d3c0a6ca578f72c067bd",
+      "sha256_after": "7886d039b9c886a5db96a765b7a040489fbd1d4fa0c077175d8db08c0a0dcfdf",
+      "previous_migration_change": "moved",
+      "scope": "English text, documentation or language-verification support"
+    },
+    "13_Archive/previous_navigation/Figure_materials/02_Extended_data/ExtendedDataFig01/data/README.md": {
+      "sha256_before": "7a5c8e6dac845cbb427e4f3e8b9c2ac2df6da6c42aa6e24741183cb57f838be2",
+      "sha256_after": "f03c34939b2f4e7cec8e96411c2a24d936574cffdd2178ababcc9f32e194f8a5",
+      "previous_migration_change": "moved",
+      "scope": "English text, documentation or language-verification support"
+    },
+    "13_Archive/previous_navigation/Figure_materials/02_Extended_data/ExtendedDataFig01/results/README.md": {
+      "sha256_before": "1091bf19dd5fcae7c62cf0cc02a92365386c824aab79934b83e185dff948441e",
+      "sha256_after": "e911518b758a2eaf1478206b5a73ef132d0dc411936a949c3cc45129a22a8a0b",
+      "previous_migration_change": "moved",
+      "scope": "English text, documentation or language-verification support"
+    },
+    "13_Archive/previous_navigation/Figure_materials/02_Extended_data/ExtendedDataFig02/README.md": {
+      "sha256_before": "d2bdd82b80b0e79139aed5a8d66ae4814fe07a86a72b7eb4a1da47d87e8f60b8",
+      "sha256_after": "8e4b5861cac257088db12b3bcf64815a7dd63389693ff1b6bf9c29159e09d3fd",
+      "previous_migration_change": "moved",
+      "scope": "English text, documentation or language-verification support"
+    },
+    "13_Archive/previous_navigation/Figure_materials/02_Extended_data/ExtendedDataFig02/code/README.md": {
+      "sha256_before": "bacd63c24a887a30a75b29f7d4b32a383cd929291f7f0f524b70745c57dddc30",
+      "sha256_after": "01c42961e9039c5692b5301f267296f93ee2eb5b084f789a39d33f5872b9713e",
+      "previous_migration_change": "moved",
+      "scope": "English text, documentation or language-verification support"
+    },
+    "13_Archive/previous_navigation/Figure_materials/02_Extended_data/ExtendedDataFig02/data/README.md": {
+      "sha256_before": "dfb986f1d6bd910d417ac481f8d9a9d77a9863de543491f03480ee58ab89819b",
+      "sha256_after": "c9ed2022e8c8ca13b1910f56e42af68d92ea5a46adb8b45bce9c1cd24ea82306",
+      "previous_migration_change": "moved",
+      "scope": "English text, documentation or language-verification support"
+    },
+    "13_Archive/previous_navigation/Figure_materials/02_Extended_data/ExtendedDataFig02/results/README.md": {
+      "sha256_before": "947b478d68d7090040de700d16a0f365ef3de2c35ac75800faa2905f863f47bb",
+      "sha256_after": "3befacac83a585b651a75cf31d0be09084d67fabe4948094307099314d660ebf",
+      "previous_migration_change": "moved",
+      "scope": "English text, documentation or language-verification support"
+    },
+    "13_Archive/previous_navigation/Figure_materials/02_Extended_data/ExtendedDataFig03/README.md": {
+      "sha256_before": "deb575bc3213ac68c309881a3194e6b33093f0e1d5365a3e4bd84375ae96772a",
+      "sha256_after": "ff8b5eaef548d603a1adc5facb331a047bda1d377c2834d4d16536b0a5509dda",
+      "previous_migration_change": "moved",
+      "scope": "English text, documentation or language-verification support"
+    },
+    "13_Archive/previous_navigation/Figure_materials/02_Extended_data/ExtendedDataFig03/code/README.md": {
+      "sha256_before": "4d49f33c1423fa99c845a0292fa81b8282c5810eb00882e266ffd1e86f2e1e8c",
+      "sha256_after": "57396314c705f5c6bc258aeccdc5d471bd664a6b061293068900b060ecdd80c2",
+      "previous_migration_change": "moved",
+      "scope": "English text, documentation or language-verification support"
+    },
+    "13_Archive/previous_navigation/Figure_materials/02_Extended_data/ExtendedDataFig03/data/README.md": {
+      "sha256_before": "cd881d43267db054870b4f245f4ac458e2b098b45d82a5b915f459cdaef7597b",
+      "sha256_after": "b989ba3a51a31ad0c902c48626ee9b493b30ad10cdd0f4845de25554c0fc125a",
+      "previous_migration_change": "moved",
+      "scope": "English text, documentation or language-verification support"
+    },
+    "13_Archive/previous_navigation/Figure_materials/02_Extended_data/ExtendedDataFig03/results/README.md": {
+      "sha256_before": "15097b4fd75666bd5af2f953dab71aeadf2eb859e0a1d1a714a4f314cc81b5c9",
+      "sha256_after": "ccee9893ca920428bfa43c66802441871d46198788a42c02fa14637a596aec49",
+      "previous_migration_change": "moved",
+      "scope": "English text, documentation or language-verification support"
+    },
+    "13_Archive/previous_navigation/Figure_materials/02_Extended_data/ExtendedDataFig04/README.md": {
+      "sha256_before": "eae49bd018d30fd6bd686c7a05dc6b83f38e2959a70aae7f68f4ab8a51d3b13f",
+      "sha256_after": "91fe2627757cb3f98b5115d73cdeaaeedbd92369c3499c0e504350a32b01bd9e",
+      "previous_migration_change": "moved",
+      "scope": "English text, documentation or language-verification support"
+    },
+    "13_Archive/previous_navigation/Figure_materials/02_Extended_data/ExtendedDataFig04/code/README.md": {
+      "sha256_before": "39b3c0c8993b687f25a1797514bfe573a66cb17650bd6ea1393639fc5ba3f8b6",
+      "sha256_after": "e0a3abb3a1a73286f9984428e3343324add2a7bf1b7f23bdd067aa3c8a40fbd4",
+      "previous_migration_change": "moved",
+      "scope": "English text, documentation or language-verification support"
+    },
+    "13_Archive/previous_navigation/Figure_materials/02_Extended_data/ExtendedDataFig04/data/README.md": {
+      "sha256_before": "b1b6048a407f38b39c3fa3a401dd6a37c4b7fb1c9b821784f442da1b3833f508",
+      "sha256_after": "48dd4bfda88fffd23798d1f306c0e9ddf544917138dec178afd58fb3f715a657",
+      "previous_migration_change": "moved",
+      "scope": "English text, documentation or language-verification support"
+    },
+    "13_Archive/previous_navigation/Figure_materials/02_Extended_data/ExtendedDataFig04/results/README.md": {
+      "sha256_before": "30cf6a8d4c6b295ad430e14ee9b4c2de9eb1c6a9f695dbf060af41d90fdf904b",
+      "sha256_after": "0f328fc2d37312f3e4ef3eead5391caa30809419e622144bdc1f905df76575eb",
+      "previous_migration_change": "moved",
+      "scope": "English text, documentation or language-verification support"
+    },
+    "13_Archive/previous_navigation/Figure_materials/02_Extended_data/ExtendedDataFig05/README.md": {
+      "sha256_before": "83829118f93ed5ac84d9ced5010eee87e338368bf9728113b611fae19d3111d4",
+      "sha256_after": "53410acd069af33d8a52c0743c798a6fbacb1e6daea4d9b9590120c190e456da",
+      "previous_migration_change": "moved",
+      "scope": "English text, documentation or language-verification support"
+    },
+    "13_Archive/previous_navigation/Figure_materials/02_Extended_data/ExtendedDataFig05/code/README.md": {
+      "sha256_before": "776a2a6fc2641bcf429402063c3b9b96662a899b8540a12f44fb869511e72adb",
+      "sha256_after": "8452e44e2173433846c60908a5099148ef8f01ed28a86ee9f1ad4506e7d60274",
+      "previous_migration_change": "moved",
+      "scope": "English text, documentation or language-verification support"
+    },
+    "13_Archive/previous_navigation/Figure_materials/02_Extended_data/ExtendedDataFig05/data/README.md": {
+      "sha256_before": "703f7452c0dd5c297b7c2732dc47555ed31bdacda99603fdf8e2aae57882f831",
+      "sha256_after": "d49c5fb781ff662b62815316bd4d87856b6e6a04771a3a4bea5049dcac8da813",
+      "previous_migration_change": "moved",
+      "scope": "English text, documentation or language-verification support"
+    },
+    "13_Archive/previous_navigation/Figure_materials/02_Extended_data/ExtendedDataFig05/results/README.md": {
+      "sha256_before": "03d5284e31949805378f2159f143ef10e20d29181b6c30c282f4dfced03cfe6d",
+      "sha256_after": "25f8c712e27e486a18a2e438dc4c500648a574945786de0e7cc938ac5566fba5",
+      "previous_migration_change": "moved",
+      "scope": "English text, documentation or language-verification support"
+    },
+    "13_Archive/previous_navigation/Figure_materials/02_Extended_data/ExtendedDataFig06/README.md": {
+      "sha256_before": "af53a890ffb274eae9b196a99cd2ff2bebe3bb61b6da314fa32db38a2adea159",
+      "sha256_after": "07df3a8390f32774cf538c43fde240bb5e49c316f79ee13b622ee18a1a8f4a2f",
+      "previous_migration_change": "moved",
+      "scope": "English text, documentation or language-verification support"
+    },
+    "13_Archive/previous_navigation/Figure_materials/02_Extended_data/ExtendedDataFig06/code/README.md": {
+      "sha256_before": "802a58b805a18018d485a3fc529f9efed5253d8c1b874c2d1d8cd29cdf913da6",
+      "sha256_after": "1de1047095d1519941ab6294a2eab921dbd6a84c26587f86bdba88760a1d8bc0",
+      "previous_migration_change": "moved",
+      "scope": "English text, documentation or language-verification support"
+    },
+    "13_Archive/previous_navigation/Figure_materials/02_Extended_data/ExtendedDataFig06/data/README.md": {
+      "sha256_before": "94751397c7dc6fd19e4795ad0b73eaf0a94dcfb24dca4895d366a02c2d2080d9",
+      "sha256_after": "b7405f8978ea2c4a1e4832ab93faee0615842c69633cfde38a99d0c63ce595fd",
+      "previous_migration_change": "moved",
+      "scope": "English text, documentation or language-verification support"
+    },
+    "13_Archive/previous_navigation/Figure_materials/02_Extended_data/ExtendedDataFig06/results/README.md": {
+      "sha256_before": "0833ce6792ab8bb4ec8e68373ecf235c83cc78af6f162da7f60cd29cbd66c728",
+      "sha256_after": "147b70b5659df56e4952d2b98fc6f8c86c4d350f5a5eb112c8412aa3cfb3bb30",
+      "previous_migration_change": "moved",
+      "scope": "English text, documentation or language-verification support"
+    },
+    "13_Archive/previous_navigation/Figure_materials/02_Extended_data/ExtendedDataFig07/README.md": {
+      "sha256_before": "f5820b41c34d1994940c8aed2a5d586b5bb750278bbcc741830c70d9dbdbf5a1",
+      "sha256_after": "d8a156fa06536357b4d538528d85f637d820d1ed7328d2fe02ad68cca91e842b",
+      "previous_migration_change": "moved",
+      "scope": "English text, documentation or language-verification support"
+    },
+    "13_Archive/previous_navigation/Figure_materials/02_Extended_data/ExtendedDataFig07/code/README.md": {
+      "sha256_before": "2dac597e84cc78dc8a33ba569d5ae639f7666b90038d815a5cf8635ea116b350",
+      "sha256_after": "6bc09a512327951cea9d0e7f9bcb4c9cf0bb27586f7d7d72d59f0ff81a592094",
+      "previous_migration_change": "moved",
+      "scope": "English text, documentation or language-verification support"
+    },
+    "13_Archive/previous_navigation/Figure_materials/02_Extended_data/ExtendedDataFig07/data/README.md": {
+      "sha256_before": "525a188eac50e4828c644e0e5140e709acb271c00a085945ed8bb077b1e2b800",
+      "sha256_after": "4d73e23637774bb09ffceddef50075960cf48da0d5bbb6c8f8ed1e35984533b3",
+      "previous_migration_change": "moved",
+      "scope": "English text, documentation or language-verification support"
+    },
+    "13_Archive/previous_navigation/Figure_materials/02_Extended_data/ExtendedDataFig07/results/README.md": {
+      "sha256_before": "2f7178e060f5e0bc4c8fd8c652d31d9a7ff71fe97dcad3e5229627422f37d6aa",
+      "sha256_after": "17418861096f36c0b5f30fbc41be15ab1b605aadfc6dca6baddae3023b238647",
+      "previous_migration_change": "moved",
+      "scope": "English text, documentation or language-verification support"
+    },
+    "13_Archive/previous_navigation/Figure_materials/02_Extended_data/ExtendedDataFig08/README.md": {
+      "sha256_before": "802abeffbf0be46580392f95e1ae93da140d1986b835f43f9767ddc9814bea34",
+      "sha256_after": "8027f721e88a41540983a0f655d194ad73f7a994f011fa1dbecb9e2e7f32978e",
+      "previous_migration_change": "moved",
+      "scope": "English text, documentation or language-verification support"
+    },
+    "13_Archive/previous_navigation/Figure_materials/02_Extended_data/ExtendedDataFig08/code/README.md": {
+      "sha256_before": "eb9a1184f081baae4144e8feba4656d1ed991c9e06f988263fa38fcd68625417",
+      "sha256_after": "3a89ec681ca5b607e23a2a677b6b84af101374e3b93b77295411e243200ba08c",
+      "previous_migration_change": "moved",
+      "scope": "English text, documentation or language-verification support"
+    },
+    "13_Archive/previous_navigation/Figure_materials/02_Extended_data/ExtendedDataFig08/data/README.md": {
+      "sha256_before": "03cedf706890ea9f26f206838090abd31e0a1ba92b94f30dd2b73e88cf9a46ff",
+      "sha256_after": "d93bea0f3e5cfce30f01f61cd8c7feec323cadacdeb3679dbfe7524391d66fd5",
+      "previous_migration_change": "moved",
+      "scope": "English text, documentation or language-verification support"
+    },
+    "13_Archive/previous_navigation/Figure_materials/02_Extended_data/ExtendedDataFig08/results/README.md": {
+      "sha256_before": "bb562ecbabd30d5bc206d53cf691b5318578a7d73b073e8d94431bbf814e63f9",
+      "sha256_after": "daf9dcb5c0db3e5d203f81195b541885c46b706cedf1d7edca185c6884386194",
+      "previous_migration_change": "moved",
+      "scope": "English text, documentation or language-verification support"
+    },
+    "13_Archive/previous_navigation/Figure_materials/02_Extended_data/ExtendedDataFig09/README.md": {
+      "sha256_before": "4c364296a3fa092048db5dc47305d3c7e75ffda7aafaa17359d96ee53d2bc192",
+      "sha256_after": "180e54f07251a2919dec84abfb3e93ca4afb8d8380ae15b8bb38d03171f88d28",
+      "previous_migration_change": "moved",
+      "scope": "English text, documentation or language-verification support"
+    },
+    "13_Archive/previous_navigation/Figure_materials/02_Extended_data/ExtendedDataFig09/code/README.md": {
+      "sha256_before": "2eeffddf54085db719ee13a0d9c00b7484749b6e2d127ba15e2279e030717b83",
+      "sha256_after": "3f709c7e264ebb42520c998ef2a58fef1f9b43c1609540ed014fac7236c7403d",
+      "previous_migration_change": "moved",
+      "scope": "English text, documentation or language-verification support"
+    },
+    "13_Archive/previous_navigation/Figure_materials/02_Extended_data/ExtendedDataFig09/data/README.md": {
+      "sha256_before": "d416080a97bed8260293aa32f45c9a3e3b5312d5fc07f13ab30491c8350b7bc9",
+      "sha256_after": "22bdda4747194adf7070dae0dcf855a277f49fc06d8b2806abe56957babd5a9c",
+      "previous_migration_change": "moved",
+      "scope": "English text, documentation or language-verification support"
+    },
+    "13_Archive/previous_navigation/Figure_materials/02_Extended_data/ExtendedDataFig09/results/README.md": {
+      "sha256_before": "55d745d231c743ebb4e699d3c3e7777b6ef4b5a830217bf3d55cc1133fe18baf",
+      "sha256_after": "64c17ed08ee6f878ab8336695ccd3a24e9aa7df7bb899e611f02f0a098bbcbee",
+      "previous_migration_change": "moved",
+      "scope": "English text, documentation or language-verification support"
+    },
+    "13_Archive/previous_navigation/Figure_materials/02_Extended_data/ExtendedDataFig10/README.md": {
+      "sha256_before": "8abbed483345deae99a7508b02f3fcd2354a29579f8514dbcdedb5f9319e5160",
+      "sha256_after": "4b29c146f9a21e0b7686512e43eea6ed22566e4589932d6462b8efbf881f2fc0",
+      "previous_migration_change": "moved",
+      "scope": "English text, documentation or language-verification support"
+    },
+    "13_Archive/previous_navigation/Figure_materials/02_Extended_data/ExtendedDataFig10/code/README.md": {
+      "sha256_before": "e52c7c1e0f3490f92476e6e4a5aba8e722144907239b316010db60dc0f8a5c3d",
+      "sha256_after": "e38fd92a55ab850796f9e7d5f860e985388cf4a80507e1fdcad0cf99800cba8b",
+      "previous_migration_change": "moved",
+      "scope": "English text, documentation or language-verification support"
+    },
+    "13_Archive/previous_navigation/Figure_materials/02_Extended_data/ExtendedDataFig10/data/README.md": {
+      "sha256_before": "434eeacac813df9a92559197fb7951021644c0e8abccb76baf27ff6d31571e78",
+      "sha256_after": "0fce8c8834f411d1e2f92bb5abd8083b6f9708b18444b84acc4d2d3ece8b420b",
+      "previous_migration_change": "moved",
+      "scope": "English text, documentation or language-verification support"
+    },
+    "13_Archive/previous_navigation/Figure_materials/02_Extended_data/ExtendedDataFig10/results/README.md": {
+      "sha256_before": "51c9ee70394cf7371bfa33b2f003c4a4d4d31376f0aaf05a28f606cc9489c0d8",
+      "sha256_after": "45a4e139cfe9871e8baec623bcbe811f2d4266aea3eda9deb8d3c989ca58e141",
+      "previous_migration_change": "moved",
+      "scope": "English text, documentation or language-verification support"
+    },
+    "13_Archive/previous_navigation/Figure_materials/02_Extended_data/ExtendedDataFig11/README.md": {
+      "sha256_before": "6315486c355b99e5d34fedcc76dd4a6d72fc70e07be88c34c7dc725cf2cb4238",
+      "sha256_after": "3ce5273fa239c76977e32e56a3bc11de9a8c8e35403ad2b061c426c90eacfab1",
+      "previous_migration_change": "moved",
+      "scope": "English text, documentation or language-verification support"
+    },
+    "13_Archive/previous_navigation/Figure_materials/02_Extended_data/ExtendedDataFig11/code/README.md": {
+      "sha256_before": "6074716eb87c83d6cda808146047208ae0e30f66a647b7d8494d40a137367da4",
+      "sha256_after": "12089616948f5992e3733b0ad216c60d885cdb03e9f308461cc73f0659895867",
+      "previous_migration_change": "moved",
+      "scope": "English text, documentation or language-verification support"
+    },
+    "13_Archive/previous_navigation/Figure_materials/02_Extended_data/ExtendedDataFig11/data/README.md": {
+      "sha256_before": "0b2adcb4b10c6dc09dda26400c8a7ff53ea81acf74e18a3cbeb87bba291d33c1",
+      "sha256_after": "0d1c5fa24dd2588a4e5f034c525cc2043e23b89f46ff90fa59ef6f6280b516c2",
+      "previous_migration_change": "moved",
+      "scope": "English text, documentation or language-verification support"
+    },
+    "13_Archive/previous_navigation/Figure_materials/02_Extended_data/ExtendedDataFig11/results/README.md": {
+      "sha256_before": "869884905e828b95040c09061f7a58dce11717d5bfdf8321eb9546da03ec1c7b",
+      "sha256_after": "9e9a30768b113c186de3b0d678cbfe9f76ab621a604db06ecec15a30d7ff7bde",
+      "previous_migration_change": "moved",
+      "scope": "English text, documentation or language-verification support"
+    },
+    "13_Archive/previous_navigation/Figure_materials/02_Extended_data/ExtendedDataFig12/README.md": {
+      "sha256_before": "94b74823df709ef9402f36f6fdd20cbac9d9f944150119891e691bb9cada0bba",
+      "sha256_after": "ae25dcae76c4561ad393f217ab0981206c6a4ad5a247bfe28e918b90c9864dac",
+      "previous_migration_change": "moved",
+      "scope": "English text, documentation or language-verification support"
+    },
+    "13_Archive/previous_navigation/Figure_materials/02_Extended_data/ExtendedDataFig12/code/README.md": {
+      "sha256_before": "000ab5b570aa737964a6a9059893e299bb3a9ade23558310ca9935873831f00f",
+      "sha256_after": "ed4f12ceccaa7fe7e3fb3ee3b1c0cf9ad0e93c5f18719cd342b0960825a01e22",
+      "previous_migration_change": "moved",
+      "scope": "English text, documentation or language-verification support"
+    },
+    "13_Archive/previous_navigation/Figure_materials/02_Extended_data/ExtendedDataFig12/data/README.md": {
+      "sha256_before": "ae8c32de09a9bc5afc229670996030a1b3168902c5b91353007963b0dea05a03",
+      "sha256_after": "b04a4679e01e49879bd33039d52cf713f3c07f992072b949a556945efff7f7d3",
+      "previous_migration_change": "moved",
+      "scope": "English text, documentation or language-verification support"
+    },
+    "13_Archive/previous_navigation/Figure_materials/02_Extended_data/ExtendedDataFig12/results/README.md": {
+      "sha256_before": "4c2945a17d432ff3d2ecae41c84cfdf779f6f27f279768cd80d5c0a3d1c53405",
+      "sha256_after": "f5a10fbb9b37f95db22807842128f495c2d2e34c42f9307f2e1a947810306ca3",
+      "previous_migration_change": "moved",
+      "scope": "English text, documentation or language-verification support"
+    },
+    "13_Archive/previous_navigation/Figure_materials/README.md": {
+      "sha256_before": "566999054fd3fa9f531d8cd394a12745dc974cf30c5c7bc28cf5363c6d65c280",
+      "sha256_after": "63d92f9b83a53cdcb0d513dfab5bc16509d429630ec2d00956ce6f7c264fdfba",
+      "previous_migration_change": "moved",
+      "scope": "English text, documentation or language-verification support"
+    },
+    "13_Archive/previous_root_README.md": {
+      "sha256_before": "629f829fb0d324116fc6abec79d1b7c956ca47f6c2f573633f7ebb1547a8e13c",
+      "sha256_after": "7e9005fdb088755fa578556413e308e393b5d5c0b93a0336ee930fd069c2047e",
+      "previous_migration_change": "moved",
+      "scope": "English text, documentation or language-verification support"
+    },
+    "README.md": {
+      "sha256_before": "6de5568e866448acdf9db56e0a073bb21b7f3b25c6311c7f5247823a0be8e01d",
+      "sha256_after": "d2dd3f05a4d1b53ee4147ca50bbc2d4f350244a5602af52acb4d507074e8f4d0",
+      "previous_migration_change": "not_in_original_migration",
+      "scope": "English text, documentation or language-verification support"
+    }
+  },
+  "generated_metadata_excluded_from_ledger": [
+    "12_Provenance/path_migration.csv",
+    "12_Provenance/path_migration.json",
+    "12_Provenance/restructure_validation.json"
+  ],
+  "models_rerun": false
+}

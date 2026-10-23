@@ -1,28 +1,30 @@
-# Core workflows
+# Core workflows and validation
 
-These are shared workflows, separate from per-figure files. Historical code is preserved for inspection; external H5AD inputs, environments and path configuration can still be required. Moving code does not certify a complete model rerun.
-
-- [Simulation: dyngen](simulation/dyngen/): original generation, model runs and evaluation.
-- [Simulation: cellDancer](simulation/cellDancer/): original generation, noise comparisons and model runs.
-- [Model execution](model_execution/): shared velocity-method implementations.
-- [Gene selection](gene_selection/): retained method-specific notebooks.
-- [Reference evaluation](reference_evaluation/): shared scLT/scNT workflow.
-- [Shared scripts](shared/): cross-figure historical analysis and visualization.
-- [Layout](layout/): editorial utilities requiring the original workspace; provenance only.
-
-## Portable saved-data checks
-
-Install the [dependencies](../requirements-demo.txt) in a compatible Python environment. From the repository root:
+Run commands from the repository root with Python 3.9 or later and `requirements-demo.txt`. The current source resolver reads [current_sources.json](../12_Provenance/current_sources.json); it does not require the manuscript directory.
 
 ```bash
-python 09_Core/validation/reproduce.py --out /tmp/rna-velocity-check --no-plots
-python 09_Core/visualization/plot_saved_panels.py --out /tmp/rna-velocity-panels
 python 09_Core/validation/verify_release.py
-python 09_Core/validation/check_english.py --pdf
+python 09_Core/validation/reproduce.py --out /tmp/rna-velocity-check --no-plots
+python 09_Core/validation/validate_latest_results.py --out /tmp/rna-velocity-1021
+python 09_Core/visualization/plot_saved_panels.py --out /tmp/rna-velocity-panels
 ```
 
-The first command checks saved numerical results; the second draws 17 diagnostic panels, not the formal figure layouts. Neither retrains models. Diagnostic filenames and labels retain historical ED IDs; use the [numbering table](../12_Provenance/figure_index.csv) to find current figures. `--out` and `--no-plots` retain their previous meanings.
+`reproduce.py` checks the saved benchmark and unchanged composite, including the expanded 20-method paired-context table. `validate_latest_results.py` independently recomputes noise means, TopoVelo GDC from saved cluster/edge summaries, and coverage. `plot_saved_panels.py` draws 17 diagnostic panels; runtime/reads/composite outputs now use Figure 6a/b/c. Diagnostic ED filenames retain historical IDs, mapped in the [figure index](../12_Provenance/figure_index.csv).
 
-[release_paths.py](release_paths.py) resolves historical source names through the [migration manifest](../12_Provenance/path_migration.json). It reads the canonical new locations and does not require the old directory tree or symlinks.
+```bash
+python -m pip install -r requirements-audit.txt
+python 09_Core/validation/validate_phylovelo.py --out /tmp/rna-velocity-1021
+python 09_Core/validation/check_english.py --pdf --out /tmp/rna-velocity-english.json
+```
 
-The English check inspects filenames, text, decoded notebook strings, workbook XML and extracted PDF text (`--pdf` requires PyMuPDF). It does not OCR images or rewrite Git history. See the [language-update scope](../12_Provenance/ENGLISH_RELEASE.md) for translated legacy utilities and external-path configuration.
+The PhyloVelo check reads the two packaged result H5ADs, verifies vector sign and cell identity, and recalculates boundary-cell cosines. It does not fit a model. TopoVelo archived H5AD inputs are external; the default release check verifies saved aggregates, not gene-level predictions or training reproducibility.
+
+## Historical workflows
+
+- [dyngen simulation](simulation/dyngen/) and [cellDancer simulation](simulation/cellDancer/)
+- [Model execution](model_execution/) and [gene selection](gene_selection/)
+- [Reference evaluation](reference_evaluation/) and [shared scripts](shared/)
+- [TopoVelo projection and metric implementation](shared/latest/)
+- [Historical layout utilities](layout/)
+
+Historical scripts may contain original filesystem paths and require external inputs, model environments or the manuscript workspace. They are retained for provenance and are not portable public entrypoints. No model was fitted during this release assembly. The PhyloVelo inference was performed earlier on 21 October 2026 and imported here.

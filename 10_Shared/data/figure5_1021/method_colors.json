@@ -1,0 +1,32 @@
+{
+  "primary": "figures/main/Figure03.pdf panel g, vector box fills",
+  "additional": {
+    "TopicVelo": "Code/render_topovelo_ed09_20261021.py existing method mapping",
+    "TopoVelo": "Code/render_topovelo_ed09_20261021.py existing olive green"
+  },
+  "PhyloVelo": "Fixed brown #8c564b; sorted by displayed value; adaptation documented in report",
+  "colors": {
+    "DeepVelo(GCN)": "#87cefa",
+    "cellDancer": "#ffb6c1",
+    "scVelo(dyn)": "#6a3d9a",
+    "scVelo(sto)": "#cab2d6",
+    "dynamo": "#ffb547",
+    "DeepVelo(VAE)": "#0000cd",
+    "cell2fate": "#cd5c5c",
+    "LatentVelo": "#20b2aa",
+    "veloVI": "#db7093",
+    "biVI": "#1e90ff",
+    "DeepKINET": "#ff6347",
+    "VeloAE": "#33a02c",
+    "SDEvelo": "#4682b4",
+    "velocyto": "#d62728",
+    "STT": "#ff8c00",
+    "UniTVelo": "#e6cf5c",
+    "TFvelo": "#7b4173",
+    "VeloVAE": "#b2df8a",
+    "TopicVelo": "#9acd32",
+    "TopoVelo": "#6b8e23",
+    "PhyloVelo": "#8c564b"
+  },
+  "figure3_sha256": "e717dc7487199ea13846b63920d60c347f5b4d399f1fe7f862a8253b8bd51910"
+}

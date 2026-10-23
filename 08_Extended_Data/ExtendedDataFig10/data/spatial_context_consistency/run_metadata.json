@@ -44,5 +44,12 @@
   "no_rotation_or_axis_rescaling": true,
   "statistical_unit": "paired spot within one supplied spatial dataset",
   "strict_controlled_retraining": false,
-  "velocity_magnitude_compared": false
+  "velocity_magnitude_compared": false,
+  "topovelo_extension_20261021": {
+    "source": "../topovelo_historical_20261021/provenance.json",
+    "methods_after_extension": 20,
+    "total_paired_records": 12160,
+    "TopoVelo_valid_pairs": 606,
+    "original_run_metadata_preserved": true
+  }
 }

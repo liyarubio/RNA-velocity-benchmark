@@ -1,0 +1,359 @@
+[
+  {
+    "method": "velocyto",
+    "source": "/data1/liyaru/software/velogif/version/velogif_0210_0_2/result/velocyto.h5ad",
+    "source_embedding_key": "obsm/X_umap",
+    "source_label_key": "obs/CellType",
+    "cells": 1000,
+    "coordinate_sha256": "9af573a0a13c24c535716a13e4783ad6f46af26c3395801b73608c207c1f1793",
+    "cell_ids_sha256": "247dd1b85e6fb1b1f47c19b9183a78f751a59d8323f5b0a401918d3270da62f9",
+    "xref": 16,
+    "scatter_input": "velocyto.npz",
+    "canvas_bbox": [
+      68.9927749633789,
+      270.73138427734375,
+      148.85202026367188,
+      342.5716247558594
+    ]
+  },
+  {
+    "method": "scVelo(sto)",
+    "source": "/data1/liyaru/software/velogif/version/velogif_0210_0_2/result/scvelo.sto.h5ad",
+    "source_embedding_key": "obsm/X_umap",
+    "source_label_key": "obs/CellType",
+    "cells": 1000,
+    "coordinate_sha256": "9af573a0a13c24c535716a13e4783ad6f46af26c3395801b73608c207c1f1793",
+    "cell_ids_sha256": "247dd1b85e6fb1b1f47c19b9183a78f751a59d8323f5b0a401918d3270da62f9",
+    "xref": 18,
+    "scatter_input": "scvelo.sto.npz",
+    "canvas_bbox": [
+      163.93516540527344,
+      178.16567993164062,
+      244.62109375,
+      250.00592041015625
+    ]
+  },
+  {
+    "method": "scVelo(dyn)",
+    "source": "/data1/liyaru/software/velogif/version/velogif_0210_0_2/result/scvelo.dyn.h5ad",
+    "source_embedding_key": "obsm/X_umap",
+    "source_label_key": "obs/CellType",
+    "cells": 1000,
+    "coordinate_sha256": "9af573a0a13c24c535716a13e4783ad6f46af26c3395801b73608c207c1f1793",
+    "cell_ids_sha256": "247dd1b85e6fb1b1f47c19b9183a78f751a59d8323f5b0a401918d3270da62f9",
+    "xref": 20,
+    "scatter_input": "scvelo.dyn.npz",
+    "canvas_bbox": [
+      354.6466369628906,
+      363.29705810546875,
+      435.33258056640625,
+      435.1372985839844
+    ]
+  },
+  {
+    "method": "veloAE",
+    "source": "/data1/liyaru/software/velogif/version/velogif_0210_0_2/result/veloae.h5ad",
+    "source_embedding_key": "obsm/X_umap",
+    "source_label_key": "obs/CellType",
+    "cells": 1000,
+    "coordinate_sha256": "9af573a0a13c24c535716a13e4783ad6f46af26c3395801b73608c207c1f1793",
+    "cell_ids_sha256": "247dd1b85e6fb1b1f47c19b9183a78f751a59d8323f5b0a401918d3270da62f9",
+    "xref": 22,
+    "scatter_input": "veloae.npz",
+    "canvas_bbox": [
+      259.7042541503906,
+      363.29705810546875,
+      339.5634765625,
+      435.1372985839844
+    ]
+  },
+  {
+    "method": "Dynamo",
+    "source": "/data1/liyaru/software/velogif/version/velogif_0210_0_2/result/dynamo.h5ad",
+    "source_embedding_key": "obsm/X_umap",
+    "source_label_key": "obs/CellType",
+    "cells": 1000,
+    "coordinate_sha256": "9af573a0a13c24c535716a13e4783ad6f46af26c3395801b73608c207c1f1793",
+    "cell_ids_sha256": "247dd1b85e6fb1b1f47c19b9183a78f751a59d8323f5b0a401918d3270da62f9",
+    "xref": 18,
+    "scatter_input": "scvelo.sto.npz",
+    "canvas_bbox": [
+      163.93516540527344,
+      363.29705810546875,
+      244.62109375,
+      435.1372985839844
+    ]
+  },
+  {
+    "method": "veloVAE",
+    "source": "/data1/liyaru/software/velogif/version/velogif_0210_0_2/result/velovae.h5ad",
+    "source_embedding_key": "obsm/X_umap",
+    "source_label_key": "obs/CellType",
+    "cells": 998,
+    "coordinate_sha256": "a612a7b2fabad966119103749a299409c78d1a2e26f34dcec9c72e904e14cfe9",
+    "cell_ids_sha256": "6a9948bc871f5521151d026b1a93f68013def32c88fd54c9fa57d5db556ab8f1",
+    "xref": 24,
+    "scatter_input": "velovae.npz",
+    "canvas_bbox": [
+      68.9927749633789,
+      455.8627624511719,
+      148.85202026367188,
+      527.7030029296875
+    ]
+  },
+  {
+    "method": "MultiVelo",
+    "source": "/data1/liyaru/software/velogif/version/velogif_0210_0_2/result/multivelo.h5ad",
+    "source_embedding_key": "obsm/X_umap",
+    "source_label_key": "obs/CellType",
+    "cells": 1000,
+    "coordinate_sha256": "768e5502709b88ea7e0ec8e0acbb8f5a754505643a0b5d80d4d6e9b737c2aff6",
+    "cell_ids_sha256": "6ff383bfb14937420935632eb0d4e24bf2724f044c306b2ddb052c1a26373e7b",
+    "xref": 26,
+    "scatter_input": "multivelo.npz",
+    "canvas_bbox": [
+      354.6466369628906,
+      270.73138427734375,
+      435.33258056640625,
+      342.5716247558594
+    ]
+  },
+  {
+    "method": "UniTVelo",
+    "source": "/data1/liyaru/software/velogif/version/velogif_0210_0_2/result/unitvelo.h5ad",
+    "source_embedding_key": "obsm/X_umap",
+    "source_label_key": "obs/CellType",
+    "cells": 1000,
+    "coordinate_sha256": "9af573a0a13c24c535716a13e4783ad6f46af26c3395801b73608c207c1f1793",
+    "cell_ids_sha256": "247dd1b85e6fb1b1f47c19b9183a78f751a59d8323f5b0a401918d3270da62f9",
+    "xref": 20,
+    "scatter_input": "scvelo.dyn.npz",
+    "canvas_bbox": [
+      354.6466369628906,
+      178.16567993164062,
+      435.33258056640625,
+      250.00592041015625
+    ]
+  },
+  {
+    "method": "DeepVelo(VAE)",
+    "source": "/data1/liyaru/software/velogif/version/velogif_0210_0_2/result/deepvelo_vae.h5ad",
+    "source_embedding_key": "obsm/X_umap",
+    "source_label_key": "obs/CellType",
+    "cells": 1000,
+    "coordinate_sha256": "9af573a0a13c24c535716a13e4783ad6f46af26c3395801b73608c207c1f1793",
+    "cell_ids_sha256": "247dd1b85e6fb1b1f47c19b9183a78f751a59d8323f5b0a401918d3270da62f9",
+    "xref": 20,
+    "scatter_input": "scvelo.dyn.npz",
+    "canvas_bbox": [
+      354.6466369628906,
+      455.8627624511719,
+      435.33258056640625,
+      527.7030029296875
+    ]
+  },
+  {
+    "method": "cellDancer",
+    "source": "/data1/liyaru/software/velogif/version/velogif_0210_0_2/result/celldancer.h5ad",
+    "source_embedding_key": "obsm/X_umap",
+    "source_label_key": "obs/CellType",
+    "cells": 1000,
+    "coordinate_sha256": "9af573a0a13c24c535716a13e4783ad6f46af26c3395801b73608c207c1f1793",
+    "cell_ids_sha256": "247dd1b85e6fb1b1f47c19b9183a78f751a59d8323f5b0a401918d3270da62f9",
+    "xref": 18,
+    "scatter_input": "scvelo.sto.npz",
+    "canvas_bbox": [
+      163.93516540527344,
+      270.73138427734375,
+      244.62109375,
+      342.5716247558594
+    ]
+  },
+  {
+    "method": "PhyloVelo",
+    "source": "/data1/liyaru/software/velogif/version/velogif_0210_0_2/result/phylovelo.h5ad",
+    "source_embedding_key": "obsm/X_umap",
+    "source_label_key": "obs/CellType",
+    "cells": 1000,
+    "coordinate_sha256": "a6ae95e0e42b1be17ef7a7dce7b0fa2f8f9e35ae98f0a753f197e59850cccf93",
+    "cell_ids_sha256": "94bb532f23e23622f244e49b66032db6ff77430c70f6fe593523e3fa7cf41681",
+    "xref": 28,
+    "scatter_input": "phylovelo.npz",
+    "canvas_bbox": [
+      259.7042541503906,
+      455.8627014160156,
+      339.5634765625,
+      527.7029418945312
+    ]
+  },
+  {
+    "method": "veloVI",
+    "source": "/data1/liyaru/software/velogif/version/velogif_0210_0_2/result/velovi.h5ad",
+    "source_embedding_key": "obsm/X_umap",
+    "source_label_key": "obs/CellType",
+    "cells": 1000,
+    "coordinate_sha256": "9af573a0a13c24c535716a13e4783ad6f46af26c3395801b73608c207c1f1793",
+    "cell_ids_sha256": "247dd1b85e6fb1b1f47c19b9183a78f751a59d8323f5b0a401918d3270da62f9",
+    "xref": 30,
+    "scatter_input": "velovi.npz",
+    "canvas_bbox": [
+      450.4157409667969,
+      363.29705810546875,
+      530.2749633789062,
+      435.1372985839844
+    ]
+  },
+  {
+    "method": "LatentVelo",
+    "source": "/data1/liyaru/software/velogif/version/velogif_0210_0_2/result/latentvelo.h5ad",
+    "source_embedding_key": "obsm/X_umap",
+    "source_label_key": "obs/CellType",
+    "cells": 1000,
+    "coordinate_sha256": "9af573a0a13c24c535716a13e4783ad6f46af26c3395801b73608c207c1f1793",
+    "cell_ids_sha256": "247dd1b85e6fb1b1f47c19b9183a78f751a59d8323f5b0a401918d3270da62f9",
+    "xref": 30,
+    "scatter_input": "velovi.npz",
+    "canvas_bbox": [
+      450.4157409667969,
+      85.5999984741211,
+      530.2749633789062,
+      157.44024658203125
+    ]
+  },
+  {
+    "method": "DeepVelo(GCN)",
+    "source": "/data1/liyaru/software/velogif/version/velogif_0210_0_2/result/deepvelo_gcn.h5ad",
+    "source_embedding_key": "obsm/X_umap",
+    "source_label_key": "obs/CellType",
+    "cells": 1000,
+    "coordinate_sha256": "9af573a0a13c24c535716a13e4783ad6f46af26c3395801b73608c207c1f1793",
+    "cell_ids_sha256": "247dd1b85e6fb1b1f47c19b9183a78f751a59d8323f5b0a401918d3270da62f9",
+    "xref": 22,
+    "scatter_input": "veloae.npz",
+    "canvas_bbox": [
+      259.7042541503906,
+      270.73138427734375,
+      339.5634765625,
+      342.5716247558594
+    ]
+  },
+  {
+    "method": "TFvelo",
+    "source": "/data1/liyaru/software/velogif/version/velogif_0210_0_2/result/tfvelo.h5ad",
+    "source_embedding_key": "obsm/X_umap",
+    "source_label_key": "obs/CellType",
+    "cells": 1000,
+    "coordinate_sha256": "9af573a0a13c24c535716a13e4783ad6f46af26c3395801b73608c207c1f1793",
+    "cell_ids_sha256": "247dd1b85e6fb1b1f47c19b9183a78f751a59d8323f5b0a401918d3270da62f9",
+    "xref": 18,
+    "scatter_input": "scvelo.sto.npz",
+    "canvas_bbox": [
+      163.93516540527344,
+      455.8627624511719,
+      244.62109375,
+      527.7030029296875
+    ]
+  },
+  {
+    "method": "STT",
+    "source": "/data1/liyaru/software/velogif/version/velogif_0210_0_2/result/stt.h5ad",
+    "source_embedding_key": "obsm/X_umap",
+    "source_label_key": "obs/CellType",
+    "cells": 1000,
+    "coordinate_sha256": "9af573a0a13c24c535716a13e4783ad6f46af26c3395801b73608c207c1f1793",
+    "cell_ids_sha256": "247dd1b85e6fb1b1f47c19b9183a78f751a59d8323f5b0a401918d3270da62f9",
+    "xref": 30,
+    "scatter_input": "velovi.npz",
+    "canvas_bbox": [
+      450.4157409667969,
+      455.8627624511719,
+      530.2749633789062,
+      527.7030029296875
+    ]
+  },
+  {
+    "method": "TopicVelo",
+    "source": "/data1/liyaru/software/velogif/version/velogif_0210_0_2/result/topicvelo.h5ad",
+    "source_embedding_key": "obsm/X_umap",
+    "source_label_key": "obs/CellType",
+    "cells": 1000,
+    "coordinate_sha256": "9af573a0a13c24c535716a13e4783ad6f46af26c3395801b73608c207c1f1793",
+    "cell_ids_sha256": "247dd1b85e6fb1b1f47c19b9183a78f751a59d8323f5b0a401918d3270da62f9",
+    "xref": 22,
+    "scatter_input": "veloae.npz",
+    "canvas_bbox": [
+      259.7042541503906,
+      178.16567993164062,
+      339.5634765625,
+      250.00592041015625
+    ]
+  },
+  {
+    "method": "biVI",
+    "source": "/data1/liyaru/software/velogif/version/velogif_0210_0_2/result/bivi.h5ad",
+    "source_embedding_key": "obsm/X_umap",
+    "source_label_key": "obs/CellType",
+    "cells": 1000,
+    "coordinate_sha256": "9af573a0a13c24c535716a13e4783ad6f46af26c3395801b73608c207c1f1793",
+    "cell_ids_sha256": "247dd1b85e6fb1b1f47c19b9183a78f751a59d8323f5b0a401918d3270da62f9",
+    "xref": 30,
+    "scatter_input": "velovi.npz",
+    "canvas_bbox": [
+      450.4157409667969,
+      270.7313537597656,
+      530.2749633789062,
+      342.57159423828125
+    ]
+  },
+  {
+    "method": "DeepKINET",
+    "source": "/data1/liyaru/software/velogif/version/velogif_0210_0_2/result/deepkinet.h5ad",
+    "source_embedding_key": "obsm/X_umap",
+    "source_label_key": "obs/CellType",
+    "cells": 1000,
+    "coordinate_sha256": "9af573a0a13c24c535716a13e4783ad6f46af26c3395801b73608c207c1f1793",
+    "cell_ids_sha256": "247dd1b85e6fb1b1f47c19b9183a78f751a59d8323f5b0a401918d3270da62f9",
+    "xref": 16,
+    "scatter_input": "velocyto.npz",
+    "canvas_bbox": [
+      68.9927749633789,
+      363.2970275878906,
+      148.85202026367188,
+      435.13726806640625
+    ]
+  },
+  {
+    "method": "SDEvelo",
+    "source": "/data1/liyaru/software/velogif/version/velogif_0210_0_2/result/sdevelo.h5ad",
+    "source_embedding_key": "obsm/X_umap",
+    "source_label_key": "obs/CellType",
+    "cells": 1000,
+    "coordinate_sha256": "9af573a0a13c24c535716a13e4783ad6f46af26c3395801b73608c207c1f1793",
+    "cell_ids_sha256": "247dd1b85e6fb1b1f47c19b9183a78f751a59d8323f5b0a401918d3270da62f9",
+    "xref": 16,
+    "scatter_input": "velocyto.npz",
+    "canvas_bbox": [
+      68.9927749633789,
+      178.16567993164062,
+      148.85202026367188,
+      250.00592041015625
+    ]
+  },
+  {
+    "method": "cell2fate",
+    "source": "/data1/liyaru/software/velogif/version/velogif_0210_0_2/result/cell2fate.h5ad",
+    "source_embedding_key": "obsm/X_umap",
+    "source_label_key": "obs/CellType",
+    "cells": 1000,
+    "coordinate_sha256": "8d0f3572ba01233b89a6cf1cc88e4f6054c6083f1622b50597bb83e96bcec1f8",
+    "cell_ids_sha256": "a2ec7c0004fe7b2d6d5ff71a38c004748b0a7b043cc7b59afc773b471f8db760",
+    "xref": 32,
+    "scatter_input": "cell2fate.npz",
+    "canvas_bbox": [
+      450.4157409667969,
+      178.16567993164062,
+      530.2749633789062,
+      250.00592041015625
+    ]
+  }
+]

@@ -1,0 +1,59 @@
+{
+  "status": "complete",
+  "method": "PhyloVelo",
+  "cells": 754,
+  "genes": 11273,
+  "MEGs": 339,
+  "nonzero_gene_velocities": 339,
+  "nonzero_cell_directions": 754,
+  "inference_seconds": 293.91650652885437,
+  "embedding_seconds": 17.574082175269723,
+  "GDC": -1.0,
+  "reference_cell_denominator": 706,
+  "reference_edges": [
+    [
+      "AT2-like",
+      "Gastric-like"
+    ],
+    [
+      "AT2-like",
+      "Lung progenitor-like"
+    ],
+    [
+      "Endoderm-like",
+      "Pre-EMT"
+    ],
+    [
+      "Pre-EMT",
+      "Early EMT-1"
+    ]
+  ],
+  "ICCoh": {
+    "AT1-like": 1.0000000000000002,
+    "AT2-like": 1.0000000000000002,
+    "Early EMT-1": 1.0,
+    "Endoderm-like": 1.0000000000000002,
+    "Gastric-like": 1.0000000000000002,
+    "High plasticity": 1.0000000000000002,
+    "Lung progenitor-like": 1.0000000000000002,
+    "Pre-EMT": 1.0
+  },
+  "CBDir": {
+    "AT2-like -> Gastric-like": -0.861789450623569,
+    "AT2-like -> Lung progenitor-like": -0.7347075668194205,
+    "Endoderm-like -> Pre-EMT": -0.47190495225586243,
+    "Pre-EMT -> Early EMT-1": -0.8556599618098009
+  },
+  "boundary_cells": {
+    "AT2-like -> Gastric-like": 52,
+    "AT2-like -> Lung progenitor-like": 37,
+    "Endoderm-like -> Pre-EMT": 19,
+    "Pre-EMT -> Early EMT-1": 63
+  },
+  "evaluation_neighbor_graph": "fixed manuscript input neighbors, no recomputation",
+  "native_projection": true,
+  "velocity_semantics": "one gene-wise slope vector and native cell-specific 2D projected directions",
+  "GDC_limitation": "Historical ICCoh adapter repeats the single gene-wise vector across cells, so within-cluster coherence is structurally 1; GDC is not an independent measure of cell-specific high-dimensional velocity quality.",
+  "wall_seconds": 322.583823684603,
+  "formal_figures_changed": false
+}

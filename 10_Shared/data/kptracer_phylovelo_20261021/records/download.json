@@ -1,0 +1,20 @@
+{
+  "source_record": "https://zenodo.org/records/5847462",
+  "url": "https://zenodo.org/api/records/5847462/files/KPTracer-Data.tar.gz/content",
+  "archive_md5": "353d18a618f60e975089f2d278acaa88",
+  "archive_bytes": 1304975216,
+  "extracted": [
+    {
+      "member": "KPTracer-Data/expression/adata_processed.nt.h5ad",
+      "file": "inputs/adata_processed.nt.h5ad",
+      "sha256": "aa372750c3c66e0f996894e28bd3a71b84cd1826f28070d3b453b0ad053cdfff",
+      "bytes": 2282515558
+    },
+    {
+      "member": "KPTracer-Data/trees/3726_NT_T1_tree.nwk",
+      "file": "inputs/3726_NT_T1_tree.nwk",
+      "sha256": "a251b6399e499a0a961ab9e73780a9a2c2d2dd0852abd258cb642af74b07caba",
+      "bytes": 18810
+    }
+  ]
+}

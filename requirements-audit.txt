@@ -1,0 +1,4 @@
+-r requirements-demo.txt
+anndata==0.10.9
+h5py==3.14.0
+PyMuPDF==1.28.2

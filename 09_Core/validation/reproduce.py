@@ -102,7 +102,7 @@ def main():
     same('ED07_available_maximum',ed7['Best available'],comparable.max(axis=1))
 
     # Figure 6: recalculate the frozen summary, including ranks and coverage.
-    summary = sheet('Figure06.xlsx', '6a Summary').set_index('Method')
+    summary = sheet('Figure06.xlsx', '6c Summary').set_index('Method')
     domains = ['simulation_cosine', 'scLT_cosine', 'scNT_cosine', 'HuBMAP_global',
                'Dataset10_global', 'ReDeeM_global', 'MPSTA_global', 'KPTracer_global']
     accuracy = ((summary[domains] + 1) / 2).mean(axis=1)
@@ -155,7 +155,7 @@ def main():
     spots = csv('spatial_context_consistency/paired_spots.csv')
     aggregate = csv('spatial_context_consistency/summary.csv')
     grouped = csv('spatial_context_consistency/by_cell_type.csv')
-    check('ED16_population', len(spots) == 19*608 and not spots.duplicated(['method','cell_id']).any()
+    check('ED16_population', len(spots) == 20*608 and not spots.duplicated(['method','cell_id']).any()
           and (spots.groupby('method').cell_id.nunique() == 608).all(), dict(rows=len(spots), methods=spots.method.nunique()))
     a = spots[['full_vx','full_vy']].to_numpy()
     b = spots[['restricted_vx','restricted_vy']].to_numpy()
@@ -193,7 +193,8 @@ def main():
     current['MPSTA_global'] = spatial
     differences = []
     for field, values in current.items():
-        check(field+'_current_method_names', set(values.index)==set(summary.index), sorted(set(values.index)^set(summary.index)))
+        expected_methods = set(summary.index) | ({'TopoVelo'} if field == 'MPSTA_global' else set())
+        check(field+'_current_method_names', set(values.index)==expected_methods, sorted(set(values.index)^expected_methods))
         for method, old in summary[field].items():
             new = values.get(method, np.nan)
             if not np.isclose(old, new, atol=1e-6, rtol=0, equal_nan=True):

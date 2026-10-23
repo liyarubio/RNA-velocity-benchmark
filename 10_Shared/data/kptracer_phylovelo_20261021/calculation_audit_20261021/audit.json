@@ -1,0 +1,165 @@
+{
+  "cells_with_only_self_as_same_type_neighbor": 4,
+  "metric_helper_matches_archived_manuscript_bytewise": true,
+  "independent_audit_script_sha256": "b3944c89674cb55690284327a8b3e455d3d6308e790568bdbe6d0c737f8661d6",
+  "numerical_audit": "pass",
+  "scientific_adapter_status": "degenerate ICCoh: reproducible adapted score, not comparable native GDC",
+  "cells": 754,
+  "reference_cells": 706,
+  "excluded_cells": 48,
+  "neighbors_source": "uns.neighbors.indices",
+  "self_neighbor_cells": 754,
+  "cells_without_same_type_neighbors": 0,
+  "zero_native_vectors": 0,
+  "gene_vector_shape": [
+    11273
+  ],
+  "nonzero_gene_velocities": 339,
+  "ICCoh_analytical": 0.9999999999999999,
+  "GDC_independent": 0.9999999999999997,
+  "GDC_saved": 1.0,
+  "CBDir_max_abs_error": 3.3306690738754696e-16,
+  "CBDir": [
+    {
+      "source": "AT2-like",
+      "target": "Gastric-like",
+      "n_boundary_cells": 52,
+      "median": 0.861789450623569,
+      "mean": 0.7982555861329993,
+      "positive_fraction": 1.0,
+      "min": 0.16517383182350362,
+      "max": 0.9996009159784265,
+      "direction_sign": 1.0
+    },
+    {
+      "source": "AT2-like",
+      "target": "Lung progenitor-like",
+      "n_boundary_cells": 37,
+      "median": 0.7347075668194205,
+      "mean": 0.580907365430732,
+      "positive_fraction": 0.9459459459459459,
+      "min": -0.9959226467749842,
+      "max": 0.9973431649418764,
+      "direction_sign": 1.0
+    },
+    {
+      "source": "Endoderm-like",
+      "target": "Pre-EMT",
+      "n_boundary_cells": 19,
+      "median": 0.47190495225586243,
+      "mean": 0.515502095300188,
+      "positive_fraction": 0.8947368421052632,
+      "min": -0.082967140468387,
+      "max": 0.9916445100926173,
+      "direction_sign": 1.0
+    },
+    {
+      "source": "Pre-EMT",
+      "target": "Early EMT-1",
+      "n_boundary_cells": 63,
+      "median": 0.8556599618098011,
+      "mean": 0.8351975361336577,
+      "positive_fraction": 1.0,
+      "min": 0.5770709194222878,
+      "max": 0.9999396175058263,
+      "direction_sign": 1.0
+    }
+  ],
+  "cluster_terms": [
+    {
+      "cluster": "AT2-like",
+      "n_cells": 104,
+      "n_valid_iccoh": 104,
+      "weight": 0.14730878186968838,
+      "ICCoh": 0.9999999999999999,
+      "n_incident_reference_edges": 2,
+      "direction_term": 1.0,
+      "contribution": 0.14730878186968835
+    },
+    {
+      "cluster": "Early EMT-1",
+      "n_cells": 348,
+      "n_valid_iccoh": 348,
+      "weight": 0.49291784702549574,
+      "ICCoh": 0.9999999999999999,
+      "n_incident_reference_edges": 1,
+      "direction_term": 1.0,
+      "contribution": 0.4929178470254957
+    },
+    {
+      "cluster": "Endoderm-like",
+      "n_cells": 19,
+      "n_valid_iccoh": 19,
+      "weight": 0.026912181303116147,
+      "ICCoh": 0.9999999999999998,
+      "n_incident_reference_edges": 1,
+      "direction_term": 1.0,
+      "contribution": 0.02691218130311614
+    },
+    {
+      "cluster": "Gastric-like",
+      "n_cells": 26,
+      "n_valid_iccoh": 26,
+      "weight": 0.036827195467422094,
+      "ICCoh": 0.9999999999999999,
+      "n_incident_reference_edges": 1,
+      "direction_term": 1.0,
+      "contribution": 0.03682719546742209
+    },
+    {
+      "cluster": "Lung progenitor-like",
+      "n_cells": 68,
+      "n_valid_iccoh": 68,
+      "weight": 0.09631728045325778,
+      "ICCoh": 0.9999999999999998,
+      "n_incident_reference_edges": 1,
+      "direction_term": 1.0,
+      "contribution": 0.09631728045325776
+    },
+    {
+      "cluster": "Pre-EMT",
+      "n_cells": 141,
+      "n_valid_iccoh": 141,
+      "weight": 0.19971671388101983,
+      "ICCoh": 0.9999999999999998,
+      "n_incident_reference_edges": 2,
+      "direction_term": 1.0,
+      "contribution": 0.19971671388101978
+    }
+  ],
+  "controls": [
+    {
+      "method": "scVelo(sto)",
+      "independent_GDC": 0.6262532464407511,
+      "historical_GDC": 0.6262533588720111,
+      "absolute_error": 1.1243125996873715e-07,
+      "denominator": 706
+    },
+    {
+      "method": "UniTVelo",
+      "independent_GDC": 0.959948286955976,
+      "historical_GDC": 0.9599484078607208,
+      "absolute_error": 1.2090474477144397e-07,
+      "denominator": 706
+    }
+  ],
+  "checks": {
+    "native_backward_and_forward_vectors_exact_opposites": true,
+    "cell_order_and_umap_match_reference": true,
+    "neighbor_graph_matches_reference": true,
+    "reference_edges_match_manuscript": true,
+    "CBDir_recomputed_without_production_helpers": true,
+    "ICCoh_rederived_from_actual_gene_vector": true,
+    "weights_sum_to_one": true,
+    "original_outputs_and_v8_unchanged": true
+  },
+  "input_sha256": {
+    "/data1/liyaru/RNA_velocity_materials/KPTracer_phylovelo_20261021/results/phylovelo.h5ad": "c35e81e1c0286b55dd73e89558f755193c62cda692d898bd82b2e16b53dac7e9",
+    "/data1/liyaru/RNA_velocity_materials/KPTracer_phylovelo_20261021/presentation_backward_metrics_forward/phylovelo_forward_metrics.h5ad": "388568ad09baac30c14ab55a8a97af0d62a43f5dbf7c4674bece59d78177286b",
+    "/data1/liyaru/RNA_velocity_materials/KPTracer_phylovelo_20261021/presentation_backward_metrics_forward/evaluation.json": "8e25881fcac4677b2a63b6f61db1d577934b0d717fdd07c4aa7abb698a9dd983",
+    "/data1/liyaru/RNA_velocity_materials/KPTracer_phylovelo_20261021/results/evaluation_unit_scores.csv": "16fc1a5ffade7bdf056f35371924aee3d2c9f66496d7e7c78fb9cafc0c996b0e",
+    "/data1/liyaru/RNA_velocity_materials/KPTracer_phylovelo_20261021/presentation_backward_metrics_forward/CBDir_forward_unit_scores.csv": "ef7958fbe7f7570483c52de91419dcac6cb344c7e5eaf58b263e99b447a9b332",
+    "/data1/liyaru/RNA_velocity_materials/KPTracer_phylovelo_20261021/results/gene_velocities.csv": "809fdd0cc5247cfdd11c1df16eaad54952ccfb5340bd12ca15e8b33661303943",
+    "/data1/liyaru/RNA_velocity_materials/Manuscript_1019/Reports/figure_structure_design_20261021/layout_v8/Figure05_proposed_v8.pdf": "6de15db9b07a1b6fcd5ac28fc954eaaf91db6e7e5eab0d2e5893d530be4db138"
+  }
+}

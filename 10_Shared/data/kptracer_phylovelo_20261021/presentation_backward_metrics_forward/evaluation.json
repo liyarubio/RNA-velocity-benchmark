@@ -1,0 +1,54 @@
+{
+  "plot_label": "PhyloVelo (backward)",
+  "plot_vector_key": "velocity_umap_backward",
+  "metric_vector_key": "velocity_umap_forward",
+  "metric_transform": "-native velocity_embeded; convention alignment defined by PhyloVelo backward mapping",
+  "GDC_comparable": null,
+  "GDC_adapted_forward": 1.0,
+  "GDC_rank": null,
+  "ICCoh_adapter": "Repeated global gene-wise vector; ICCoh structurally one; adapted GDC excluded from comparable ranking",
+  "CBDir": [
+    {
+      "source": "AT2-like",
+      "target": "Gastric-like",
+      "CBDir_median": 0.861789450623569,
+      "n_boundary_cells": 52,
+      "evaluation_direction": "forward"
+    },
+    {
+      "source": "AT2-like",
+      "target": "Lung progenitor-like",
+      "CBDir_median": 0.7347075668194205,
+      "n_boundary_cells": 37,
+      "evaluation_direction": "forward"
+    },
+    {
+      "source": "Endoderm-like",
+      "target": "Pre-EMT",
+      "CBDir_median": 0.47190495225586243,
+      "n_boundary_cells": 19,
+      "evaluation_direction": "forward"
+    },
+    {
+      "source": "Pre-EMT",
+      "target": "Early EMT-1",
+      "CBDir_median": 0.8556599618098009,
+      "n_boundary_cells": 63,
+      "evaluation_direction": "forward"
+    }
+  ],
+  "cells": 754,
+  "reference_cells": 706,
+  "source_sha256": {
+    "results/phylovelo.h5ad": "c35e81e1c0286b55dd73e89558f755193c62cda692d898bd82b2e16b53dac7e9",
+    "results/evaluation.json": "9f06ebdfb8319109e587f669af257c3a62798d7aaad912483eeaaf5106d918e1",
+    "results/evaluation_unit_scores.csv": "16fc1a5ffade7bdf056f35371924aee3d2c9f66496d7e7c78fb9cafc0c996b0e",
+    "results/PhyloVelo_KPTracer_manuscript.pdf": "a280feea6336df2b9502a281949341440a6fd1bb50fc870310f143cbe79a2228",
+    "results/PhyloVelo_KPTracer_tutorial.pdf": "0a5f9e5c108c3fbc1dd84345931b1416f51156560d5714148619e9d11169cf39"
+  },
+  "models_rerun": false,
+  "embedding_recomputed": false,
+  "source": "https://communities.springernature.com/posts/phylovelo-enhances-transcriptomic-velocity-field-mapping-using-monotonically-expressed-genes?badge_id=nature-biotechnology",
+  "wording_basis": "Fig.1d: backward directions",
+  "native_plot_artwork_pixel_identical": true
+}

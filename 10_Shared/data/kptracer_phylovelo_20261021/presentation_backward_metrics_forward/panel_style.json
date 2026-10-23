@@ -1,0 +1,21 @@
+{
+  "direction": "native backward",
+  "sign": 1,
+  "page_pt": [
+    122,
+    102
+  ],
+  "equal_aspect": true,
+  "grid": [
+    35,
+    35
+  ],
+  "neighbors": 30,
+  "bandwidth_factor": 0.75,
+  "mass_threshold": 0.2,
+  "density": 1,
+  "marker_area": 4,
+  "linewidth": 0.4,
+  "arrowsize": 0.5,
+  "note": "Same native vectors and smoothing as manuscript-style plot; point and line sizes adjusted for compact panel."
+}

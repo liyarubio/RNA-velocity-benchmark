@@ -1,0 +1,5 @@
+source,target,CBDir_median,n_boundary_cells,evaluation_direction
+AT2-like,Gastric-like,0.861789450623569,52,forward
+AT2-like,Lung progenitor-like,0.7347075668194205,37,forward
+Endoderm-like,Pre-EMT,0.47190495225586243,19,forward
+Pre-EMT,Early EMT-1,0.8556599618098009,63,forward

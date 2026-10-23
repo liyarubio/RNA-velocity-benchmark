@@ -1,0 +1,92 @@
+{
+  "status": "complete",
+  "plots": [
+    {
+      "output": "Figure03a",
+      "source": "Figure03.xlsx / 3a High dim",
+      "scope": "saved-data redraw; not original layout"
+    },
+    {
+      "output": "Figure04a_GDC",
+      "source": "Figure04.xlsx / 4a GDC",
+      "scope": "saved-data redraw; not original layout"
+    },
+    {
+      "output": "Figure05a_GDC",
+      "source": "Figure05.xlsx / 5a GDC",
+      "scope": "saved-data redraw; not original layout"
+    },
+    {
+      "output": "Figure06a_runtime",
+      "source": "Figure06.xlsx / 6a Runtime seconds",
+      "scope": "saved-data redraw; not original layout"
+    },
+    {
+      "output": "Figure06b_stability",
+      "source": "Figure06.xlsx / 6b Plotted vs full",
+      "scope": "saved-data redraw; not original layout"
+    },
+    {
+      "output": "Figure06c_frozen",
+      "source": "Figure06.xlsx / 6c Summary",
+      "scope": "saved-data redraw; not original layout"
+    },
+    {
+      "output": "ED05a",
+      "source": "Extended_Data_Fig05.xlsx / Gene-level cosine",
+      "scope": "saved-data redraw; not original layout"
+    },
+    {
+      "output": "ED05b",
+      "source": "Extended_Data_Fig05.xlsx / Cell-level PCA2 cosine",
+      "scope": "saved-data redraw; not original layout"
+    },
+    {
+      "output": "ED06_paired",
+      "source": "Extended_Data_Fig06.xlsx / Paired cell-level values",
+      "scope": "saved-data redraw; not original layout"
+    },
+    {
+      "output": "ED07_HuBMAP",
+      "source": "Extended_Data_Fig07.xlsx / HuBMAP raw GDC",
+      "scope": "saved-data redraw; not original layout"
+    },
+    {
+      "output": "ED13_median",
+      "source": "Extended_Data_Fig13.xlsx / Method summary",
+      "scope": "saved-data redraw; not original layout"
+    },
+    {
+      "output": "ED14_median",
+      "source": "Extended_Data_Fig14.xlsx / Method summary",
+      "scope": "saved-data redraw; not original layout"
+    },
+    {
+      "output": "ED15_GDC",
+      "source": "Extended_Data_Fig15.xlsx / GDC source values",
+      "scope": "saved-data redraw; not original layout"
+    },
+    {
+      "output": "ED17_GDC",
+      "source": "Extended_Data_Fig17.xlsx / GDC direct edges",
+      "scope": "saved-data redraw; not original layout"
+    },
+    {
+      "output": "ED16_spatial",
+      "source": "data/spatial_context_consistency/paired_spots.csv",
+      "scope": "saved-data redraw; not original layout"
+    },
+    {
+      "output": "ED18_top100_overlap",
+      "source": "data/metascape/top100/mapped_membership.csv",
+      "scope": "saved-data redraw; not original layout"
+    },
+    {
+      "output": "ED18_top200_overlap",
+      "source": "data/metascape/top200/mapped_membership.csv",
+      "scope": "saved-data redraw; not original layout"
+    }
+  ],
+  "models_rerun": false,
+  "publication_artwork_modified": false
+}

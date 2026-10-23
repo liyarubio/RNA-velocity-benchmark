@@ -1,0 +1,9 @@
+orientation,source,target,n_boundary_cells,CBDir_median
+native_backward,AT2-like,Gastric-like,52,-0.861789450623569
+native_backward,AT2-like,Lung progenitor-like,37,-0.7347075668194205
+native_backward,Endoderm-like,Pre-EMT,19,-0.47190495225586243
+native_backward,Pre-EMT,Early EMT-1,63,-0.8556599618098009
+forward_convention,AT2-like,Gastric-like,52,0.861789450623569
+forward_convention,AT2-like,Lung progenitor-like,37,0.7347075668194205
+forward_convention,Endoderm-like,Pre-EMT,19,0.47190495225586243
+forward_convention,Pre-EMT,Early EMT-1,63,0.8556599618098009

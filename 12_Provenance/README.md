@@ -1,19 +1,13 @@
 # Provenance and validation
 
-- [Figure order and historical numbering](figure_index.csv)
-- [Figure-file bindings](file_inventory.csv)
-- [Workbook sheets](workbook_sheets.csv)
-- [Old-to-new paths and SHA256](path_migration.json)
-- [Migration table](path_migration.csv)
-- [Current structure verification](restructure_validation.json)
-- [Numerical and plot regression results](restructure_regression.json)
-- [Executed saved-data checks](saved_data_validation.json)
-- [English release changes and hashes](english_translation.json)
-- [English release validation](english_validation.json)
-- [English release scope](ENGLISH_RELEASE.md)
-- [Pre-restructure release manifests](baseline_1019/)
-- [Inherited reports](reports/)
+The current release is **Manuscript_1021**, with source updates through 22 October and public assembly on 23 October 2026.
 
-Inherited records describe their original release and retain original paths; they are not certificates for the current tree. The migration manifest covers every file tracked at the baseline commit. The initial directory reorganization preserved source-data and artwork bytes, with path adaptations limited to portable tools. The subsequent English release translates documentation, code text and workbook annotations or style names; its separate ledger records the previous and current hashes. Numerical cells, formulas and formal artwork are unchanged. Historical navigation and scripts are retained in the archive with English text.
+- [Release changes and evidence limits](RELEASE_1021.md)
+- [Figure order](figure_index.csv) · [Figure-file bindings](file_inventory.csv) · [Workbook sheets](workbook_sheets.csv)
+- [Current source paths](current_sources.json) · [Source hashes and exclusions](release_1021_sources.json) · [Current checksums](current_checksums.json)
+- [Structure, link and hash validation](release_validation.json)
+- [Saved benchmark recalculation](saved_data_validation.json) · [Latest results](latest_results_validation.json) · [PhyloVelo direction audit](phylovelo_validation.json)
+- [English text and workbook audit](english_validation.json)
+- [Historical 1019 ledgers](baseline_1019/) · [Inherited reports](reports/) · [Original migration](path_migration.json)
 
-No new biological analyses, model fits or enrichment requests were performed. Incomplete age provenance, unavailable values and eight documented frozen-versus-current score differences remain explicit.
+Historical `path_migration`, `english_translation`, `restructure_*` and report records remain evidence about the 1019 release. The current tree is defined by `current_sources.json`, `release_1021_sources.json` and `current_checksums.json`. No models were fitted during publication.

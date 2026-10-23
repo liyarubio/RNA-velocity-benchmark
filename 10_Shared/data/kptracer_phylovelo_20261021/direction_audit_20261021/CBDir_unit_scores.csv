@@ -1,0 +1,343 @@
+orientation,source,target,index,score
+native_backward,AT2-like,Gastric-like,0,-0.9703846531668203
+native_backward,AT2-like,Gastric-like,1,-0.8626618267444516
+native_backward,AT2-like,Gastric-like,2,-0.9996009159784267
+native_backward,AT2-like,Gastric-like,3,-0.9588014957148597
+native_backward,AT2-like,Gastric-like,4,-0.9797612432008025
+native_backward,AT2-like,Gastric-like,5,-0.9380651830752971
+native_backward,AT2-like,Gastric-like,6,-0.8815912898325594
+native_backward,AT2-like,Gastric-like,7,-0.7356099832336277
+native_backward,AT2-like,Gastric-like,8,-0.9930288393771551
+native_backward,AT2-like,Gastric-like,9,-0.9953388170582497
+native_backward,AT2-like,Gastric-like,10,-0.9932396763260042
+native_backward,AT2-like,Gastric-like,11,-0.9546829032613915
+native_backward,AT2-like,Gastric-like,12,-0.9307326505859732
+native_backward,AT2-like,Gastric-like,13,-0.6199851571408644
+native_backward,AT2-like,Gastric-like,14,-0.9924539384126913
+native_backward,AT2-like,Gastric-like,15,-0.8651977370090715
+native_backward,AT2-like,Gastric-like,16,-0.7552452001307166
+native_backward,AT2-like,Gastric-like,17,-0.7121516641164978
+native_backward,AT2-like,Gastric-like,18,-0.8286376058273954
+native_backward,AT2-like,Gastric-like,19,-0.5841084044101311
+native_backward,AT2-like,Gastric-like,20,-0.560757209290036
+native_backward,AT2-like,Gastric-like,21,-0.9701027162235516
+native_backward,AT2-like,Gastric-like,22,-0.573936584582207
+native_backward,AT2-like,Gastric-like,23,-0.8119751428362467
+native_backward,AT2-like,Gastric-like,24,-0.9596645514320059
+native_backward,AT2-like,Gastric-like,25,-0.8609170745026864
+native_backward,AT2-like,Gastric-like,26,-0.38356815144855305
+native_backward,AT2-like,Gastric-like,27,-0.8636411944475877
+native_backward,AT2-like,Gastric-like,28,-0.9679625916220463
+native_backward,AT2-like,Gastric-like,29,-0.6062237199583658
+native_backward,AT2-like,Gastric-like,30,-0.4685644307129276
+native_backward,AT2-like,Gastric-like,31,-0.3761812537871375
+native_backward,AT2-like,Gastric-like,32,-0.9642943595509216
+native_backward,AT2-like,Gastric-like,33,-0.892844413896042
+native_backward,AT2-like,Gastric-like,34,-0.7934614490472752
+native_backward,AT2-like,Gastric-like,35,-0.8287448720814796
+native_backward,AT2-like,Gastric-like,36,-0.9677056630715027
+native_backward,AT2-like,Gastric-like,37,-0.6069476326483557
+native_backward,AT2-like,Gastric-like,38,-0.8476758078069914
+native_backward,AT2-like,Gastric-like,39,-0.7755987770268195
+native_backward,AT2-like,Gastric-like,40,-0.504319291995914
+native_backward,AT2-like,Gastric-like,41,-0.744088457224412
+native_backward,AT2-like,Gastric-like,42,-0.6013642652030526
+native_backward,AT2-like,Gastric-like,43,-0.9198230460373629
+native_backward,AT2-like,Gastric-like,44,-0.9385433446486446
+native_backward,AT2-like,Gastric-like,45,-0.8183983793877567
+native_backward,AT2-like,Gastric-like,46,-0.16517383182350362
+native_backward,AT2-like,Gastric-like,47,-0.9792424081721324
+native_backward,AT2-like,Gastric-like,48,-0.4297445674895548
+native_backward,AT2-like,Gastric-like,49,-0.8582898702790707
+native_backward,AT2-like,Gastric-like,50,-0.9840025881550726
+native_backward,AT2-like,Gastric-like,51,-0.934253647923756
+native_backward,AT2-like,Lung progenitor-like,0,-0.9824000962285708
+native_backward,AT2-like,Lung progenitor-like,1,-0.07097721294966272
+native_backward,AT2-like,Lung progenitor-like,2,-0.3796941304927629
+native_backward,AT2-like,Lung progenitor-like,3,-0.7909729524126182
+native_backward,AT2-like,Lung progenitor-like,4,-0.8105159357747233
+native_backward,AT2-like,Lung progenitor-like,5,-0.8928029570521787
+native_backward,AT2-like,Lung progenitor-like,6,0.9959226467749841
+native_backward,AT2-like,Lung progenitor-like,7,-0.18349606948298572
+native_backward,AT2-like,Lung progenitor-like,8,-0.8175215441075927
+native_backward,AT2-like,Lung progenitor-like,9,-0.9525388997155526
+native_backward,AT2-like,Lung progenitor-like,10,-0.7748069116764423
+native_backward,AT2-like,Lung progenitor-like,11,-0.7347075668194205
+native_backward,AT2-like,Lung progenitor-like,12,0.03264889827501689
+native_backward,AT2-like,Lung progenitor-like,13,-0.31883083882371266
+native_backward,AT2-like,Lung progenitor-like,14,-0.8461958321785361
+native_backward,AT2-like,Lung progenitor-like,15,-0.9973431649418764
+native_backward,AT2-like,Lung progenitor-like,16,-0.8223797011789723
+native_backward,AT2-like,Lung progenitor-like,17,-0.9785887062009062
+native_backward,AT2-like,Lung progenitor-like,18,-0.7202540647121275
+native_backward,AT2-like,Lung progenitor-like,19,-0.024773744038473905
+native_backward,AT2-like,Lung progenitor-like,20,-0.049547130485634666
+native_backward,AT2-like,Lung progenitor-like,21,-0.7230480948339242
+native_backward,AT2-like,Lung progenitor-like,22,-0.9241317700818422
+native_backward,AT2-like,Lung progenitor-like,23,-0.8106497970374048
+native_backward,AT2-like,Lung progenitor-like,24,-0.8860085576720605
+native_backward,AT2-like,Lung progenitor-like,25,-0.5525738864380177
+native_backward,AT2-like,Lung progenitor-like,26,-0.8075588204350935
+native_backward,AT2-like,Lung progenitor-like,27,-0.7394071070495406
+native_backward,AT2-like,Lung progenitor-like,28,-0.563622565318949
+native_backward,AT2-like,Lung progenitor-like,29,-0.48198591606118757
+native_backward,AT2-like,Lung progenitor-like,30,-0.37086981999656354
+native_backward,AT2-like,Lung progenitor-like,31,-0.7926778651049117
+native_backward,AT2-like,Lung progenitor-like,32,-0.45922309505265907
+native_backward,AT2-like,Lung progenitor-like,33,-0.663693091665655
+native_backward,AT2-like,Lung progenitor-like,34,-0.7173557132197957
+native_backward,AT2-like,Lung progenitor-like,35,-0.7497267802286467
+native_backward,AT2-like,Lung progenitor-like,36,-0.13126372651808352
+native_backward,Endoderm-like,Pre-EMT,0,-0.36666720013108733
+native_backward,Endoderm-like,Pre-EMT,1,-0.7012350380185502
+native_backward,Endoderm-like,Pre-EMT,2,-0.2878716317859697
+native_backward,Endoderm-like,Pre-EMT,3,-0.9872923617144559
+native_backward,Endoderm-like,Pre-EMT,4,-0.4380032366277135
+native_backward,Endoderm-like,Pre-EMT,5,-0.9916445100926171
+native_backward,Endoderm-like,Pre-EMT,6,-0.41080734019859716
+native_backward,Endoderm-like,Pre-EMT,7,-0.6867424576714167
+native_backward,Endoderm-like,Pre-EMT,8,-0.7550497128552148
+native_backward,Endoderm-like,Pre-EMT,9,-0.9290631189758654
+native_backward,Endoderm-like,Pre-EMT,10,-0.6053245910574367
+native_backward,Endoderm-like,Pre-EMT,11,-0.875065428927426
+native_backward,Endoderm-like,Pre-EMT,12,-0.032567777002795964
+native_backward,Endoderm-like,Pre-EMT,13,-0.47190495225586243
+native_backward,Endoderm-like,Pre-EMT,14,-0.3960542274719021
+native_backward,Endoderm-like,Pre-EMT,15,0.08296714046838699
+native_backward,Endoderm-like,Pre-EMT,16,-0.6248095550224243
+native_backward,Endoderm-like,Pre-EMT,17,0.05878439379928581
+native_backward,Endoderm-like,Pre-EMT,18,-0.37618820516191037
+native_backward,Pre-EMT,Early EMT-1,0,-0.6973807996506142
+native_backward,Pre-EMT,Early EMT-1,1,-0.5770709194222879
+native_backward,Pre-EMT,Early EMT-1,2,-0.7657206658142781
+native_backward,Pre-EMT,Early EMT-1,3,-0.8810021596688672
+native_backward,Pre-EMT,Early EMT-1,4,-0.8556599618098009
+native_backward,Pre-EMT,Early EMT-1,5,-0.891045583475659
+native_backward,Pre-EMT,Early EMT-1,6,-0.8267558410486391
+native_backward,Pre-EMT,Early EMT-1,7,-0.9901272323778134
+native_backward,Pre-EMT,Early EMT-1,8,-0.7280715461801014
+native_backward,Pre-EMT,Early EMT-1,9,-0.6597076345745467
+native_backward,Pre-EMT,Early EMT-1,10,-0.9999396175058263
+native_backward,Pre-EMT,Early EMT-1,11,-0.9990798010577953
+native_backward,Pre-EMT,Early EMT-1,12,-0.8748301659065094
+native_backward,Pre-EMT,Early EMT-1,13,-0.8733517518634737
+native_backward,Pre-EMT,Early EMT-1,14,-0.979176285605274
+native_backward,Pre-EMT,Early EMT-1,15,-0.8330465318428233
+native_backward,Pre-EMT,Early EMT-1,16,-0.9800974812603134
+native_backward,Pre-EMT,Early EMT-1,17,-0.8683064850747273
+native_backward,Pre-EMT,Early EMT-1,18,-0.6124175954861245
+native_backward,Pre-EMT,Early EMT-1,19,-0.9124054288553296
+native_backward,Pre-EMT,Early EMT-1,20,-0.9427227880825051
+native_backward,Pre-EMT,Early EMT-1,21,-0.9494738688766755
+native_backward,Pre-EMT,Early EMT-1,22,-0.6908167658889013
+native_backward,Pre-EMT,Early EMT-1,23,-0.9620226959287875
+native_backward,Pre-EMT,Early EMT-1,24,-0.6943024141238338
+native_backward,Pre-EMT,Early EMT-1,25,-0.875761133312419
+native_backward,Pre-EMT,Early EMT-1,26,-0.9660414316204586
+native_backward,Pre-EMT,Early EMT-1,27,-0.7111628799073776
+native_backward,Pre-EMT,Early EMT-1,28,-0.8829916895138091
+native_backward,Pre-EMT,Early EMT-1,29,-0.8708698662332383
+native_backward,Pre-EMT,Early EMT-1,30,-0.8245229551034573
+native_backward,Pre-EMT,Early EMT-1,31,-0.7111360436928912
+native_backward,Pre-EMT,Early EMT-1,32,-0.6126662482809756
+native_backward,Pre-EMT,Early EMT-1,33,-0.7804905430554712
+native_backward,Pre-EMT,Early EMT-1,34,-0.5841377545323477
+native_backward,Pre-EMT,Early EMT-1,35,-0.8190627208730902
+native_backward,Pre-EMT,Early EMT-1,36,-0.9571070804112217
+native_backward,Pre-EMT,Early EMT-1,37,-0.8534858490494858
+native_backward,Pre-EMT,Early EMT-1,38,-0.859424009529893
+native_backward,Pre-EMT,Early EMT-1,39,-0.6683337126511975
+native_backward,Pre-EMT,Early EMT-1,40,-0.6878837982515265
+native_backward,Pre-EMT,Early EMT-1,41,-0.9764760235932342
+native_backward,Pre-EMT,Early EMT-1,42,-0.749951590372729
+native_backward,Pre-EMT,Early EMT-1,43,-0.9763546510126908
+native_backward,Pre-EMT,Early EMT-1,44,-0.8697049898435432
+native_backward,Pre-EMT,Early EMT-1,45,-0.8112947988388424
+native_backward,Pre-EMT,Early EMT-1,46,-0.7552231250876494
+native_backward,Pre-EMT,Early EMT-1,47,-0.8464269742527657
+native_backward,Pre-EMT,Early EMT-1,48,-0.881682499711796
+native_backward,Pre-EMT,Early EMT-1,49,-0.9452983326821868
+native_backward,Pre-EMT,Early EMT-1,50,-0.8669053154336328
+native_backward,Pre-EMT,Early EMT-1,51,-0.798175075126271
+native_backward,Pre-EMT,Early EMT-1,52,-0.8650074397855824
+native_backward,Pre-EMT,Early EMT-1,53,-0.7975725355933638
+native_backward,Pre-EMT,Early EMT-1,54,-0.8477190351550277
+native_backward,Pre-EMT,Early EMT-1,55,-0.765347284590167
+native_backward,Pre-EMT,Early EMT-1,56,-0.7935222447288381
+native_backward,Pre-EMT,Early EMT-1,57,-0.8973326623224956
+native_backward,Pre-EMT,Early EMT-1,58,-0.9523247254488664
+native_backward,Pre-EMT,Early EMT-1,59,-0.8459569170172309
+native_backward,Pre-EMT,Early EMT-1,60,-0.9247771094328531
+native_backward,Pre-EMT,Early EMT-1,61,-0.9575345913376453
+native_backward,Pre-EMT,Early EMT-1,62,-0.7832471176526437
+forward_convention,AT2-like,Gastric-like,0,0.9703846531668203
+forward_convention,AT2-like,Gastric-like,1,0.8626618267444516
+forward_convention,AT2-like,Gastric-like,2,0.9996009159784267
+forward_convention,AT2-like,Gastric-like,3,0.9588014957148597
+forward_convention,AT2-like,Gastric-like,4,0.9797612432008025
+forward_convention,AT2-like,Gastric-like,5,0.9380651830752971
+forward_convention,AT2-like,Gastric-like,6,0.8815912898325594
+forward_convention,AT2-like,Gastric-like,7,0.7356099832336277
+forward_convention,AT2-like,Gastric-like,8,0.9930288393771551
+forward_convention,AT2-like,Gastric-like,9,0.9953388170582497
+forward_convention,AT2-like,Gastric-like,10,0.9932396763260042
+forward_convention,AT2-like,Gastric-like,11,0.9546829032613915
+forward_convention,AT2-like,Gastric-like,12,0.9307326505859732
+forward_convention,AT2-like,Gastric-like,13,0.6199851571408644
+forward_convention,AT2-like,Gastric-like,14,0.9924539384126913
+forward_convention,AT2-like,Gastric-like,15,0.8651977370090715
+forward_convention,AT2-like,Gastric-like,16,0.7552452001307166
+forward_convention,AT2-like,Gastric-like,17,0.7121516641164978
+forward_convention,AT2-like,Gastric-like,18,0.8286376058273954
+forward_convention,AT2-like,Gastric-like,19,0.5841084044101311
+forward_convention,AT2-like,Gastric-like,20,0.560757209290036
+forward_convention,AT2-like,Gastric-like,21,0.9701027162235516
+forward_convention,AT2-like,Gastric-like,22,0.573936584582207
+forward_convention,AT2-like,Gastric-like,23,0.8119751428362467
+forward_convention,AT2-like,Gastric-like,24,0.9596645514320059
+forward_convention,AT2-like,Gastric-like,25,0.8609170745026864
+forward_convention,AT2-like,Gastric-like,26,0.38356815144855305
+forward_convention,AT2-like,Gastric-like,27,0.8636411944475877
+forward_convention,AT2-like,Gastric-like,28,0.9679625916220463
+forward_convention,AT2-like,Gastric-like,29,0.6062237199583658
+forward_convention,AT2-like,Gastric-like,30,0.4685644307129276
+forward_convention,AT2-like,Gastric-like,31,0.3761812537871375
+forward_convention,AT2-like,Gastric-like,32,0.9642943595509216
+forward_convention,AT2-like,Gastric-like,33,0.892844413896042
+forward_convention,AT2-like,Gastric-like,34,0.7934614490472752
+forward_convention,AT2-like,Gastric-like,35,0.8287448720814796
+forward_convention,AT2-like,Gastric-like,36,0.9677056630715027
+forward_convention,AT2-like,Gastric-like,37,0.6069476326483557
+forward_convention,AT2-like,Gastric-like,38,0.8476758078069914
+forward_convention,AT2-like,Gastric-like,39,0.7755987770268195
+forward_convention,AT2-like,Gastric-like,40,0.504319291995914
+forward_convention,AT2-like,Gastric-like,41,0.744088457224412
+forward_convention,AT2-like,Gastric-like,42,0.6013642652030526
+forward_convention,AT2-like,Gastric-like,43,0.9198230460373629
+forward_convention,AT2-like,Gastric-like,44,0.9385433446486446
+forward_convention,AT2-like,Gastric-like,45,0.8183983793877567
+forward_convention,AT2-like,Gastric-like,46,0.16517383182350362
+forward_convention,AT2-like,Gastric-like,47,0.9792424081721324
+forward_convention,AT2-like,Gastric-like,48,0.4297445674895548
+forward_convention,AT2-like,Gastric-like,49,0.8582898702790707
+forward_convention,AT2-like,Gastric-like,50,0.9840025881550726
+forward_convention,AT2-like,Gastric-like,51,0.934253647923756
+forward_convention,AT2-like,Lung progenitor-like,0,0.9824000962285708
+forward_convention,AT2-like,Lung progenitor-like,1,0.07097721294966272
+forward_convention,AT2-like,Lung progenitor-like,2,0.3796941304927629
+forward_convention,AT2-like,Lung progenitor-like,3,0.7909729524126182
+forward_convention,AT2-like,Lung progenitor-like,4,0.8105159357747233
+forward_convention,AT2-like,Lung progenitor-like,5,0.8928029570521787
+forward_convention,AT2-like,Lung progenitor-like,6,-0.9959226467749841
+forward_convention,AT2-like,Lung progenitor-like,7,0.18349606948298572
+forward_convention,AT2-like,Lung progenitor-like,8,0.8175215441075927
+forward_convention,AT2-like,Lung progenitor-like,9,0.9525388997155526
+forward_convention,AT2-like,Lung progenitor-like,10,0.7748069116764423
+forward_convention,AT2-like,Lung progenitor-like,11,0.7347075668194205
+forward_convention,AT2-like,Lung progenitor-like,12,-0.03264889827501689
+forward_convention,AT2-like,Lung progenitor-like,13,0.31883083882371266
+forward_convention,AT2-like,Lung progenitor-like,14,0.8461958321785361
+forward_convention,AT2-like,Lung progenitor-like,15,0.9973431649418764
+forward_convention,AT2-like,Lung progenitor-like,16,0.8223797011789723
+forward_convention,AT2-like,Lung progenitor-like,17,0.9785887062009062
+forward_convention,AT2-like,Lung progenitor-like,18,0.7202540647121275
+forward_convention,AT2-like,Lung progenitor-like,19,0.024773744038473905
+forward_convention,AT2-like,Lung progenitor-like,20,0.049547130485634666
+forward_convention,AT2-like,Lung progenitor-like,21,0.7230480948339242
+forward_convention,AT2-like,Lung progenitor-like,22,0.9241317700818422
+forward_convention,AT2-like,Lung progenitor-like,23,0.8106497970374048
+forward_convention,AT2-like,Lung progenitor-like,24,0.8860085576720605
+forward_convention,AT2-like,Lung progenitor-like,25,0.5525738864380177
+forward_convention,AT2-like,Lung progenitor-like,26,0.8075588204350935
+forward_convention,AT2-like,Lung progenitor-like,27,0.7394071070495406
+forward_convention,AT2-like,Lung progenitor-like,28,0.563622565318949
+forward_convention,AT2-like,Lung progenitor-like,29,0.48198591606118757
+forward_convention,AT2-like,Lung progenitor-like,30,0.37086981999656354
+forward_convention,AT2-like,Lung progenitor-like,31,0.7926778651049117
+forward_convention,AT2-like,Lung progenitor-like,32,0.45922309505265907
+forward_convention,AT2-like,Lung progenitor-like,33,0.663693091665655
+forward_convention,AT2-like,Lung progenitor-like,34,0.7173557132197957
+forward_convention,AT2-like,Lung progenitor-like,35,0.7497267802286467
+forward_convention,AT2-like,Lung progenitor-like,36,0.13126372651808352
+forward_convention,Endoderm-like,Pre-EMT,0,0.36666720013108733
+forward_convention,Endoderm-like,Pre-EMT,1,0.7012350380185502
+forward_convention,Endoderm-like,Pre-EMT,2,0.2878716317859697
+forward_convention,Endoderm-like,Pre-EMT,3,0.9872923617144559
+forward_convention,Endoderm-like,Pre-EMT,4,0.4380032366277135
+forward_convention,Endoderm-like,Pre-EMT,5,0.9916445100926171
+forward_convention,Endoderm-like,Pre-EMT,6,0.41080734019859716
+forward_convention,Endoderm-like,Pre-EMT,7,0.6867424576714167
+forward_convention,Endoderm-like,Pre-EMT,8,0.7550497128552148
+forward_convention,Endoderm-like,Pre-EMT,9,0.9290631189758654
+forward_convention,Endoderm-like,Pre-EMT,10,0.6053245910574367
+forward_convention,Endoderm-like,Pre-EMT,11,0.875065428927426
+forward_convention,Endoderm-like,Pre-EMT,12,0.032567777002795964
+forward_convention,Endoderm-like,Pre-EMT,13,0.47190495225586243
+forward_convention,Endoderm-like,Pre-EMT,14,0.3960542274719021
+forward_convention,Endoderm-like,Pre-EMT,15,-0.08296714046838699
+forward_convention,Endoderm-like,Pre-EMT,16,0.6248095550224243
+forward_convention,Endoderm-like,Pre-EMT,17,-0.05878439379928581
+forward_convention,Endoderm-like,Pre-EMT,18,0.37618820516191037
+forward_convention,Pre-EMT,Early EMT-1,0,0.6973807996506142
+forward_convention,Pre-EMT,Early EMT-1,1,0.5770709194222879
+forward_convention,Pre-EMT,Early EMT-1,2,0.7657206658142781
+forward_convention,Pre-EMT,Early EMT-1,3,0.8810021596688672
+forward_convention,Pre-EMT,Early EMT-1,4,0.8556599618098009
+forward_convention,Pre-EMT,Early EMT-1,5,0.891045583475659
+forward_convention,Pre-EMT,Early EMT-1,6,0.8267558410486391
+forward_convention,Pre-EMT,Early EMT-1,7,0.9901272323778134
+forward_convention,Pre-EMT,Early EMT-1,8,0.7280715461801014
+forward_convention,Pre-EMT,Early EMT-1,9,0.6597076345745467
+forward_convention,Pre-EMT,Early EMT-1,10,0.9999396175058263
+forward_convention,Pre-EMT,Early EMT-1,11,0.9990798010577953
+forward_convention,Pre-EMT,Early EMT-1,12,0.8748301659065094
+forward_convention,Pre-EMT,Early EMT-1,13,0.8733517518634737
+forward_convention,Pre-EMT,Early EMT-1,14,0.979176285605274
+forward_convention,Pre-EMT,Early EMT-1,15,0.8330465318428233
+forward_convention,Pre-EMT,Early EMT-1,16,0.9800974812603134
+forward_convention,Pre-EMT,Early EMT-1,17,0.8683064850747273
+forward_convention,Pre-EMT,Early EMT-1,18,0.6124175954861245
+forward_convention,Pre-EMT,Early EMT-1,19,0.9124054288553296
+forward_convention,Pre-EMT,Early EMT-1,20,0.9427227880825051
+forward_convention,Pre-EMT,Early EMT-1,21,0.9494738688766755
+forward_convention,Pre-EMT,Early EMT-1,22,0.6908167658889013
+forward_convention,Pre-EMT,Early EMT-1,23,0.9620226959287875
+forward_convention,Pre-EMT,Early EMT-1,24,0.6943024141238338
+forward_convention,Pre-EMT,Early EMT-1,25,0.875761133312419
+forward_convention,Pre-EMT,Early EMT-1,26,0.9660414316204586
+forward_convention,Pre-EMT,Early EMT-1,27,0.7111628799073776
+forward_convention,Pre-EMT,Early EMT-1,28,0.8829916895138091
+forward_convention,Pre-EMT,Early EMT-1,29,0.8708698662332383
+forward_convention,Pre-EMT,Early EMT-1,30,0.8245229551034573
+forward_convention,Pre-EMT,Early EMT-1,31,0.7111360436928912
+forward_convention,Pre-EMT,Early EMT-1,32,0.6126662482809756
+forward_convention,Pre-EMT,Early EMT-1,33,0.7804905430554712
+forward_convention,Pre-EMT,Early EMT-1,34,0.5841377545323477
+forward_convention,Pre-EMT,Early EMT-1,35,0.8190627208730902
+forward_convention,Pre-EMT,Early EMT-1,36,0.9571070804112217
+forward_convention,Pre-EMT,Early EMT-1,37,0.8534858490494858
+forward_convention,Pre-EMT,Early EMT-1,38,0.859424009529893
+forward_convention,Pre-EMT,Early EMT-1,39,0.6683337126511975
+forward_convention,Pre-EMT,Early EMT-1,40,0.6878837982515265
+forward_convention,Pre-EMT,Early EMT-1,41,0.9764760235932342
+forward_convention,Pre-EMT,Early EMT-1,42,0.749951590372729
+forward_convention,Pre-EMT,Early EMT-1,43,0.9763546510126908
+forward_convention,Pre-EMT,Early EMT-1,44,0.8697049898435432
+forward_convention,Pre-EMT,Early EMT-1,45,0.8112947988388424
+forward_convention,Pre-EMT,Early EMT-1,46,0.7552231250876494
+forward_convention,Pre-EMT,Early EMT-1,47,0.8464269742527657
+forward_convention,Pre-EMT,Early EMT-1,48,0.881682499711796
+forward_convention,Pre-EMT,Early EMT-1,49,0.9452983326821868
+forward_convention,Pre-EMT,Early EMT-1,50,0.8669053154336328
+forward_convention,Pre-EMT,Early EMT-1,51,0.798175075126271
+forward_convention,Pre-EMT,Early EMT-1,52,0.8650074397855824
+forward_convention,Pre-EMT,Early EMT-1,53,0.7975725355933638
+forward_convention,Pre-EMT,Early EMT-1,54,0.8477190351550277
+forward_convention,Pre-EMT,Early EMT-1,55,0.765347284590167
+forward_convention,Pre-EMT,Early EMT-1,56,0.7935222447288381
+forward_convention,Pre-EMT,Early EMT-1,57,0.8973326623224956
+forward_convention,Pre-EMT,Early EMT-1,58,0.9523247254488664
+forward_convention,Pre-EMT,Early EMT-1,59,0.8459569170172309
+forward_convention,Pre-EMT,Early EMT-1,60,0.9247771094328531
+forward_convention,Pre-EMT,Early EMT-1,61,0.9575345913376453
+forward_convention,Pre-EMT,Early EMT-1,62,0.7832471176526437

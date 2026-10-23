@@ -1,41 +1,56 @@
 # RNA velocity benchmark
 
-Code, saved data and figures for a multilevel benchmark of RNA velocity inference. The repository is organized by **Main Figures 1–7**, followed by **Extended Data Figures 1–12**. Per-figure folders contain actual files; reusable workflows and shared data have separate locations.
+Code, saved results and figures for a multilevel benchmark of RNA velocity inference.
+**Current release: Manuscript_1021, including updates through 22 October 2026; published 23 October 2026.**
+
+This repository follows **Main Figures 1–7** and **Extended Data Figures 1–12**. Each figure has its current PDF, preview, source tables and links to analysis inputs. Shared files are stored once. [Release notes](12_Provenance/RELEASE_1021.md) describe what changed from the previous public version.
 
 ## Main figures
 
 | Figure | Topic | Materials |
 |---|---|---|
-| 1 | Timeline of RNA velocity methods | [Code, data and figures](<01_Figure01/README.md>) |
-| 2 | Benchmarking framework | [Code, data and figures](<02_Figure02/README.md>) |
-| 3 | Evaluation on simulated and conventional datasets | [Code, data and figures](<03_Figure03/README.md>) |
-| 4 | ReDeeM | [Code, data and figures](<04_Figure04/README.md>) |
-| 5 | Spatial evaluation, runtime and read-depth sensitivity | [Code, data and figures](<05_Figure05/README.md>) |
-| 6 | Frozen composite scores and tool capabilities | [Code, data and figures](<06_Figure06/README.md>) |
-| 7 | Age-related examples and future directions | [Code, data and figures](<07_Figure07/README.md>) |
+| 1 | Timeline of RNA velocity methods | [Code, data and figures](01_Figure01/README.md) |
+| 2 | Benchmarking framework | [Code, data and figures](02_Figure02/README.md) |
+| 3 | Evaluation on simulated and conventional datasets | [Code, data and figures](03_Figure03/README.md) |
+| 4 | ReDeeM | [Code, data and figures](04_Figure04/README.md) |
+| 5 | Spatial and lineage-referenced evaluation | [Code, data and figures](05_Figure05/README.md) |
+| 6 | Runtime, read-depth sensitivity, frozen composite and VeloGIF | [Code, data and figures](06_Figure06/README.md) |
+| 7 | Age-related examples and future directions | [Code, data and figures](07_Figure07/README.md) |
 
 ![Benchmarking framework — Figure 2](02_Figure02/figures/Figure02.png)
 
-## Extended Data, core workflows and tables
+## What changed
+
+- **Spatial evaluation:** archived TopoVelo predictions are included in Figure 5 and Extended Data 9–10; undefined paired directions stay missing.
+- **KPTracer:** the saved PhyloVelo field and its direction audit are included. The displayed field is backward; evaluation uses its negative. Adapted GDC +1 is diagnostic and has no comparable rank.
+- **Noise series:** Extended Data 4c contains all 30 cellDancer scenario/noise conditions, with explicit missingness and coverage for cross-noise means.
+- **Figure organization:** runtime and read-depth sensitivity move to Figure 6a/b; the frozen composite remains unchanged in 6c; VeloGIF is in 6d. Current PDFs use submission numbering and A4 pages.
+
+## Find materials
 
 - [Extended Data Figures 1–12](08_Extended_Data/README.md)
-- [Core workflows: simulation, model execution, gene selection and checks](09_Core/README.md)
-- [Shared data](10_Shared/README.md)
-- [Tables](11_Tables/README.md)
-- [Provenance, inventories and validation](12_Provenance/README.md)
-- [Historical materials](13_Archive/README.md)
+- [Core workflows and runnable validation](09_Core/README.md)
+- [Shared data](10_Shared/README.md) · [Tables](11_Tables/README.md)
+- [Current provenance and validation](12_Provenance/README.md) · [Historical materials](13_Archive/README.md)
 
-## Verification and evidence limits
+## Check the saved results
 
 ```bash
 python -m pip install -r requirements-demo.txt
-python 09_Core/validation/reproduce.py --out /tmp/rna-velocity-check --no-plots
-python 09_Core/visualization/plot_saved_panels.py --out /tmp/rna-velocity-panels
 python 09_Core/validation/verify_release.py
+python 09_Core/validation/reproduce.py --out /tmp/rna-velocity-check --no-plots
+python 09_Core/validation/validate_latest_results.py --out /tmp/rna-velocity-1021
+python 09_Core/visualization/plot_saved_panels.py --out /tmp/rna-velocity-panels
 ```
 
-Saved-data checks do not constitute model reruns. Historical scripts may require external inputs and their original environments. Manual schematics and retained historical fields are not claimed to be regenerated. Missing values and documented provenance gaps remain unchanged; the frozen overall score is not silently replaced by later source-derived values. See [verification results](12_Provenance/restructure_regression.json) and the [English release audit](12_Provenance/ENGLISH_RELEASE.md).
+For the independent PhyloVelo H5AD direction/CBDir audit, install `requirements-audit.txt` and run:
 
-Simulation datasets, annotated HuBMAP metadata and processed ReDeeM data are available on [Figshare](https://figshare.com/articles/dataset/28021724). Additional dataset details are in the source tables and per-figure records.
+```bash
+python 09_Core/validation/validate_phylovelo.py --out /tmp/rna-velocity-1021
+```
 
-The full manuscript and editorial backups are not included. No new blanket license is assigned; see [LICENSE_STATUS.txt](LICENSE_STATUS.txt). The previous structure remains available in [the baseline commit](https://github.com/liyarubio/RNA-velocity-benchmark/tree/2955a8e2ba4d08845699ae429f7fef2dea85d877).
+These commands audit saved data and produce diagnostic plots. They do not refit models or reconstruct every formal layout. [Evidence limits and external inputs](12_Provenance/RELEASE_1021.md) distinguish saved-result checks, historical training provenance and unresolved age-example evidence. Missing values remain missing; the frozen overall score is not replaced by later results.
+
+Simulation datasets, annotated HuBMAP metadata and processed ReDeeM data are available on [Figshare](https://figshare.com/articles/dataset/28021724). Dataset details and input provenance are supplied with the figure records.
+
+The full manuscript and editorial backups are excluded. No new blanket license is assigned; see [LICENSE_STATUS.txt](LICENSE_STATUS.txt). The previous public release remains available at [2524fdc](https://github.com/liyarubio/RNA-velocity-benchmark/tree/2524fdc0a4088c8c2a41a2362a368eba613944d6).

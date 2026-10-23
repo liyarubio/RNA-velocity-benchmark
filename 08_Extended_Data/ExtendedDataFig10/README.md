@@ -1,60 +1,65 @@
-# ED10 — Paired consistency across contexts
+# ED10 — Paired consistency across spatial contexts
 
-Current figure: **ED10**. Historical source ID: **ED16**.
+Current release: **Manuscript_1021**, including updates through **22 October 2026**. Historical numerical source ID: **ED16**.
+
+20 methods x 608 paired spots after adding TopoVelo. TopoVelo has 47 shared genes and 606 valid pairs; two undefined pairs remain missing. VeloAE gene-space scores remain unavailable.
 
 ![ED10](<figures/Extended_Data_Fig10.png>)
 
-## Evidence and reproduction
+## Current files
 
-19 x 608 = 11,552 paired spatial results; 18 methods have gene-space scores, while VeloAE remains NA.
+| Role | File |
+|---|---|
+| results | [figures/Extended_Data_Fig10.pdf](<figures/Extended_Data_Fig10.pdf>) |
+| results | [figures/Extended_Data_Fig10.png](<figures/Extended_Data_Fig10.png>) |
+| results | [figures/Extended_Data_Fig10.svg](<figures/Extended_Data_Fig10.svg>) |
+| results | [figures/legends/Extended_Data_Fig10_legend.pdf](<figures/legends/Extended_Data_Fig10_legend.pdf>) |
+| data | [data/source_data/Extended_Data_Fig16.xlsx](<data/source_data/Extended_Data_Fig16.xlsx>) |
+| data | [data/spatial_context_consistency/DeepKINET_shared_genes.csv](<data/spatial_context_consistency/DeepKINET_shared_genes.csv>) |
+| data | [data/spatial_context_consistency/DeepVelo(GCN)_shared_genes.csv](<data/spatial_context_consistency/DeepVelo(GCN)_shared_genes.csv>) |
+| data | [data/spatial_context_consistency/DeepVelo(VAE)_shared_genes.csv](<data/spatial_context_consistency/DeepVelo(VAE)_shared_genes.csv>) |
+| data | [data/spatial_context_consistency/LatentVelo_shared_genes.csv](<data/spatial_context_consistency/LatentVelo_shared_genes.csv>) |
+| data | [data/spatial_context_consistency/SDEvelo_shared_genes.csv](<data/spatial_context_consistency/SDEvelo_shared_genes.csv>) |
+| data | [data/spatial_context_consistency/STT_shared_genes.csv](<data/spatial_context_consistency/STT_shared_genes.csv>) |
+| data | [data/spatial_context_consistency/TFvelo_shared_genes.csv](<data/spatial_context_consistency/TFvelo_shared_genes.csv>) |
+| data | [data/spatial_context_consistency/TopicVelo_shared_genes.csv](<data/spatial_context_consistency/TopicVelo_shared_genes.csv>) |
+| data | [../../10_Shared/data/spatial_context_consistency/TopoVelo_shared_genes.csv](<../../10_Shared/data/spatial_context_consistency/TopoVelo_shared_genes.csv>) |
+| data | [data/spatial_context_consistency/UniTVelo_shared_genes.csv](<data/spatial_context_consistency/UniTVelo_shared_genes.csv>) |
+| data | [data/spatial_context_consistency/VeloVAE_shared_genes.csv](<data/spatial_context_consistency/VeloVAE_shared_genes.csv>) |
+| data | [data/spatial_context_consistency/audit.json](<data/spatial_context_consistency/audit.json>) |
+| data | [data/spatial_context_consistency/biVI_shared_genes.csv](<data/spatial_context_consistency/biVI_shared_genes.csv>) |
+| data | [data/spatial_context_consistency/by_cell_type.csv](<data/spatial_context_consistency/by_cell_type.csv>) |
+| data | [data/spatial_context_consistency/cell2fate_shared_genes.csv](<data/spatial_context_consistency/cell2fate_shared_genes.csv>) |
+| data | [data/spatial_context_consistency/cellDancer_shared_genes.csv](<data/spatial_context_consistency/cellDancer_shared_genes.csv>) |
+| data | [data/spatial_context_consistency/display_summary.csv](<data/spatial_context_consistency/display_summary.csv>) |
+| data | [data/spatial_context_consistency/dynamo_shared_genes.csv](<data/spatial_context_consistency/dynamo_shared_genes.csv>) |
+| data | [data/spatial_context_consistency/paired_spots.csv](<data/spatial_context_consistency/paired_spots.csv>) |
+| data | [data/spatial_context_consistency/preprocessing_audit.csv](<data/spatial_context_consistency/preprocessing_audit.csv>) |
+| data | [data/spatial_context_consistency/run_metadata.json](<data/spatial_context_consistency/run_metadata.json>) |
+| data | [data/spatial_context_consistency/scVelo(dyn)_shared_genes.csv](<data/spatial_context_consistency/scVelo(dyn)_shared_genes.csv>) |
+| data | [data/spatial_context_consistency/scVelo(sto)_shared_genes.csv](<data/spatial_context_consistency/scVelo(sto)_shared_genes.csv>) |
+| data | [data/spatial_context_consistency/summary.csv](<data/spatial_context_consistency/summary.csv>) |
+| data | [data/spatial_context_consistency/veloVI_shared_genes.csv](<data/spatial_context_consistency/veloVI_shared_genes.csv>) |
+| data | [data/spatial_context_consistency/velocyto_shared_genes.csv](<data/spatial_context_consistency/velocyto_shared_genes.csv>) |
+| data | [../../10_Shared/data/topovelo_historical_20261021/README.md](<../../10_Shared/data/topovelo_historical_20261021/README.md>) |
+| data | [../../10_Shared/data/topovelo_historical_20261021/derived/ST_raw_directions.csv](<../../10_Shared/data/topovelo_historical_20261021/derived/ST_raw_directions.csv>) |
+| data | [../../10_Shared/data/topovelo_historical_20261021/derived/ST_small_directions.csv](<../../10_Shared/data/topovelo_historical_20261021/derived/ST_small_directions.csv>) |
+| data | [../../10_Shared/data/topovelo_historical_20261021/derived/TopoVelo_field.pdf](<../../10_Shared/data/topovelo_historical_20261021/derived/TopoVelo_field.pdf>) |
+| data | [../../10_Shared/data/topovelo_historical_20261021/derived/TopoVelo_shared_genes.csv](<../../10_Shared/data/topovelo_historical_20261021/derived/TopoVelo_shared_genes.csv>) |
+| data | [../../10_Shared/data/topovelo_historical_20261021/derived/by_cell_type.csv](<../../10_Shared/data/topovelo_historical_20261021/derived/by_cell_type.csv>) |
+| data | [../../10_Shared/data/topovelo_historical_20261021/derived/evaluation.json](<../../10_Shared/data/topovelo_historical_20261021/derived/evaluation.json>) |
+| data | [../../10_Shared/data/topovelo_historical_20261021/derived/paired_spots.csv](<../../10_Shared/data/topovelo_historical_20261021/derived/paired_spots.csv>) |
+| data | [../../10_Shared/data/topovelo_historical_20261021/derived/summary.csv](<../../10_Shared/data/topovelo_historical_20261021/derived/summary.csv>) |
+| data | [../../10_Shared/data/topovelo_historical_20261021/provenance.json](<../../10_Shared/data/topovelo_historical_20261021/provenance.json>) |
+| code | [code/historical/spatial_context_consistency/analyze.py](<code/historical/spatial_context_consistency/analyze.py>) |
+| code | [code/historical/plots/plot_context_ed16.py](<code/historical/plots/plot_context_ed16.py>) |
+| code | [../../09_Core/shared/latest/derive_topovelo_historical_20261021.py](<../../09_Core/shared/latest/derive_topovelo_historical_20261021.py>) |
+| code | [../../09_Core/shared/latest/topovelo_historical_evaluation.py](<../../09_Core/shared/latest/topovelo_historical_evaluation.py>) |
 
-Data status: `available`. Analysis code: `historical_code_available`.
+## Code and validation
 
-Portable saved-data checks: [commands and dependencies](<../../09_Core/README.md>). Historical scripts retain their original environment and external-input requirements. Layout scripts are provenance, not standalone numerical generators.
+[Portable checks and workflow boundaries](<../../09_Core/README.md>). Saved-data checks do not rerun models. Historical scripts require their original environments and external inputs.
 
-## Files
+[Retained figure-specific code](<code>)
 
-| Role | File | Purpose |
-|---|---|---|
-| Figures | [Extended_Data_Fig10.pdf](<figures/Extended_Data_Fig10.pdf>) | Current publication figure or preview |
-| Figures | [Extended_Data_Fig10.png](<figures/Extended_Data_Fig10.png>) | Current publication figure or preview |
-| Figures | [Extended_Data_Fig10_legend.pdf](<figures/Extended_Data_Fig10_legend.pdf>) | Current publication figure or preview |
-| Data | [Extended_Data_Fig16.xlsx](<data/source_data/Extended_Data_Fig16.xlsx>) | Source workbook, saved results or input metadata |
-| Data | [DeepKINET_shared_genes.csv](<data/spatial_context_consistency/DeepKINET_shared_genes.csv>) | Source workbook, saved results or input metadata |
-| Data | [DeepVelo(GCN)_shared_genes.csv](<data/spatial_context_consistency/DeepVelo(GCN)_shared_genes.csv>) | Source workbook, saved results or input metadata |
-| Data | [DeepVelo(VAE)_shared_genes.csv](<data/spatial_context_consistency/DeepVelo(VAE)_shared_genes.csv>) | Source workbook, saved results or input metadata |
-| Data | [LatentVelo_shared_genes.csv](<data/spatial_context_consistency/LatentVelo_shared_genes.csv>) | Source workbook, saved results or input metadata |
-| Data | [SDEvelo_shared_genes.csv](<data/spatial_context_consistency/SDEvelo_shared_genes.csv>) | Source workbook, saved results or input metadata |
-| Data | [STT_shared_genes.csv](<data/spatial_context_consistency/STT_shared_genes.csv>) | Source workbook, saved results or input metadata |
-| Data | [TFvelo_shared_genes.csv](<data/spatial_context_consistency/TFvelo_shared_genes.csv>) | Source workbook, saved results or input metadata |
-| Data | [TopicVelo_shared_genes.csv](<data/spatial_context_consistency/TopicVelo_shared_genes.csv>) | Source workbook, saved results or input metadata |
-| Data | [UniTVelo_shared_genes.csv](<data/spatial_context_consistency/UniTVelo_shared_genes.csv>) | Source workbook, saved results or input metadata |
-| Data | [VeloVAE_shared_genes.csv](<data/spatial_context_consistency/VeloVAE_shared_genes.csv>) | Source workbook, saved results or input metadata |
-| Data | [audit.json](<data/spatial_context_consistency/audit.json>) | Source workbook, saved results or input metadata |
-| Data | [biVI_shared_genes.csv](<data/spatial_context_consistency/biVI_shared_genes.csv>) | Source workbook, saved results or input metadata |
-| Data | [by_cell_type.csv](<data/spatial_context_consistency/by_cell_type.csv>) | Source workbook, saved results or input metadata |
-| Data | [cell2fate_shared_genes.csv](<data/spatial_context_consistency/cell2fate_shared_genes.csv>) | Source workbook, saved results or input metadata |
-| Data | [cellDancer_shared_genes.csv](<data/spatial_context_consistency/cellDancer_shared_genes.csv>) | Source workbook, saved results or input metadata |
-| Data | [display_summary.csv](<data/spatial_context_consistency/display_summary.csv>) | Source workbook, saved results or input metadata |
-| Data | [dynamo_shared_genes.csv](<data/spatial_context_consistency/dynamo_shared_genes.csv>) | Source workbook, saved results or input metadata |
-| Data | [paired_spots.csv](<data/spatial_context_consistency/paired_spots.csv>) | Source workbook, saved results or input metadata |
-| Data | [preprocessing_audit.csv](<data/spatial_context_consistency/preprocessing_audit.csv>) | Source workbook, saved results or input metadata |
-| Data | [run_metadata.json](<data/spatial_context_consistency/run_metadata.json>) | Source workbook, saved results or input metadata |
-| Data | [scVelo(dyn)_shared_genes.csv](<data/spatial_context_consistency/scVelo(dyn)_shared_genes.csv>) | Source workbook, saved results or input metadata |
-| Data | [scVelo(sto)_shared_genes.csv](<data/spatial_context_consistency/scVelo(sto)_shared_genes.csv>) | Source workbook, saved results or input metadata |
-| Data | [summary.csv](<data/spatial_context_consistency/summary.csv>) | Source workbook, saved results or input metadata |
-| Data | [veloVI_shared_genes.csv](<data/spatial_context_consistency/veloVI_shared_genes.csv>) | Source workbook, saved results or input metadata |
-| Data | [velocyto_shared_genes.csv](<data/spatial_context_consistency/velocyto_shared_genes.csv>) | Source workbook, saved results or input metadata |
-| Code | [reproduce.py](<../../09_Core/validation/reproduce.py>) | Numerical consistency checks on saved data; no model fitting |
-| Code | [plot_saved_panels.py](<../../09_Core/visualization/plot_saved_panels.py>) | Diagnostic plots of saved data; not replacements for publication layouts |
-| Code | [analyze.py](<code/historical/spatial_context_consistency/analyze.py>) | Historical analysis or plotting implementation; original path, environment and external-input dependencies remain |
-| Code | [plot_context_ed16.py](<code/historical/plots/plot_context_ed16.py>) | Historical analysis or plotting implementation; original path, environment and external-input dependencies remain |
-| Code | [build_figure_order_assets.py](<../../09_Core/layout/build_figure_order_assets.py>) | Current layout, numbering or caption utilities; no new numerical results |
-| Code | [figure_order_1019.py](<../../09_Core/layout/figure_order_1019.py>) | Current layout, numbering or caption utilities; no new numerical results |
-| Code | [figure2_legend_style.py](<../../09_Core/layout/figure2_legend_style.py>) | Current layout, numbering or caption utilities; no new numerical results |
-
-## Related figures
-
-[Figure05](<../../05_Figure05/README.md>)
-
-[Repository overview](<../../README.md>) · [Current / historical numbering](<../../12_Provenance/figure_index.csv>)
+[Repository overview](<../../README.md>) · [Release notes](<../../12_Provenance/RELEASE_1021.md>)

@@ -1,0 +1,21 @@
+rank,method,GDC,comparison_status,display_order
+,PhyloVelo,1.0,forward adapted diagnostic; ICCoh structurally one; excluded from comparable rank,1
+1.0,UniTVelo,0.9599484078607208,historical benchmark,2
+2.0,DeepVelo(VAE),0.7455454866372828,historical benchmark,3
+3.0,SDEvelo,0.7434475074916147,historical benchmark,4
+4.0,STT,0.7351630674788643,historical benchmark,5
+5.0,scVelo(dyn),0.6823961317232285,historical benchmark,6
+6.0,scVelo(sto),0.6262533588720111,historical benchmark,7
+7.0,cellDancer,0.5035596598661953,historical benchmark,8
+8.0,veloVI,0.4266342264481374,historical benchmark,9
+9.0,VeloVAE,0.4206425105534134,historical benchmark,10
+10.0,cell2fate,0.1746777277492598,historical benchmark,11
+11.0,TopicVelo,0.1435064990571423,historical benchmark,12
+12.0,DeepKINET,0.0991701781538661,historical benchmark,13
+13.0,biVI,-0.196685834990547,historical benchmark,14
+14.0,VeloAE,-0.3486732198901622,historical benchmark,15
+15.0,dynamo,-0.3834949635438471,historical benchmark,16
+16.0,DeepVelo(GCN),-0.5971090168858385,historical benchmark,17
+17.0,TFvelo,-0.6770390180379636,historical benchmark,18
+18.0,LatentVelo,-0.7261191884282627,historical benchmark,19
+19.0,velocyto,-0.8769070075368346,historical benchmark,20

@@ -1,5 +1,6 @@
 method,GDC,source_protocol
 DeepVelo(GCN),0.7308525175444389,MPSTA eval2 ST_raw archived evaluation
+TopoVelo,0.6439580811808506,Archived ZIP gat_velocity; preserved native neighbors; eval2 target denominator 608; recomputed 2026-10-21
 UniTVelo,0.6277434456309205,MPSTA eval2 ST_raw archived evaluation
 cell2fate,0.4457399921589775,MPSTA eval2 ST_raw archived evaluation
 TFvelo,0.2861820386442927,TFvelo 20260913 saved evaluation

@@ -1251,5 +1251,18 @@
     "full_spatial_projection": "exact_vectors_displayed_in_ED15",
     "gene_valid_pairs": 608,
     "spatial_valid_pairs": 608
+  },
+  {
+    "method": "TopoVelo",
+    "status": "complete",
+    "models_refit": false,
+    "full_spots": 1292,
+    "restricted_spots": 608,
+    "full_features": 200,
+    "restricted_features": 96,
+    "shared_genes_used": 47,
+    "gene_valid_pairs": 606,
+    "spatial_valid_pairs": 606,
+    "source": "data/topovelo_historical_20261021/derived/evaluation.json"
   }
 ]

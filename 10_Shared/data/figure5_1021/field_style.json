@@ -1,0 +1,51 @@
+{
+  "method_order": [
+    "PhyloVelo",
+    "UniTVelo",
+    "DeepVelo(VAE)"
+  ],
+  "plot_directions": {
+    "PhyloVelo": "native backward",
+    "UniTVelo": "native forward",
+    "DeepVelo(VAE)": "native forward"
+  },
+  "cells": 754,
+  "same_cell_order_coordinates_labels": true,
+  "page_pt": [
+    80,
+    107
+  ],
+  "axes_rect_pt": [
+    6.235523051916894,
+    0.0,
+    67.52895389616623,
+    107.0
+  ],
+  "equal_aspect": true,
+  "xlim": [
+    -7.128897649049759,
+    2.2700649321079256
+  ],
+  "ylim": [
+    -6.175955653190613,
+    8.716752409934998
+  ],
+  "grid": [
+    35,
+    35
+  ],
+  "neighbors": 30,
+  "bandwidth_factor": 0.75,
+  "mass_threshold": 0.2,
+  "density": 1,
+  "marker_area": 3.5,
+  "linewidth": 0.4,
+  "arrowsize": 0.5,
+  "velocity_signs_changed": false,
+  "model_or_embedding_rerun": false,
+  "source_sha256": {
+    "/data1/liyaru/RNA_velocity_materials/KPTracer_phylovelo_20261021/results/phylovelo.h5ad": "c35e81e1c0286b55dd73e89558f755193c62cda692d898bd82b2e16b53dac7e9",
+    "/data1/liyaru/RNA_velocity_materials/velogif_XC/real_data/result/velocity/KPTracer/5_unitvelo/anndata.h5ad": "e5c95a51dfed2068b6a47989082d19aef86e04eccc08d54568f9fdeae34f4301",
+    "/data1/liyaru/RNA_velocity_materials/velogif_XC/real_data/result/velocity/KPTracer/6_DeepveloSA/anndata.h5ad": "5702020ff7f8e65941720d41fcc6e045ae34f776ae75c87327309bafff2826b7"
+  }
+}

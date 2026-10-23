@@ -1,0 +1,10 @@
+{
+  "phylovelo": "0.1",
+  "scanpy": "1.9.8",
+  "scvelo": "0.2.5",
+  "numpy": "1.24.4",
+  "scipy": "1.10.1",
+  "pandas": "2.0.3",
+  "biopython": "1.78",
+  "anndata": "0.9.2"
+}

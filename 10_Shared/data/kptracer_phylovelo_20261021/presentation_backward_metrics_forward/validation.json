@@ -1,0 +1,13 @@
+{
+  "status": "pass",
+  "cells": 754,
+  "cell_order_and_umap_unchanged": true,
+  "backward_plot_vectors_exactly_native": true,
+  "forward_metric_vectors_exact_negation": true,
+  "no_replicated_velocity_layer": true,
+  "native_plot_artwork_pixel_identical": true,
+  "all_CBDir_recomputed": true,
+  "adapted_GDC_forward": 1.0,
+  "comparable_GDC": null,
+  "comparable_rank": null
+}

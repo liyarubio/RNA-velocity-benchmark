@@ -1,0 +1,271 @@
+{
+  "status": "pass",
+  "baseline_commit": "032a1db845c893a22fd08cb480206906d61622bc",
+  "workbooks": [
+    {
+      "path": "03_Figure03/data/source_data/Figure03.xlsx",
+      "translated_xml_values": 4,
+      "all_non_language_values_unchanged": true,
+      "numeric_values_and_formulas_unchanged": true
+    },
+    {
+      "path": "04_Figure04/data/source_data/Figure04.xlsx",
+      "translated_xml_values": 4,
+      "all_non_language_values_unchanged": true,
+      "numeric_values_and_formulas_unchanged": true
+    },
+    {
+      "path": "05_Figure05/data/source_data/Figure05.xlsx",
+      "translated_xml_values": 4,
+      "all_non_language_values_unchanged": true,
+      "numeric_values_and_formulas_unchanged": true
+    },
+    {
+      "path": "06_Figure06/data/source_data/Figure06.xlsx",
+      "translated_xml_values": 4,
+      "all_non_language_values_unchanged": true,
+      "numeric_values_and_formulas_unchanged": true
+    },
+    {
+      "path": "08_Extended_Data/ExtendedDataFig01/data/source_data/Extended_Data_Fig01.xlsx",
+      "translated_xml_values": 4,
+      "all_non_language_values_unchanged": true,
+      "numeric_values_and_formulas_unchanged": true
+    },
+    {
+      "path": "08_Extended_Data/ExtendedDataFig02/data/source_data/Extended_Data_Fig03.xlsx",
+      "translated_xml_values": 4,
+      "all_non_language_values_unchanged": true,
+      "numeric_values_and_formulas_unchanged": true
+    },
+    {
+      "path": "08_Extended_Data/ExtendedDataFig03/data/source_data/Extended_Data_Fig04.xlsx",
+      "translated_xml_values": 4,
+      "all_non_language_values_unchanged": true,
+      "numeric_values_and_formulas_unchanged": true
+    },
+    {
+      "path": "08_Extended_Data/ExtendedDataFig04/data/source_data/Extended_Data_Fig05.xlsx",
+      "translated_xml_values": 5,
+      "all_non_language_values_unchanged": true,
+      "numeric_values_and_formulas_unchanged": true
+    },
+    {
+      "path": "08_Extended_Data/ExtendedDataFig05/data/source_data/Extended_Data_Fig06.xlsx",
+      "translated_xml_values": 4,
+      "all_non_language_values_unchanged": true,
+      "numeric_values_and_formulas_unchanged": true
+    },
+    {
+      "path": "08_Extended_Data/ExtendedDataFig06/data/source_data/Extended_Data_Fig07.xlsx",
+      "translated_xml_values": 4,
+      "all_non_language_values_unchanged": true,
+      "numeric_values_and_formulas_unchanged": true
+    },
+    {
+      "path": "08_Extended_Data/ExtendedDataFig07/data/source_data/Extended_Data_Fig13.xlsx",
+      "translated_xml_values": 5,
+      "all_non_language_values_unchanged": true,
+      "numeric_values_and_formulas_unchanged": true
+    },
+    {
+      "path": "08_Extended_Data/ExtendedDataFig08/data/source_data/Extended_Data_Fig14.xlsx",
+      "translated_xml_values": 5,
+      "all_non_language_values_unchanged": true,
+      "numeric_values_and_formulas_unchanged": true
+    },
+    {
+      "path": "08_Extended_Data/ExtendedDataFig09/data/source_data/Extended_Data_Fig15.xlsx",
+      "translated_xml_values": 4,
+      "all_non_language_values_unchanged": true,
+      "numeric_values_and_formulas_unchanged": true
+    },
+    {
+      "path": "08_Extended_Data/ExtendedDataFig10/data/source_data/Extended_Data_Fig16.xlsx",
+      "translated_xml_values": 4,
+      "all_non_language_values_unchanged": true,
+      "numeric_values_and_formulas_unchanged": true
+    },
+    {
+      "path": "08_Extended_Data/ExtendedDataFig11/data/source_data/Extended_Data_Fig17.xlsx",
+      "translated_xml_values": 4,
+      "all_non_language_values_unchanged": true,
+      "numeric_values_and_formulas_unchanged": true
+    },
+    {
+      "path": "08_Extended_Data/ExtendedDataFig12/data/metascape/top100/metascape_result.xlsx",
+      "translated_xml_values": 4,
+      "all_non_language_values_unchanged": true,
+      "numeric_values_and_formulas_unchanged": true
+    },
+    {
+      "path": "08_Extended_Data/ExtendedDataFig12/data/metascape/top200/metascape_result.xlsx",
+      "translated_xml_values": 4,
+      "all_non_language_values_unchanged": true,
+      "numeric_values_and_formulas_unchanged": true
+    },
+    {
+      "path": "08_Extended_Data/ExtendedDataFig12/data/source_data/Extended_Data_Fig18.xlsx",
+      "translated_xml_values": 5,
+      "all_non_language_values_unchanged": true,
+      "numeric_values_and_formulas_unchanged": true
+    },
+    {
+      "path": "11_Tables/Table S1 RNA velocity algorithms summary.xlsx",
+      "translated_xml_values": 79,
+      "all_non_language_values_unchanged": true,
+      "numeric_values_and_formulas_unchanged": true
+    },
+    {
+      "path": "11_Tables/Table S2 Simulation Datasets.xlsx",
+      "translated_xml_values": 75,
+      "all_non_language_values_unchanged": true,
+      "numeric_values_and_formulas_unchanged": true
+    },
+    {
+      "path": "11_Tables/Table S3 Real-world Datasets.xlsx",
+      "translated_xml_values": 74,
+      "all_non_language_values_unchanged": true,
+      "numeric_values_and_formulas_unchanged": true
+    },
+    {
+      "path": "11_Tables/Table S4 Velocity-related genes identification.xlsx",
+      "translated_xml_values": 74,
+      "all_non_language_values_unchanged": true,
+      "numeric_values_and_formulas_unchanged": true
+    },
+    {
+      "path": "11_Tables/Table1 Function.xlsx",
+      "translated_xml_values": 78,
+      "all_non_language_values_unchanged": true,
+      "numeric_values_and_formulas_unchanged": true
+    }
+  ],
+  "python_scripts": [
+    {
+      "path": "03_Figure03/code/historical/figure3/Figure3g_01a_hubmap_global_eval_cell2fate.py",
+      "non_text_ast_unchanged": true,
+      "configuration_exception": false
+    },
+    {
+      "path": "03_Figure03/code/historical/figure3/Figure3g_01b_hubmap_global_eval_topicvelo.py",
+      "non_text_ast_unchanged": true,
+      "configuration_exception": false
+    },
+    {
+      "path": "03_Figure03/code/historical/figure3/Figure3h_01_dataset10_compute_global_metrics.py",
+      "non_text_ast_unchanged": true,
+      "configuration_exception": false
+    },
+    {
+      "path": "03_Figure03/code/legacy/HuBMAP/3_eval.py",
+      "non_text_ast_unchanged": true,
+      "configuration_exception": false
+    },
+    {
+      "path": "03_Figure03/code/legacy/Real_Datasets10/2_Run_velocity/run_TFvelo.py",
+      "non_text_ast_unchanged": true,
+      "configuration_exception": true
+    },
+    {
+      "path": "05_Figure05/code/legacy/Scalability/2_Run_velocity/run_Latentvelo.py",
+      "non_text_ast_unchanged": true,
+      "configuration_exception": false
+    },
+    {
+      "path": "08_Extended_Data/ExtendedDataFig12/code/historical/ed17_metascape.py",
+      "non_text_ast_unchanged": true,
+      "configuration_exception": false
+    },
+    {
+      "path": "09_Core/layout/figure_order_1019.py",
+      "non_text_ast_unchanged": true,
+      "configuration_exception": false
+    },
+    {
+      "path": "09_Core/layout/historical/ed15_revision.py",
+      "non_text_ast_unchanged": true,
+      "configuration_exception": false
+    },
+    {
+      "path": "09_Core/layout/historical/ed16_revision.py",
+      "non_text_ast_unchanged": true,
+      "configuration_exception": false
+    },
+    {
+      "path": "09_Core/layout/historical/ed6_revision.py",
+      "non_text_ast_unchanged": true,
+      "configuration_exception": false
+    },
+    {
+      "path": "09_Core/layout/historical/reference_revision.py",
+      "non_text_ast_unchanged": true,
+      "configuration_exception": false
+    },
+    {
+      "path": "09_Core/layout/historical/scenario_scope.py",
+      "non_text_ast_unchanged": true,
+      "configuration_exception": false
+    },
+    {
+      "path": "09_Core/reference_evaluation/scLT_scNT_velogif/finalize.py",
+      "non_text_ast_unchanged": true,
+      "configuration_exception": false
+    },
+    {
+      "path": "09_Core/shared/stability_completion/update_html.py",
+      "non_text_ast_unchanged": true,
+      "configuration_exception": false
+    }
+  ],
+  "notebook_code_unchanged": [
+    "04_Figure04/code/legacy/Redeem/2_Run_RNA_velocity/2_PhyloVelo.ipynb",
+    "09_Core/simulation/dyngen/1_simulation/2_process_anndata.ipynb"
+  ],
+  "unchanged_data_and_artwork_files": 158,
+  "models_rerun": false,
+  "english_scan": {
+    "status": "pass",
+    "counts": {
+      "paths": 641,
+      "text_files": 558,
+      "decoded_json_files": 111,
+      "workbooks": 23,
+      "pdf_files": 35
+    },
+    "findings": [],
+    "pdf_text_checked": true,
+    "scope": "Current working tree; excludes Git history and local generated outputs. Raster images and vector outlines are not OCR-scanned."
+  },
+  "numerical_checks": 97,
+  "numerical_check_details_identical": true,
+  "numerical_csv_files_identical": [
+    "scLT_recomputed_cosines.csv",
+    "Figure06_current_source_differences.csv",
+    "Figure06_recomputed.csv",
+    "scNT_recomputed_cosines.csv"
+  ],
+  "diagnostic_plots_identical_at_72dpi": [
+    "ED05a.pdf",
+    "ED05b.pdf",
+    "ED06_paired.pdf",
+    "ED07_HuBMAP.pdf",
+    "ED13_median.pdf",
+    "ED14_median.pdf",
+    "ED15_GDC.pdf",
+    "ED16_spatial.pdf",
+    "ED17_GDC.pdf",
+    "ED18_top100_overlap.pdf",
+    "ED18_top200_overlap.pdf",
+    "Figure03a.pdf",
+    "Figure04a_GDC.pdf",
+    "Figure05a_GDC.pdf",
+    "Figure05b_runtime.pdf",
+    "Figure05c_stability.pdf",
+    "Figure06a_frozen.pdf"
+  ],
+  "diagnostic_manifest_and_names_identical": true,
+  "protected_manuscript_files_unchanged": 5,
+  "frozen_vs_current_differences_retained": 8,
+  "environment_note": "Executed with the existing local scientific Python environment; dependencies were not freshly installed."
+}
