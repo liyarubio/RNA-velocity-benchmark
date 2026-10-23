@@ -89,4 +89,4 @@ All 37 current Python entrypoints were executed independently and each produced 
 
 The current formal vector entrypoints are [Figure 3a](../03_Figure03/code/a/figure3a_formal.py), [ED4a](../08_Extended_Data/ExtendedDataFig04/code/a/ed4a_formal.py), and [ED4b](../08_Extended_Data/ExtendedDataFig04/code/b/ed4b_formal.py). Each writes one PDF/SVG/PNG panel with only Mean and aligned ranks 1–3. The existing saved-data diagnostics remain separate. [Validation](mean_top3_validation.json).
 
-Figure 3h now has an [independent formal vector entrypoint](../03_Figure03/code/h/figure3h_formal.py) with descending available-case mean order and a numeric Mean row; the best-performance envelope remains last. [Order validation](figure3h_mean_validation.json) and [Mean-row validation](figure3h_mean_row_validation.json).
+Figure 3h now has an [independent formal vector entrypoint](../03_Figure03/code/h/figure3h_formal.py) with descending available-case mean order and a color-coded Mean row; the best-performance envelope remains last. [Order validation](figure3h_mean_validation.json) and [Mean-row validation](figure3h_mean_color_validation.json).

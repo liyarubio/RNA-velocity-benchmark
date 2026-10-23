@@ -131,12 +131,11 @@ heatmap_matrix <- cbind(
   heatmap_matrix,
   "Best performance" = apply(heatmap_matrix, 1, max, na.rm = TRUE)
 )
-# The summary is numeric only; its white cells do not extend the GDC scale.
+# Mean uses the same fixed GDC scale and colors as the dataset cells.
 # The reference envelope is not a method and has no Mean summary.
 method_means <- calculated_mean[mean_order]
-heatmap_matrix <- rbind(heatmap_matrix, Mean = rep(NA_real_, ncol(heatmap_matrix)))
-number_labels <- matrix("", nrow(heatmap_matrix), ncol(heatmap_matrix))
-number_labels[nrow(heatmap_matrix), seq_along(method_means)] <- sprintf("%.2f", method_means)
+heatmap_matrix <- rbind(heatmap_matrix, Mean = c(method_means, NA_real_))
+palette_table <- read.csv(file.path(script_dir, "../../../09_Core/visualization/figure3h_mean/assets/gdc_palette.csv"))
 
 annotation_col <- data.frame(
   Method = factor(
@@ -159,10 +158,9 @@ plot_heatmap <- function(filename, device) {
     cluster_rows = FALSE,
     annotation_col = annotation_col,
     annotation_colors = list(Method = method_palette),
-    breaks = seq(-1, 1, length.out = 100),
-    display_numbers = number_labels,
-    fontsize_number = 7,
-    number_color = "black",
+    color = palette_table$hex,
+    breaks = seq(-1, 1, length.out = nrow(palette_table) + 1L),
+    display_numbers = FALSE,
     gaps_row = length(dataset_columns),
     na_col = "white",
     silent = TRUE

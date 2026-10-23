@@ -1953,17 +1953,17 @@
     },
     "figures/main/Figure03.png": {
       "path": "03_Figure03/figures/Figure03.png",
-      "source_sha256": "426217b3cb3af8eb4edc2a0d0d386de2e04ad8811aafa515566444643ea5d67b",
-      "sha256": "426217b3cb3af8eb4edc2a0d0d386de2e04ad8811aafa515566444643ea5d67b",
-      "bytes": 1097575,
-      "operation": "updated_figure3h_method_mean_row_preserving_numerical_inputs"
+      "source_sha256": "5a06f56942227eadeee9a4f5ec3f48ade1c80a9d7418bf86b2374faebb95ca94",
+      "sha256": "5a06f56942227eadeee9a4f5ec3f48ade1c80a9d7418bf86b2374faebb95ca94",
+      "bytes": 1094024,
+      "operation": "updated_figure3h_mean_colors_preserving_numerical_inputs"
     },
     "figures/main/Figure03.svg": {
       "path": "03_Figure03/figures/Figure03.svg",
-      "source_sha256": "9aad2e84f92282c16d15225e50a4804add19b22792681e9e7a21fbed0e24b3a3",
-      "sha256": "9aad2e84f92282c16d15225e50a4804add19b22792681e9e7a21fbed0e24b3a3",
-      "bytes": 4679140,
-      "operation": "updated_figure3h_method_mean_row_preserving_numerical_inputs"
+      "source_sha256": "b842d6bc5d849aba824eda6c6b5cc6a1c0d3de09c7c75749c63619b45b3184f3",
+      "sha256": "b842d6bc5d849aba824eda6c6b5cc6a1c0d3de09c7c75749c63619b45b3184f3",
+      "bytes": 4682060,
+      "operation": "updated_figure3h_mean_colors_preserving_numerical_inputs"
     },
     "figures/main/Figure04.png": {
       "path": "04_Figure04/figures/Figure04.png",
@@ -2226,10 +2226,10 @@
     },
     "submission_figures/Figure03.pdf": {
       "path": "03_Figure03/figures/Figure03.pdf",
-      "source_sha256": "a0176cdebaf3df8f2be0b0397330cdd25c2659942d943b0ef78477564b4802e2",
-      "sha256": "a0176cdebaf3df8f2be0b0397330cdd25c2659942d943b0ef78477564b4802e2",
-      "bytes": 867108,
-      "operation": "updated_figure3h_method_mean_row_preserving_numerical_inputs"
+      "source_sha256": "f0bcd9e9b5e81353f67f9e13c6b12f0590b630cb6d73a3ee26604014b1bd7b50",
+      "sha256": "f0bcd9e9b5e81353f67f9e13c6b12f0590b630cb6d73a3ee26604014b1bd7b50",
+      "bytes": 866810,
+      "operation": "updated_figure3h_mean_colors_preserving_numerical_inputs"
     },
     "submission_figures/Figure04.pdf": {
       "path": "04_Figure04/figures/Figure04.pdf",
@@ -2933,24 +2933,24 @@
     },
     "Code/figure3h_mean/figure3h.R": {
       "path": "03_Figure03/code/h/figure3h.R",
-      "sha256": "4b078cbe91404d803cf8ae0ead724f113b44e7b99632220512c4aa7dbb983337",
-      "source_sha256": "7424054826ce8892dda793bb9548d9eac216060160215cc82a01f96075a0d206",
-      "bytes": 7140,
-      "operation": "updated_figure3h_method_mean_row_preserving_numerical_inputs"
+      "sha256": "bd5906fd08a869340183af0e05a22b8993c25bfd5310a07fc32f94c7ffe92532",
+      "source_sha256": "8812d0471508dfd30637962d4c2314b726b262e7b8259502d2ced21a27ce7691",
+      "bytes": 7069,
+      "operation": "updated_figure3h_mean_colors_preserving_numerical_inputs"
     },
     "Code/figure3h_mean/figure3h_mean.py": {
       "path": "09_Core/visualization/figure3h_mean/figure3h_mean.py",
-      "sha256": "fb239c6bacdd3cd29a43be01c6846772c8230c212d95511035337cfe457a4783",
-      "source_sha256": "fb239c6bacdd3cd29a43be01c6846772c8230c212d95511035337cfe457a4783",
-      "bytes": 15474,
-      "operation": "updated_figure3h_method_mean_row_preserving_numerical_inputs"
+      "sha256": "601abe7ad850c4a92b0c2eee6de8e5d0fdda3b2615d3023055d7d6d77baf8119",
+      "source_sha256": "601abe7ad850c4a92b0c2eee6de8e5d0fdda3b2615d3023055d7d6d77baf8119",
+      "bytes": 15988,
+      "operation": "updated_figure3h_mean_colors_preserving_numerical_inputs"
     },
     "Code/figure3h_mean/README.md": {
       "path": "09_Core/visualization/figure3h_mean/README.md",
-      "sha256": "bd612b95174f6330731f2fc0ad1a7bce20e02ac35b561be4e5556e5e56263c11",
-      "source_sha256": "bd612b95174f6330731f2fc0ad1a7bce20e02ac35b561be4e5556e5e56263c11",
-      "bytes": 1385,
-      "operation": "updated_figure3h_method_mean_row_preserving_numerical_inputs"
+      "sha256": "fa0780b1cb05c58b843c4aee6ca7d65f83cb9d746299123fc9f296f5748e9d1f",
+      "source_sha256": "fa0780b1cb05c58b843c4aee6ca7d65f83cb9d746299123fc9f296f5748e9d1f",
+      "bytes": 1512,
+      "operation": "updated_figure3h_mean_colors_preserving_numerical_inputs"
     },
     "Code/figure3h_mean/assets/Figure03_before.pdf": {
       "path": "09_Core/visualization/figure3h_mean/assets/Figure03_before.pdf",
@@ -2965,6 +2965,13 @@
       "source_sha256": "393900d508d96458706441b2a573558c28d7d5ee495d8b6c9504375879b29e8a",
       "bytes": 87,
       "operation": "Current Figure 3h formal renderer and retained vector input"
+    },
+    "Code/figure3h_mean/assets/gdc_palette.csv": {
+      "path": "09_Core/visualization/figure3h_mean/assets/gdc_palette.csv",
+      "source_sha256": "b8b177fbb9f2fac7726f17726faa9db66358e682b6f2545ff1b9417b998fb985",
+      "sha256": "b8b177fbb9f2fac7726f17726faa9db66358e682b6f2545ff1b9417b998fb985",
+      "bytes": 5856,
+      "operation": "Retained RdYlBu_r palette verified against all 178 finite formal heatmap cells"
     }
   },
   "excluded": [
@@ -3459,5 +3466,18 @@
     "numeric_inputs_changed": false,
     "caption_text_changed": false,
     "decimal_places": 2
+  },
+  "figure3h_mean_color_update": {
+    "date": "2026-10-23",
+    "panel": "Figure03h",
+    "report": "12_Provenance/figure3h_mean_color_validation.json",
+    "numeric_inputs_changed": false,
+    "caption_text_changed": false,
+    "numeric_annotations": false,
+    "colormap": "RdYlBu_r",
+    "color_limits": [
+      -1,
+      1
+    ]
   }
 }

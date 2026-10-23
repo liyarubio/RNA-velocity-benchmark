@@ -1,0 +1,1375 @@
+{
+  "status": "pass",
+  "changed_files": [
+    {
+      "path": "figures/main/Figure03.pdf",
+      "pages": [
+        1
+      ],
+      "sha256": "28b088804d0e5352ef3bbd0989e6bd547c56eda4596cfa8c77cdb812cf238846"
+    },
+    {
+      "path": "submission_figures/Figure03.pdf",
+      "pages": [
+        1
+      ],
+      "sha256": "f0bcd9e9b5e81353f67f9e13c6b12f0590b630cb6d73a3ee26604014b1bd7b50"
+    },
+    {
+      "path": "submission_figures/Main_Figures_1-7_combined.pdf",
+      "pages": [
+        3
+      ],
+      "sha256": "8f4579f411b0e6d9bbba778778ee315c28eeaa78128a25bcd2be0be2e25a2b8c"
+    },
+    {
+      "path": "figures/main/Figure03.png",
+      "sha256": "5a06f56942227eadeee9a4f5ec3f48ade1c80a9d7418bf86b2374faebb95ca94"
+    },
+    {
+      "path": "figures/main/Figure03.svg",
+      "sha256": "b842d6bc5d849aba824eda6c6b5cc6a1c0d3de09c7c75749c63619b45b3184f3"
+    }
+  ],
+  "unchanged_companion_pages_checked": 11,
+  "protected_files_verified": 98,
+  "captions_changed": false,
+  "manuscript_text_changed": false,
+  "numeric_inputs_changed": false,
+  "figure3a_mean_top3_preserved": true,
+  "figure3h": {
+    "status": "pass",
+    "panel": "Figure03h",
+    "input_sha256": "9640b0e7f809997b13f065c7298e6bfdb00274261376e6b94af05664b63c8ed1",
+    "order": [
+      "SDEvelo",
+      "scVelo(sto)",
+      "DeepVelo(VAE)",
+      "cell2fate",
+      "TFvelo",
+      "TopicVelo",
+      "UniTVelo",
+      "dynamo",
+      "DeepKINET",
+      "VeloAE",
+      "DeepVelo(GCN)",
+      "scVelo(dyn)",
+      "VeloVAE",
+      "STT",
+      "veloVI",
+      "LatentVelo",
+      "cellDancer",
+      "velocyto",
+      "biVI"
+    ],
+    "means": {
+      "SDEvelo": 0.44191355555555556,
+      "scVelo(sto)": 0.3767397,
+      "DeepVelo(VAE)": 0.3347988,
+      "cell2fate": 0.33207633333333336,
+      "TFvelo": 0.29835911111111113,
+      "TopicVelo": 0.287444375,
+      "UniTVelo": 0.2728343,
+      "dynamo": 0.2124568,
+      "DeepKINET": 0.180706,
+      "VeloAE": 0.15636799999999995,
+      "DeepVelo(GCN)": 0.1463941,
+      "scVelo(dyn)": 0.1393666,
+      "VeloVAE": 0.13000869999999998,
+      "STT": 0.12367629999999999,
+      "veloVI": 0.07741859999999999,
+      "LatentVelo": 0.06288955555555557,
+      "cellDancer": 0.052719777777777775,
+      "velocyto": -0.055283599999999974,
+      "biVI": -0.126236
+    },
+    "valid_datasets": {
+      "SDEvelo": 9,
+      "scVelo(sto)": 10,
+      "DeepVelo(VAE)": 10,
+      "cell2fate": 9,
+      "TFvelo": 9,
+      "TopicVelo": 8,
+      "UniTVelo": 10,
+      "dynamo": 10,
+      "DeepKINET": 7,
+      "VeloAE": 10,
+      "DeepVelo(GCN)": 10,
+      "scVelo(dyn)": 10,
+      "VeloVAE": 10,
+      "STT": 10,
+      "veloVI": 10,
+      "LatentVelo": 9,
+      "cellDancer": 9,
+      "velocyto": 10,
+      "biVI": 8
+    },
+    "missing_policy": "Mean of available values; no zero imputation",
+    "ties": "Stable previous display order",
+    "best_performance": "Unchanged per-dataset envelope, excluded from ranking and retained at the right",
+    "numeric_inputs_changed": false,
+    "models_rerun": false,
+    "changed_regions": [
+      [
+        378.24091796875,
+        618.423291015625,
+        531.3849365234375,
+        713.8724853515625
+      ],
+      [
+        371.63511962890624,
+        714.3519165039063,
+        544.8693969726562,
+        745.9747436523437
+      ],
+      [
+        321.8,
+        618.4,
+        545.7,
+        707.7
+      ]
+    ],
+    "unchanged_area_max_pixel_difference": 0,
+    "permuted_cell_centers_checked": 190,
+    "method_color_strips_checked": 19,
+    "missing_cells_retained": 12,
+    "label_origins": {
+      "SDEvelo": [
+        374.27833557128906,
+        730.005615234375
+      ],
+      "scVelo(sto)": [
+        379.3292236328125,
+        733.5692749023438
+      ],
+      "DeepVelo(VAE)": [
+        381.72694396972656,
+        740.287109375
+      ],
+      "cell2fate": [
+        398.85813903808594,
+        729.453857421875
+      ],
+      "TFvelo": [
+        408.7234191894531,
+        727.2781982421875
+      ],
+      "TopicVelo": [
+        412.9494323730469,
+        731.8203735351562
+      ],
+      "UniTVelo": [
+        421.9056396484375,
+        730.7308349609375
+      ],
+      "dynamo": [
+        431.4674377441406,
+        728.916015625
+      ],
+      "DeepKINET": [
+        434.5810241699219,
+        734.7872314453125
+      ],
+      "VeloAE": [
+        448.1560821533203,
+        728.1873168945312
+      ],
+      "DeepVelo(GCN)": [
+        445.4392852783203,
+        741.0123291015625
+      ],
+      "scVelo(dyn)": [
+        458.95945739746094,
+        734.4783935546875
+      ],
+      "VeloVAE": [
+        470.44920349121094,
+        730.366455078125
+      ],
+      "STT": [
+        484.22023010253906,
+        723.5271606445312
+      ],
+      "veloVI": [
+        490.0101776123047,
+        726.20947265625
+      ],
+      "LatentVelo": [
+        492.42584228515625,
+        732.9168701171875
+      ],
+      "cellDancer": [
+        500.55601501464844,
+        732.809326171875
+      ],
+      "velocyto": [
+        511.55763244628906,
+        729.2803955078125
+      ],
+      "biVI": [
+        525.0639495849609,
+        722.7603149414062
+      ],
+      "Best performance": [
+        520.5809326171875,
+        745.096435546875
+      ]
+    },
+    "mean_row": {
+      "status": "pass",
+      "label": "Mean",
+      "numeric_annotations": false,
+      "method_count": 19,
+      "colormap": "RdYlBu_r",
+      "color_limits": [
+        -1,
+        1
+      ],
+      "palette_sha256": "b8b177fbb9f2fac7726f17726faa9db66358e682b6f2545ff1b9417b998fb985",
+      "source_cell_colors_checked": 178,
+      "mean_cell_colors_checked": 19,
+      "alignment": "Aligned to the method heatmap columns",
+      "cells": [
+        {
+          "method": "SDEvelo",
+          "mean": 0.44191355555555556,
+          "palette_index": 184,
+          "color": "#fba05b",
+          "bbox": [
+            378.44091796875,
+            699.954345703125,
+            386.4809875488281,
+            707.454345703125
+          ]
+        },
+        {
+          "method": "scVelo(sto)",
+          "mean": 0.3767397,
+          "palette_index": 176,
+          "color": "#fdb366",
+          "bbox": [
+            386.4809875488281,
+            699.954345703125,
+            394.5210876464844,
+            707.454345703125
+          ]
+        },
+        {
+          "method": "DeepVelo(VAE)",
+          "mean": 0.3347988,
+          "palette_index": 170,
+          "color": "#fdbf71",
+          "bbox": [
+            394.5210876464844,
+            699.954345703125,
+            402.5576171875,
+            707.454345703125
+          ]
+        },
+        {
+          "method": "cell2fate",
+          "mean": 0.33207633333333336,
+          "palette_index": 170,
+          "color": "#fdbf71",
+          "bbox": [
+            402.5567626953125,
+            699.954345703125,
+            410.5968322753906,
+            707.454345703125
+          ]
+        },
+        {
+          "method": "TFvelo",
+          "mean": 0.29835911111111113,
+          "palette_index": 166,
+          "color": "#fdc778",
+          "bbox": [
+            410.5968322753906,
+            699.954345703125,
+            418.6369323730469,
+            707.454345703125
+          ]
+        },
+        {
+          "method": "TopicVelo",
+          "mean": 0.287444375,
+          "palette_index": 164,
+          "color": "#feca7c",
+          "bbox": [
+            418.6369323730469,
+            699.954345703125,
+            426.6770324707031,
+            707.454345703125
+          ]
+        },
+        {
+          "method": "UniTVelo",
+          "mean": 0.2728343,
+          "palette_index": 162,
+          "color": "#fece7f",
+          "bbox": [
+            426.6770324707031,
+            699.954345703125,
+            434.71710205078125,
+            707.454345703125
+          ]
+        },
+        {
+          "method": "dynamo",
+          "mean": 0.2124568,
+          "palette_index": 155,
+          "color": "#fedc8c",
+          "bbox": [
+            434.71710205078125,
+            699.954345703125,
+            442.753662109375,
+            707.454345703125
+          ]
+        },
+        {
+          "method": "DeepKINET",
+          "mean": 0.180706,
+          "palette_index": 151,
+          "color": "#fee294",
+          "bbox": [
+            442.7527770996094,
+            699.954345703125,
+            450.7928771972656,
+            707.454345703125
+          ]
+        },
+        {
+          "method": "VeloAE",
+          "mean": 0.15636799999999995,
+          "palette_index": 148,
+          "color": "#fee699",
+          "bbox": [
+            450.7928771972656,
+            699.954345703125,
+            458.8329772949219,
+            707.454345703125
+          ]
+        },
+        {
+          "method": "DeepVelo(GCN)",
+          "mean": 0.1463941,
+          "palette_index": 146,
+          "color": "#fee99d",
+          "bbox": [
+            458.8329772949219,
+            699.954345703125,
+            466.873046875,
+            707.454345703125
+          ]
+        },
+        {
+          "method": "scVelo(dyn)",
+          "mean": 0.1393666,
+          "palette_index": 145,
+          "color": "#feea9f",
+          "bbox": [
+            466.873046875,
+            699.954345703125,
+            474.91314697265625,
+            707.454345703125
+          ]
+        },
+        {
+          "method": "VeloVAE",
+          "mean": 0.13000869999999998,
+          "palette_index": 144,
+          "color": "#feeba1",
+          "bbox": [
+            474.91314697265625,
+            699.954345703125,
+            482.9496765136719,
+            707.454345703125
+          ]
+        },
+        {
+          "method": "STT",
+          "mean": 0.12367629999999999,
+          "palette_index": 143,
+          "color": "#feeca2",
+          "bbox": [
+            482.9488220214844,
+            699.954345703125,
+            490.9889221191406,
+            707.454345703125
+          ]
+        },
+        {
+          "method": "veloVI",
+          "mean": 0.07741859999999999,
+          "palette_index": 137,
+          "color": "#fff3ad",
+          "bbox": [
+            490.9888610839844,
+            699.954345703125,
+            499.02899169921875,
+            707.454345703125
+          ]
+        },
+        {
+          "method": "LatentVelo",
+          "mean": 0.06288955555555557,
+          "palette_index": 136,
+          "color": "#fff5af",
+          "bbox": [
+            499.02899169921875,
+            699.954345703125,
+            507.069091796875,
+            707.454345703125
+          ]
+        },
+        {
+          "method": "cellDancer",
+          "mean": 0.052719777777777775,
+          "palette_index": 134,
+          "color": "#fff7b3",
+          "bbox": [
+            507.069091796875,
+            699.954345703125,
+            515.1092529296875,
+            707.454345703125
+          ]
+        },
+        {
+          "method": "velocyto",
+          "mean": -0.055283599999999974,
+          "palette_index": 120,
+          "color": "#f6fbd0",
+          "bbox": [
+            515.109130859375,
+            699.954345703125,
+            523.145751953125,
+            707.454345703125
+          ]
+        },
+        {
+          "method": "biVI",
+          "mean": -0.126236,
+          "palette_index": 111,
+          "color": "#ebf7e4",
+          "bbox": [
+            523.1448364257812,
+            699.954345703125,
+            531.1849365234375,
+            707.454345703125
+          ]
+        }
+      ],
+      "best_performance_summary": null,
+      "changed_region": [
+        321.8,
+        618.4,
+        545.7,
+        707.7
+      ],
+      "unchanged_area_max_pixel_difference": 0,
+      "dataset_cell_centers_checked": 200,
+      "dataset_row_height_factor": 0.9043127425436716
+    }
+  },
+  "titled_page": {
+    "status": "pass",
+    "panel": "Figure03h",
+    "input_sha256": "9640b0e7f809997b13f065c7298e6bfdb00274261376e6b94af05664b63c8ed1",
+    "order": [
+      "SDEvelo",
+      "scVelo(sto)",
+      "DeepVelo(VAE)",
+      "cell2fate",
+      "TFvelo",
+      "TopicVelo",
+      "UniTVelo",
+      "dynamo",
+      "DeepKINET",
+      "VeloAE",
+      "DeepVelo(GCN)",
+      "scVelo(dyn)",
+      "VeloVAE",
+      "STT",
+      "veloVI",
+      "LatentVelo",
+      "cellDancer",
+      "velocyto",
+      "biVI"
+    ],
+    "means": {
+      "SDEvelo": 0.44191355555555556,
+      "scVelo(sto)": 0.3767397,
+      "DeepVelo(VAE)": 0.3347988,
+      "cell2fate": 0.33207633333333336,
+      "TFvelo": 0.29835911111111113,
+      "TopicVelo": 0.287444375,
+      "UniTVelo": 0.2728343,
+      "dynamo": 0.2124568,
+      "DeepKINET": 0.180706,
+      "VeloAE": 0.15636799999999995,
+      "DeepVelo(GCN)": 0.1463941,
+      "scVelo(dyn)": 0.1393666,
+      "VeloVAE": 0.13000869999999998,
+      "STT": 0.12367629999999999,
+      "veloVI": 0.07741859999999999,
+      "LatentVelo": 0.06288955555555557,
+      "cellDancer": 0.052719777777777775,
+      "velocyto": -0.055283599999999974,
+      "biVI": -0.126236
+    },
+    "valid_datasets": {
+      "SDEvelo": 9,
+      "scVelo(sto)": 10,
+      "DeepVelo(VAE)": 10,
+      "cell2fate": 9,
+      "TFvelo": 9,
+      "TopicVelo": 8,
+      "UniTVelo": 10,
+      "dynamo": 10,
+      "DeepKINET": 7,
+      "VeloAE": 10,
+      "DeepVelo(GCN)": 10,
+      "scVelo(dyn)": 10,
+      "VeloVAE": 10,
+      "STT": 10,
+      "veloVI": 10,
+      "LatentVelo": 9,
+      "cellDancer": 9,
+      "velocyto": 10,
+      "biVI": 8
+    },
+    "missing_policy": "Mean of available values; no zero imputation",
+    "ties": "Stable previous display order",
+    "best_performance": "Unchanged per-dataset envelope, excluded from ranking and retained at the right",
+    "numeric_inputs_changed": false,
+    "models_rerun": false,
+    "changed_regions": [
+      [
+        378.24091796875,
+        618.423291015625,
+        531.3849365234375,
+        713.8724853515625
+      ],
+      [
+        371.63511962890624,
+        714.3519165039063,
+        544.8693969726562,
+        745.9747436523437
+      ],
+      [
+        321.8,
+        618.4,
+        545.7,
+        707.7
+      ]
+    ],
+    "unchanged_area_max_pixel_difference": 0,
+    "permuted_cell_centers_checked": 190,
+    "method_color_strips_checked": 19,
+    "missing_cells_retained": 12,
+    "label_origins": {
+      "SDEvelo": [
+        374.27833557128906,
+        730.005615234375
+      ],
+      "scVelo(sto)": [
+        379.3292236328125,
+        733.5692749023438
+      ],
+      "DeepVelo(VAE)": [
+        381.72694396972656,
+        740.287109375
+      ],
+      "cell2fate": [
+        398.85813903808594,
+        729.453857421875
+      ],
+      "TFvelo": [
+        408.7234191894531,
+        727.2781982421875
+      ],
+      "TopicVelo": [
+        412.9494323730469,
+        731.8203735351562
+      ],
+      "UniTVelo": [
+        421.9056396484375,
+        730.7308349609375
+      ],
+      "dynamo": [
+        431.4674377441406,
+        728.916015625
+      ],
+      "DeepKINET": [
+        434.5810241699219,
+        734.7872314453125
+      ],
+      "VeloAE": [
+        448.1560821533203,
+        728.1873168945312
+      ],
+      "DeepVelo(GCN)": [
+        445.4392852783203,
+        741.0123291015625
+      ],
+      "scVelo(dyn)": [
+        458.95945739746094,
+        734.4783935546875
+      ],
+      "VeloVAE": [
+        470.44920349121094,
+        730.366455078125
+      ],
+      "STT": [
+        484.22023010253906,
+        723.5271606445312
+      ],
+      "veloVI": [
+        490.0101776123047,
+        726.20947265625
+      ],
+      "LatentVelo": [
+        492.42584228515625,
+        732.9168701171875
+      ],
+      "cellDancer": [
+        500.55601501464844,
+        732.809326171875
+      ],
+      "velocyto": [
+        511.55763244628906,
+        729.2803955078125
+      ],
+      "biVI": [
+        525.0639495849609,
+        722.7603149414062
+      ],
+      "Best performance": [
+        520.5809326171875,
+        745.096435546875
+      ]
+    },
+    "mean_row": {
+      "status": "pass",
+      "label": "Mean",
+      "numeric_annotations": false,
+      "method_count": 19,
+      "colormap": "RdYlBu_r",
+      "color_limits": [
+        -1,
+        1
+      ],
+      "palette_sha256": "b8b177fbb9f2fac7726f17726faa9db66358e682b6f2545ff1b9417b998fb985",
+      "source_cell_colors_checked": 178,
+      "mean_cell_colors_checked": 19,
+      "alignment": "Aligned to the method heatmap columns",
+      "cells": [
+        {
+          "method": "SDEvelo",
+          "mean": 0.44191355555555556,
+          "palette_index": 184,
+          "color": "#fba05b",
+          "bbox": [
+            378.44091796875,
+            699.954345703125,
+            386.4809875488281,
+            707.454345703125
+          ]
+        },
+        {
+          "method": "scVelo(sto)",
+          "mean": 0.3767397,
+          "palette_index": 176,
+          "color": "#fdb366",
+          "bbox": [
+            386.4809875488281,
+            699.954345703125,
+            394.5210876464844,
+            707.454345703125
+          ]
+        },
+        {
+          "method": "DeepVelo(VAE)",
+          "mean": 0.3347988,
+          "palette_index": 170,
+          "color": "#fdbf71",
+          "bbox": [
+            394.5210876464844,
+            699.954345703125,
+            402.5576171875,
+            707.454345703125
+          ]
+        },
+        {
+          "method": "cell2fate",
+          "mean": 0.33207633333333336,
+          "palette_index": 170,
+          "color": "#fdbf71",
+          "bbox": [
+            402.5567626953125,
+            699.954345703125,
+            410.5968322753906,
+            707.454345703125
+          ]
+        },
+        {
+          "method": "TFvelo",
+          "mean": 0.29835911111111113,
+          "palette_index": 166,
+          "color": "#fdc778",
+          "bbox": [
+            410.5968322753906,
+            699.954345703125,
+            418.6369323730469,
+            707.454345703125
+          ]
+        },
+        {
+          "method": "TopicVelo",
+          "mean": 0.287444375,
+          "palette_index": 164,
+          "color": "#feca7c",
+          "bbox": [
+            418.6369323730469,
+            699.954345703125,
+            426.6770324707031,
+            707.454345703125
+          ]
+        },
+        {
+          "method": "UniTVelo",
+          "mean": 0.2728343,
+          "palette_index": 162,
+          "color": "#fece7f",
+          "bbox": [
+            426.6770324707031,
+            699.954345703125,
+            434.71710205078125,
+            707.454345703125
+          ]
+        },
+        {
+          "method": "dynamo",
+          "mean": 0.2124568,
+          "palette_index": 155,
+          "color": "#fedc8c",
+          "bbox": [
+            434.71710205078125,
+            699.954345703125,
+            442.753662109375,
+            707.454345703125
+          ]
+        },
+        {
+          "method": "DeepKINET",
+          "mean": 0.180706,
+          "palette_index": 151,
+          "color": "#fee294",
+          "bbox": [
+            442.7527770996094,
+            699.954345703125,
+            450.7928771972656,
+            707.454345703125
+          ]
+        },
+        {
+          "method": "VeloAE",
+          "mean": 0.15636799999999995,
+          "palette_index": 148,
+          "color": "#fee699",
+          "bbox": [
+            450.7928771972656,
+            699.954345703125,
+            458.8329772949219,
+            707.454345703125
+          ]
+        },
+        {
+          "method": "DeepVelo(GCN)",
+          "mean": 0.1463941,
+          "palette_index": 146,
+          "color": "#fee99d",
+          "bbox": [
+            458.8329772949219,
+            699.954345703125,
+            466.873046875,
+            707.454345703125
+          ]
+        },
+        {
+          "method": "scVelo(dyn)",
+          "mean": 0.1393666,
+          "palette_index": 145,
+          "color": "#feea9f",
+          "bbox": [
+            466.873046875,
+            699.954345703125,
+            474.91314697265625,
+            707.454345703125
+          ]
+        },
+        {
+          "method": "VeloVAE",
+          "mean": 0.13000869999999998,
+          "palette_index": 144,
+          "color": "#feeba1",
+          "bbox": [
+            474.91314697265625,
+            699.954345703125,
+            482.9496765136719,
+            707.454345703125
+          ]
+        },
+        {
+          "method": "STT",
+          "mean": 0.12367629999999999,
+          "palette_index": 143,
+          "color": "#feeca2",
+          "bbox": [
+            482.9488220214844,
+            699.954345703125,
+            490.9889221191406,
+            707.454345703125
+          ]
+        },
+        {
+          "method": "veloVI",
+          "mean": 0.07741859999999999,
+          "palette_index": 137,
+          "color": "#fff3ad",
+          "bbox": [
+            490.9888610839844,
+            699.954345703125,
+            499.02899169921875,
+            707.454345703125
+          ]
+        },
+        {
+          "method": "LatentVelo",
+          "mean": 0.06288955555555557,
+          "palette_index": 136,
+          "color": "#fff5af",
+          "bbox": [
+            499.02899169921875,
+            699.954345703125,
+            507.069091796875,
+            707.454345703125
+          ]
+        },
+        {
+          "method": "cellDancer",
+          "mean": 0.052719777777777775,
+          "palette_index": 134,
+          "color": "#fff7b3",
+          "bbox": [
+            507.069091796875,
+            699.954345703125,
+            515.1092529296875,
+            707.454345703125
+          ]
+        },
+        {
+          "method": "velocyto",
+          "mean": -0.055283599999999974,
+          "palette_index": 120,
+          "color": "#f6fbd0",
+          "bbox": [
+            515.109130859375,
+            699.954345703125,
+            523.145751953125,
+            707.454345703125
+          ]
+        },
+        {
+          "method": "biVI",
+          "mean": -0.126236,
+          "palette_index": 111,
+          "color": "#ebf7e4",
+          "bbox": [
+            523.1448364257812,
+            699.954345703125,
+            531.1849365234375,
+            707.454345703125
+          ]
+        }
+      ],
+      "best_performance_summary": null,
+      "changed_region": [
+        321.8,
+        618.4,
+        545.7,
+        707.7
+      ],
+      "unchanged_area_max_pixel_difference": 0,
+      "dataset_cell_centers_checked": 200,
+      "dataset_row_height_factor": 0.9043127425436716
+    }
+  },
+  "comparison_with_previous_numeric_mean_row": [
+    {
+      "path": "submission_figures/Figure03.pdf",
+      "changed_region": [
+        378.1,
+        699.6,
+        531.5,
+        707.7
+      ],
+      "unchanged_area_max_pixel_difference": 0
+    },
+    {
+      "path": "figures/main/Figure03.pdf",
+      "changed_region": [
+        378.1,
+        699.6,
+        531.5,
+        707.7
+      ],
+      "unchanged_area_max_pixel_difference": 0
+    },
+    {
+      "path": "submission_figures/Main_Figures_1-7_combined.pdf",
+      "changed_region": [
+        378.1,
+        699.6,
+        531.5,
+        707.7
+      ],
+      "unchanged_area_max_pixel_difference": 0
+    }
+  ],
+  "public_entrypoint_validation": {
+    "status": "pass",
+    "panel": "Figure03h",
+    "input_sha256": "9640b0e7f809997b13f065c7298e6bfdb00274261376e6b94af05664b63c8ed1",
+    "order": [
+      "SDEvelo",
+      "scVelo(sto)",
+      "DeepVelo(VAE)",
+      "cell2fate",
+      "TFvelo",
+      "TopicVelo",
+      "UniTVelo",
+      "dynamo",
+      "DeepKINET",
+      "VeloAE",
+      "DeepVelo(GCN)",
+      "scVelo(dyn)",
+      "VeloVAE",
+      "STT",
+      "veloVI",
+      "LatentVelo",
+      "cellDancer",
+      "velocyto",
+      "biVI"
+    ],
+    "means": {
+      "SDEvelo": 0.44191355555555556,
+      "scVelo(sto)": 0.3767397,
+      "DeepVelo(VAE)": 0.3347988,
+      "cell2fate": 0.33207633333333336,
+      "TFvelo": 0.29835911111111113,
+      "TopicVelo": 0.287444375,
+      "UniTVelo": 0.2728343,
+      "dynamo": 0.2124568,
+      "DeepKINET": 0.180706,
+      "VeloAE": 0.15636799999999995,
+      "DeepVelo(GCN)": 0.1463941,
+      "scVelo(dyn)": 0.1393666,
+      "VeloVAE": 0.13000869999999998,
+      "STT": 0.12367629999999999,
+      "veloVI": 0.07741859999999999,
+      "LatentVelo": 0.06288955555555557,
+      "cellDancer": 0.052719777777777775,
+      "velocyto": -0.055283599999999974,
+      "biVI": -0.126236
+    },
+    "valid_datasets": {
+      "SDEvelo": 9,
+      "scVelo(sto)": 10,
+      "DeepVelo(VAE)": 10,
+      "cell2fate": 9,
+      "TFvelo": 9,
+      "TopicVelo": 8,
+      "UniTVelo": 10,
+      "dynamo": 10,
+      "DeepKINET": 7,
+      "VeloAE": 10,
+      "DeepVelo(GCN)": 10,
+      "scVelo(dyn)": 10,
+      "VeloVAE": 10,
+      "STT": 10,
+      "veloVI": 10,
+      "LatentVelo": 9,
+      "cellDancer": 9,
+      "velocyto": 10,
+      "biVI": 8
+    },
+    "missing_policy": "Mean of available values; no zero imputation",
+    "ties": "Stable previous display order",
+    "best_performance": "Unchanged per-dataset envelope, excluded from ranking and retained at the right",
+    "numeric_inputs_changed": false,
+    "models_rerun": false,
+    "changed_regions": [
+      [
+        378.24091796875,
+        618.423291015625,
+        531.3849365234375,
+        713.8724853515625
+      ],
+      [
+        371.63511962890624,
+        714.3519165039063,
+        544.8693969726562,
+        745.9747436523437
+      ],
+      [
+        321.8,
+        618.4,
+        545.7,
+        707.7
+      ]
+    ],
+    "unchanged_area_max_pixel_difference": 0,
+    "permuted_cell_centers_checked": 190,
+    "method_color_strips_checked": 19,
+    "missing_cells_retained": 12,
+    "label_origins": {
+      "SDEvelo": [
+        374.27833557128906,
+        730.005615234375
+      ],
+      "scVelo(sto)": [
+        379.3292236328125,
+        733.5692749023438
+      ],
+      "DeepVelo(VAE)": [
+        381.72694396972656,
+        740.287109375
+      ],
+      "cell2fate": [
+        398.85813903808594,
+        729.453857421875
+      ],
+      "TFvelo": [
+        408.7234191894531,
+        727.2781982421875
+      ],
+      "TopicVelo": [
+        412.9494323730469,
+        731.8203735351562
+      ],
+      "UniTVelo": [
+        421.9056396484375,
+        730.7308349609375
+      ],
+      "dynamo": [
+        431.4674377441406,
+        728.916015625
+      ],
+      "DeepKINET": [
+        434.5810241699219,
+        734.7872314453125
+      ],
+      "VeloAE": [
+        448.1560821533203,
+        728.1873168945312
+      ],
+      "DeepVelo(GCN)": [
+        445.4392852783203,
+        741.0123291015625
+      ],
+      "scVelo(dyn)": [
+        458.95945739746094,
+        734.4783935546875
+      ],
+      "VeloVAE": [
+        470.44920349121094,
+        730.366455078125
+      ],
+      "STT": [
+        484.22023010253906,
+        723.5271606445312
+      ],
+      "veloVI": [
+        490.0101776123047,
+        726.20947265625
+      ],
+      "LatentVelo": [
+        492.42584228515625,
+        732.9168701171875
+      ],
+      "cellDancer": [
+        500.55601501464844,
+        732.809326171875
+      ],
+      "velocyto": [
+        511.55763244628906,
+        729.2803955078125
+      ],
+      "biVI": [
+        525.0639495849609,
+        722.7603149414062
+      ],
+      "Best performance": [
+        520.5809326171875,
+        745.096435546875
+      ]
+    },
+    "mean_row": {
+      "status": "pass",
+      "label": "Mean",
+      "numeric_annotations": false,
+      "method_count": 19,
+      "colormap": "RdYlBu_r",
+      "color_limits": [
+        -1,
+        1
+      ],
+      "palette_sha256": "b8b177fbb9f2fac7726f17726faa9db66358e682b6f2545ff1b9417b998fb985",
+      "source_cell_colors_checked": 178,
+      "mean_cell_colors_checked": 19,
+      "alignment": "Aligned to the method heatmap columns",
+      "cells": [
+        {
+          "method": "SDEvelo",
+          "mean": 0.44191355555555556,
+          "palette_index": 184,
+          "color": "#fba05b",
+          "bbox": [
+            378.44091796875,
+            699.954345703125,
+            386.4809875488281,
+            707.454345703125
+          ]
+        },
+        {
+          "method": "scVelo(sto)",
+          "mean": 0.3767397,
+          "palette_index": 176,
+          "color": "#fdb366",
+          "bbox": [
+            386.4809875488281,
+            699.954345703125,
+            394.5210876464844,
+            707.454345703125
+          ]
+        },
+        {
+          "method": "DeepVelo(VAE)",
+          "mean": 0.3347988,
+          "palette_index": 170,
+          "color": "#fdbf71",
+          "bbox": [
+            394.5210876464844,
+            699.954345703125,
+            402.5576171875,
+            707.454345703125
+          ]
+        },
+        {
+          "method": "cell2fate",
+          "mean": 0.33207633333333336,
+          "palette_index": 170,
+          "color": "#fdbf71",
+          "bbox": [
+            402.5567626953125,
+            699.954345703125,
+            410.5968322753906,
+            707.454345703125
+          ]
+        },
+        {
+          "method": "TFvelo",
+          "mean": 0.29835911111111113,
+          "palette_index": 166,
+          "color": "#fdc778",
+          "bbox": [
+            410.5968322753906,
+            699.954345703125,
+            418.6369323730469,
+            707.454345703125
+          ]
+        },
+        {
+          "method": "TopicVelo",
+          "mean": 0.287444375,
+          "palette_index": 164,
+          "color": "#feca7c",
+          "bbox": [
+            418.6369323730469,
+            699.954345703125,
+            426.6770324707031,
+            707.454345703125
+          ]
+        },
+        {
+          "method": "UniTVelo",
+          "mean": 0.2728343,
+          "palette_index": 162,
+          "color": "#fece7f",
+          "bbox": [
+            426.6770324707031,
+            699.954345703125,
+            434.71710205078125,
+            707.454345703125
+          ]
+        },
+        {
+          "method": "dynamo",
+          "mean": 0.2124568,
+          "palette_index": 155,
+          "color": "#fedc8c",
+          "bbox": [
+            434.71710205078125,
+            699.954345703125,
+            442.753662109375,
+            707.454345703125
+          ]
+        },
+        {
+          "method": "DeepKINET",
+          "mean": 0.180706,
+          "palette_index": 151,
+          "color": "#fee294",
+          "bbox": [
+            442.7527770996094,
+            699.954345703125,
+            450.7928771972656,
+            707.454345703125
+          ]
+        },
+        {
+          "method": "VeloAE",
+          "mean": 0.15636799999999995,
+          "palette_index": 148,
+          "color": "#fee699",
+          "bbox": [
+            450.7928771972656,
+            699.954345703125,
+            458.8329772949219,
+            707.454345703125
+          ]
+        },
+        {
+          "method": "DeepVelo(GCN)",
+          "mean": 0.1463941,
+          "palette_index": 146,
+          "color": "#fee99d",
+          "bbox": [
+            458.8329772949219,
+            699.954345703125,
+            466.873046875,
+            707.454345703125
+          ]
+        },
+        {
+          "method": "scVelo(dyn)",
+          "mean": 0.1393666,
+          "palette_index": 145,
+          "color": "#feea9f",
+          "bbox": [
+            466.873046875,
+            699.954345703125,
+            474.91314697265625,
+            707.454345703125
+          ]
+        },
+        {
+          "method": "VeloVAE",
+          "mean": 0.13000869999999998,
+          "palette_index": 144,
+          "color": "#feeba1",
+          "bbox": [
+            474.91314697265625,
+            699.954345703125,
+            482.9496765136719,
+            707.454345703125
+          ]
+        },
+        {
+          "method": "STT",
+          "mean": 0.12367629999999999,
+          "palette_index": 143,
+          "color": "#feeca2",
+          "bbox": [
+            482.9488220214844,
+            699.954345703125,
+            490.9889221191406,
+            707.454345703125
+          ]
+        },
+        {
+          "method": "veloVI",
+          "mean": 0.07741859999999999,
+          "palette_index": 137,
+          "color": "#fff3ad",
+          "bbox": [
+            490.9888610839844,
+            699.954345703125,
+            499.02899169921875,
+            707.454345703125
+          ]
+        },
+        {
+          "method": "LatentVelo",
+          "mean": 0.06288955555555557,
+          "palette_index": 136,
+          "color": "#fff5af",
+          "bbox": [
+            499.02899169921875,
+            699.954345703125,
+            507.069091796875,
+            707.454345703125
+          ]
+        },
+        {
+          "method": "cellDancer",
+          "mean": 0.052719777777777775,
+          "palette_index": 134,
+          "color": "#fff7b3",
+          "bbox": [
+            507.069091796875,
+            699.954345703125,
+            515.1092529296875,
+            707.454345703125
+          ]
+        },
+        {
+          "method": "velocyto",
+          "mean": -0.055283599999999974,
+          "palette_index": 120,
+          "color": "#f6fbd0",
+          "bbox": [
+            515.109130859375,
+            699.954345703125,
+            523.145751953125,
+            707.454345703125
+          ]
+        },
+        {
+          "method": "biVI",
+          "mean": -0.126236,
+          "palette_index": 111,
+          "color": "#ebf7e4",
+          "bbox": [
+            523.1448364257812,
+            699.954345703125,
+            531.1849365234375,
+            707.454345703125
+          ]
+        }
+      ],
+      "best_performance_summary": null,
+      "changed_region": [
+        321.8,
+        618.4,
+        545.7,
+        707.7
+      ],
+      "unchanged_area_max_pixel_difference": 0,
+      "dataset_cell_centers_checked": 200,
+      "dataset_row_height_factor": 0.9043127425436716
+    }
+  },
+  "r_validation": "Syntax passed; optional R plotting dependencies unavailable, so no R rendering was run"
+}

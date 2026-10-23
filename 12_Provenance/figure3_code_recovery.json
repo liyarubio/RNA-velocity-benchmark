@@ -50,8 +50,8 @@
       "source": "Manuscript_2607/Figure3_sources/figure3h.R",
       "source_sha256": "6d69e2590b6499fb2e0438a107b46295b74ba4bd272db95a03705c1e088ca44e",
       "path": "03_Figure03/code/h/figure3h.R",
-      "sha256": "4b078cbe91404d803cf8ae0ead724f113b44e7b99632220512c4aa7dbb983337",
-      "changes": "Current repository input paths and configurable output path; English comments and whitespace; panel g fixed jitter seed; e excluded as retained schematic. Organized into panel-specific directories and shared computation. Methods now sorted by recomputed available-case mean GDC, descending, with stable ties. Added a centered numeric Mean row for 19 methods, displayed to two decimal places, excluding missing values and the best-performance envelope."
+      "sha256": "bd5906fd08a869340183af0e05a22b8993c25bfd5310a07fc32f94c7ffe92532",
+      "changes": "Current repository input paths and configurable output path; English comments and whitespace; panel g fixed jitter seed; e excluded as retained schematic. Organized into panel-specific directories and shared computation. Methods now sorted by recomputed available-case mean GDC, descending, with stable ties. Added a Mean heatmap row for 19 methods, using the same fixed GDC scale and RdYlBu_r palette, without numeric annotations; missing values and the best-performance envelope are excluded from method means."
     },
     {
       "source": "Manuscript_2607/Figure3_sources/figure3_common.R",

@@ -16,7 +16,7 @@ The simulation summary columns now display Mean only, with ranks 1–3 aligned i
 
 ## Panel h method order
 
-Methods are ordered left to right by descending available-case mean GDC across the ten classic datasets. The bottom Mean row shows each method mean to two decimal places. Missing values are retained; the best-performance envelope stays at the right. See the [independent formal entrypoint](code/h/figure3h_formal.py).
+Methods are ordered left to right by descending available-case mean GDC across the ten classic datasets. The bottom Mean row shows each method mean using the same heatmap colors and fixed GDC scale, without numeric annotations. Missing values are retained; the best-performance envelope stays at the right. See the [independent formal entrypoint](code/h/figure3h_formal.py).
 
 ## Current files
 

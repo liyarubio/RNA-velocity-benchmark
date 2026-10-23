@@ -478,5 +478,6 @@
   "Code/figure3h_mean/figure3h_mean.py": "09_Core/visualization/figure3h_mean/figure3h_mean.py",
   "Code/figure3h_mean/README.md": "09_Core/visualization/figure3h_mean/README.md",
   "Code/figure3h_mean/assets/Figure03_before.pdf": "09_Core/visualization/figure3h_mean/assets/Figure03_before.pdf",
-  "Code/figure3h_mean/assets/input_hashes.json": "09_Core/visualization/figure3h_mean/assets/input_hashes.json"
+  "Code/figure3h_mean/assets/input_hashes.json": "09_Core/visualization/figure3h_mean/assets/input_hashes.json",
+  "Code/figure3h_mean/assets/gdc_palette.csv": "09_Core/visualization/figure3h_mean/assets/gdc_palette.csv"
 }

@@ -138,8 +138,8 @@ def reorder(doc=None):
 def add_mean_row(doc,means,strips):
     """Make room inside panel h, retaining font sizes and the column labels.
 
-    The ten dataset rows become slightly shorter. The Mean row is a numeric
-    summary with a white background, separate from the GDC heatmap scale.
+    The ten dataset rows become slightly shorter. The Mean row uses the same
+    RdYlBu_r palette and fixed [-1, 1] GDC scale, with no numeric annotations.
     Best performance is an envelope, not a method, so has no summary cell.
     """
     before=fitz.open(stream=doc.tobytes(),filetype='pdf');page=doc[0]
@@ -177,24 +177,33 @@ def add_mean_row(doc,means,strips):
             at=chars[word.start()]['origin']
             page.insert_text((at[0],at[1]+ymap(center)-center),word.group(),
                              fontname='MeanRowFont',fontsize=s['size'])
-    values=[f'{value:.2f}' for value in means]
-    size=min(3.4,min((s['rect'].width-.7)/font.text_length(v,fontsize=1)
-                    for s,v in zip(strips,values)))
+    palette_path=HERE/'assets/gdc_palette.csv'
+    palette=pd.read_csv(palette_path)
+    assert palette['index'].tolist()==list(range(256))
+    rgb=palette[['r','g','b']].to_numpy()/255
+    color_index=lambda value:min(255,max(0,int((value+1)/2*256)))
+    # Confirm that the retained palette matches every finite source cell.
+    _,data,_,order=read_scores()
+    source_cells=[d for d in drawings if d.get('fill') and 378<d['rect'].x0<532
+                  and 7<d['rect'].width<9 and 8<d['rect'].height<10]
+    assert len(source_cells)==178
+    for cell in source_cells:
+        r=cell['rect'];j=int(round((r.y0-top)/((bottom-top)/10)))
+        i=min(range(19),key=lambda k:abs(strips[k]['rect'].x0-r.x0))
+        value=data.loc[order[i]].iloc[j]
+        assert np.allclose(cell['fill'],rgb[color_index(value)],atol=1e-6,rtol=0)
     center=bottom-summary_height/2+.4
-    baseline=center+(font.ascender+font.descender)*size/2
     label_size=labels[0]['size']
     label_baseline=center+(font.ascender+font.descender)*label_size/2
     page.insert_text((377.8-font.text_length('Mean',fontsize=label_size),label_baseline),
                      'Mean',fontname='MeanRowFont',fontsize=label_size)
     boxes=[]
-    for method,value,strip in zip(means.index,values,strips):
-        r=strip['rect'];x=(r.x0+r.x1)/2
-        w=font.text_length(value,fontsize=size)
-        page.insert_text((x-w/2,baseline),value,fontname='MeanRowFont',fontsize=size)
-        boxes.append(dict(method=method,value=value,center_x=x,baseline_y=baseline,
-                          bbox=[x-w/2,baseline-font.ascender*size,x+w/2,baseline-font.descender*size]))
-    page.draw_line((strips[0]['rect'].x0,bottom-summary_height+1),
-                   (strips[-1]['rect'].x1,bottom-summary_height+1),color=(.55,.55,.55),width=.25)
+    for method,value,strip in zip(means.index,means,strips):
+        r=strip['rect'];box=fitz.Rect(r.x0,bottom-summary_height+1,r.x1,bottom)
+        index=color_index(value)
+        page.draw_rect(box,color=(.6,.6,.6),fill=tuple(rgb[index]),width=.2665)
+        boxes.append(dict(method=method,mean=float(value),palette_index=index,
+                          color=palette.iloc[index]['hex'],bbox=list(box)))
     # Compare serialized documents, including all unchanged panels and labels.
     after=fitz.open(stream=doc.tobytes(),filetype='pdf');zoom=4
     assert all(s['text'] in after[0].get_text() for s in labels), 'Dataset labels changed'
@@ -211,13 +220,15 @@ def add_mean_row(doc,means,strips):
             assert np.array_equal(a[int(y*zoom),int(x*zoom)],b[int(ymap(y)*zoom),int(x*zoom)])
     row=[dict(text=w[4],bbox=w[:4]) for w in after[0].get_text('words')
          if w[0]>378 and w[1]>bottom-summary_height+1 and w[3]<bottom+1]
-    assert [s['text'] for s in row]==values, [(s['text'],s['bbox']) for s in row]
-    for actual,expected,strip in zip(row,boxes,strips):
-        r=fitz.Rect(actual['bbox']);assert strip['rect'].x0<r.x0<r.x1<strip['rect'].x1
-        assert abs((r.x0+r.x1)/2-expected['center_x'])<.03
-        assert bottom-summary_height+1<r.y0<r.y1<bottom
-    return dict(status='pass',label='Mean',display_values=values,decimal_places=2,
-        method_count=len(means),font_size=size,alignment='Centered in each method column on one baseline',
+    assert not row,'Mean row must not contain numerical labels'
+    for expected in boxes:
+        r=fitz.Rect(expected['bbox']);x,y=(r.x0+r.x1)/2,(r.y0+r.y1)/2
+        actual=b[int(y*zoom),int(x*zoom)].astype(float)
+        assert np.max(np.abs(actual-rgb[expected['palette_index']]*255))<=1
+    return dict(status='pass',label='Mean',numeric_annotations=False,
+        method_count=len(means),colormap='RdYlBu_r',color_limits=[-1,1],
+        palette_sha256=sha(palette_path),source_cell_colors_checked=len(source_cells),
+        mean_cell_colors_checked=len(boxes),alignment='Aligned to the method heatmap columns',
         cells=boxes,best_performance_summary=None,changed_region=list(region),
         unchanged_area_max_pixel_difference=int(delta.max()),dataset_cell_centers_checked=200,
         dataset_row_height_factor=factor)
