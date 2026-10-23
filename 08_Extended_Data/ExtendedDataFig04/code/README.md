@@ -19,3 +19,18 @@ Use `requirements-demo.txt`. Each entrypoint writes exactly one plot in PDF and 
 Historical `legacy/` and `historical/` workflows keep their original numbering and external input requirements; they are provenance sources, not current portable plotting entrypoints.
 
 [Complete panel audit](../../../12_Provenance/PANEL_CODE_INDEX.md) · [Figure overview](../README.md)
+
+## Current formal panels a and b (23 October 2026)
+
+| Panel | Formal vector entrypoint |
+|---|---|
+| a | [ed4a_formal.py](a/ed4a_formal.py) |
+| b | [ed4b_formal.py](b/ed4b_formal.py) |
+
+```bash
+python -m pip install -r 09_Core/visualization/mean_top3/requirements.txt
+python 08_Extended_Data/ExtendedDataFig04/code/a/ed4a_formal.py --out demo_output/mean_top3
+python 08_Extended_Data/ExtendedDataFig04/code/b/ed4b_formal.py --out demo_output/mean_top3
+```
+
+Each formal entrypoint writes one PDF/SVG/PNG panel and validation JSON. The numerical inputs and original bar normalization are preserved; only Mean and ranks 1–3 remain visible. Rank digits share a fixed horizontal position inside the bars. The unchanged matrix and annotations come from the retained vector template. Panel c is retained exactly. [Renderer scope](../../../09_Core/visualization/mean_top3/README.md).

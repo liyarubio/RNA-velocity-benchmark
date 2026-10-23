@@ -1,6 +1,6 @@
 # ED04 — Simulation cosine comparisons and full noise series
 
-Current release: **Manuscript_1021**, including updates through **22 October 2026**. Historical numerical source ID: **ED05**.
+Current release: **Manuscript_1021**, including figure presentation updates through **23 October 2026**. Historical numerical source ID: **ED05**.
 
 Noise panel c contains 840 slots (822 finite, 18 missing), with 84 cross-noise means. STT forward branching has 1/10 coverage; other groups have 10/10. Conditions are not independent replicates.
 
@@ -9,6 +9,10 @@ Noise panel c contains 840 slots (822 finite, 18 missing), with 84 cross-noise m
 ## Individual panel code
 
 [One plot per file: current entrypoints and limits](code/README.md).
+
+## Mean-only summary update
+
+The simulation summary columns now display Mean only, with ranks 1–3 aligned inside the bars. Numerical inputs and normalization are unchanged. Companion caption text is retained for author revision. See the panel code guide for independent formal rendering commands.
 
 ## Current files
 

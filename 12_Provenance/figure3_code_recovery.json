@@ -15,8 +15,8 @@
       "source": "Manuscript_2607/Figure3_sources/figure3a_plot_core.R",
       "source_sha256": "42b21a00ecdf790750cd85418a24fd337f7dd10e1071e096525afee100ce1614",
       "path": "03_Figure03/code/a/figure3a_plot_core.R",
-      "sha256": "46329bc38f4f15f01ca986e956cba18e064606243fb97a2921fe316499317df5",
-      "changes": "Current repository input paths and configurable output path; English comments and whitespace; panel g fixed jitter seed; e excluded as retained schematic. Organized into panel-specific directories and shared computation."
+      "sha256": "e26f737c819ec249d1436241e7deb2fdb0a4a412dcd63dca7d0e8baf08fe91c5",
+      "changes": "Current repository input paths and configurable output path; English comments and whitespace; panel g fixed jitter seed; e excluded as retained schematic. Organized into panel-specific directories and shared computation. Mean-only display after the original joint normalization; fixed-position top-three rank labels."
     },
     {
       "source": "Manuscript_2607/Figure3_sources/figure3bc.R",

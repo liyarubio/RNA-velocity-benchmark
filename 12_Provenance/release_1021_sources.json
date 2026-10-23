@@ -1778,17 +1778,17 @@
     },
     "figures/extended_numbered/Extended_Data_Fig04.png": {
       "path": "08_Extended_Data/ExtendedDataFig04/figures/Extended_Data_Fig04.png",
-      "source_sha256": "bcfc537f886ca21ea9ff0ddebad9921e6cbbacdd3dbc765cb7e4a3604d30208f",
-      "sha256": "bcfc537f886ca21ea9ff0ddebad9921e6cbbacdd3dbc765cb7e4a3604d30208f",
-      "bytes": 1317043,
-      "operation": "copied"
+      "source_sha256": "374f30d2e975f755b6699cb453f895affd8d47e7a466756337fff3d27cbb0f33",
+      "sha256": "374f30d2e975f755b6699cb453f895affd8d47e7a466756337fff3d27cbb0f33",
+      "bytes": 1308073,
+      "operation": "Updated Mean-only figure presentation; numerical inputs retained"
     },
     "figures/extended_numbered/Extended_Data_Fig04.svg": {
       "path": "08_Extended_Data/ExtendedDataFig04/figures/Extended_Data_Fig04.svg",
-      "source_sha256": "ccd521c6d934d41d9e90d6ec648a31006bd47ab410c9db7c39eba4e25d76bbbc",
-      "sha256": "ccd521c6d934d41d9e90d6ec648a31006bd47ab410c9db7c39eba4e25d76bbbc",
-      "bytes": 19755152,
-      "operation": "copied"
+      "source_sha256": "8def30380cd8bb9809466784df0cae9f412e3fec835043fa867f1f5015627eb6",
+      "sha256": "8def30380cd8bb9809466784df0cae9f412e3fec835043fa867f1f5015627eb6",
+      "bytes": 19668750,
+      "operation": "Updated Mean-only figure presentation; numerical inputs retained"
     },
     "figures/extended_numbered/Extended_Data_Fig04_noise.pdf": {
       "path": "08_Extended_Data/ExtendedDataFig04/figures/Extended_Data_Fig04_noise.pdf",
@@ -1953,17 +1953,17 @@
     },
     "figures/main/Figure03.png": {
       "path": "03_Figure03/figures/Figure03.png",
-      "source_sha256": "e3b2cef9134b4102bbfe8b501dc00cb965b97979f74027d94eff7ca72897051c",
-      "sha256": "e3b2cef9134b4102bbfe8b501dc00cb965b97979f74027d94eff7ca72897051c",
-      "bytes": 1098895,
-      "operation": "retained"
+      "source_sha256": "8d19add8ca2ad0b26c5d48cafc6b8155affdf2db6075667c057407551837c3c3",
+      "sha256": "8d19add8ca2ad0b26c5d48cafc6b8155affdf2db6075667c057407551837c3c3",
+      "bytes": 1092215,
+      "operation": "Updated Mean-only figure presentation; numerical inputs retained"
     },
     "figures/main/Figure03.svg": {
       "path": "03_Figure03/figures/Figure03.svg",
-      "source_sha256": "0f66db6e801b70ee9940a9c4bfaa6b82fc76897172f3a9a346d9e8e2a235c9e9",
-      "sha256": "0f66db6e801b70ee9940a9c4bfaa6b82fc76897172f3a9a346d9e8e2a235c9e9",
-      "bytes": 2002654,
-      "operation": "copied"
+      "source_sha256": "1374456a5a858c9e98bbefc6ab2413e161537141c4c2d46cd39e7e8152ae2c94",
+      "sha256": "1374456a5a858c9e98bbefc6ab2413e161537141c4c2d46cd39e7e8152ae2c94",
+      "bytes": 4383521,
+      "operation": "Updated Mean-only figure presentation; numerical inputs retained"
     },
     "figures/main/Figure04.png": {
       "path": "04_Figure04/figures/Figure04.png",
@@ -2149,10 +2149,10 @@
     },
     "submission_figures/Extended_Data_Fig04.pdf": {
       "path": "08_Extended_Data/ExtendedDataFig04/figures/Extended_Data_Fig04.pdf",
-      "source_sha256": "3fd011c5ccf2534ed2ba13e91a9ef1986db09b0986b334efa09d2bd391010f4b",
-      "sha256": "3fd011c5ccf2534ed2ba13e91a9ef1986db09b0986b334efa09d2bd391010f4b",
-      "bytes": 1254080,
-      "operation": "copied"
+      "source_sha256": "2cf641ea454cb55db1ca6c279b3c00a90f2115b318efbc6d65264c08afdac0c5",
+      "sha256": "2cf641ea454cb55db1ca6c279b3c00a90f2115b318efbc6d65264c08afdac0c5",
+      "bytes": 2092185,
+      "operation": "Updated Mean-only figure presentation; numerical inputs retained"
     },
     "submission_figures/Extended_Data_Fig05.pdf": {
       "path": "08_Extended_Data/ExtendedDataFig05/figures/Extended_Data_Fig05.pdf",
@@ -2226,10 +2226,10 @@
     },
     "submission_figures/Figure03.pdf": {
       "path": "03_Figure03/figures/Figure03.pdf",
-      "source_sha256": "26787c918b587b4a7261f5f74de0a8bf36e625e4b7cc959e5a715ebaed2d6b5b",
-      "sha256": "26787c918b587b4a7261f5f74de0a8bf36e625e4b7cc959e5a715ebaed2d6b5b",
-      "bytes": 751797,
-      "operation": "retained"
+      "source_sha256": "612065f1c84b8bb3027082561da93b75600c9bb1536d25e5b22ebe2a624f2d62",
+      "sha256": "612065f1c84b8bb3027082561da93b75600c9bb1536d25e5b22ebe2a624f2d62",
+      "bytes": 789589,
+      "operation": "Updated Mean-only figure presentation; numerical inputs retained"
     },
     "submission_figures/Figure04.pdf": {
       "path": "04_Figure04/figures/Figure04.pdf",
@@ -2828,10 +2828,10 @@
     },
     "upstream/plots/redraw_ed5.py": {
       "path": "09_Core/shared/plots/redraw_ed5.py",
-      "source_sha256": "758aa1b3b0ff26314cccec99e752bdb34f0b3a4d3facfa61df9fa3365ba20915",
-      "sha256": "758aa1b3b0ff26314cccec99e752bdb34f0b3a4d3facfa61df9fa3365ba20915",
-      "bytes": 9960,
-      "operation": "retained"
+      "source_sha256": "f48354e79ffd7989a5cc59f96bf0a49611bbc227d04bac5ea50b10b19b5d0f90",
+      "sha256": "f48354e79ffd7989a5cc59f96bf0a49611bbc227d04bac5ea50b10b19b5d0f90",
+      "bytes": 9996,
+      "operation": "Updated Mean-only figure presentation; numerical inputs retained"
     },
     "upstream/plots/redraw_extended.py": {
       "path": "09_Core/shared/plots/redraw_extended.py",
@@ -2860,6 +2860,69 @@
       "sha256": "6f09602bb16e256911f0bc43a1ccb388694d3d7fa2318ac5b45e3765ad87608e",
       "bytes": 2263,
       "operation": "retained"
+    },
+    "Code/mean_top3/figure03a.py": {
+      "path": "03_Figure03/code/a/figure3a_formal.py",
+      "source_sha256": "cd91263f2cef5ad835ff037121cdac843cda3745d436aa44fc9486fbe765482a",
+      "sha256": "a9067640aea3feb8eaadfd14b7ab003789c2e73cf193b0a9f09979a161e63a6c",
+      "bytes": 359,
+      "operation": "Portable formal vector presentation renderer"
+    },
+    "Code/mean_top3/ed04a.py": {
+      "path": "08_Extended_Data/ExtendedDataFig04/code/a/ed4a_formal.py",
+      "source_sha256": "2c35a97e4dd3fcee7f79ec9e578ab3ca77ea71dd04ed6bb1a118af484db202fd",
+      "sha256": "2a839de9734114544778ab12847b3325329d3d35f1e8ed5ab5c210c2fb484411",
+      "bytes": 351,
+      "operation": "Portable formal vector presentation renderer"
+    },
+    "Code/mean_top3/ed04b.py": {
+      "path": "08_Extended_Data/ExtendedDataFig04/code/b/ed4b_formal.py",
+      "source_sha256": "2fae265e5ad99140f6d440cd62640f2b99fce386da1efde5f0fcef449aecc279",
+      "sha256": "452944ff382f833c72c8202eb1481ca76aacf4234e086b6a6192832f2ca9d13a",
+      "bytes": 351,
+      "operation": "Portable formal vector presentation renderer"
+    },
+    "Code/mean_top3/mean_top3.py": {
+      "path": "09_Core/visualization/mean_top3/mean_top3.py",
+      "source_sha256": "8f4bfc726c53f5e3f5a4e429b7885c4fca5ad8a81be314a8455a3da2075da79f",
+      "sha256": "8f4bfc726c53f5e3f5a4e429b7885c4fca5ad8a81be314a8455a3da2075da79f",
+      "bytes": 13456,
+      "operation": "Portable formal vector presentation renderer"
+    },
+    "Code/mean_top3/requirements.txt": {
+      "path": "09_Core/visualization/mean_top3/requirements.txt",
+      "source_sha256": "24245e50f29d213570e1d0cc00ad18a51fe73e56196c6720e4bb953905b64871",
+      "sha256": "24245e50f29d213570e1d0cc00ad18a51fe73e56196c6720e4bb953905b64871",
+      "bytes": 48,
+      "operation": "Portable formal vector presentation renderer"
+    },
+    "Code/mean_top3/README.md": {
+      "path": "09_Core/visualization/mean_top3/README.md",
+      "source_sha256": "0795914b9df892e8b33c40c6983b5620787aaeede3fc3e1922f91df730c78707",
+      "sha256": "d16d6448fb7f16cc28e7d7fd10f651ce2b45511dc4a2b60f4698053c7288c205",
+      "bytes": 1554,
+      "operation": "Portable renderer documentation with public command examples"
+    },
+    "Code/mean_top3/assets/input_hashes.json": {
+      "path": "09_Core/visualization/mean_top3/assets/input_hashes.json",
+      "source_sha256": "91cef8a5b88884fbaa0d0ff5c2e230f4059788660b5fc29042eb38679ca8604b",
+      "sha256": "91cef8a5b88884fbaa0d0ff5c2e230f4059788660b5fc29042eb38679ca8604b",
+      "bytes": 408,
+      "operation": "Portable formal vector presentation renderer"
+    },
+    "Code/mean_top3/assets/Figure03_artwork.pdf": {
+      "path": "09_Core/visualization/mean_top3/assets/Figure03_artwork.pdf",
+      "source_sha256": "95dd4cc0d3384da282b4efcd20e62d9904e1de8a5588433b594409a279a1f164",
+      "sha256": "95dd4cc0d3384da282b4efcd20e62d9904e1de8a5588433b594409a279a1f164",
+      "bytes": 751797,
+      "operation": "Portable formal vector presentation renderer"
+    },
+    "Code/mean_top3/assets/Extended_Data_Fig04.pdf": {
+      "path": "09_Core/visualization/mean_top3/assets/Extended_Data_Fig04.pdf",
+      "source_sha256": "8aa53b47f065d5b1f8c4bc635fa9f27f96f980536418834f06a2fbff31089053",
+      "sha256": "8aa53b47f065d5b1f8c4bc635fa9f27f96f980536418834f06a2fbff31089053",
+      "bytes": 870092,
+      "operation": "Portable formal vector presentation renderer"
     }
   },
   "excluded": [
@@ -3328,5 +3391,16 @@
     "remaining_contents": "Current PDF, SVG and PNG plus navigation README",
     "shared_tables": "Retained in 11_Tables for independent use; removed from Figure 1 and 2 bindings",
     "artwork_unchanged": true
+  },
+  "mean_top3_update": {
+    "date": "2026-10-23",
+    "panels": [
+      "Figure03a",
+      "ED04a",
+      "ED04b"
+    ],
+    "numeric_inputs_changed": false,
+    "caption_text_changed": false,
+    "report": "12_Provenance/mean_top3_validation.json"
   }
 }

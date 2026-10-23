@@ -191,6 +191,9 @@ plot_summary = function(datapath,figpath,title_text = NULL,panel_label = NULL){
   x_max <- max(metrics[,44:45], na.rm = TRUE)
   metrics[,44:45] <- (metrics[,44:45] - x_min) / (x_max - x_min)
 
+  # Hide Median only after normalization, preserving the released Mean scale.
+  metrics$Median <- NULL
+
   # # drop NA rows
   # metrics %>%
   #   filter(!if_all(.fns = is.na))
@@ -235,16 +238,16 @@ plot_summary = function(datapath,figpath,title_text = NULL,panel_label = NULL){
 
   column_info$group = "Metrics"
   column_info[column_info$id =='Method','group'] = 'Text'
-  column_info[column_info$id %in% c('Median','Mean'),'group'] = 'Score'
+  column_info[column_info$id %in% c('Mean'),'group'] = 'Score'
 
 
   column_info$geom <- 'circle'
   column_info[column_info$id =='Method','geom'] = 'text'
-  column_info[column_info$id %in% c('Median','Mean'),'geom'] = 'bar'
+  column_info[column_info$id %in% c('Mean'),'geom'] = 'bar'
 
   column_info$width <- 1
   column_info[column_info$id =='Method','width'] = 6
-  column_info[column_info$id %in% c('Median','Mean'),'width'] = 3
+  column_info[column_info$id %in% c('Mean'),'width'] = 3
 
   column_info$overlay <- FALSE
 
@@ -420,7 +423,9 @@ plot_summary = function(datapath,figpath,title_text = NULL,panel_label = NULL){
   for(c in cols_bar){
     rect_tmp <- rect_data[rect_data$label == c,]
     rect_tmp <- add_column(rect_tmp, "label_value" = as.character(rank(-rect_tmp$value, ties.method = "min")))
-    rect_tmp <- rect_tmp[rect_tmp$label_value %in% c("1", "2", "3","4","5","6"), c("label_value", "xmin", "xmax", "ymin", "ymax")]
+    rect_tmp <- rect_tmp[rect_tmp$label_value %in% c("1", "2", "3"), c("label_value", "xmin", "xmax", "ymin", "ymax")]
+    rect_tmp$xmax <- rect_tmp$xmin + 0.8
+    rect_tmp$xmin <- rect_tmp$xmax
     rect_tmp <- add_column(rect_tmp, "size" = 2.5, .after = "ymax")
     rect_tmp <- add_column(rect_tmp, "colors" = "black", .after = "size")
     rect_tmp <- add_column(rect_tmp, "fontface" = "plain", .after = "colors")
@@ -1033,8 +1038,8 @@ plot_summary = function(datapath,figpath,title_text = NULL,panel_label = NULL){
   # }
   # subset text_data to left-aligned rows
 
-  text_data_left <- text_data[which(text_data$group == "Method" | text_data$group == "top3"), ]
-  text_data <- text_data[-which(text_data$group == "Method" | text_data$group == "top3"), ]
+  text_data_left <- text_data[which(text_data$group == "Method"), ]
+  text_data <- text_data[-which(text_data$group == "Method"), ]
 
   g <- g + geom_text(aes(x = x, y = y, label = label_value,
                          colour = colors, hjust = hjust, vjust = vjust,

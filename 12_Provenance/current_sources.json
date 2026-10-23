@@ -463,5 +463,14 @@
   "panel_split_20261023/ED11/a": "08_Extended_Data/ExtendedDataFig11/code/a/ed11a.py",
   "upstream/archive/Figure5_sources/code/panel_c/Figure5c_velocity_matrix_similarity_original.py#plot_reference_heatmap.py": "06_Figure06/code/b/historical/plot_reference_heatmap.py",
   "upstream/archive/Figure5_sources/code/panel_c/Figure5c_velocity_matrix_similarity_original.py#plot_pairwise_heatmaps.py": "06_Figure06/code/b/historical/plot_pairwise_heatmaps.py",
-  "upstream/archive/Figure5_sources/code/panel_c/Figure5c_velocity_matrix_similarity_original.py#plot_reference_lines.py": "06_Figure06/code/b/historical/plot_reference_lines.py"
+  "upstream/archive/Figure5_sources/code/panel_c/Figure5c_velocity_matrix_similarity_original.py#plot_reference_lines.py": "06_Figure06/code/b/historical/plot_reference_lines.py",
+  "Code/mean_top3/figure03a.py": "03_Figure03/code/a/figure3a_formal.py",
+  "Code/mean_top3/ed04a.py": "08_Extended_Data/ExtendedDataFig04/code/a/ed4a_formal.py",
+  "Code/mean_top3/ed04b.py": "08_Extended_Data/ExtendedDataFig04/code/b/ed4b_formal.py",
+  "Code/mean_top3/mean_top3.py": "09_Core/visualization/mean_top3/mean_top3.py",
+  "Code/mean_top3/requirements.txt": "09_Core/visualization/mean_top3/requirements.txt",
+  "Code/mean_top3/README.md": "09_Core/visualization/mean_top3/README.md",
+  "Code/mean_top3/assets/input_hashes.json": "09_Core/visualization/mean_top3/assets/input_hashes.json",
+  "Code/mean_top3/assets/Figure03_artwork.pdf": "09_Core/visualization/mean_top3/assets/Figure03_artwork.pdf",
+  "Code/mean_top3/assets/Extended_Data_Fig04.pdf": "09_Core/visualization/mean_top3/assets/Extended_Data_Fig04.pdf"
 }

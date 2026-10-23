@@ -4,7 +4,7 @@ Each panel has its own directory. The original combined a/b/c/d/f notebook has b
 
 | Panel | Content | Directory and entrypoint |
 |---|---|---|
-| [a](a/README.md) | High-dimensional simulation cosines | [a/figure3a.R](a/figure3a.R) |
+| [a](a/README.md) | High-dimensional simulation cosines | [a/figure3a_formal.py](a/figure3a_formal.py) (formal); [R alternative](a/figure3a.R) |
 | [b](b/README.md) | Method-level high- versus low-dimensional comparison | [b/figure3b.R](b/figure3b.R) |
 | [c](c/README.md) | Paired high- versus low-dimensional distributions | [c/figure3c.R](c/figure3c.R) |
 | [d](d/README.md) | PCA dimension sensitivity (2-30) | [d/figure3d.R](d/figure3d.R) |
@@ -21,7 +21,7 @@ Install the R packages in [requirements-R.txt](requirements-R.txt), then run fro
 FIGURE3_OUT=/tmp/figure3-panels Rscript --vanilla 03_Figure03/code/render_all.R
 ```
 
-The runner calls the seven individual numerical panel scripts. Each can also run alone. Without `FIGURE3_OUT`, outputs go to `demo_output/figure3`. Panel e is manually composed artwork. The retained formal figure is unchanged.
+The runner calls the seven individual numerical panel scripts. Each can also run alone. Without `FIGURE3_OUT`, outputs go to `demo_output/figure3`. Panel e is manually composed artwork. Panel a in the current formal figure has a Mean-only summary with aligned top-three ranks; use its Python formal entrypoint for this exact presentation.
 
 The renderers were recovered from `Manuscript_2607/Figure3_sources`; all nine numerical input CSVs are byte-identical to the current Manuscript_1021 inputs. R syntax, path bindings and preserved computation blocks were checked. Full R plotting execution was not completed because available environments lack required packages. These checks do not certify identical formal rendering or a model rerun.
 
@@ -40,3 +40,12 @@ python 03_Figure03/code/validate_panel_data.py --out /tmp/figure3-panel-validati
 This recalculates 435 panel-d dimension summaries, 798 panel-f aligned units and their pairwise-complete Pearson correlations. Missing values remain missing.
 
 [Recovery hashes and scope](../../12_Provenance/figure3_code_recovery.json) · [Figure overview](../README.md)
+
+## Current formal panel a (23 October 2026)
+
+```bash
+python -m pip install -r 09_Core/visualization/mean_top3/requirements.txt
+python 03_Figure03/code/a/figure3a_formal.py --out demo_output/mean_top3
+```
+
+This renders one formal panel as PDF/SVG/PNG using the current data and the retained vector template. It validates the Mean scale and ranks and preserves the other visual encodings. [Renderer scope](../../09_Core/visualization/mean_top3/README.md). The R alternative also hides Median and aligns ranks 1–3, but is not the exact formal compositor.

@@ -84,3 +84,7 @@ Most original diagnostic output stems retain historical IDs for compatibility. E
 ## Validation
 
 All 37 current Python entrypoints were executed independently and each produced one PDF/SVG plot plus a source record. All 17 original diagnostic outputs are pixel-identical to the former batch implementation. The three separated historical read-depth plot files were also executed using the packaged pairwise values. R syntax and the six split notebook structures passed; historical R drawing and external-H5AD metric computation were not rerun. All 352 existing data/artwork files retained their hashes. [Machine-readable validation](panel_split_validation.json).
+
+## Formal Mean-only panels (23 October 2026)
+
+The current formal vector entrypoints are [Figure 3a](../03_Figure03/code/a/figure3a_formal.py), [ED4a](../08_Extended_Data/ExtendedDataFig04/code/a/ed4a_formal.py), and [ED4b](../08_Extended_Data/ExtendedDataFig04/code/b/ed4b_formal.py). Each writes one PDF/SVG/PNG panel with only Mean and aligned ranks 1–3. The existing saved-data diagnostics remain separate. [Validation](mean_top3_validation.json).

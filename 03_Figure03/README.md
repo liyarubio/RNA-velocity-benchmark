@@ -1,6 +1,6 @@
 # Figure03 — Evaluation on simulated and conventional datasets
 
-Current release: **Manuscript_1021**, including updates through **22 October 2026**. Historical numerical source ID: **Figure03**.
+Current release: **Manuscript_1021**, including figure presentation updates through **23 October 2026**. Historical numerical source ID: **Figure03**.
 
 740 pairs in the main figure and 698 in Extended Data. Per-dataset maxima are a post hoc envelope.
 
@@ -9,6 +9,10 @@ Current release: **Manuscript_1021**, including updates through **22 October 202
 ## Panel code a-h
 
 [Open the complete panel-by-panel code guide](code/README.md). Each panel has its own directory under `code/a` through `code/h`; each numerical panel has its own drawing entrypoint, and a/b/c/d/f have separate metric notebooks; e is retained manual artwork. The earlier g/h-only historical folder was a subset of the available code. Recovery uses the current 1021 CSVs, with hashes and execution limits recorded in the guide.
+
+## Mean-only summary update
+
+The simulation summary columns now display Mean only, with ranks 1–3 aligned inside the bars. Numerical inputs and normalization are unchanged. Companion caption text is retained for author revision. See the panel code guide for independent formal rendering commands.
 
 ## Current files
 

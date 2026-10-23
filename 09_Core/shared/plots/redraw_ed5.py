@@ -51,7 +51,7 @@ cmap=LinearSegmentedColormap.from_list('original_blue',['#08306b','#2171b5','#6b
 audit={'source_workbook_sha256':hashlib.sha256(SRC.read_bytes()).hexdigest(),'panels':{},
        'style_reference':str(B/'Assets/original/Extended_Figures_submission.pdf'),
        'reference_pdf_page_1based':5,'models_rerun':False,
-       'display_normalization':'Per-panel global min-minus-0.01 to max for dot area; column-wise average rank for blue fill. Median/Mean use raw cosine across datasets and joint min-minus-0.01/max for bar width. Raw values preserved.',
+       'display_normalization':'Per-panel global min-minus-0.01 to max for dot area; column-wise average rank for blue fill. Mean uses raw cosine across datasets and the original joint Median/Mean min-minus-0.01/max for bar width; only the top three ranks are displayed. Raw values preserved.',
        'missing':'No dot/box or summary substitution; missing results remain missing.'}
 for letter,sheet,top,title in [
     ('a','Gene-level cosine',82,'Cosine Similarity of High-dim RNA Velocity in Gene Level on Dyngen Simulation Datasets (n=42)'),
@@ -59,7 +59,7 @@ for letter,sheet,top,title in [
     df=tables[sheet];v=df.to_numpy();m=len(df);ax=ax_at(28,top,712,190)
     ax.set(xlim=(-6.3,48.0),ylim=(m-.5,-.5));ax.axis('off')
     for i,method in enumerate(df.index):
-        if i%2==0:ax.add_patch(Rectangle((-6.3,i-.5),54.3,1,facecolor='#dedede',edgecolor='none'))
+        if i%2==0:ax.add_patch(Rectangle((-6.3,i-.5),51.3,1,facecolor='#dedede',edgecolor='none'))
         ax.text(-6.15,i,method,va='center',fontsize=6.1)
     low=float(np.nanmin(v))-.01;high=float(np.nanmax(v));sizes=(v-low)/(high-low)
     ranks=df.rank(axis=0,method='average',ascending=False)
@@ -73,14 +73,14 @@ for letter,sheet,top,title in [
     med=df.median(axis=1);mean=df.mean(axis=1)
     blo=min(med.min(),mean.min())-.01;bhi=max(med.max(),mean.max())
     sums=pd.DataFrame({'median_raw':med,'mean_raw':mean,'valid_datasets':df.count(axis=1)})
-    for x,series,title2 in [(43,med,'Median'),(46,mean,'Mean')]:
+    for x,series,title2 in [(43,mean,'Mean')]:
         rank=series.rank(ascending=False,method='min');avgrank=series.rank(ascending=False,method='average')
         norm=(series-blo)/(bhi-blo)
         ax.text(x+.2,-.8,title2,rotation=30,ha='left',va='bottom',fontsize=5.5)
         for i,value in enumerate(norm):
             if not np.isfinite(value):continue
             ax.add_patch(Rectangle((x-.7,i-.46),1.95*value,.92,facecolor=cmap(1-(avgrank.iloc[i]-1)/(m-1)),edgecolor='#555555',linewidth=.4))
-            if rank.iloc[i]<=6:ax.text(x-.7+1.95*value/2,i,str(int(rank.iloc[i])),ha='center',va='center',fontsize=4.8)
+            if rank.iloc[i]<=3:ax.text(x-.7+1.95*.4,i,str(int(rank.iloc[i])),ha='center',va='center',fontsize=4.8)
         sums[title2.lower()+'_rank']=rank
     text(16,top-55,letter,fontweight='bold',fontsize=12)
     text(395,top-55,title,ha='center',fontsize=8)
