@@ -19,3 +19,5 @@ Historical metric generators require external H5ADs and original method environm
 Run `python 03_Figure03/code/h/figure3h_formal.py --out demo_output/figure3h_mean` from the repository root. Install [the shared rendering dependencies](../../../09_Core/visualization/mean_top3/requirements.txt).
 
 Methods run from highest to lowest mean GDC across their available values in the ten datasets. Missing values remain missing, and ties retain the previous display order. The per-dataset **Best performance** envelope remains at the far right and is excluded from the ranking. The command writes a PDF/SVG/PNG panel, `method_order.csv` with the mean and valid dataset count, and validation JSON. The R alternative applies the same ordering. No model evaluation is rerun.
+
+The **Mean** row below the heatmap displays the 19 method means to two decimal places, centered beneath their respective columns. It excludes missing dataset values. The best-performance envelope has no method-mean cell. See the [Mean-row validation](../../../12_Provenance/figure3h_mean_row_validation.json).

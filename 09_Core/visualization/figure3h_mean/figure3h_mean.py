@@ -1,11 +1,11 @@
-"""Order formal Figure 3h method columns by descending available-case mean GDC.
+"""Order Figure 3h by available-case mean GDC and display a method Mean row.
 
 The retained vector template supplies the exact cells and colors. Current CSV
 values determine the order; missing results remain missing. This is a
 presentation change, not a model rerun. The best-performance envelope stays last.
 """
 from pathlib import Path
-import argparse, hashlib, json, sys
+import argparse, hashlib, json, re, sys
 sys.path.insert(0,str(Path(__file__).resolve().parent.parent/'mean_top3'))
 from mean_top3 import fitz, np, pd, visible_drawings, text_spans, original_font, save_artwork
 HERE=Path(__file__).resolve().parent
@@ -131,7 +131,96 @@ def reorder(doc=None):
         numeric_inputs_changed=False,models_rerun=False,changed_regions=[list(matrix),list(labels)],
         unchanged_area_max_pixel_difference=int(delta.max()),permuted_cell_centers_checked=190,
         method_color_strips_checked=19,missing_cells_retained=int(data.isna().sum().sum()),label_origins=label_origins)
+    audit['mean_row']=add_mean_row(out,means.loc[order],strips)
+    audit['changed_regions'].append(audit['mean_row']['changed_region'])
     return out,audit
+
+def add_mean_row(doc,means,strips):
+    """Make room inside panel h, retaining font sizes and the column labels.
+
+    The ten dataset rows become slightly shorter. The Mean row is a numeric
+    summary with a white background, separate from the GDC heatmap scale.
+    Best performance is an envelope, not a method, so has no summary cell.
+    """
+    before=fitz.open(stream=doc.tobytes(),filetype='pdf');page=doc[0]
+    region=fitz.Rect(321.8,618.4,545.7,707.7)
+    top,bottom=618.623291015625,707.454345703125
+    summary_height=8.5;factor=(bottom-top-summary_height)/(bottom-top)
+    ymap=lambda y:top+(y-top)*factor
+    point=lambda p:fitz.Point(p.x,ymap(p.y))
+    drawings=[d for d in visible_drawings(before[0]) if region.contains(d['rect'])]
+    labels=[s for s,_ in text_spans(before[0]) if region.contains(fitz.Rect(s['bbox']))]
+    raw_labels={''.join(c['c'] for c in s['chars']):s for b in before[0].get_text('rawdict')['blocks']
+                for line in b.get('lines',[]) for s in line['spans'] if region.contains(fitz.Rect(s['bbox']))}
+    assert len(labels)==10
+    font=original_font(before,before[0],labels[0]['font'],required='Mean0123456789.-')
+    page.add_redact_annot(region,fill=(1,1,1),cross_out=False)
+    page.apply_redactions(images=0,graphics=1,text=0)
+    for drawing in drawings:
+        shape=page.new_shape()
+        for item in drawing['items']:
+            if item[0]=='re':
+                r=item[1];shape.draw_rect(fitz.Rect(r.x0,ymap(r.y0),r.x1,ymap(r.y1)))
+            elif item[0]=='l':shape.draw_line(point(item[1]),point(item[2]))
+            else:raise AssertionError('Unexpected heatmap path: '+item[0])
+        shape.finish(color=drawing.get('color'),fill=drawing.get('fill'),
+                     width=drawing.get('width') or 0,closePath=bool(drawing.get('closePath')),
+                     even_odd=bool(drawing.get('even_odd')))
+        shape.commit()
+    page.insert_font(fontname='MeanRowFont',fontbuffer=font.buffer)
+    for s in labels:
+        center=(s['bbox'][1]+s['bbox'][3])/2
+        # The embedded subset has positioned word gaps but no space glyph.
+        # Preserve those original word positions instead of inserting tofu.
+        chars=raw_labels[s['text']]['chars']
+        for word in re.finditer(r'\S+',s['text']):
+            at=chars[word.start()]['origin']
+            page.insert_text((at[0],at[1]+ymap(center)-center),word.group(),
+                             fontname='MeanRowFont',fontsize=s['size'])
+    values=[f'{value:.2f}' for value in means]
+    size=min(3.4,min((s['rect'].width-.7)/font.text_length(v,fontsize=1)
+                    for s,v in zip(strips,values)))
+    center=bottom-summary_height/2+.4
+    baseline=center+(font.ascender+font.descender)*size/2
+    label_size=labels[0]['size']
+    label_baseline=center+(font.ascender+font.descender)*label_size/2
+    page.insert_text((377.8-font.text_length('Mean',fontsize=label_size),label_baseline),
+                     'Mean',fontname='MeanRowFont',fontsize=label_size)
+    boxes=[]
+    for method,value,strip in zip(means.index,values,strips):
+        r=strip['rect'];x=(r.x0+r.x1)/2
+        w=font.text_length(value,fontsize=size)
+        page.insert_text((x-w/2,baseline),value,fontname='MeanRowFont',fontsize=size)
+        boxes.append(dict(method=method,value=value,center_x=x,baseline_y=baseline,
+                          bbox=[x-w/2,baseline-font.ascender*size,x+w/2,baseline-font.descender*size]))
+    page.draw_line((strips[0]['rect'].x0,bottom-summary_height+1),
+                   (strips[-1]['rect'].x1,bottom-summary_height+1),color=(.55,.55,.55),width=.25)
+    # Compare serialized documents, including all unchanged panels and labels.
+    after=fitz.open(stream=doc.tobytes(),filetype='pdf');zoom=4
+    assert all(s['text'] in after[0].get_text() for s in labels), 'Dataset labels changed'
+    pix=[p[0].get_pixmap(matrix=fitz.Matrix(zoom,zoom),alpha=False) for p in [before,after]]
+    a,b=[np.frombuffer(p.samples,dtype=np.uint8).reshape(p.height,p.width,3) for p in pix]
+    mask=np.ones(a.shape[:2],dtype=bool)
+    mask[int(region.y0*zoom)-2:int(region.y1*zoom)+3,int(region.x0*zoom)-2:int(region.x1*zoom)+3]=False
+    delta=np.abs(a.astype(np.int16)-b.astype(np.int16))[mask]
+    assert delta.max()==0,'Mean row changed artwork outside the heatmap body'
+    centers=[(s['rect'].x0+s['rect'].x1)/2 for s in strips]+[541.4231]
+    for x in centers:
+        for i in range(10):
+            y=top+(i+.5)*(bottom-top)/10
+            assert np.array_equal(a[int(y*zoom),int(x*zoom)],b[int(ymap(y)*zoom),int(x*zoom)])
+    row=[dict(text=w[4],bbox=w[:4]) for w in after[0].get_text('words')
+         if w[0]>378 and w[1]>bottom-summary_height+1 and w[3]<bottom+1]
+    assert [s['text'] for s in row]==values, [(s['text'],s['bbox']) for s in row]
+    for actual,expected,strip in zip(row,boxes,strips):
+        r=fitz.Rect(actual['bbox']);assert strip['rect'].x0<r.x0<r.x1<strip['rect'].x1
+        assert abs((r.x0+r.x1)/2-expected['center_x'])<.03
+        assert bottom-summary_height+1<r.y0<r.y1<bottom
+    return dict(status='pass',label='Mean',display_values=values,decimal_places=2,
+        method_count=len(means),font_size=size,alignment='Centered in each method column on one baseline',
+        cells=boxes,best_performance_summary=None,changed_region=list(region),
+        unchanged_area_max_pixel_difference=int(delta.max()),dataset_cell_centers_checked=200,
+        dataset_row_height_factor=factor)
 
 def main():
     parser=argparse.ArgumentParser(description=__doc__);parser.add_argument('--out',type=Path,default=Path('demo_output/figure3h_mean'))
@@ -141,6 +230,6 @@ def main():
     (args.out/'validation.json').write_text(json.dumps(audit,indent=2)+'\n')
     pd.DataFrame({'Method':audit['order'],'Mean':[audit['means'][m] for m in audit['order']],
                   'Valid datasets':[audit['valid_datasets'][m] for m in audit['order']]}).to_csv(args.out/'method_order.csv',index=False)
-    print('Figure03h: 19 methods sorted by descending mean; vector/color and unchanged-area checks passed')
+    print('Figure03h: 19 methods sorted by descending mean with a Mean row; vector/color and unchanged-area checks passed')
 
 if __name__=='__main__':main()
