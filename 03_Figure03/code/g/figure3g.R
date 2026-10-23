@@ -1,7 +1,7 @@
 args <- commandArgs(trailingOnly = FALSE)
 file_arg <- grep("^--file=", args, value = TRUE)
 script_dir <- if (length(file_arg)) dirname(normalizePath(sub("^--file=", "", file_arg[[1]]))) else normalizePath(getwd())
-source(file.path(script_dir, "figure3_common.R"))
+source(file.path(script_dir, "../shared/figure3_common.R"))
 
 input_csv <- file.path(DATA_DIR, "Figure3g_hubmap_global_performance.csv")
 wide <- fread(input_csv, check.names = FALSE, na.strings = c("", "NA", "NaN"))

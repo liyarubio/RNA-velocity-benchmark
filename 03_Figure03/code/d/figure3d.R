@@ -1,7 +1,7 @@
 args <- commandArgs(trailingOnly = FALSE)
 file_arg <- grep("^--file=", args, value = TRUE)
 script_dir <- if (length(file_arg)) dirname(normalizePath(sub("^--file=", "", file_arg[[1]]))) else normalizePath(getwd())
-source(file.path(script_dir, "figure3_common.R"))
+source(file.path(script_dir, "../shared/figure3_common.R"))
 
 pca_file <- file.path(DATA_DIR, "Figure3d_pca2_to_30_cosine_similarity.csv")
 high_file <- file.path(DATA_DIR, "Figure3a_high_dim_cosine_similarity.csv")

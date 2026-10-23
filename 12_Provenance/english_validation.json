@@ -1,8 +1,8 @@
 {
   "status": "pass",
   "counts": {
-    "paths": 796,
-    "text_files": 684,
+    "paths": 805,
+    "text_files": 693,
     "decoded_json_files": 150,
     "workbooks": 23,
     "pdf_files": 45

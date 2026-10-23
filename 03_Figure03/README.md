@@ -8,7 +8,7 @@ Current release: **Manuscript_1021**, including updates through **22 October 202
 
 ## Panel code a-h
 
-[Open the complete panel-by-panel code guide](code/README.md). Plotting code for a-d and f-h is in `code/panels`; e is retained manual artwork. The earlier g/h-only historical folder was a subset of the available code. Recovery uses the current 1021 CSVs, with hashes and execution limits recorded in the guide.
+[Open the complete panel-by-panel code guide](code/README.md). Each panel has its own directory under `code/a` through `code/h`; common upstream computation is in `code/shared`; e is retained manual artwork. The earlier g/h-only historical folder was a subset of the available code. Recovery uses the current 1021 CSVs, with hashes and execution limits recorded in the guide.
 
 ## Current files
 
@@ -36,9 +36,9 @@ Current release: **Manuscript_1021**, including updates through **22 October 202
 | data | [data/figure3_detail/Figure3h_data10_global.csv](<data/figure3_detail/Figure3h_data10_global.csv>) |
 | data | [data/figure3_detail/Figure3h_dataset10_global_performance.csv](<data/figure3_detail/Figure3h_dataset10_global_performance.csv>) |
 | data | [data/figure3_detail/data_manifest.csv](<data/figure3_detail/data_manifest.csv>) |
-| code | [code/historical/figure3/Figure3g_01a_hubmap_global_eval_cell2fate.py](<code/historical/figure3/Figure3g_01a_hubmap_global_eval_cell2fate.py>) |
-| code | [code/historical/figure3/Figure3g_01b_hubmap_global_eval_topicvelo.py](<code/historical/figure3/Figure3g_01b_hubmap_global_eval_topicvelo.py>) |
-| code | [code/historical/figure3/Figure3h_01_dataset10_compute_global_metrics.py](<code/historical/figure3/Figure3h_01_dataset10_compute_global_metrics.py>) |
+| code | [code/g/Figure3g_01a_hubmap_global_eval_cell2fate.py](<code/g/Figure3g_01a_hubmap_global_eval_cell2fate.py>) |
+| code | [code/g/Figure3g_01b_hubmap_global_eval_topicvelo.py](<code/g/Figure3g_01b_hubmap_global_eval_topicvelo.py>) |
+| code | [code/h/Figure3h_01_dataset10_compute_global_metrics.py](<code/h/Figure3h_01_dataset10_compute_global_metrics.py>) |
 | code | [../09_Core/model_execution/Run_velocity/config.py](<../09_Core/model_execution/Run_velocity/config.py>) |
 | code | [../09_Core/model_execution/Run_velocity/run_bivi.py](<../09_Core/model_execution/Run_velocity/run_bivi.py>) |
 | code | [../09_Core/model_execution/Run_velocity/run_cell2fate.py](<../09_Core/model_execution/Run_velocity/run_cell2fate.py>) |
@@ -62,17 +62,18 @@ Current release: **Manuscript_1021**, including updates through **22 October 202
 | code | [../09_Core/model_execution/Run_velocity/run_velovi.py](<../09_Core/model_execution/Run_velocity/run_velovi.py>) |
 | code | [../09_Core/model_execution/Run_velogif.py](<../09_Core/model_execution/Run_velogif.py>) |
 | code | [../09_Core/model_execution/run_velogif_batch.py](<../09_Core/model_execution/run_velogif_batch.py>) |
-| code | [code/panels/figure3a.R](<code/panels/figure3a.R>) |
-| code | [code/panels/figure3a_plot_core.R](<code/panels/figure3a_plot_core.R>) |
-| code | [code/panels/figure3bc.R](<code/panels/figure3bc.R>) |
-| code | [code/panels/figure3d.R](<code/panels/figure3d.R>) |
-| code | [code/panels/figure3f.R](<code/panels/figure3f.R>) |
-| code | [code/panels/figure3g.R](<code/panels/figure3g.R>) |
-| code | [code/panels/figure3h.R](<code/panels/figure3h.R>) |
-| code | [code/panels/figure3_common.R](<code/panels/figure3_common.R>) |
-| code | [code/panels/render_all.R](<code/panels/render_all.R>) |
-| code | [code/historical/figure3/Figure3abcdf_cell_level_metric_generation.ipynb](<code/historical/figure3/Figure3abcdf_cell_level_metric_generation.ipynb>) |
-| code | [code/historical/figure3/Figure3f_global_incluster_direction_generation.ipynb](<code/historical/figure3/Figure3f_global_incluster_direction_generation.ipynb>) |
+| code | [code/a/figure3a.R](<code/a/figure3a.R>) |
+| code | [code/a/figure3a_plot_core.R](<code/a/figure3a_plot_core.R>) |
+| code | [code/b/figure3b.R](<code/b/figure3b.R>) |
+| code | [code/c/figure3c.R](<code/c/figure3c.R>) |
+| code | [code/d/figure3d.R](<code/d/figure3d.R>) |
+| code | [code/f/figure3f.R](<code/f/figure3f.R>) |
+| code | [code/g/figure3g.R](<code/g/figure3g.R>) |
+| code | [code/h/figure3h.R](<code/h/figure3h.R>) |
+| code | [code/shared/figure3_common.R](<code/shared/figure3_common.R>) |
+| code | [code/render_all.R](<code/render_all.R>) |
+| code | [code/shared/simulation_velocity_metrics.ipynb](<code/shared/simulation_velocity_metrics.ipynb>) |
+| code | [code/f/global_incluster_direction_metrics.ipynb](<code/f/global_incluster_direction_metrics.ipynb>) |
 | code | [code/validate_panel_data.py](<code/validate_panel_data.py>) |
 
 ## Code and validation

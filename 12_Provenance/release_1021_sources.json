@@ -2421,21 +2421,21 @@
       "operation": "retained"
     },
     "upstream/archive/figure3/Figure3g_01a_hubmap_global_eval_cell2fate.py": {
-      "path": "03_Figure03/code/historical/figure3/Figure3g_01a_hubmap_global_eval_cell2fate.py",
+      "path": "03_Figure03/code/g/Figure3g_01a_hubmap_global_eval_cell2fate.py",
       "source_sha256": "8e75e1809a97250f2f4291183c0ef44a0c719c6ae3e98609a466c88ab0df0456",
       "sha256": "2e9d5d22c500ace1e32be905c04bc32ffdff612ec88f0f29fc137019742ced8f",
       "bytes": 18126,
       "operation": "retained_English_translation"
     },
     "upstream/archive/figure3/Figure3g_01b_hubmap_global_eval_topicvelo.py": {
-      "path": "03_Figure03/code/historical/figure3/Figure3g_01b_hubmap_global_eval_topicvelo.py",
+      "path": "03_Figure03/code/g/Figure3g_01b_hubmap_global_eval_topicvelo.py",
       "source_sha256": "e87575ae9eaa7d08643cbf9de56ca3eb46849fbec1ba5a1dbc01ed41171e5819",
       "sha256": "f30d4177e7a6bf0cc8eb3eb0b975dbc5949c72fa0e6f306bb3856b38c3718f31",
       "bytes": 18553,
       "operation": "retained_English_translation"
     },
     "upstream/archive/figure3/Figure3h_01_dataset10_compute_global_metrics.py": {
-      "path": "03_Figure03/code/historical/figure3/Figure3h_01_dataset10_compute_global_metrics.py",
+      "path": "03_Figure03/code/h/Figure3h_01_dataset10_compute_global_metrics.py",
       "source_sha256": "5c4f9bb9208206bbcf08f05af37110102a73771f0a63800fff35a91883f92ac0",
       "sha256": "7a29054949d9421be47561ebe9f552cb3a663d7c05437e6fadc203781bcd54e0",
       "bytes": 26123,

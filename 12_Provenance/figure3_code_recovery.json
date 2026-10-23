@@ -7,79 +7,86 @@
     {
       "source": "Manuscript_2607/Figure3_sources/figure3a.R",
       "source_sha256": "201309731da8335265d65c7b0a268f79d599898cdcdc3bf78d2419ae6b543631",
-      "path": "03_Figure03/code/panels/figure3a.R",
+      "path": "03_Figure03/code/a/figure3a.R",
       "sha256": "a7e2e9e34d0ff28d2d73a7c0e8499931d376fddc704d02d8769599d17883e71f",
-      "changes": "Current repository input paths and configurable output path; English comments and whitespace; panel g fixed jitter seed; e excluded as retained schematic."
+      "changes": "Current repository input paths and configurable output path; English comments and whitespace; panel g fixed jitter seed; e excluded as retained schematic. Organized into panel-specific directories and shared computation."
     },
     {
       "source": "Manuscript_2607/Figure3_sources/figure3a_plot_core.R",
       "source_sha256": "42b21a00ecdf790750cd85418a24fd337f7dd10e1071e096525afee100ce1614",
-      "path": "03_Figure03/code/panels/figure3a_plot_core.R",
+      "path": "03_Figure03/code/a/figure3a_plot_core.R",
       "sha256": "46329bc38f4f15f01ca986e956cba18e064606243fb97a2921fe316499317df5",
-      "changes": "Current repository input paths and configurable output path; English comments and whitespace; panel g fixed jitter seed; e excluded as retained schematic."
+      "changes": "Current repository input paths and configurable output path; English comments and whitespace; panel g fixed jitter seed; e excluded as retained schematic. Organized into panel-specific directories and shared computation."
     },
     {
       "source": "Manuscript_2607/Figure3_sources/figure3bc.R",
       "source_sha256": "5b27bc79f836390075217b4b65082eca4e4932ea2aa07ba3a3922c472abdb9eb",
-      "path": "03_Figure03/code/panels/figure3bc.R",
-      "sha256": "5b27bc79f836390075217b4b65082eca4e4932ea2aa07ba3a3922c472abdb9eb",
-      "changes": "Current repository input paths and configurable output path; English comments and whitespace; panel g fixed jitter seed; e excluded as retained schematic."
+      "path": "03_Figure03/code/b/figure3b.R",
+      "sha256": "3c0df18967f5b9c7ef6afea720836f814643c7ea77c34657bca82f3c24fc7f47",
+      "changes": "Current repository input paths and configurable output path; English comments and whitespace; panel g fixed jitter seed; e excluded as retained schematic. Organized into panel-specific directories and shared computation. Extracted panel b; original statistical and plotting statements preserved."
     },
     {
       "source": "Manuscript_2607/Figure3_sources/figure3d.R",
       "source_sha256": "7977eef6f0f348d1f002a8c80ee8a9d5a7824ec22d5ef94e9b77eee0675dc70c",
-      "path": "03_Figure03/code/panels/figure3d.R",
-      "sha256": "7977eef6f0f348d1f002a8c80ee8a9d5a7824ec22d5ef94e9b77eee0675dc70c",
-      "changes": "Current repository input paths and configurable output path; English comments and whitespace; panel g fixed jitter seed; e excluded as retained schematic."
+      "path": "03_Figure03/code/d/figure3d.R",
+      "sha256": "afff6ef7aa979f019d6bd40106ef301dd669f13adde24d28f08da297ba2cca82",
+      "changes": "Current repository input paths and configurable output path; English comments and whitespace; panel g fixed jitter seed; e excluded as retained schematic. Organized into panel-specific directories and shared computation."
     },
     {
       "source": "Manuscript_2607/Figure3_sources/figure3f.R",
       "source_sha256": "3b49a258f517bed8196e72aef4ea5baebde2caaa03fc2227acda5ef8cc0940b4",
-      "path": "03_Figure03/code/panels/figure3f.R",
-      "sha256": "3b49a258f517bed8196e72aef4ea5baebde2caaa03fc2227acda5ef8cc0940b4",
-      "changes": "Current repository input paths and configurable output path; English comments and whitespace; panel g fixed jitter seed; e excluded as retained schematic."
+      "path": "03_Figure03/code/f/figure3f.R",
+      "sha256": "4ca2a08a3d985ef3d666ea71e90c68441898fb70e3cdfddebb9ce57385f3e0df",
+      "changes": "Current repository input paths and configurable output path; English comments and whitespace; panel g fixed jitter seed; e excluded as retained schematic. Organized into panel-specific directories and shared computation."
     },
     {
       "source": "Manuscript_2607/Figure3_sources/figure3g.R",
       "source_sha256": "326fb2dd6280c57460fe7a1722daf57d5056466a8f91560db098e28708d28a2b",
-      "path": "03_Figure03/code/panels/figure3g.R",
-      "sha256": "3d6eb4f95b3d9097bec4ca717e0c1233412808cc54eb3355fdcfc67cb9ca8c07",
-      "changes": "Current repository input paths and configurable output path; English comments and whitespace; panel g fixed jitter seed; e excluded as retained schematic."
+      "path": "03_Figure03/code/g/figure3g.R",
+      "sha256": "ebd3daae474bce0b7b63043c3309e497ba9671cb591aad9000fe351b0c916c58",
+      "changes": "Current repository input paths and configurable output path; English comments and whitespace; panel g fixed jitter seed; e excluded as retained schematic. Organized into panel-specific directories and shared computation."
     },
     {
       "source": "Manuscript_2607/Figure3_sources/figure3h.R",
       "source_sha256": "6d69e2590b6499fb2e0438a107b46295b74ba4bd272db95a03705c1e088ca44e",
-      "path": "03_Figure03/code/panels/figure3h.R",
+      "path": "03_Figure03/code/h/figure3h.R",
       "sha256": "c57ee9ac0d42da69144090ffbd33cd8f98629e038e0f32a21b8ca59f42677ccd",
-      "changes": "Current repository input paths and configurable output path; English comments and whitespace; panel g fixed jitter seed; e excluded as retained schematic."
+      "changes": "Current repository input paths and configurable output path; English comments and whitespace; panel g fixed jitter seed; e excluded as retained schematic. Organized into panel-specific directories and shared computation."
     },
     {
       "source": "Manuscript_2607/Figure3_sources/figure3_common.R",
       "source_sha256": "9a9b966053d3f860a6d19b00fff9a795c729c03f754350d421edca054cd10fb0",
-      "path": "03_Figure03/code/panels/figure3_common.R",
+      "path": "03_Figure03/code/shared/figure3_common.R",
       "sha256": "076f4985495e327dbfc6c07b0431a4891075f8d23a6f18b5b994543f00a3a3b4",
-      "changes": "Current repository input paths and configurable output path; English comments and whitespace; panel g fixed jitter seed; e excluded as retained schematic."
+      "changes": "Current repository input paths and configurable output path; English comments and whitespace; panel g fixed jitter seed; e excluded as retained schematic. Organized into panel-specific directories and shared computation."
     },
     {
       "source": "Manuscript_2607/Figure3_sources/render_all.R",
       "source_sha256": "fabcb6addf907bb5ac488a2cdfd935a494d3f58227587e9f4a9ccf4815fdb50c",
-      "path": "03_Figure03/code/panels/render_all.R",
-      "sha256": "03ab5559b3ce5106cab277bf08d7eb4e413db98b1aab09ff3db84ca387b03160",
-      "changes": "Current repository input paths and configurable output path; English comments and whitespace; panel g fixed jitter seed; e excluded as retained schematic."
+      "path": "03_Figure03/code/render_all.R",
+      "sha256": "eb98b3e77ad20f42bb4372d8cbb525e401600600f6d52b793c5e66fed1192cbb",
+      "changes": "Current repository input paths and configurable output path; English comments and whitespace; panel g fixed jitter seed; e excluded as retained schematic. Organized into panel-specific directories and shared computation."
     },
     {
       "source": "Manuscript_2607/Figure3_sources/Figure3abcdf_cell_level_metric_generation.ipynb",
       "source_sha256": "c7520c0209c3a26c942c55a7cacf0e978736fba739cff36ca827f28ff7edbe1b",
-      "path": "03_Figure03/code/historical/figure3/Figure3abcdf_cell_level_metric_generation.ipynb",
+      "path": "03_Figure03/code/shared/simulation_velocity_metrics.ipynb",
       "sha256": "557d09f693261896580255fe21b3b4c2f9185c1671d965c7522498c5ad5674d9",
-      "changes": "Code and markdown cell sources unchanged; historical output cells, execution counts and widget state removed. External inputs and original environments required."
+      "changes": "Code and markdown cell sources unchanged; historical output cells, execution counts and widget state removed. External inputs and original environments required. Organized into panel-specific directories and shared computation."
     },
     {
       "source": "Manuscript_2607/Figure3_sources/Figure3f_global_incluster_direction_generation.ipynb",
       "source_sha256": "c04ab9004402542921e1912446ed85cdb908588b2600ef0486e861b7e21e82ca",
-      "path": "03_Figure03/code/historical/figure3/Figure3f_global_incluster_direction_generation.ipynb",
+      "path": "03_Figure03/code/f/global_incluster_direction_metrics.ipynb",
       "sha256": "1bfb27f03e6cf629e42ae9e3b3cd343618908db042df4a0fb68535833257742e",
-      "changes": "Code and markdown cell sources unchanged; historical output cells, execution counts and widget state removed. External inputs and original environments required."
+      "changes": "Code and markdown cell sources unchanged; historical output cells, execution counts and widget state removed. External inputs and original environments required. Organized into panel-specific directories and shared computation."
+    },
+    {
+      "source": "Manuscript_2607/Figure3_sources/figure3bc.R",
+      "source_sha256": "5b27bc79f836390075217b4b65082eca4e4932ea2aa07ba3a3922c472abdb9eb",
+      "path": "03_Figure03/code/c/figure3c.R",
+      "sha256": "e97a1cc09192cba17788da10600d638e6e7b864cb54b83ed3f4ad4e6d54c5166",
+      "changes": "Extracted panel c from original figure3bc.R; original statistical and plotting statements preserved."
     }
   ],
   "inputs": [
@@ -132,7 +139,7 @@
   "panel_e": "Retained manual artwork; no numerical analysis code.",
   "scope": "Recovery of saved-data redraw code and original upstream notebooks. No older numerical data or formal artwork imported.",
   "validation": {
-    "R_syntax_files": 9,
+    "R_syntax_files": 10,
     "R_syntax_status": "pass",
     "full_R_plotting_executed": false,
     "reason": "Available R environments lack packages required by the retained renderers.",
@@ -161,5 +168,11 @@
     },
     "all_nine_inputs_identical_to_current_release": true,
     "upstream_notebooks_executed": false
+  },
+  "organization": {
+    "layout": "a-h directories with shared upstream simulation metrics",
+    "notebook_code_cells_unchanged": true,
+    "b_c_calculation_and_plot_blocks_unchanged": true,
+    "formal_artwork_and_numerical_inputs_unchanged": true
   }
 }
