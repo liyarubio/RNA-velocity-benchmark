@@ -136,6 +136,8 @@ ST_small spatial comparison includes archived TopoVelo. KPTracer PhyloVelo is sh
 
 ## Code and validation
 
+The source package records no recovered numerical generator for the complete Figure 5. Partial analysis implementations and saved-data checks remain available below; they do not reconstruct the full formal layout.
+
 [Portable checks and workflow boundaries](<../09_Core/README.md>). Saved-data checks do not rerun models. Historical scripts require their original environments and external inputs.
 
 [Retained figure-specific code](<code>)
