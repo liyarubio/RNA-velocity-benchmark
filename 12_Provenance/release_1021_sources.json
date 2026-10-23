@@ -1953,17 +1953,17 @@
     },
     "figures/main/Figure03.png": {
       "path": "03_Figure03/figures/Figure03.png",
-      "source_sha256": "8d19add8ca2ad0b26c5d48cafc6b8155affdf2db6075667c057407551837c3c3",
-      "sha256": "8d19add8ca2ad0b26c5d48cafc6b8155affdf2db6075667c057407551837c3c3",
-      "bytes": 1092215,
-      "operation": "Updated Mean-only figure presentation; numerical inputs retained"
+      "source_sha256": "2f3ae3a67a6dad3e739195cbe85ee4b9cec3a97a17da2802c79da5fd51e4f99a",
+      "sha256": "2f3ae3a67a6dad3e739195cbe85ee4b9cec3a97a17da2802c79da5fd51e4f99a",
+      "bytes": 1092543,
+      "operation": "Figure 3h mean-order presentation update; numerical inputs retained"
     },
     "figures/main/Figure03.svg": {
       "path": "03_Figure03/figures/Figure03.svg",
-      "source_sha256": "1374456a5a858c9e98bbefc6ab2413e161537141c4c2d46cd39e7e8152ae2c94",
-      "sha256": "1374456a5a858c9e98bbefc6ab2413e161537141c4c2d46cd39e7e8152ae2c94",
-      "bytes": 4383521,
-      "operation": "Updated Mean-only figure presentation; numerical inputs retained"
+      "source_sha256": "34370b125358fcb72098952418ae7f5954409a8f7112dd53cdbc6c342fcb9d98",
+      "sha256": "34370b125358fcb72098952418ae7f5954409a8f7112dd53cdbc6c342fcb9d98",
+      "bytes": 5679021,
+      "operation": "Figure 3h mean-order presentation update; numerical inputs retained"
     },
     "figures/main/Figure04.png": {
       "path": "04_Figure04/figures/Figure04.png",
@@ -2226,10 +2226,10 @@
     },
     "submission_figures/Figure03.pdf": {
       "path": "03_Figure03/figures/Figure03.pdf",
-      "source_sha256": "612065f1c84b8bb3027082561da93b75600c9bb1536d25e5b22ebe2a624f2d62",
-      "sha256": "612065f1c84b8bb3027082561da93b75600c9bb1536d25e5b22ebe2a624f2d62",
-      "bytes": 789589,
-      "operation": "Updated Mean-only figure presentation; numerical inputs retained"
+      "source_sha256": "f1db1953f317d41ea54ead8b7fa5155a44d98430efb7b90e2468dac5cd29ef39",
+      "sha256": "f1db1953f317d41ea54ead8b7fa5155a44d98430efb7b90e2468dac5cd29ef39",
+      "bytes": 815038,
+      "operation": "Figure 3h mean-order presentation update; numerical inputs retained"
     },
     "submission_figures/Figure04.pdf": {
       "path": "04_Figure04/figures/Figure04.pdf",
@@ -2884,10 +2884,10 @@
     },
     "Code/mean_top3/mean_top3.py": {
       "path": "09_Core/visualization/mean_top3/mean_top3.py",
-      "source_sha256": "8f4bfc726c53f5e3f5a4e429b7885c4fca5ad8a81be314a8455a3da2075da79f",
-      "sha256": "8f4bfc726c53f5e3f5a4e429b7885c4fca5ad8a81be314a8455a3da2075da79f",
-      "bytes": 13456,
-      "operation": "Portable formal vector presentation renderer"
+      "source_sha256": "051336fae18fb825c77da161f905ac509ad90cbb850af099527b6013ac1859f3",
+      "sha256": "051336fae18fb825c77da161f905ac509ad90cbb850af099527b6013ac1859f3",
+      "bytes": 13473,
+      "operation": "Figure 3h mean-order presentation update; numerical inputs retained"
     },
     "Code/mean_top3/requirements.txt": {
       "path": "09_Core/visualization/mean_top3/requirements.txt",
@@ -2923,6 +2923,48 @@
       "sha256": "8aa53b47f065d5b1f8c4bc635fa9f27f96f980536418834f06a2fbff31089053",
       "bytes": 870092,
       "operation": "Portable formal vector presentation renderer"
+    },
+    "Code/figure3h_mean/figure3h_formal.py": {
+      "path": "03_Figure03/code/h/figure3h_formal.py",
+      "sha256": "5a98a6be5f8ec66977a4cb9ca3c6e9baee36b7ceb60d50f432dc2a0ebe2ad743",
+      "source_sha256": "8c263c2680b2b8c54e95486498c533b461b5ef878e813e7b89ae83207bf522df",
+      "bytes": 357,
+      "operation": "Current Figure 3h formal renderer and retained vector input"
+    },
+    "Code/figure3h_mean/figure3h.R": {
+      "path": "03_Figure03/code/h/figure3h.R",
+      "sha256": "d0ba78b96dd44aa81c6f2d1bfa4066bdca7d3439f48df912d16df6622cc34dc6",
+      "source_sha256": "2233fc5d3af1d2a850ef4916a7a27f5953c016b769dc81bcfd53fe8a18d57703",
+      "bytes": 6552,
+      "operation": "Current Figure 3h formal renderer and retained vector input"
+    },
+    "Code/figure3h_mean/figure3h_mean.py": {
+      "path": "09_Core/visualization/figure3h_mean/figure3h_mean.py",
+      "sha256": "86b601cae02a1fc17c04cb901957e13ee2005679bc8fdbd956e72050cf217e05",
+      "source_sha256": "86b601cae02a1fc17c04cb901957e13ee2005679bc8fdbd956e72050cf217e05",
+      "bytes": 9856,
+      "operation": "Current Figure 3h formal renderer and retained vector input"
+    },
+    "Code/figure3h_mean/README.md": {
+      "path": "09_Core/visualization/figure3h_mean/README.md",
+      "sha256": "a18389463ba4e7bc33a10c7603c0bf172c3085cf76c843df459a76e62cc7b6c9",
+      "source_sha256": "a18389463ba4e7bc33a10c7603c0bf172c3085cf76c843df459a76e62cc7b6c9",
+      "bytes": 888,
+      "operation": "Current Figure 3h formal renderer and retained vector input"
+    },
+    "Code/figure3h_mean/assets/Figure03_before.pdf": {
+      "path": "09_Core/visualization/figure3h_mean/assets/Figure03_before.pdf",
+      "sha256": "518e980e76b11fad8a4ce7dca39f9c38bc03fa51f7e5ea96c9ebd024706695ac",
+      "source_sha256": "518e980e76b11fad8a4ce7dca39f9c38bc03fa51f7e5ea96c9ebd024706695ac",
+      "bytes": 789414,
+      "operation": "Current Figure 3h formal renderer and retained vector input"
+    },
+    "Code/figure3h_mean/assets/input_hashes.json": {
+      "path": "09_Core/visualization/figure3h_mean/assets/input_hashes.json",
+      "sha256": "393900d508d96458706441b2a573558c28d7d5ee495d8b6c9504375879b29e8a",
+      "source_sha256": "393900d508d96458706441b2a573558c28d7d5ee495d8b6c9504375879b29e8a",
+      "bytes": 87,
+      "operation": "Current Figure 3h formal renderer and retained vector input"
     }
   },
   "excluded": [
@@ -3402,5 +3444,12 @@
     "numeric_inputs_changed": false,
     "caption_text_changed": false,
     "report": "12_Provenance/mean_top3_validation.json"
+  },
+  "figure3h_mean_order": {
+    "date": "2026-10-23",
+    "report": "12_Provenance/figure3h_mean_validation.json",
+    "numeric_inputs_changed": false,
+    "missing_values": "Excluded from means; not imputed",
+    "best_performance": "Retained at right; excluded from ordering"
   }
 }

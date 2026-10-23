@@ -50,8 +50,8 @@
       "source": "Manuscript_2607/Figure3_sources/figure3h.R",
       "source_sha256": "6d69e2590b6499fb2e0438a107b46295b74ba4bd272db95a03705c1e088ca44e",
       "path": "03_Figure03/code/h/figure3h.R",
-      "sha256": "c57ee9ac0d42da69144090ffbd33cd8f98629e038e0f32a21b8ca59f42677ccd",
-      "changes": "Current repository input paths and configurable output path; English comments and whitespace; panel g fixed jitter seed; e excluded as retained schematic. Organized into panel-specific directories and shared computation."
+      "sha256": "d0ba78b96dd44aa81c6f2d1bfa4066bdca7d3439f48df912d16df6622cc34dc6",
+      "changes": "Current repository input paths and configurable output path; English comments and whitespace; panel g fixed jitter seed; e excluded as retained schematic. Organized into panel-specific directories and shared computation. Methods now sorted by recomputed available-case mean GDC, descending, with stable ties."
     },
     {
       "source": "Manuscript_2607/Figure3_sources/figure3_common.R",

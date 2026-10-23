@@ -11,7 +11,7 @@ Each panel has its own directory. The original combined a/b/c/d/f notebook has b
 | [e](e/README.md) | Metric-definition schematic | [Retained artwork](../figures/Figure03.pdf) |
 | [f](f/README.md) | Agreement between evaluation metrics | [f/figure3f.R](f/figure3f.R) |
 | [g](g/README.md) | HuBMAP performance | [g/figure3g.R](g/figure3g.R) |
-| [h](h/README.md) | Ten conventional datasets | [h/figure3h.R](h/figure3h.R) |
+| [h](h/README.md) | Ten conventional datasets | [h/figure3h_formal.py](h/figure3h_formal.py) (formal); [R alternative](h/figure3h.R) |
 
 ## Saved-data redraws
 

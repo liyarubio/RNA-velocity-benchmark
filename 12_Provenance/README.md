@@ -2,6 +2,7 @@
 
 The current release is **Manuscript_1021**, with source updates through 22 October and public assembly on 23 October 2026.
 
+- [Figure 3h descending mean order](figure3h_mean_validation.json) · [Method means and coverage](figure3h_method_order.csv)
 - [Mean-only summaries and aligned top-three ranks](mean_top3_validation.json)
 - [Release changes and evidence limits](RELEASE_1021.md)
 - [Figure 3 panel-code recovery](figure3_code_recovery.json)

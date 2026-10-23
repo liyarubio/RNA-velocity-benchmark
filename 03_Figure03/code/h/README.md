@@ -13,3 +13,9 @@ This entrypoint renders only panel h. Set `FIGURE3_OUT` to override `demo_output
 - [Historical metric generation: Figure3h_01_dataset10_compute_global_metrics.py](Figure3h_01_dataset10_compute_global_metrics.py)
 
 Historical metric generators require external H5ADs and original method environments. They were not rerun for this release. See the [code guide](../README.md) for dependencies and validation limits.
+
+## Formal panel: descending mean order
+
+Run `python 03_Figure03/code/h/figure3h_formal.py --out demo_output/figure3h_mean` from the repository root. Install [the shared rendering dependencies](../../../09_Core/visualization/mean_top3/requirements.txt).
+
+Methods run from highest to lowest mean GDC across their available values in the ten datasets. Missing values remain missing, and ties retain the previous display order. The per-dataset **Best performance** envelope remains at the far right and is excluded from the ranking. The command writes a PDF/SVG/PNG panel, `method_order.csv` with the mean and valid dataset count, and validation JSON. The R alternative applies the same ordering. No model evaluation is rerun.

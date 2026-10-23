@@ -472,5 +472,11 @@
   "Code/mean_top3/README.md": "09_Core/visualization/mean_top3/README.md",
   "Code/mean_top3/assets/input_hashes.json": "09_Core/visualization/mean_top3/assets/input_hashes.json",
   "Code/mean_top3/assets/Figure03_artwork.pdf": "09_Core/visualization/mean_top3/assets/Figure03_artwork.pdf",
-  "Code/mean_top3/assets/Extended_Data_Fig04.pdf": "09_Core/visualization/mean_top3/assets/Extended_Data_Fig04.pdf"
+  "Code/mean_top3/assets/Extended_Data_Fig04.pdf": "09_Core/visualization/mean_top3/assets/Extended_Data_Fig04.pdf",
+  "Code/figure3h_mean/figure3h_formal.py": "03_Figure03/code/h/figure3h_formal.py",
+  "Code/figure3h_mean/figure3h.R": "03_Figure03/code/h/figure3h.R",
+  "Code/figure3h_mean/figure3h_mean.py": "09_Core/visualization/figure3h_mean/figure3h_mean.py",
+  "Code/figure3h_mean/README.md": "09_Core/visualization/figure3h_mean/README.md",
+  "Code/figure3h_mean/assets/Figure03_before.pdf": "09_Core/visualization/figure3h_mean/assets/Figure03_before.pdf",
+  "Code/figure3h_mean/assets/input_hashes.json": "09_Core/visualization/figure3h_mean/assets/input_hashes.json"
 }

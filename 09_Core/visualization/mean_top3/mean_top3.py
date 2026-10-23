@@ -66,14 +66,14 @@ def text_spans(page):
         for line in block.get('lines',[]):
             for span in line['spans']: yield span, line['dir']
 
-def original_font(doc,page,name):
+def original_font(doc,page,name,required='Mean123'):
     normalized=lambda s: re.sub('[^a-z]','',s.split('+')[-1].lower().replace('#20',''))
     for entry in page.get_fonts(full=True):
         if normalized(entry[3]) == normalized(name):
             data=doc.extract_font(entry[0])[3]
             if data:
                 font = fitz.Font(fontbuffer=data)
-                if all(font.has_glyph(ord(c)) for c in 'Mean123'): return font
+                if all(font.has_glyph(ord(c)) for c in required): return font
                 # Some published CID subsets omit the TrueType Unicode cmap.
                 # Restore it from the PDF ToUnicode map, preserving glyph outlines.
                 from fontTools.ttLib import TTFont, newTable
@@ -92,7 +92,7 @@ def original_font(doc,page,name):
                 sub.cmap={k:v for k,v in cmap.items() if k<65536}
                 tt['cmap']=newTable('cmap');tt['cmap'].tableVersion=0;tt['cmap'].tables=[sub]
                 stream=io.BytesIO();tt.save(stream);font=fitz.Font(fontbuffer=stream.getvalue())
-                assert all(font.has_glyph(ord(c)) for c in 'Mean123')
+                assert all(font.has_glyph(ord(c)) for c in required)
                 return font
     raise RuntimeError('Published font not found: '+name)
 

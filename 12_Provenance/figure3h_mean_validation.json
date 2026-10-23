@@ -1,0 +1,561 @@
+{
+  "status": "pass",
+  "changed_files": [
+    {
+      "path": "figures/main/Figure03.pdf",
+      "pages": [
+        1
+      ],
+      "sha256": "fdc57c04fc827244ee028245becb6c300a843f8db4c2784239206d92bbb4b5b9"
+    },
+    {
+      "path": "submission_figures/Figure03.pdf",
+      "pages": [
+        1
+      ],
+      "sha256": "f1db1953f317d41ea54ead8b7fa5155a44d98430efb7b90e2468dac5cd29ef39"
+    },
+    {
+      "path": "submission_figures/Main_Figures_1-7_combined.pdf",
+      "pages": [
+        3
+      ],
+      "sha256": "adde1c26e7e31144cc4ee9a690b07a0dca955c7bc0c962343fd1df93101fab1c"
+    },
+    {
+      "path": "figures/main/Figure03.png",
+      "sha256": "2f3ae3a67a6dad3e739195cbe85ee4b9cec3a97a17da2802c79da5fd51e4f99a"
+    },
+    {
+      "path": "figures/main/Figure03.svg",
+      "sha256": "34370b125358fcb72098952418ae7f5954409a8f7112dd53cdbc6c342fcb9d98"
+    }
+  ],
+  "unchanged_companion_pages_checked": 11,
+  "protected_files_verified": 98,
+  "captions_changed": false,
+  "manuscript_text_changed": false,
+  "numeric_inputs_changed": false,
+  "figure3a_mean_top3_preserved": true,
+  "figure3h": {
+    "status": "pass",
+    "panel": "Figure03h",
+    "input_sha256": "9640b0e7f809997b13f065c7298e6bfdb00274261376e6b94af05664b63c8ed1",
+    "order": [
+      "SDEvelo",
+      "scVelo(sto)",
+      "DeepVelo(VAE)",
+      "cell2fate",
+      "TFvelo",
+      "TopicVelo",
+      "UniTVelo",
+      "dynamo",
+      "DeepKINET",
+      "VeloAE",
+      "DeepVelo(GCN)",
+      "scVelo(dyn)",
+      "VeloVAE",
+      "STT",
+      "veloVI",
+      "LatentVelo",
+      "cellDancer",
+      "velocyto",
+      "biVI"
+    ],
+    "means": {
+      "SDEvelo": 0.44191355555555556,
+      "scVelo(sto)": 0.3767397,
+      "DeepVelo(VAE)": 0.3347988,
+      "cell2fate": 0.33207633333333336,
+      "TFvelo": 0.29835911111111113,
+      "TopicVelo": 0.287444375,
+      "UniTVelo": 0.2728343,
+      "dynamo": 0.2124568,
+      "DeepKINET": 0.180706,
+      "VeloAE": 0.15636799999999995,
+      "DeepVelo(GCN)": 0.1463941,
+      "scVelo(dyn)": 0.1393666,
+      "VeloVAE": 0.13000869999999998,
+      "STT": 0.12367629999999999,
+      "veloVI": 0.07741859999999999,
+      "LatentVelo": 0.06288955555555557,
+      "cellDancer": 0.052719777777777775,
+      "velocyto": -0.055283599999999974,
+      "biVI": -0.126236
+    },
+    "valid_datasets": {
+      "SDEvelo": 9,
+      "scVelo(sto)": 10,
+      "DeepVelo(VAE)": 10,
+      "cell2fate": 9,
+      "TFvelo": 9,
+      "TopicVelo": 8,
+      "UniTVelo": 10,
+      "dynamo": 10,
+      "DeepKINET": 7,
+      "VeloAE": 10,
+      "DeepVelo(GCN)": 10,
+      "scVelo(dyn)": 10,
+      "VeloVAE": 10,
+      "STT": 10,
+      "veloVI": 10,
+      "LatentVelo": 9,
+      "cellDancer": 9,
+      "velocyto": 10,
+      "biVI": 8
+    },
+    "missing_policy": "Mean of available values; no zero imputation",
+    "ties": "Stable previous display order",
+    "best_performance": "Unchanged per-dataset envelope, excluded from ranking and retained at the right",
+    "numeric_inputs_changed": false,
+    "models_rerun": false,
+    "changed_regions": [
+      [
+        378.24091796875,
+        618.423291015625,
+        531.3849365234375,
+        713.8724853515625
+      ],
+      [
+        371.63511962890624,
+        714.3519165039063,
+        544.8693969726562,
+        745.9747436523437
+      ]
+    ],
+    "unchanged_area_max_pixel_difference": 0,
+    "permuted_cell_centers_checked": 190,
+    "method_color_strips_checked": 19,
+    "missing_cells_retained": 12,
+    "label_origins": {
+      "SDEvelo": [
+        374.27833557128906,
+        730.005615234375
+      ],
+      "scVelo(sto)": [
+        379.3292236328125,
+        733.5692749023438
+      ],
+      "DeepVelo(VAE)": [
+        381.72694396972656,
+        740.287109375
+      ],
+      "cell2fate": [
+        398.85813903808594,
+        729.453857421875
+      ],
+      "TFvelo": [
+        408.7234191894531,
+        727.2781982421875
+      ],
+      "TopicVelo": [
+        412.9494323730469,
+        731.8203735351562
+      ],
+      "UniTVelo": [
+        421.9056396484375,
+        730.7308349609375
+      ],
+      "dynamo": [
+        431.4674377441406,
+        728.916015625
+      ],
+      "DeepKINET": [
+        434.5810241699219,
+        734.7872314453125
+      ],
+      "VeloAE": [
+        448.1560821533203,
+        728.1873168945312
+      ],
+      "DeepVelo(GCN)": [
+        445.4392852783203,
+        741.0123291015625
+      ],
+      "scVelo(dyn)": [
+        458.95945739746094,
+        734.4783935546875
+      ],
+      "VeloVAE": [
+        470.44920349121094,
+        730.366455078125
+      ],
+      "STT": [
+        484.22023010253906,
+        723.5271606445312
+      ],
+      "veloVI": [
+        490.0101776123047,
+        726.20947265625
+      ],
+      "LatentVelo": [
+        492.42584228515625,
+        732.9168701171875
+      ],
+      "cellDancer": [
+        500.55601501464844,
+        732.809326171875
+      ],
+      "velocyto": [
+        511.55763244628906,
+        729.2803955078125
+      ],
+      "biVI": [
+        525.0639495849609,
+        722.7603149414062
+      ],
+      "Best performance": [
+        520.5809326171875,
+        745.096435546875
+      ]
+    }
+  },
+  "titled_page": {
+    "status": "pass",
+    "panel": "Figure03h",
+    "input_sha256": "9640b0e7f809997b13f065c7298e6bfdb00274261376e6b94af05664b63c8ed1",
+    "order": [
+      "SDEvelo",
+      "scVelo(sto)",
+      "DeepVelo(VAE)",
+      "cell2fate",
+      "TFvelo",
+      "TopicVelo",
+      "UniTVelo",
+      "dynamo",
+      "DeepKINET",
+      "VeloAE",
+      "DeepVelo(GCN)",
+      "scVelo(dyn)",
+      "VeloVAE",
+      "STT",
+      "veloVI",
+      "LatentVelo",
+      "cellDancer",
+      "velocyto",
+      "biVI"
+    ],
+    "means": {
+      "SDEvelo": 0.44191355555555556,
+      "scVelo(sto)": 0.3767397,
+      "DeepVelo(VAE)": 0.3347988,
+      "cell2fate": 0.33207633333333336,
+      "TFvelo": 0.29835911111111113,
+      "TopicVelo": 0.287444375,
+      "UniTVelo": 0.2728343,
+      "dynamo": 0.2124568,
+      "DeepKINET": 0.180706,
+      "VeloAE": 0.15636799999999995,
+      "DeepVelo(GCN)": 0.1463941,
+      "scVelo(dyn)": 0.1393666,
+      "VeloVAE": 0.13000869999999998,
+      "STT": 0.12367629999999999,
+      "veloVI": 0.07741859999999999,
+      "LatentVelo": 0.06288955555555557,
+      "cellDancer": 0.052719777777777775,
+      "velocyto": -0.055283599999999974,
+      "biVI": -0.126236
+    },
+    "valid_datasets": {
+      "SDEvelo": 9,
+      "scVelo(sto)": 10,
+      "DeepVelo(VAE)": 10,
+      "cell2fate": 9,
+      "TFvelo": 9,
+      "TopicVelo": 8,
+      "UniTVelo": 10,
+      "dynamo": 10,
+      "DeepKINET": 7,
+      "VeloAE": 10,
+      "DeepVelo(GCN)": 10,
+      "scVelo(dyn)": 10,
+      "VeloVAE": 10,
+      "STT": 10,
+      "veloVI": 10,
+      "LatentVelo": 9,
+      "cellDancer": 9,
+      "velocyto": 10,
+      "biVI": 8
+    },
+    "missing_policy": "Mean of available values; no zero imputation",
+    "ties": "Stable previous display order",
+    "best_performance": "Unchanged per-dataset envelope, excluded from ranking and retained at the right",
+    "numeric_inputs_changed": false,
+    "models_rerun": false,
+    "changed_regions": [
+      [
+        378.24091796875,
+        618.423291015625,
+        531.3849365234375,
+        713.8724853515625
+      ],
+      [
+        371.63511962890624,
+        714.3519165039063,
+        544.8693969726562,
+        745.9747436523437
+      ]
+    ],
+    "unchanged_area_max_pixel_difference": 0,
+    "permuted_cell_centers_checked": 190,
+    "method_color_strips_checked": 19,
+    "missing_cells_retained": 12,
+    "label_origins": {
+      "SDEvelo": [
+        374.27833557128906,
+        730.005615234375
+      ],
+      "scVelo(sto)": [
+        379.3292236328125,
+        733.5692749023438
+      ],
+      "DeepVelo(VAE)": [
+        381.72694396972656,
+        740.287109375
+      ],
+      "cell2fate": [
+        398.85813903808594,
+        729.453857421875
+      ],
+      "TFvelo": [
+        408.7234191894531,
+        727.2781982421875
+      ],
+      "TopicVelo": [
+        412.9494323730469,
+        731.8203735351562
+      ],
+      "UniTVelo": [
+        421.9056396484375,
+        730.7308349609375
+      ],
+      "dynamo": [
+        431.4674377441406,
+        728.916015625
+      ],
+      "DeepKINET": [
+        434.5810241699219,
+        734.7872314453125
+      ],
+      "VeloAE": [
+        448.1560821533203,
+        728.1873168945312
+      ],
+      "DeepVelo(GCN)": [
+        445.4392852783203,
+        741.0123291015625
+      ],
+      "scVelo(dyn)": [
+        458.95945739746094,
+        734.4783935546875
+      ],
+      "VeloVAE": [
+        470.44920349121094,
+        730.366455078125
+      ],
+      "STT": [
+        484.22023010253906,
+        723.5271606445312
+      ],
+      "veloVI": [
+        490.0101776123047,
+        726.20947265625
+      ],
+      "LatentVelo": [
+        492.42584228515625,
+        732.9168701171875
+      ],
+      "cellDancer": [
+        500.55601501464844,
+        732.809326171875
+      ],
+      "velocyto": [
+        511.55763244628906,
+        729.2803955078125
+      ],
+      "biVI": [
+        525.0639495849609,
+        722.7603149414062
+      ],
+      "Best performance": [
+        520.5809326171875,
+        745.096435546875
+      ]
+    }
+  },
+  "independent_public_entrypoint": {
+    "status": "pass",
+    "panel": "Figure03h",
+    "input_sha256": "9640b0e7f809997b13f065c7298e6bfdb00274261376e6b94af05664b63c8ed1",
+    "order": [
+      "SDEvelo",
+      "scVelo(sto)",
+      "DeepVelo(VAE)",
+      "cell2fate",
+      "TFvelo",
+      "TopicVelo",
+      "UniTVelo",
+      "dynamo",
+      "DeepKINET",
+      "VeloAE",
+      "DeepVelo(GCN)",
+      "scVelo(dyn)",
+      "VeloVAE",
+      "STT",
+      "veloVI",
+      "LatentVelo",
+      "cellDancer",
+      "velocyto",
+      "biVI"
+    ],
+    "means": {
+      "SDEvelo": 0.44191355555555556,
+      "scVelo(sto)": 0.3767397,
+      "DeepVelo(VAE)": 0.3347988,
+      "cell2fate": 0.33207633333333336,
+      "TFvelo": 0.29835911111111113,
+      "TopicVelo": 0.287444375,
+      "UniTVelo": 0.2728343,
+      "dynamo": 0.2124568,
+      "DeepKINET": 0.180706,
+      "VeloAE": 0.15636799999999995,
+      "DeepVelo(GCN)": 0.1463941,
+      "scVelo(dyn)": 0.1393666,
+      "VeloVAE": 0.13000869999999998,
+      "STT": 0.12367629999999999,
+      "veloVI": 0.07741859999999999,
+      "LatentVelo": 0.06288955555555557,
+      "cellDancer": 0.052719777777777775,
+      "velocyto": -0.055283599999999974,
+      "biVI": -0.126236
+    },
+    "valid_datasets": {
+      "SDEvelo": 9,
+      "scVelo(sto)": 10,
+      "DeepVelo(VAE)": 10,
+      "cell2fate": 9,
+      "TFvelo": 9,
+      "TopicVelo": 8,
+      "UniTVelo": 10,
+      "dynamo": 10,
+      "DeepKINET": 7,
+      "VeloAE": 10,
+      "DeepVelo(GCN)": 10,
+      "scVelo(dyn)": 10,
+      "VeloVAE": 10,
+      "STT": 10,
+      "veloVI": 10,
+      "LatentVelo": 9,
+      "cellDancer": 9,
+      "velocyto": 10,
+      "biVI": 8
+    },
+    "missing_policy": "Mean of available values; no zero imputation",
+    "ties": "Stable previous display order",
+    "best_performance": "Unchanged per-dataset envelope, excluded from ranking and retained at the right",
+    "numeric_inputs_changed": false,
+    "models_rerun": false,
+    "changed_regions": [
+      [
+        378.24091796875,
+        618.423291015625,
+        531.3849365234375,
+        713.8724853515625
+      ],
+      [
+        371.63511962890624,
+        714.3519165039063,
+        544.8693969726562,
+        745.9747436523437
+      ]
+    ],
+    "unchanged_area_max_pixel_difference": 0,
+    "permuted_cell_centers_checked": 190,
+    "method_color_strips_checked": 19,
+    "missing_cells_retained": 12,
+    "label_origins": {
+      "SDEvelo": [
+        374.27833557128906,
+        730.005615234375
+      ],
+      "scVelo(sto)": [
+        379.3292236328125,
+        733.5692749023438
+      ],
+      "DeepVelo(VAE)": [
+        381.72694396972656,
+        740.287109375
+      ],
+      "cell2fate": [
+        398.85813903808594,
+        729.453857421875
+      ],
+      "TFvelo": [
+        408.7234191894531,
+        727.2781982421875
+      ],
+      "TopicVelo": [
+        412.9494323730469,
+        731.8203735351562
+      ],
+      "UniTVelo": [
+        421.9056396484375,
+        730.7308349609375
+      ],
+      "dynamo": [
+        431.4674377441406,
+        728.916015625
+      ],
+      "DeepKINET": [
+        434.5810241699219,
+        734.7872314453125
+      ],
+      "VeloAE": [
+        448.1560821533203,
+        728.1873168945312
+      ],
+      "DeepVelo(GCN)": [
+        445.4392852783203,
+        741.0123291015625
+      ],
+      "scVelo(dyn)": [
+        458.95945739746094,
+        734.4783935546875
+      ],
+      "VeloVAE": [
+        470.44920349121094,
+        730.366455078125
+      ],
+      "STT": [
+        484.22023010253906,
+        723.5271606445312
+      ],
+      "veloVI": [
+        490.0101776123047,
+        726.20947265625
+      ],
+      "LatentVelo": [
+        492.42584228515625,
+        732.9168701171875
+      ],
+      "cellDancer": [
+        500.55601501464844,
+        732.809326171875
+      ],
+      "velocyto": [
+        511.55763244628906,
+        729.2803955078125
+      ],
+      "biVI": [
+        525.0639495849609,
+        722.7603149414062
+      ],
+      "Best performance": [
+        520.5809326171875,
+        745.096435546875
+      ]
+    }
+  },
+  "combined_figure3a_figure3h_regeneration": "pixel-identical",
+  "r_validation": "syntax passed; full R plotting not run (packages unavailable)"
+}

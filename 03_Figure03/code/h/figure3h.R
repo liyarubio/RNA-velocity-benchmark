@@ -117,6 +117,11 @@ if (sum(!is.na(summary_table[Method == "dynamo", ..score_cols])) != 10L) {
 if (sum(!is.na(summary_table[Method == "TopicVelo", ..score_cols])) != 8L) {
   stop("TopicVelo should have 8 valid classic global values in the updated table.")
 }
+# Order methods by available-case mean across the ten dataset columns.
+# Keep original display order for ties, with wholly missing methods last.
+mean_order <- order(-calculated_mean, seq_along(calculated_mean), na.last = TRUE)
+summary_table <- summary_table[mean_order]
+method_order <- summary_table$Method
 fwrite(summary_table, output_table, na = "NA")
 
 heatmap_matrix <- as.matrix(summary_table[, ..score_cols])

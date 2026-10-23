@@ -14,6 +14,10 @@ Current release: **Manuscript_1021**, including figure presentation updates thro
 
 The simulation summary columns now display Mean only, with ranks 1–3 aligned inside the bars. Numerical inputs and normalization are unchanged. Companion caption text is retained for author revision. See the panel code guide for independent formal rendering commands.
 
+## Panel h method order
+
+Methods are ordered left to right by descending available-case mean GDC across the ten classic datasets. Missing values are retained; the best-performance envelope stays at the right. See the [independent formal entrypoint](code/h/figure3h_formal.py).
+
 ## Current files
 
 | Role | File |
