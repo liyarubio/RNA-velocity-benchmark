@@ -6,6 +6,10 @@ Panels a/b now contain runtime/read-depth sensitivity; c is the unchanged frozen
 
 ![Figure06](<figures/Figure06.png>)
 
+## Individual panel code
+
+[One plot per file: current entrypoints and limits](code/README.md).
+
 ## Current files
 
 | Role | File |
@@ -14,8 +18,8 @@ Panels a/b now contain runtime/read-depth sensitivity; c is the unchanged frozen
 | results | [figures/Figure06.png](<figures/Figure06.png>) |
 | results | [figures/legends/Figure06_legend.pdf](<figures/legends/Figure06_legend.pdf>) |
 | data | [data/source_data/Figure06.xlsx](<data/source_data/Figure06.xlsx>) |
-| code | [../05_Figure05/code/historical/Figure5_sources/code/panel_c/Figure5c_velocity_matrix_similarity_original.py](<../05_Figure05/code/historical/Figure5_sources/code/panel_c/Figure5c_velocity_matrix_similarity_original.py>) |
-| code | [code/historical/Figure6_sources/code/panel_a/figure6a.py](<code/historical/Figure6_sources/code/panel_a/figure6a.py>) |
+| code | [code/b/historical/compute_metrics.py](<code/b/historical/compute_metrics.py>) |
+| code | [code/c/historical_composite.py](<code/c/historical_composite.py>) |
 
 ## Code and validation
 

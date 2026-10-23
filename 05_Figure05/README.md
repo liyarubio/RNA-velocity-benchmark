@@ -6,6 +6,10 @@ ST_small spatial comparison includes archived TopoVelo. KPTracer PhyloVelo is sh
 
 ![Figure05](<figures/Figure05.png>)
 
+## Individual panel code
+
+[One plot per file: current entrypoints and limits](code/README.md).
+
 ## Current files
 
 | Role | File |

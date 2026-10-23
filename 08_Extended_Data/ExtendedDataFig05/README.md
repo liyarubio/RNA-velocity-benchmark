@@ -6,6 +6,10 @@ Current release: **Manuscript_1021**, including updates through **22 October 202
 
 ![ED05](<figures/Extended_Data_Fig05.png>)
 
+## Individual panel code
+
+[One plot per file: current entrypoints and limits](code/README.md).
+
 ## Current files
 
 | Role | File |

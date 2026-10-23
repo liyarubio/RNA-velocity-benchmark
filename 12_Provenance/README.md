@@ -4,6 +4,7 @@ The current release is **Manuscript_1021**, with source updates through 22 Octob
 
 - [Release changes and evidence limits](RELEASE_1021.md)
 - [Figure 3 panel-code recovery](figure3_code_recovery.json)
+- [Panel code index and coverage](PANEL_CODE_INDEX.md) · [Split validation](panel_split_validation.json)
 - [Figure order](figure_index.csv) · [Figure-file bindings](file_inventory.csv) · [Workbook sheets](workbook_sheets.csv)
 - [Current source paths](current_sources.json) · [Source hashes and exclusions](release_1021_sources.json) · [Current checksums](current_checksums.json)
 - [Structure, link and hash validation](release_validation.json)

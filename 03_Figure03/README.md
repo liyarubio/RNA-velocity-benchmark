@@ -8,7 +8,7 @@ Current release: **Manuscript_1021**, including updates through **22 October 202
 
 ## Panel code a-h
 
-[Open the complete panel-by-panel code guide](code/README.md). Each panel has its own directory under `code/a` through `code/h`; common upstream computation is in `code/shared`; e is retained manual artwork. The earlier g/h-only historical folder was a subset of the available code. Recovery uses the current 1021 CSVs, with hashes and execution limits recorded in the guide.
+[Open the complete panel-by-panel code guide](code/README.md). Each panel has its own directory under `code/a` through `code/h`; each numerical panel has its own drawing entrypoint, and a/b/c/d/f have separate metric notebooks; e is retained manual artwork. The earlier g/h-only historical folder was a subset of the available code. Recovery uses the current 1021 CSVs, with hashes and execution limits recorded in the guide.
 
 ## Current files
 
@@ -72,8 +72,6 @@ Current release: **Manuscript_1021**, including updates through **22 October 202
 | code | [code/h/figure3h.R](<code/h/figure3h.R>) |
 | code | [code/shared/figure3_common.R](<code/shared/figure3_common.R>) |
 | code | [code/render_all.R](<code/render_all.R>) |
-| code | [code/shared/simulation_velocity_metrics.ipynb](<code/shared/simulation_velocity_metrics.ipynb>) |
-| code | [code/f/global_incluster_direction_metrics.ipynb](<code/f/global_incluster_direction_metrics.ipynb>) |
 | code | [code/validate_panel_data.py](<code/validate_panel_data.py>) |
 
 ## Code and validation
@@ -83,3 +81,11 @@ Current release: **Manuscript_1021**, including updates through **22 October 202
 [Retained figure-specific code](<code>)
 
 [Repository overview](<../README.md>) · [Release notes](<../12_Provenance/RELEASE_1021.md>)
+
+## Panel-specific metric notebooks
+
+- [a: generate_metrics.ipynb](code/a/generate_metrics.ipynb)
+- [b: generate_metrics.ipynb](code/b/generate_metrics.ipynb)
+- [c: generate_metrics.ipynb](code/c/generate_metrics.ipynb)
+- [d: generate_metrics.ipynb](code/d/generate_metrics.ipynb)
+- [f: generate_metrics.ipynb](code/f/generate_metrics.ipynb)

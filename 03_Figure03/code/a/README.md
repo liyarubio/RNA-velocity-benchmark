@@ -10,6 +10,8 @@ Rscript --vanilla 03_Figure03/code/a/figure3a.R
 
 This entrypoint renders only panel a. Set `FIGURE3_OUT` to override `demo_output/figure3`.
 
-Upstream: [shared simulation metric notebook](../shared/simulation_velocity_metrics.ipynb). Uses the high-dimensional velocity cosine block.
+Upstream: [panel-specific metric notebook](generate_metrics.ipynb). Uses the high-dimensional velocity cosine block.
 
 Historical metric generators require external H5ADs and original method environments. They were not rerun for this release. See the [code guide](../README.md) for dependencies and validation limits.
+
+[Optional saved-data heatmap diagnostic](figure3a_saved_data.py) is the single-panel extraction from the former Python batch script. The R file above remains the detailed renderer.

@@ -1,0 +1,372 @@
+[
+  {
+    "figure": "Figure03",
+    "panel": "a",
+    "path": "03_Figure03/code/a/figure3a_saved_data.py",
+    "title": "Figure 3a high-dimensional cosine check",
+    "scope": "saved-data diagnostic; not the formal layout",
+    "source": "09_Core/visualization/plot_saved_panels.py",
+    "validation_scope": "pixel-identical to pre-split diagnostic",
+    "output": "Figure03a"
+  },
+  {
+    "figure": "Figure04",
+    "panel": "a",
+    "path": "04_Figure04/code/a/figure4a.py",
+    "title": "Figure 4a GDC scores",
+    "scope": "score-only diagnostic; original streams and schematic retained as artwork",
+    "source": "09_Core/visualization/plot_saved_panels.py",
+    "validation_scope": "pixel-identical to pre-split diagnostic",
+    "output": "Figure04a_GDC"
+  },
+  {
+    "figure": "Figure05",
+    "panel": "a",
+    "path": "05_Figure05/code/a/figure5a.py",
+    "title": "Figure 5a ST_small GDC scores",
+    "scope": "score-only diagnostic; original fields and schematic retained as artwork",
+    "source": "09_Core/visualization/plot_saved_panels.py",
+    "validation_scope": "pixel-identical to pre-split diagnostic",
+    "output": "Figure05a_GDC"
+  },
+  {
+    "figure": "Figure06",
+    "panel": "a",
+    "path": "06_Figure06/code/a/figure6a.py",
+    "title": "Figure 6a runtime",
+    "scope": "saved-data diagnostic; not the formal layout",
+    "source": "09_Core/visualization/plot_saved_panels.py",
+    "validation_scope": "pixel-identical to pre-split diagnostic",
+    "output": "Figure06a_runtime"
+  },
+  {
+    "figure": "Figure06",
+    "panel": "b",
+    "path": "06_Figure06/code/b/figure6b.py",
+    "title": "Figure 6b read-depth consistency",
+    "scope": "saved-data diagnostic; not the formal layout",
+    "source": "09_Core/visualization/plot_saved_panels.py",
+    "validation_scope": "pixel-identical to pre-split diagnostic",
+    "output": "Figure06b_stability"
+  },
+  {
+    "figure": "Figure06",
+    "panel": "c",
+    "path": "06_Figure06/code/c/figure6c.py",
+    "title": "Figure 6c frozen composite",
+    "scope": "saved-data diagnostic; not the formal layout",
+    "source": "09_Core/visualization/plot_saved_panels.py",
+    "validation_scope": "pixel-identical to pre-split diagnostic",
+    "output": "Figure06c_frozen"
+  },
+  {
+    "figure": "ED04",
+    "panel": "a",
+    "path": "08_Extended_Data/ExtendedDataFig04/code/a/ed4a.py",
+    "title": "Extended Data 4a simulation cosine",
+    "scope": "saved-data diagnostic; not the formal layout",
+    "source": "09_Core/visualization/plot_saved_panels.py",
+    "validation_scope": "pixel-identical to pre-split diagnostic",
+    "output": "ED04a"
+  },
+  {
+    "figure": "ED04",
+    "panel": "b",
+    "path": "08_Extended_Data/ExtendedDataFig04/code/b/ed4b.py",
+    "title": "Extended Data 4b simulation cosine",
+    "scope": "saved-data diagnostic; not the formal layout",
+    "source": "09_Core/visualization/plot_saved_panels.py",
+    "validation_scope": "pixel-identical to pre-split diagnostic",
+    "output": "ED04b"
+  },
+  {
+    "figure": "ED05",
+    "panel": "paired_check",
+    "path": "08_Extended_Data/ExtendedDataFig05/code/paired_check/paired_check.py",
+    "title": "Extended Data 5 pooled pairing diagnostic",
+    "scope": "pooled diagnostic only; formal a-c are separate",
+    "source": "09_Core/visualization/plot_saved_panels.py",
+    "validation_scope": "pixel-identical to pre-split diagnostic",
+    "output": "ED06_paired"
+  },
+  {
+    "figure": "ED06",
+    "panel": "a",
+    "path": "08_Extended_Data/ExtendedDataFig06/code/a/ed6a.py",
+    "title": "Extended Data 6a HuBMAP raw GDC",
+    "scope": "raw-order heatmap diagnostic; does not reproduce formal clustering or organ strip",
+    "source": "09_Core/visualization/plot_saved_panels.py",
+    "validation_scope": "pixel-identical to pre-split diagnostic",
+    "output": "ED07_HuBMAP"
+  },
+  {
+    "figure": "ED07",
+    "panel": "c",
+    "path": "08_Extended_Data/ExtendedDataFig07/code/c/ed07c.py",
+    "title": "ED07c reference cosine",
+    "scope": "median-only diagnostic; formal boxplots retained as artwork",
+    "source": "09_Core/visualization/plot_saved_panels.py",
+    "validation_scope": "pixel-identical to pre-split diagnostic",
+    "output": "ED13_median"
+  },
+  {
+    "figure": "ED08",
+    "panel": "d",
+    "path": "08_Extended_Data/ExtendedDataFig08/code/d/ed08d.py",
+    "title": "ED08d reference cosine",
+    "scope": "median-only diagnostic; formal boxplots retained as artwork",
+    "source": "09_Core/visualization/plot_saved_panels.py",
+    "validation_scope": "pixel-identical to pre-split diagnostic",
+    "output": "ED14_median"
+  },
+  {
+    "figure": "ED09",
+    "panel": "score_check",
+    "path": "08_Extended_Data/ExtendedDataFig09/code/score_check/ed09_scores.py",
+    "title": "ED09 archived GDC score check",
+    "scope": "archived score diagnostic; separate from current field panels",
+    "source": "09_Core/visualization/plot_saved_panels.py",
+    "validation_scope": "pixel-identical to pre-split diagnostic",
+    "output": "ED15_GDC"
+  },
+  {
+    "figure": "ED11",
+    "panel": "score_check",
+    "path": "08_Extended_Data/ExtendedDataFig11/code/score_check/ed11_scores.py",
+    "title": "ED11 archived GDC score check",
+    "scope": "archived score diagnostic; separate from current field panels",
+    "source": "09_Core/visualization/plot_saved_panels.py",
+    "validation_scope": "pixel-identical to pre-split diagnostic",
+    "output": "ED17_GDC"
+  },
+  {
+    "figure": "ED10",
+    "panel": "median_check",
+    "path": "08_Extended_Data/ExtendedDataFig10/code/median_check/median_check.py",
+    "title": "Extended Data 10 spatial medians",
+    "scope": "median-only diagnostic; formal a-b are separate",
+    "source": "09_Core/visualization/plot_saved_panels.py",
+    "validation_scope": "pixel-identical to pre-split diagnostic",
+    "output": "ED16_spatial"
+  },
+  {
+    "figure": "ED12",
+    "panel": "top100_overlap",
+    "path": "08_Extended_Data/ExtendedDataFig12/code/top100_overlap/top100_overlap.py",
+    "title": "Extended Data 12 top100 overlap",
+    "scope": "intersection-matrix diagnostic; original chord artwork retained",
+    "source": "09_Core/visualization/plot_saved_panels.py",
+    "validation_scope": "pixel-identical to pre-split diagnostic",
+    "output": "ED18_top100_overlap"
+  },
+  {
+    "figure": "ED12",
+    "panel": "top200_overlap",
+    "path": "08_Extended_Data/ExtendedDataFig12/code/top200_overlap/top200_overlap.py",
+    "title": "Extended Data 12 top200 overlap",
+    "scope": "intersection-matrix diagnostic; original chord artwork retained",
+    "source": "09_Core/visualization/plot_saved_panels.py",
+    "validation_scope": "pixel-identical to pre-split diagnostic",
+    "output": "ED18_top200_overlap"
+  },
+  {
+    "figure": "Figure04",
+    "panel": "b",
+    "path": "04_Figure04/code/b/figure4b.py",
+    "title": "Figure 4b transition scores",
+    "scope": "saved-data redraw; not the formal layout",
+    "source": "Current saved workbook; plotting logic separated by panel",
+    "validation_scope": "saved-data redraw executed; not formal-layout identity",
+    "output": "Figure04b"
+  },
+  {
+    "figure": "Figure05",
+    "panel": "b",
+    "path": "05_Figure05/code/b/figure5b.py",
+    "title": "Figure 5b selected paired spatial maps",
+    "scope": "saved-data redraw; not the formal layout",
+    "source": "Current saved workbook; plotting logic separated by panel",
+    "validation_scope": "saved-data redraw executed; not formal-layout identity",
+    "output": "Figure05b"
+  },
+  {
+    "figure": "Figure05",
+    "panel": "c",
+    "path": "05_Figure05/code/c/figure5c.py",
+    "title": "Figure 5c paired spatial distribution",
+    "scope": "saved-data redraw; not the formal layout",
+    "source": "Current saved workbook; plotting logic separated by panel",
+    "validation_scope": "saved-data redraw executed; not formal-layout identity",
+    "output": "Figure05c"
+  },
+  {
+    "figure": "Figure05",
+    "panel": "d",
+    "path": "05_Figure05/code/d/figure5d.py",
+    "title": "Figure 5d KPTracer directions",
+    "scope": "saved-data redraw; not the formal layout",
+    "source": "09_Core/shared/plots/restore_reference_figures.py / field; current Figure05 workbook",
+    "validation_scope": "saved-data redraw executed; not formal-layout identity",
+    "output": "Figure05d"
+  },
+  {
+    "figure": "Figure05",
+    "panel": "e",
+    "path": "05_Figure05/code/e/figure5e.py",
+    "title": "Figure 5e KPTracer scores",
+    "scope": "saved-data redraw; not the formal layout",
+    "source": "Current saved workbook; plotting logic separated by panel",
+    "validation_scope": "saved-data redraw executed; not formal-layout identity",
+    "output": "Figure05e"
+  },
+  {
+    "figure": "ED04",
+    "panel": "c",
+    "path": "08_Extended_Data/ExtendedDataFig04/code/c/ed4c.py",
+    "title": "Extended Data 4c full noise series",
+    "scope": "saved-data redraw; not the formal layout",
+    "source": "Manuscript_1021/Code/celldancer_noise_20261020.py / generate; current saved sheets",
+    "validation_scope": "saved-data redraw executed; not formal-layout identity",
+    "output": "ED04c"
+  },
+  {
+    "figure": "ED05",
+    "panel": "a",
+    "path": "08_Extended_Data/ExtendedDataFig05/code/a/ed5a.py",
+    "title": "Extended Data 5a topology comparisons",
+    "scope": "saved-data redraw; not the formal layout",
+    "source": "09_Core/shared/plots/redraw_extended.py / simulation_consistency",
+    "validation_scope": "saved-data redraw executed; not formal-layout identity",
+    "output": "ED05a"
+  },
+  {
+    "figure": "ED05",
+    "panel": "b",
+    "path": "08_Extended_Data/ExtendedDataFig05/code/b/ed5b.py",
+    "title": "Extended Data 5b paired distributions",
+    "scope": "saved-data redraw; not the formal layout",
+    "source": "09_Core/shared/plots/redraw_extended.py / simulation_consistency",
+    "validation_scope": "saved-data redraw executed; not formal-layout identity",
+    "output": "ED05b"
+  },
+  {
+    "figure": "ED05",
+    "panel": "c",
+    "path": "08_Extended_Data/ExtendedDataFig05/code/c/ed5c.py",
+    "title": "Extended Data 5c dimension sensitivity",
+    "scope": "saved-data redraw; not the formal layout",
+    "source": "09_Core/shared/plots/redraw_extended.py / simulation_consistency",
+    "validation_scope": "saved-data redraw executed; not formal-layout identity",
+    "output": "ED05c"
+  },
+  {
+    "figure": "ED06",
+    "panel": "b",
+    "path": "08_Extended_Data/ExtendedDataFig06/code/b/ed6b.py",
+    "title": "Extended Data 6b classical dataset scores",
+    "scope": "saved-data redraw; not the formal layout",
+    "source": "Current saved workbook; plotting logic separated by panel",
+    "validation_scope": "saved-data redraw executed; not formal-layout identity",
+    "output": "ED06b"
+  },
+  {
+    "figure": "ED07",
+    "panel": "a",
+    "path": "08_Extended_Data/ExtendedDataFig07/code/a/ed7a.py",
+    "title": "Extended Data 7a annotation",
+    "scope": "saved-data redraw; not the formal layout",
+    "source": "09_Core/shared/plots/restore_reference_figures.py / render",
+    "validation_scope": "saved-data redraw executed; not formal-layout identity",
+    "output": "ED07a"
+  },
+  {
+    "figure": "ED07",
+    "panel": "b",
+    "path": "08_Extended_Data/ExtendedDataFig07/code/b/ed07b.py",
+    "title": "ED07b reference and method fields",
+    "scope": "saved-data redraw; not the formal layout",
+    "source": "09_Core/shared/plots/restore_reference_figures.py / render",
+    "validation_scope": "saved-data redraw executed; not formal-layout identity",
+    "output": "ED07b"
+  },
+  {
+    "figure": "ED08",
+    "panel": "c",
+    "path": "08_Extended_Data/ExtendedDataFig08/code/c/ed08c.py",
+    "title": "ED08c reference and method fields",
+    "scope": "saved-data redraw; not the formal layout",
+    "source": "09_Core/shared/plots/restore_reference_figures.py / render",
+    "validation_scope": "saved-data redraw executed; not formal-layout identity",
+    "output": "ED08c"
+  },
+  {
+    "figure": "ED08",
+    "panel": "a",
+    "path": "08_Extended_Data/ExtendedDataFig08/code/a/ed8a.py",
+    "title": "Extended Data 8a sampling times",
+    "scope": "saved-data redraw; not the formal layout",
+    "source": "09_Core/shared/plots/restore_reference_figures.py / render",
+    "validation_scope": "saved-data redraw executed; not formal-layout identity",
+    "output": "ED08a"
+  },
+  {
+    "figure": "ED10",
+    "panel": "a",
+    "path": "08_Extended_Data/ExtendedDataFig10/code/a/ed10a.py",
+    "title": "Extended Data 10a cell-type medians",
+    "scope": "saved-data redraw; not the formal layout",
+    "source": "Manuscript_1021/Code/render_topovelo_ed10_20261021.py / spatial median by type",
+    "validation_scope": "saved-data redraw executed; not formal-layout identity",
+    "output": "ED10a"
+  },
+  {
+    "figure": "ED10",
+    "panel": "b",
+    "path": "08_Extended_Data/ExtendedDataFig10/code/b/ed10b.py",
+    "title": "Extended Data 10b paired spatial maps",
+    "scope": "saved-data redraw; not the formal layout",
+    "source": "Manuscript_1021/Code/render_topovelo_ed10_20261021.py / spatial distribution",
+    "validation_scope": "saved-data redraw executed; not formal-layout identity",
+    "output": "ED10b"
+  },
+  {
+    "figure": "ED12",
+    "panel": "top100_enrichment",
+    "path": "08_Extended_Data/ExtendedDataFig12/code/top100_enrichment/top100_enrichment.py",
+    "title": "Extended Data 12 top100 enrichment",
+    "scope": "saved-data redraw; not the formal layout",
+    "source": "08_Extended_Data/ExtendedDataFig12/code/historical/ed17_metascape.py; saved workbook",
+    "validation_scope": "saved-data redraw executed; not formal-layout identity",
+    "output": "ED12_top100_enrichment"
+  },
+  {
+    "figure": "ED12",
+    "panel": "top200_enrichment",
+    "path": "08_Extended_Data/ExtendedDataFig12/code/top200_enrichment/top200_enrichment.py",
+    "title": "Extended Data 12 top200 enrichment",
+    "scope": "saved-data redraw; not the formal layout",
+    "source": "08_Extended_Data/ExtendedDataFig12/code/historical/ed17_metascape.py; saved workbook",
+    "validation_scope": "saved-data redraw executed; not formal-layout identity",
+    "output": "ED12_top200_enrichment"
+  },
+  {
+    "figure": "ED09",
+    "panel": "fields",
+    "path": "08_Extended_Data/ExtendedDataFig09/code/fields/ed9_fields.py",
+    "title": "Extended Data 9 spatial fields",
+    "scope": "saved-vector redraw; not the formal layout",
+    "source": "09_Core/shared/plots/restore_reference_figures.py / field; current ED09 workbook",
+    "validation_scope": "saved-data redraw executed; not formal-layout identity",
+    "output": "ED09_fields"
+  },
+  {
+    "figure": "ED11",
+    "panel": "a",
+    "path": "08_Extended_Data/ExtendedDataFig11/code/a/ed11a.py",
+    "title": "Extended Data 11a cell annotation",
+    "scope": "annotation-only redraw; literature schematic retained as artwork",
+    "source": "Current ED11 workbook",
+    "validation_scope": "saved-data redraw executed; not formal-layout identity",
+    "output": "ED11a_annotation"
+  }
+]

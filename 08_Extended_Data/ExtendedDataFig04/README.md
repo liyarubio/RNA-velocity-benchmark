@@ -6,6 +6,10 @@ Noise panel c contains 840 slots (822 finite, 18 missing), with 84 cross-noise m
 
 ![ED04](<figures/Extended_Data_Fig04.png>)
 
+## Individual panel code
+
+[One plot per file: current entrypoints and limits](code/README.md).
+
 ## Current files
 
 | Role | File |

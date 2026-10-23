@@ -6,6 +6,10 @@ Nine configurations with 519/809 mapped genes in top100/top200 lists, respective
 
 ![ED12](<figures/Extended_Data_Fig12.png>)
 
+## Individual panel code
+
+[One plot per file: current entrypoints and limits](code/README.md).
+
 ## Current files
 
 | Role | File |

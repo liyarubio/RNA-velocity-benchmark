@@ -6,6 +6,10 @@ Aligned with the main-figure source values; 18 HuBMAP configurations, with no va
 
 ![ED06](<figures/Extended_Data_Fig06.png>)
 
+## Individual panel code
+
+[One plot per file: current entrypoints and limits](code/README.md).
+
 ## Current files
 
 | Role | File |

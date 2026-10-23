@@ -29,6 +29,7 @@ This repository follows **Main Figures 1–7** and **Extended Data Figures 1–1
 ## Find materials
 
 - [Extended Data Figures 1–12](08_Extended_Data/README.md)
+- [One plot per file: panel code index](12_Provenance/PANEL_CODE_INDEX.md)
 - [Core workflows and runnable validation](09_Core/README.md)
 - [Shared data](10_Shared/README.md) · [Tables](11_Tables/README.md)
 - [Current provenance and validation](12_Provenance/README.md) · [Historical materials](13_Archive/README.md)

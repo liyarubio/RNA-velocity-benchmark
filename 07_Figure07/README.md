@@ -6,6 +6,10 @@ The exact 784-gene list and matching run have not been recovered; this does not 
 
 ![Figure07](<figures/Figure07.png>)
 
+## Individual panel code
+
+[One plot per file: current entrypoints and limits](code/README.md).
+
 ## Current files
 
 | Role | File |

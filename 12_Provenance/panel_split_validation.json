@@ -1,0 +1,1137 @@
+{
+  "status": "pass",
+  "base_commit": "a8a779e0351f97b747364692dbcd2f9e9bc1a9a7",
+  "original_batch_source_sha256": "ce3cb0066adefedc750dde4619eacae3f5c7278e339428a578da883f53566517",
+  "python_entrypoints": [
+    {
+      "figure": "Figure03",
+      "panel": "a",
+      "path": "03_Figure03/code/a/figure3a_saved_data.py",
+      "title": "Figure 3a high-dimensional cosine check",
+      "scope": "saved-data diagnostic; not the formal layout",
+      "source": "09_Core/visualization/plot_saved_panels.py",
+      "validation_scope": "pixel-identical to pre-split diagnostic",
+      "output": "Figure03a",
+      "sha256": "387315dae4485234f071b3ad4ae7fb9b6b6a2c76dac946c2c923634ddba36141"
+    },
+    {
+      "figure": "Figure04",
+      "panel": "a",
+      "path": "04_Figure04/code/a/figure4a.py",
+      "title": "Figure 4a GDC scores",
+      "scope": "score-only diagnostic; original streams and schematic retained as artwork",
+      "source": "09_Core/visualization/plot_saved_panels.py",
+      "validation_scope": "pixel-identical to pre-split diagnostic",
+      "output": "Figure04a_GDC",
+      "sha256": "7d06fc6aa2fc3f0f8dd3702391eb39e583c954c862ebd19634dac47707752973"
+    },
+    {
+      "figure": "Figure05",
+      "panel": "a",
+      "path": "05_Figure05/code/a/figure5a.py",
+      "title": "Figure 5a ST_small GDC scores",
+      "scope": "score-only diagnostic; original fields and schematic retained as artwork",
+      "source": "09_Core/visualization/plot_saved_panels.py",
+      "validation_scope": "pixel-identical to pre-split diagnostic",
+      "output": "Figure05a_GDC",
+      "sha256": "fd76fc33a80442c5cd770e7336728c2e10454d07a64bcc66da56c6cb4edfaffd"
+    },
+    {
+      "figure": "Figure06",
+      "panel": "a",
+      "path": "06_Figure06/code/a/figure6a.py",
+      "title": "Figure 6a runtime",
+      "scope": "saved-data diagnostic; not the formal layout",
+      "source": "09_Core/visualization/plot_saved_panels.py",
+      "validation_scope": "pixel-identical to pre-split diagnostic",
+      "output": "Figure06a_runtime",
+      "sha256": "e8f5419ee165219b2e937273fae29549e9fa5c64d078c074ba985dd2a1b71985"
+    },
+    {
+      "figure": "Figure06",
+      "panel": "b",
+      "path": "06_Figure06/code/b/figure6b.py",
+      "title": "Figure 6b read-depth consistency",
+      "scope": "saved-data diagnostic; not the formal layout",
+      "source": "09_Core/visualization/plot_saved_panels.py",
+      "validation_scope": "pixel-identical to pre-split diagnostic",
+      "output": "Figure06b_stability",
+      "sha256": "732971569dde3473fb687357307e497a722019c99aba22856a63b9ac20514240"
+    },
+    {
+      "figure": "Figure06",
+      "panel": "c",
+      "path": "06_Figure06/code/c/figure6c.py",
+      "title": "Figure 6c frozen composite",
+      "scope": "saved-data diagnostic; not the formal layout",
+      "source": "09_Core/visualization/plot_saved_panels.py",
+      "validation_scope": "pixel-identical to pre-split diagnostic",
+      "output": "Figure06c_frozen",
+      "sha256": "98f9f06c94f7cda5ca081da5c29afc854cd484ed5ac8c5408c90050de3de7612"
+    },
+    {
+      "figure": "ED04",
+      "panel": "a",
+      "path": "08_Extended_Data/ExtendedDataFig04/code/a/ed4a.py",
+      "title": "Extended Data 4a simulation cosine",
+      "scope": "saved-data diagnostic; not the formal layout",
+      "source": "09_Core/visualization/plot_saved_panels.py",
+      "validation_scope": "pixel-identical to pre-split diagnostic",
+      "output": "ED04a",
+      "sha256": "4555ac287112bb6bcf97e6f2441786dc6aa528b5f8190f8a1c639ec5a9c0eb7a"
+    },
+    {
+      "figure": "ED04",
+      "panel": "b",
+      "path": "08_Extended_Data/ExtendedDataFig04/code/b/ed4b.py",
+      "title": "Extended Data 4b simulation cosine",
+      "scope": "saved-data diagnostic; not the formal layout",
+      "source": "09_Core/visualization/plot_saved_panels.py",
+      "validation_scope": "pixel-identical to pre-split diagnostic",
+      "output": "ED04b",
+      "sha256": "75078888041a8f08ba623ea662c6bb5ce71540ba31a006fd024bdd906154e9a0"
+    },
+    {
+      "figure": "ED05",
+      "panel": "paired_check",
+      "path": "08_Extended_Data/ExtendedDataFig05/code/paired_check/paired_check.py",
+      "title": "Extended Data 5 pooled pairing diagnostic",
+      "scope": "pooled diagnostic only; formal a-c are separate",
+      "source": "09_Core/visualization/plot_saved_panels.py",
+      "validation_scope": "pixel-identical to pre-split diagnostic",
+      "output": "ED06_paired",
+      "sha256": "bd2dbd8b2cd6630f2f4150697cf7296988f188b08f38a0a4aa0af217b6d1d5fd"
+    },
+    {
+      "figure": "ED06",
+      "panel": "a",
+      "path": "08_Extended_Data/ExtendedDataFig06/code/a/ed6a.py",
+      "title": "Extended Data 6a HuBMAP raw GDC",
+      "scope": "raw-order heatmap diagnostic; does not reproduce formal clustering or organ strip",
+      "source": "09_Core/visualization/plot_saved_panels.py",
+      "validation_scope": "pixel-identical to pre-split diagnostic",
+      "output": "ED07_HuBMAP",
+      "sha256": "559b242e6bf0dbcc4a4df5fa11b84de618a276e00c1edfbdcee3cb803ae9d9fa"
+    },
+    {
+      "figure": "ED07",
+      "panel": "c",
+      "path": "08_Extended_Data/ExtendedDataFig07/code/c/ed07c.py",
+      "title": "ED07c reference cosine",
+      "scope": "median-only diagnostic; formal boxplots retained as artwork",
+      "source": "09_Core/visualization/plot_saved_panels.py",
+      "validation_scope": "pixel-identical to pre-split diagnostic",
+      "output": "ED13_median",
+      "sha256": "b6cc0f359b85adbee726f3c02312e8fba24b0461bc7fc88397346759a6acf4b9"
+    },
+    {
+      "figure": "ED08",
+      "panel": "d",
+      "path": "08_Extended_Data/ExtendedDataFig08/code/d/ed08d.py",
+      "title": "ED08d reference cosine",
+      "scope": "median-only diagnostic; formal boxplots retained as artwork",
+      "source": "09_Core/visualization/plot_saved_panels.py",
+      "validation_scope": "pixel-identical to pre-split diagnostic",
+      "output": "ED14_median",
+      "sha256": "89b70227b462ebc16820dfd9c5a2f5ead3e3001a81d60d1a8b65d57a231d15c3"
+    },
+    {
+      "figure": "ED09",
+      "panel": "score_check",
+      "path": "08_Extended_Data/ExtendedDataFig09/code/score_check/ed09_scores.py",
+      "title": "ED09 archived GDC score check",
+      "scope": "archived score diagnostic; separate from current field panels",
+      "source": "09_Core/visualization/plot_saved_panels.py",
+      "validation_scope": "pixel-identical to pre-split diagnostic",
+      "output": "ED15_GDC",
+      "sha256": "994e9742e40a7b093d902108762d08ee215722515048dae2fe8596723213db64"
+    },
+    {
+      "figure": "ED11",
+      "panel": "score_check",
+      "path": "08_Extended_Data/ExtendedDataFig11/code/score_check/ed11_scores.py",
+      "title": "ED11 archived GDC score check",
+      "scope": "archived score diagnostic; separate from current field panels",
+      "source": "09_Core/visualization/plot_saved_panels.py",
+      "validation_scope": "pixel-identical to pre-split diagnostic",
+      "output": "ED17_GDC",
+      "sha256": "0b4e5ec9aca1c8e5f4789f8e2513b44ec5ab8a644ba4d14ce9cd44a552da2434"
+    },
+    {
+      "figure": "ED10",
+      "panel": "median_check",
+      "path": "08_Extended_Data/ExtendedDataFig10/code/median_check/median_check.py",
+      "title": "Extended Data 10 spatial medians",
+      "scope": "median-only diagnostic; formal a-b are separate",
+      "source": "09_Core/visualization/plot_saved_panels.py",
+      "validation_scope": "pixel-identical to pre-split diagnostic",
+      "output": "ED16_spatial",
+      "sha256": "22bd43fdce11f73d76d3f09435a6b6e55ebfc73b4457ba22fb47fc2a8e63ce3e"
+    },
+    {
+      "figure": "ED12",
+      "panel": "top100_overlap",
+      "path": "08_Extended_Data/ExtendedDataFig12/code/top100_overlap/top100_overlap.py",
+      "title": "Extended Data 12 top100 overlap",
+      "scope": "intersection-matrix diagnostic; original chord artwork retained",
+      "source": "09_Core/visualization/plot_saved_panels.py",
+      "validation_scope": "pixel-identical to pre-split diagnostic",
+      "output": "ED18_top100_overlap",
+      "sha256": "feca6b7549ff7cc5d3e9169c57e3aee3c8d5c8fb0fddd5a6dc1af77104a3d076"
+    },
+    {
+      "figure": "ED12",
+      "panel": "top200_overlap",
+      "path": "08_Extended_Data/ExtendedDataFig12/code/top200_overlap/top200_overlap.py",
+      "title": "Extended Data 12 top200 overlap",
+      "scope": "intersection-matrix diagnostic; original chord artwork retained",
+      "source": "09_Core/visualization/plot_saved_panels.py",
+      "validation_scope": "pixel-identical to pre-split diagnostic",
+      "output": "ED18_top200_overlap",
+      "sha256": "12769436ae7cdc5f3cdb7b977d58231ebfa30c6b13812664ce458773cc160ae9"
+    },
+    {
+      "figure": "Figure04",
+      "panel": "b",
+      "path": "04_Figure04/code/b/figure4b.py",
+      "title": "Figure 4b transition scores",
+      "scope": "saved-data redraw; not the formal layout",
+      "source": "Current saved workbook; plotting logic separated by panel",
+      "validation_scope": "saved-data redraw executed; not formal-layout identity",
+      "output": "Figure04b",
+      "sha256": "3d5bc6e23fea2e80a73ede22348cd6966740ae41397face6a372a4896aea920d"
+    },
+    {
+      "figure": "Figure05",
+      "panel": "b",
+      "path": "05_Figure05/code/b/figure5b.py",
+      "title": "Figure 5b selected paired spatial maps",
+      "scope": "saved-data redraw; not the formal layout",
+      "source": "Current saved workbook; plotting logic separated by panel",
+      "validation_scope": "saved-data redraw executed; not formal-layout identity",
+      "output": "Figure05b",
+      "sha256": "e74ae06bcecc8e79dff77c1f2ae914f004944aeccdb21dff9a119879f0c9f4d8"
+    },
+    {
+      "figure": "Figure05",
+      "panel": "c",
+      "path": "05_Figure05/code/c/figure5c.py",
+      "title": "Figure 5c paired spatial distribution",
+      "scope": "saved-data redraw; not the formal layout",
+      "source": "Current saved workbook; plotting logic separated by panel",
+      "validation_scope": "saved-data redraw executed; not formal-layout identity",
+      "output": "Figure05c",
+      "sha256": "4af500e98de5cbf694373967e428c57838bbc11b2d2dd989f275c58bedaee72e"
+    },
+    {
+      "figure": "Figure05",
+      "panel": "d",
+      "path": "05_Figure05/code/d/figure5d.py",
+      "title": "Figure 5d KPTracer directions",
+      "scope": "saved-data redraw; not the formal layout",
+      "source": "09_Core/shared/plots/restore_reference_figures.py / field; current Figure05 workbook",
+      "validation_scope": "saved-data redraw executed; not formal-layout identity",
+      "output": "Figure05d",
+      "sha256": "0b4cc73751ed359aadfafa62c94400dca8a0fcddb6d5179eed99d4f9026e4029"
+    },
+    {
+      "figure": "Figure05",
+      "panel": "e",
+      "path": "05_Figure05/code/e/figure5e.py",
+      "title": "Figure 5e KPTracer scores",
+      "scope": "saved-data redraw; not the formal layout",
+      "source": "Current saved workbook; plotting logic separated by panel",
+      "validation_scope": "saved-data redraw executed; not formal-layout identity",
+      "output": "Figure05e",
+      "sha256": "204b0f885db9f083de366f48d9bececa121beafc69df3c5db8d8ae836e6b1394"
+    },
+    {
+      "figure": "ED04",
+      "panel": "c",
+      "path": "08_Extended_Data/ExtendedDataFig04/code/c/ed4c.py",
+      "title": "Extended Data 4c full noise series",
+      "scope": "saved-data redraw; not the formal layout",
+      "source": "Manuscript_1021/Code/celldancer_noise_20261020.py / generate; current saved sheets",
+      "validation_scope": "saved-data redraw executed; not formal-layout identity",
+      "output": "ED04c",
+      "sha256": "6aaee1bf81b4a739782b772aa1696cb682d9d355d5e29ea8d23c24b59eb437fd"
+    },
+    {
+      "figure": "ED05",
+      "panel": "a",
+      "path": "08_Extended_Data/ExtendedDataFig05/code/a/ed5a.py",
+      "title": "Extended Data 5a topology comparisons",
+      "scope": "saved-data redraw; not the formal layout",
+      "source": "09_Core/shared/plots/redraw_extended.py / simulation_consistency",
+      "validation_scope": "saved-data redraw executed; not formal-layout identity",
+      "output": "ED05a",
+      "sha256": "33bc101d0c4cd9f46c700decd7d9999e15e67bbf9d469efed3703ee9cfca1c77"
+    },
+    {
+      "figure": "ED05",
+      "panel": "b",
+      "path": "08_Extended_Data/ExtendedDataFig05/code/b/ed5b.py",
+      "title": "Extended Data 5b paired distributions",
+      "scope": "saved-data redraw; not the formal layout",
+      "source": "09_Core/shared/plots/redraw_extended.py / simulation_consistency",
+      "validation_scope": "saved-data redraw executed; not formal-layout identity",
+      "output": "ED05b",
+      "sha256": "9b553ba77f40a75fd0dd6ec2daa6f68fb0cdfa7367de9be0494b68755afd7f8b"
+    },
+    {
+      "figure": "ED05",
+      "panel": "c",
+      "path": "08_Extended_Data/ExtendedDataFig05/code/c/ed5c.py",
+      "title": "Extended Data 5c dimension sensitivity",
+      "scope": "saved-data redraw; not the formal layout",
+      "source": "09_Core/shared/plots/redraw_extended.py / simulation_consistency",
+      "validation_scope": "saved-data redraw executed; not formal-layout identity",
+      "output": "ED05c",
+      "sha256": "89ea6049dbb9ce800bb7136e2fab0eeaa395e6048295cc0128e0ab7e5e5b78ae"
+    },
+    {
+      "figure": "ED06",
+      "panel": "b",
+      "path": "08_Extended_Data/ExtendedDataFig06/code/b/ed6b.py",
+      "title": "Extended Data 6b classical dataset scores",
+      "scope": "saved-data redraw; not the formal layout",
+      "source": "Current saved workbook; plotting logic separated by panel",
+      "validation_scope": "saved-data redraw executed; not formal-layout identity",
+      "output": "ED06b",
+      "sha256": "a5461d521692913c8b6fc75affaa179529cdb35c8810e67ee63606c36565525b"
+    },
+    {
+      "figure": "ED07",
+      "panel": "a",
+      "path": "08_Extended_Data/ExtendedDataFig07/code/a/ed7a.py",
+      "title": "Extended Data 7a annotation",
+      "scope": "saved-data redraw; not the formal layout",
+      "source": "09_Core/shared/plots/restore_reference_figures.py / render",
+      "validation_scope": "saved-data redraw executed; not formal-layout identity",
+      "output": "ED07a",
+      "sha256": "c10d0270196f642071b1498d7206b0816e8305000a578e80a02d0bc65e4172f7"
+    },
+    {
+      "figure": "ED07",
+      "panel": "b",
+      "path": "08_Extended_Data/ExtendedDataFig07/code/b/ed07b.py",
+      "title": "ED07b reference and method fields",
+      "scope": "saved-data redraw; not the formal layout",
+      "source": "09_Core/shared/plots/restore_reference_figures.py / render",
+      "validation_scope": "saved-data redraw executed; not formal-layout identity",
+      "output": "ED07b",
+      "sha256": "daff566b855a2e499acdddee41f7cb304396fb90982d21b374302c069c0a4877"
+    },
+    {
+      "figure": "ED08",
+      "panel": "c",
+      "path": "08_Extended_Data/ExtendedDataFig08/code/c/ed08c.py",
+      "title": "ED08c reference and method fields",
+      "scope": "saved-data redraw; not the formal layout",
+      "source": "09_Core/shared/plots/restore_reference_figures.py / render",
+      "validation_scope": "saved-data redraw executed; not formal-layout identity",
+      "output": "ED08c",
+      "sha256": "8df31125dc835d5270951c2cc88b1c8239a371529012eac00de9e463b08eb0c3"
+    },
+    {
+      "figure": "ED08",
+      "panel": "a",
+      "path": "08_Extended_Data/ExtendedDataFig08/code/a/ed8a.py",
+      "title": "Extended Data 8a sampling times",
+      "scope": "saved-data redraw; not the formal layout",
+      "source": "09_Core/shared/plots/restore_reference_figures.py / render",
+      "validation_scope": "saved-data redraw executed; not formal-layout identity",
+      "output": "ED08a",
+      "sha256": "5ddbcab8a5b88ad06f35d2a52e640547cd5ca6325dc40486a641d63376bc6446"
+    },
+    {
+      "figure": "ED10",
+      "panel": "a",
+      "path": "08_Extended_Data/ExtendedDataFig10/code/a/ed10a.py",
+      "title": "Extended Data 10a cell-type medians",
+      "scope": "saved-data redraw; not the formal layout",
+      "source": "Manuscript_1021/Code/render_topovelo_ed10_20261021.py / spatial median by type",
+      "validation_scope": "saved-data redraw executed; not formal-layout identity",
+      "output": "ED10a",
+      "sha256": "692f06fe53dfd43072457937f71899576fff797bf5ee3a0bdf2afa806b37d1d6"
+    },
+    {
+      "figure": "ED10",
+      "panel": "b",
+      "path": "08_Extended_Data/ExtendedDataFig10/code/b/ed10b.py",
+      "title": "Extended Data 10b paired spatial maps",
+      "scope": "saved-data redraw; not the formal layout",
+      "source": "Manuscript_1021/Code/render_topovelo_ed10_20261021.py / spatial distribution",
+      "validation_scope": "saved-data redraw executed; not formal-layout identity",
+      "output": "ED10b",
+      "sha256": "ae3266c03115fa5a713a90c08e0b26c5830ea70c6e777764cc954134c28ade73"
+    },
+    {
+      "figure": "ED12",
+      "panel": "top100_enrichment",
+      "path": "08_Extended_Data/ExtendedDataFig12/code/top100_enrichment/top100_enrichment.py",
+      "title": "Extended Data 12 top100 enrichment",
+      "scope": "saved-data redraw; not the formal layout",
+      "source": "08_Extended_Data/ExtendedDataFig12/code/historical/ed17_metascape.py; saved workbook",
+      "validation_scope": "saved-data redraw executed; not formal-layout identity",
+      "output": "ED12_top100_enrichment",
+      "sha256": "b9c44c2bdfa6af386af1a01eda7458e80d9ac3c3c419b760d84ec57e04cb1b41"
+    },
+    {
+      "figure": "ED12",
+      "panel": "top200_enrichment",
+      "path": "08_Extended_Data/ExtendedDataFig12/code/top200_enrichment/top200_enrichment.py",
+      "title": "Extended Data 12 top200 enrichment",
+      "scope": "saved-data redraw; not the formal layout",
+      "source": "08_Extended_Data/ExtendedDataFig12/code/historical/ed17_metascape.py; saved workbook",
+      "validation_scope": "saved-data redraw executed; not formal-layout identity",
+      "output": "ED12_top200_enrichment",
+      "sha256": "8070efcf1f426b65f483f33b01cf2e957bba1cd06c59d025b866f401e5d8e673"
+    },
+    {
+      "figure": "ED09",
+      "panel": "fields",
+      "path": "08_Extended_Data/ExtendedDataFig09/code/fields/ed9_fields.py",
+      "title": "Extended Data 9 spatial fields",
+      "scope": "saved-vector redraw; not the formal layout",
+      "source": "09_Core/shared/plots/restore_reference_figures.py / field; current ED09 workbook",
+      "validation_scope": "saved-data redraw executed; not formal-layout identity",
+      "output": "ED09_fields",
+      "sha256": "59f57340cd805b8a6464058451c2d253b148ee6abdc5daa8ddcf9dac54701c45"
+    },
+    {
+      "figure": "ED11",
+      "panel": "a",
+      "path": "08_Extended_Data/ExtendedDataFig11/code/a/ed11a.py",
+      "title": "Extended Data 11a cell annotation",
+      "scope": "annotation-only redraw; literature schematic retained as artwork",
+      "source": "Current ED11 workbook",
+      "validation_scope": "saved-data redraw executed; not formal-layout identity",
+      "output": "ED11a_annotation",
+      "sha256": "a8f9e88d339b26d9f72f1aba82f17d3434bbcea5a6598dfa7f7da43a7798cf96"
+    }
+  ],
+  "notebook_splits": [
+    {
+      "panel": "a",
+      "path": "03_Figure03/code/a/generate_metrics.ipynb",
+      "source": "03_Figure03/code/shared/simulation_velocity_metrics.ipynb",
+      "source_sha256": "557d09f693261896580255fe21b3b4c2f9185c1671d965c7522498c5ad5674d9",
+      "source_cells_zero_based": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14
+      ],
+      "appended_global_notebook": false,
+      "code_cells_unchanged": true
+    },
+    {
+      "panel": "b",
+      "path": "03_Figure03/code/b/generate_metrics.ipynb",
+      "source": "03_Figure03/code/shared/simulation_velocity_metrics.ipynb",
+      "source_sha256": "557d09f693261896580255fe21b3b4c2f9185c1671d965c7522498c5ad5674d9",
+      "source_cells_zero_based": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        17,
+        18
+      ],
+      "appended_global_notebook": false,
+      "code_cells_unchanged": true
+    },
+    {
+      "panel": "c",
+      "path": "03_Figure03/code/c/generate_metrics.ipynb",
+      "source": "03_Figure03/code/shared/simulation_velocity_metrics.ipynb",
+      "source_sha256": "557d09f693261896580255fe21b3b4c2f9185c1671d965c7522498c5ad5674d9",
+      "source_cells_zero_based": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        17,
+        18
+      ],
+      "appended_global_notebook": false,
+      "code_cells_unchanged": true
+    },
+    {
+      "panel": "d",
+      "path": "03_Figure03/code/d/generate_metrics.ipynb",
+      "source": "03_Figure03/code/shared/simulation_velocity_metrics.ipynb",
+      "source_sha256": "557d09f693261896580255fe21b3b4c2f9185c1671d965c7522498c5ad5674d9",
+      "source_cells_zero_based": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        21,
+        22
+      ],
+      "appended_global_notebook": false,
+      "code_cells_unchanged": true
+    },
+    {
+      "panel": "f",
+      "path": "03_Figure03/code/f/generate_metrics.ipynb",
+      "source": "03_Figure03/code/shared/simulation_velocity_metrics.ipynb",
+      "source_sha256": "557d09f693261896580255fe21b3b4c2f9185c1671d965c7522498c5ad5674d9",
+      "source_cells_zero_based": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        17,
+        18,
+        19,
+        20
+      ],
+      "appended_global_notebook": true,
+      "code_cells_unchanged": true
+    },
+    {
+      "panel": "shared",
+      "path": "03_Figure03/code/shared/pca30_auxiliary_metrics.ipynb",
+      "source": "03_Figure03/code/shared/simulation_velocity_metrics.ipynb",
+      "source_sha256": "557d09f693261896580255fe21b3b4c2f9185c1671d965c7522498c5ad5674d9",
+      "source_cells_zero_based": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        15,
+        16
+      ],
+      "appended_global_notebook": false,
+      "code_cells_unchanged": true
+    }
+  ],
+  "models_rerun": false,
+  "formal_artwork_modified": false,
+  "historical_R_plotting_executed": false,
+  "baseline_rendering_regression": {
+    "status": "pass",
+    "plots": 17,
+    "checks": [
+      {
+        "output": "Figure03a",
+        "pixels_identical": true,
+        "width": 522,
+        "height": 297
+      },
+      {
+        "output": "Figure04a_GDC",
+        "pixels_identical": true,
+        "width": 513,
+        "height": 342
+      },
+      {
+        "output": "Figure05a_GDC",
+        "pixels_identical": true,
+        "width": 513,
+        "height": 326
+      },
+      {
+        "output": "Figure06a_runtime",
+        "pixels_identical": true,
+        "width": 729,
+        "height": 369
+      },
+      {
+        "output": "Figure06b_stability",
+        "pixels_identical": true,
+        "width": 657,
+        "height": 369
+      },
+      {
+        "output": "Figure06c_frozen",
+        "pixels_identical": true,
+        "width": 513,
+        "height": 310
+      },
+      {
+        "output": "ED05a",
+        "pixels_identical": true,
+        "width": 522,
+        "height": 297
+      },
+      {
+        "output": "ED05b",
+        "pixels_identical": true,
+        "width": 522,
+        "height": 297
+      },
+      {
+        "output": "ED06_paired",
+        "pixels_identical": true,
+        "width": 441,
+        "height": 369
+      },
+      {
+        "output": "ED07_HuBMAP",
+        "pixels_identical": true,
+        "width": 1086,
+        "height": 297
+      },
+      {
+        "output": "ED13_median",
+        "pixels_identical": true,
+        "width": 513,
+        "height": 310
+      },
+      {
+        "output": "ED14_median",
+        "pixels_identical": true,
+        "width": 513,
+        "height": 310
+      },
+      {
+        "output": "ED15_GDC",
+        "pixels_identical": true,
+        "width": 513,
+        "height": 326
+      },
+      {
+        "output": "ED17_GDC",
+        "pixels_identical": true,
+        "width": 513,
+        "height": 326
+      },
+      {
+        "output": "ED16_spatial",
+        "pixels_identical": true,
+        "width": 513,
+        "height": 326
+      },
+      {
+        "output": "ED18_top100_overlap",
+        "pixels_identical": true,
+        "width": 421,
+        "height": 369
+      },
+      {
+        "output": "ED18_top200_overlap",
+        "pixels_identical": true,
+        "width": 421,
+        "height": 369
+      }
+    ]
+  },
+  "python_syntax_pass": 37,
+  "one_plot_call_per_file": true,
+  "notebook_syntax_pass": true,
+  "unchanged_scientific_files": 352,
+  "historical_reads_split": {
+    "source": "05_Figure05/code/historical/Figure5_sources/code/panel_c/Figure5c_velocity_matrix_similarity_original.py",
+    "source_sha256": "e138a407f7bf72cbf1d8bea3740a2d14b207b771d1cc1a8ecd3288ffc72a4522",
+    "computation": "06_Figure06/code/b/historical/compute_metrics.py",
+    "plot_files": [
+      "06_Figure06/code/b/historical/plot_reference_heatmap.py",
+      "06_Figure06/code/b/historical/plot_pairwise_heatmaps.py",
+      "06_Figure06/code/b/historical/plot_reference_lines.py"
+    ],
+    "upstream_computation_executed": false,
+    "plot_statements_preserved": true,
+    "plot_files_executed": true,
+    "runtime_scope": "Three separated historical encodings rendered against the current saved pairwise table; original ordering/coverage retained, no H5AD recomputation."
+  },
+  "historical_composite_move": {
+    "from": "06_Figure06/code/historical/Figure6_sources/code/panel_a/figure6a.py",
+    "to": "06_Figure06/code/c/historical_composite.py",
+    "contents_unchanged": true
+  },
+  "standalone_execution": {
+    "python_files": 37,
+    "outputs": [
+      {
+        "entrypoint": "03_Figure03/code/a/figure3a_saved_data.py",
+        "output": "Figure03a",
+        "pages": 1,
+        "files": [
+          "pdf",
+          "svg",
+          "json"
+        ],
+        "sha256": "387315dae4485234f071b3ad4ae7fb9b6b6a2c76dac946c2c923634ddba36141"
+      },
+      {
+        "entrypoint": "04_Figure04/code/a/figure4a.py",
+        "output": "Figure04a_GDC",
+        "pages": 1,
+        "files": [
+          "pdf",
+          "svg",
+          "json"
+        ],
+        "sha256": "7d06fc6aa2fc3f0f8dd3702391eb39e583c954c862ebd19634dac47707752973"
+      },
+      {
+        "entrypoint": "05_Figure05/code/a/figure5a.py",
+        "output": "Figure05a_GDC",
+        "pages": 1,
+        "files": [
+          "pdf",
+          "svg",
+          "json"
+        ],
+        "sha256": "fd76fc33a80442c5cd770e7336728c2e10454d07a64bcc66da56c6cb4edfaffd"
+      },
+      {
+        "entrypoint": "06_Figure06/code/a/figure6a.py",
+        "output": "Figure06a_runtime",
+        "pages": 1,
+        "files": [
+          "pdf",
+          "svg",
+          "json"
+        ],
+        "sha256": "e8f5419ee165219b2e937273fae29549e9fa5c64d078c074ba985dd2a1b71985"
+      },
+      {
+        "entrypoint": "06_Figure06/code/b/figure6b.py",
+        "output": "Figure06b_stability",
+        "pages": 1,
+        "files": [
+          "pdf",
+          "svg",
+          "json"
+        ],
+        "sha256": "732971569dde3473fb687357307e497a722019c99aba22856a63b9ac20514240"
+      },
+      {
+        "entrypoint": "06_Figure06/code/c/figure6c.py",
+        "output": "Figure06c_frozen",
+        "pages": 1,
+        "files": [
+          "pdf",
+          "svg",
+          "json"
+        ],
+        "sha256": "98f9f06c94f7cda5ca081da5c29afc854cd484ed5ac8c5408c90050de3de7612"
+      },
+      {
+        "entrypoint": "08_Extended_Data/ExtendedDataFig04/code/a/ed4a.py",
+        "output": "ED04a",
+        "pages": 1,
+        "files": [
+          "pdf",
+          "svg",
+          "json"
+        ],
+        "sha256": "4555ac287112bb6bcf97e6f2441786dc6aa528b5f8190f8a1c639ec5a9c0eb7a"
+      },
+      {
+        "entrypoint": "08_Extended_Data/ExtendedDataFig04/code/b/ed4b.py",
+        "output": "ED04b",
+        "pages": 1,
+        "files": [
+          "pdf",
+          "svg",
+          "json"
+        ],
+        "sha256": "75078888041a8f08ba623ea662c6bb5ce71540ba31a006fd024bdd906154e9a0"
+      },
+      {
+        "entrypoint": "08_Extended_Data/ExtendedDataFig05/code/paired_check/paired_check.py",
+        "output": "ED06_paired",
+        "pages": 1,
+        "files": [
+          "pdf",
+          "svg",
+          "json"
+        ],
+        "sha256": "bd2dbd8b2cd6630f2f4150697cf7296988f188b08f38a0a4aa0af217b6d1d5fd"
+      },
+      {
+        "entrypoint": "08_Extended_Data/ExtendedDataFig06/code/a/ed6a.py",
+        "output": "ED07_HuBMAP",
+        "pages": 1,
+        "files": [
+          "pdf",
+          "svg",
+          "json"
+        ],
+        "sha256": "559b242e6bf0dbcc4a4df5fa11b84de618a276e00c1edfbdcee3cb803ae9d9fa"
+      },
+      {
+        "entrypoint": "08_Extended_Data/ExtendedDataFig07/code/c/ed07c.py",
+        "output": "ED13_median",
+        "pages": 1,
+        "files": [
+          "pdf",
+          "svg",
+          "json"
+        ],
+        "sha256": "b6cc0f359b85adbee726f3c02312e8fba24b0461bc7fc88397346759a6acf4b9"
+      },
+      {
+        "entrypoint": "08_Extended_Data/ExtendedDataFig08/code/d/ed08d.py",
+        "output": "ED14_median",
+        "pages": 1,
+        "files": [
+          "pdf",
+          "svg",
+          "json"
+        ],
+        "sha256": "89b70227b462ebc16820dfd9c5a2f5ead3e3001a81d60d1a8b65d57a231d15c3"
+      },
+      {
+        "entrypoint": "08_Extended_Data/ExtendedDataFig09/code/score_check/ed09_scores.py",
+        "output": "ED15_GDC",
+        "pages": 1,
+        "files": [
+          "pdf",
+          "svg",
+          "json"
+        ],
+        "sha256": "994e9742e40a7b093d902108762d08ee215722515048dae2fe8596723213db64"
+      },
+      {
+        "entrypoint": "08_Extended_Data/ExtendedDataFig11/code/score_check/ed11_scores.py",
+        "output": "ED17_GDC",
+        "pages": 1,
+        "files": [
+          "pdf",
+          "svg",
+          "json"
+        ],
+        "sha256": "0b4e5ec9aca1c8e5f4789f8e2513b44ec5ab8a644ba4d14ce9cd44a552da2434"
+      },
+      {
+        "entrypoint": "08_Extended_Data/ExtendedDataFig10/code/median_check/median_check.py",
+        "output": "ED16_spatial",
+        "pages": 1,
+        "files": [
+          "pdf",
+          "svg",
+          "json"
+        ],
+        "sha256": "22bd43fdce11f73d76d3f09435a6b6e55ebfc73b4457ba22fb47fc2a8e63ce3e"
+      },
+      {
+        "entrypoint": "08_Extended_Data/ExtendedDataFig12/code/top100_overlap/top100_overlap.py",
+        "output": "ED18_top100_overlap",
+        "pages": 1,
+        "files": [
+          "pdf",
+          "svg",
+          "json"
+        ],
+        "sha256": "feca6b7549ff7cc5d3e9169c57e3aee3c8d5c8fb0fddd5a6dc1af77104a3d076"
+      },
+      {
+        "entrypoint": "08_Extended_Data/ExtendedDataFig12/code/top200_overlap/top200_overlap.py",
+        "output": "ED18_top200_overlap",
+        "pages": 1,
+        "files": [
+          "pdf",
+          "svg",
+          "json"
+        ],
+        "sha256": "12769436ae7cdc5f3cdb7b977d58231ebfa30c6b13812664ce458773cc160ae9"
+      },
+      {
+        "entrypoint": "04_Figure04/code/b/figure4b.py",
+        "output": "Figure04b",
+        "pages": 1,
+        "files": [
+          "pdf",
+          "svg",
+          "json"
+        ],
+        "sha256": "3d5bc6e23fea2e80a73ede22348cd6966740ae41397face6a372a4896aea920d"
+      },
+      {
+        "entrypoint": "05_Figure05/code/b/figure5b.py",
+        "output": "Figure05b",
+        "pages": 1,
+        "files": [
+          "pdf",
+          "svg",
+          "json"
+        ],
+        "sha256": "e74ae06bcecc8e79dff77c1f2ae914f004944aeccdb21dff9a119879f0c9f4d8"
+      },
+      {
+        "entrypoint": "05_Figure05/code/c/figure5c.py",
+        "output": "Figure05c",
+        "pages": 1,
+        "files": [
+          "pdf",
+          "svg",
+          "json"
+        ],
+        "sha256": "4af500e98de5cbf694373967e428c57838bbc11b2d2dd989f275c58bedaee72e"
+      },
+      {
+        "entrypoint": "05_Figure05/code/d/figure5d.py",
+        "output": "Figure05d",
+        "pages": 1,
+        "files": [
+          "pdf",
+          "svg",
+          "json"
+        ],
+        "sha256": "0b4cc73751ed359aadfafa62c94400dca8a0fcddb6d5179eed99d4f9026e4029"
+      },
+      {
+        "entrypoint": "05_Figure05/code/e/figure5e.py",
+        "output": "Figure05e",
+        "pages": 1,
+        "files": [
+          "pdf",
+          "svg",
+          "json"
+        ],
+        "sha256": "204b0f885db9f083de366f48d9bececa121beafc69df3c5db8d8ae836e6b1394"
+      },
+      {
+        "entrypoint": "08_Extended_Data/ExtendedDataFig04/code/c/ed4c.py",
+        "output": "ED04c",
+        "pages": 1,
+        "files": [
+          "pdf",
+          "svg",
+          "json"
+        ],
+        "sha256": "6aaee1bf81b4a739782b772aa1696cb682d9d355d5e29ea8d23c24b59eb437fd"
+      },
+      {
+        "entrypoint": "08_Extended_Data/ExtendedDataFig05/code/a/ed5a.py",
+        "output": "ED05a",
+        "pages": 1,
+        "files": [
+          "pdf",
+          "svg",
+          "json"
+        ],
+        "sha256": "33bc101d0c4cd9f46c700decd7d9999e15e67bbf9d469efed3703ee9cfca1c77"
+      },
+      {
+        "entrypoint": "08_Extended_Data/ExtendedDataFig05/code/b/ed5b.py",
+        "output": "ED05b",
+        "pages": 1,
+        "files": [
+          "pdf",
+          "svg",
+          "json"
+        ],
+        "sha256": "9b553ba77f40a75fd0dd6ec2daa6f68fb0cdfa7367de9be0494b68755afd7f8b"
+      },
+      {
+        "entrypoint": "08_Extended_Data/ExtendedDataFig05/code/c/ed5c.py",
+        "output": "ED05c",
+        "pages": 1,
+        "files": [
+          "pdf",
+          "svg",
+          "json"
+        ],
+        "sha256": "89ea6049dbb9ce800bb7136e2fab0eeaa395e6048295cc0128e0ab7e5e5b78ae"
+      },
+      {
+        "entrypoint": "08_Extended_Data/ExtendedDataFig06/code/b/ed6b.py",
+        "output": "ED06b",
+        "pages": 1,
+        "files": [
+          "pdf",
+          "svg",
+          "json"
+        ],
+        "sha256": "a5461d521692913c8b6fc75affaa179529cdb35c8810e67ee63606c36565525b"
+      },
+      {
+        "entrypoint": "08_Extended_Data/ExtendedDataFig07/code/a/ed7a.py",
+        "output": "ED07a",
+        "pages": 1,
+        "files": [
+          "pdf",
+          "svg",
+          "json"
+        ],
+        "sha256": "c10d0270196f642071b1498d7206b0816e8305000a578e80a02d0bc65e4172f7"
+      },
+      {
+        "entrypoint": "08_Extended_Data/ExtendedDataFig07/code/b/ed07b.py",
+        "output": "ED07b",
+        "pages": 1,
+        "files": [
+          "pdf",
+          "svg",
+          "json"
+        ],
+        "sha256": "daff566b855a2e499acdddee41f7cb304396fb90982d21b374302c069c0a4877"
+      },
+      {
+        "entrypoint": "08_Extended_Data/ExtendedDataFig08/code/c/ed08c.py",
+        "output": "ED08c",
+        "pages": 1,
+        "files": [
+          "pdf",
+          "svg",
+          "json"
+        ],
+        "sha256": "8df31125dc835d5270951c2cc88b1c8239a371529012eac00de9e463b08eb0c3"
+      },
+      {
+        "entrypoint": "08_Extended_Data/ExtendedDataFig08/code/a/ed8a.py",
+        "output": "ED08a",
+        "pages": 1,
+        "files": [
+          "pdf",
+          "svg",
+          "json"
+        ],
+        "sha256": "5ddbcab8a5b88ad06f35d2a52e640547cd5ca6325dc40486a641d63376bc6446"
+      },
+      {
+        "entrypoint": "08_Extended_Data/ExtendedDataFig10/code/a/ed10a.py",
+        "output": "ED10a",
+        "pages": 1,
+        "files": [
+          "pdf",
+          "svg",
+          "json"
+        ],
+        "sha256": "692f06fe53dfd43072457937f71899576fff797bf5ee3a0bdf2afa806b37d1d6"
+      },
+      {
+        "entrypoint": "08_Extended_Data/ExtendedDataFig10/code/b/ed10b.py",
+        "output": "ED10b",
+        "pages": 1,
+        "files": [
+          "pdf",
+          "svg",
+          "json"
+        ],
+        "sha256": "ae3266c03115fa5a713a90c08e0b26c5830ea70c6e777764cc954134c28ade73"
+      },
+      {
+        "entrypoint": "08_Extended_Data/ExtendedDataFig12/code/top100_enrichment/top100_enrichment.py",
+        "output": "ED12_top100_enrichment",
+        "pages": 1,
+        "files": [
+          "pdf",
+          "svg",
+          "json"
+        ],
+        "sha256": "b9c44c2bdfa6af386af1a01eda7458e80d9ac3c3c419b760d84ec57e04cb1b41"
+      },
+      {
+        "entrypoint": "08_Extended_Data/ExtendedDataFig12/code/top200_enrichment/top200_enrichment.py",
+        "output": "ED12_top200_enrichment",
+        "pages": 1,
+        "files": [
+          "pdf",
+          "svg",
+          "json"
+        ],
+        "sha256": "8070efcf1f426b65f483f33b01cf2e957bba1cd06c59d025b866f401e5d8e673"
+      },
+      {
+        "entrypoint": "08_Extended_Data/ExtendedDataFig09/code/fields/ed9_fields.py",
+        "output": "ED09_fields",
+        "pages": 1,
+        "files": [
+          "pdf",
+          "svg",
+          "json"
+        ],
+        "sha256": "59f57340cd805b8a6464058451c2d253b148ee6abdc5daa8ddcf9dac54701c45"
+      },
+      {
+        "entrypoint": "08_Extended_Data/ExtendedDataFig11/code/a/ed11a.py",
+        "output": "ED11a_annotation",
+        "pages": 1,
+        "files": [
+          "pdf",
+          "svg",
+          "json"
+        ],
+        "sha256": "a8f9e88d339b26d9f72f1aba82f17d3434bbcea5a6598dfa7f7da43a7798cf96"
+      }
+    ],
+    "all_one_plot": true
+  },
+  "numeric_checks": {
+    "ED05a_topology_means_sample_SD": "pass at 1e-12 against saved Topology scatter",
+    "Figure05c_all_20_box_quantiles": "pass at 1e-12 against paired spot scores",
+    "ED09_method_field_coverage": "20 methods x 1292 aligned cells; TopicVelo from its separate current sheet",
+    "ED05a_group_coverage": "14 topologies, 42 datasets, 698 pairs"
+  },
+  "historical_R_syntax_files": 10,
+  "output_renames": {
+    "ED05a": "ED04a",
+    "ED05b": "ED04b"
+  },
+  "unique_current_plot_outputs": 37,
+  "english_findings": 0,
+  "validation_limit": "Independent saved-data drawings and historical plotting checks; no model fitting, external-H5AD metric execution or full historical R rendering."
+}

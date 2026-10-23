@@ -9,7 +9,7 @@ python 09_Core/validation/validate_latest_results.py --out /tmp/rna-velocity-102
 python 09_Core/visualization/plot_saved_panels.py --out /tmp/rna-velocity-panels
 ```
 
-`reproduce.py` checks the saved benchmark and unchanged composite, including the expanded 20-method paired-context table. `validate_latest_results.py` independently recomputes noise means, TopoVelo GDC from saved cluster/edge summaries, and coverage. `plot_saved_panels.py` draws 17 diagnostic panels; runtime/reads/composite outputs now use Figure 6a/b/c. Diagnostic ED filenames retain historical IDs, mapped in the [figure index](../12_Provenance/figure_index.csv).
+`reproduce.py` checks the saved benchmark and unchanged composite, including the expanded 20-method paired-context table. `validate_latest_results.py` independently recomputes noise means, TopoVelo GDC from saved cluster/edge summaries, and coverage. `plot_saved_panels.py` is now only a dispatcher for 37 independent one-plot files. Use `--list` or `--panel Figure06/b` to locate or run one. The [complete panel audit](../12_Provenance/PANEL_CODE_INDEX.md) distinguishes full numerical redraws, partial diagnostics and retained artwork. Most original diagnostic filenames retain historical IDs; ED4a/b use current IDs to prevent output collisions.
 
 ```bash
 python -m pip install -r requirements-audit.txt

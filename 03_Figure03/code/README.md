@@ -1,6 +1,6 @@
 # Figure 3 code, by panel
 
-Each panel has its own directory. The original combined a/b/c/d/f notebook contains shared simulation preparation and metric calculations; it is now clearly named and located under [shared](shared/README.md). Numerical panels have separate plotting entrypoints, including b and c.
+Each panel has its own directory. The original combined a/b/c/d/f notebook has been split into a panel-specific `generate_metrics.ipynb` in each corresponding directory. Each includes its required original preparation and metric cells. Numerical panels have separate plotting entrypoints, including b and c.
 
 | Panel | Content | Directory and entrypoint |
 |---|---|---|
@@ -27,7 +27,7 @@ The renderers were recovered from `Manuscript_2607/Figure3_sources`; all nine nu
 
 ## Upstream computation
 
-See each panel README for its metric sources and [shared/README.md](shared/README.md) for the common notebook cell map. The notebook code cells are preserved; historical outputs and execution counts were cleared during recovery. These generators require external H5ADs, original paths and method environments. Their method coverage may differ from current panels; current CSVs and the workbook define released values.
+See each panel README for its metric sources and [shared/README.md](shared/README.md) for reusable helpers and the auxiliary PCA30 calculation. The original notebook code cells are preserved; historical outputs and execution counts were cleared during recovery. These generators require external H5ADs, original paths and method environments. Their method coverage may differ from current panels; current CSVs and the workbook define released values.
 
 [Shared dyngen simulation and evaluation](../../09_Core/simulation/dyngen/README.md) · [Earlier visualization implementations](legacy/Visualization/Vis_summary/)
 

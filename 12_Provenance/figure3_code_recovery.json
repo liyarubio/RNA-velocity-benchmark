@@ -68,25 +68,169 @@
       "changes": "Current repository input paths and configurable output path; English comments and whitespace; panel g fixed jitter seed; e excluded as retained schematic. Organized into panel-specific directories and shared computation."
     },
     {
-      "source": "Manuscript_2607/Figure3_sources/Figure3abcdf_cell_level_metric_generation.ipynb",
-      "source_sha256": "c7520c0209c3a26c942c55a7cacf0e978736fba739cff36ca827f28ff7edbe1b",
-      "path": "03_Figure03/code/shared/simulation_velocity_metrics.ipynb",
-      "sha256": "557d09f693261896580255fe21b3b4c2f9185c1671d965c7522498c5ad5674d9",
-      "changes": "Code and markdown cell sources unchanged; historical output cells, execution counts and widget state removed. External inputs and original environments required. Organized into panel-specific directories and shared computation."
-    },
-    {
-      "source": "Manuscript_2607/Figure3_sources/Figure3f_global_incluster_direction_generation.ipynb",
-      "source_sha256": "c04ab9004402542921e1912446ed85cdb908588b2600ef0486e861b7e21e82ca",
-      "path": "03_Figure03/code/f/global_incluster_direction_metrics.ipynb",
-      "sha256": "1bfb27f03e6cf629e42ae9e3b3cd343618908db042df4a0fb68535833257742e",
-      "changes": "Code and markdown cell sources unchanged; historical output cells, execution counts and widget state removed. External inputs and original environments required. Organized into panel-specific directories and shared computation."
-    },
-    {
       "source": "Manuscript_2607/Figure3_sources/figure3bc.R",
       "source_sha256": "5b27bc79f836390075217b4b65082eca4e4932ea2aa07ba3a3922c472abdb9eb",
       "path": "03_Figure03/code/c/figure3c.R",
       "sha256": "e97a1cc09192cba17788da10600d638e6e7b864cb54b83ed3f4ad4e6d54c5166",
       "changes": "Extracted panel c from original figure3bc.R; original statistical and plotting statements preserved."
+    },
+    {
+      "source": "Manuscript_2607/Figure3_sources/Figure3abcdf_cell_level_metric_generation.ipynb",
+      "source_sha256": "c7520c0209c3a26c942c55a7cacf0e978736fba739cff36ca827f28ff7edbe1b",
+      "path": "03_Figure03/code/a/generate_metrics.ipynb",
+      "sha256": "ea6a8a91e3d391a37aa51848004b98e84d51e3970942e04b7d07ef4fee43f1b6",
+      "changes": "Selected panel-specific source cells; every included code cell is unchanged.",
+      "source_cells_zero_based": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14
+      ]
+    },
+    {
+      "source": "Manuscript_2607/Figure3_sources/Figure3abcdf_cell_level_metric_generation.ipynb",
+      "source_sha256": "c7520c0209c3a26c942c55a7cacf0e978736fba739cff36ca827f28ff7edbe1b",
+      "path": "03_Figure03/code/b/generate_metrics.ipynb",
+      "sha256": "d686a0427edec3f9d639d4d49cae440494fa443b3c3248c654b17eeea89c28e2",
+      "changes": "Selected panel-specific source cells; every included code cell is unchanged.",
+      "source_cells_zero_based": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        17,
+        18
+      ]
+    },
+    {
+      "source": "Manuscript_2607/Figure3_sources/Figure3abcdf_cell_level_metric_generation.ipynb",
+      "source_sha256": "c7520c0209c3a26c942c55a7cacf0e978736fba739cff36ca827f28ff7edbe1b",
+      "path": "03_Figure03/code/c/generate_metrics.ipynb",
+      "sha256": "98b3c44141e9240745d5b04a83bdf59221e4a3dc2f3c3fdf27beee6cca8d5830",
+      "changes": "Selected panel-specific source cells; every included code cell is unchanged.",
+      "source_cells_zero_based": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        17,
+        18
+      ]
+    },
+    {
+      "source": "Manuscript_2607/Figure3_sources/Figure3abcdf_cell_level_metric_generation.ipynb",
+      "source_sha256": "c7520c0209c3a26c942c55a7cacf0e978736fba739cff36ca827f28ff7edbe1b",
+      "path": "03_Figure03/code/d/generate_metrics.ipynb",
+      "sha256": "2e828222df30912b70a4b156b09efe4638ba64d8a9d374b08c30c56a40dec2a6",
+      "changes": "Selected panel-specific source cells; every included code cell is unchanged.",
+      "source_cells_zero_based": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        21,
+        22
+      ]
+    },
+    {
+      "source": "Manuscript_2607/Figure3_sources/Figure3abcdf_cell_level_metric_generation.ipynb",
+      "source_sha256": "c7520c0209c3a26c942c55a7cacf0e978736fba739cff36ca827f28ff7edbe1b",
+      "path": "03_Figure03/code/f/generate_metrics.ipynb",
+      "sha256": "f5e2c69f1d7fc1d5f8128226c76ea34974588fa26f510fdc2ec7ef57c0925b87",
+      "changes": "Selected panel-specific source cells; every included code cell is unchanged. Appended unchanged global/in-cluster/directional notebook cells.",
+      "source_cells_zero_based": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        17,
+        18,
+        19,
+        20
+      ],
+      "additional_source": {
+        "source": "Manuscript_2607/Figure3_sources/Figure3f_global_incluster_direction_generation.ipynb",
+        "source_sha256": "c04ab9004402542921e1912446ed85cdb908588b2600ef0486e861b7e21e82ca"
+      }
+    },
+    {
+      "source": "Manuscript_2607/Figure3_sources/Figure3abcdf_cell_level_metric_generation.ipynb",
+      "source_sha256": "c7520c0209c3a26c942c55a7cacf0e978736fba739cff36ca827f28ff7edbe1b",
+      "path": "03_Figure03/code/shared/pca30_auxiliary_metrics.ipynb",
+      "sha256": "222d9b9cd203424d83a870f8cc07d44a3722e3252cfea14f49a9a21db3b8f74f",
+      "changes": "Selected panel-specific source cells; every included code cell is unchanged.",
+      "source_cells_zero_based": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        15,
+        16
+      ]
     }
   ],
   "inputs": [
@@ -170,7 +314,7 @@
     "upstream_notebooks_executed": false
   },
   "organization": {
-    "layout": "a-h directories with shared upstream simulation metrics",
+    "layout": "a-h plotting files and separate a/b/c/d/f metric notebooks; shared R helpers only",
     "notebook_code_cells_unchanged": true,
     "b_c_calculation_and_plot_blocks_unchanged": true,
     "formal_artwork_and_numerical_inputs_unchanged": true

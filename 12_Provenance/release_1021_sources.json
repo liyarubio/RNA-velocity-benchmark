@@ -2393,18 +2393,18 @@
       "operation": "retained_English_translation"
     },
     "upstream/archive/Figure5_sources/code/panel_c/Figure5c_velocity_matrix_similarity_original.py": {
-      "path": "05_Figure05/code/historical/Figure5_sources/code/panel_c/Figure5c_velocity_matrix_similarity_original.py",
+      "path": "06_Figure06/code/b/historical/compute_metrics.py",
       "source_sha256": "e138a407f7bf72cbf1d8bea3740a2d14b207b771d1cc1a8ecd3288ffc72a4522",
-      "sha256": "e138a407f7bf72cbf1d8bea3740a2d14b207b771d1cc1a8ecd3288ffc72a4522",
-      "bytes": 12499,
-      "operation": "retained"
+      "sha256": "ce8111545955ea879f9051b256318d920121f157d5bfeacc4c823d006b4425dc",
+      "bytes": 8157,
+      "operation": "moved_to_current_Figure06_panel; historical_read_depth_plots_separated_from_computation"
     },
     "upstream/archive/Figure6_sources/code/panel_a/figure6a.py": {
-      "path": "06_Figure06/code/historical/Figure6_sources/code/panel_a/figure6a.py",
+      "path": "06_Figure06/code/c/historical_composite.py",
       "source_sha256": "4edb19fb43bdefe3a031753078d5d1e7424bb751be5775513a3dd4b5dac2362e",
       "sha256": "4edb19fb43bdefe3a031753078d5d1e7424bb751be5775513a3dd4b5dac2362e",
       "bytes": 19944,
-      "operation": "retained"
+      "operation": "moved_to_current_Figure06_panel; historical_read_depth_plots_separated_from_computation"
     },
     "upstream/archive/cellDancer_evaluation/evaluate.py": {
       "path": "08_Extended_Data/ExtendedDataFig04/code/historical/cellDancer_evaluation/evaluate.py",

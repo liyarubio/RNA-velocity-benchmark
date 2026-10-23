@@ -6,6 +6,10 @@ Three scenarios and 30 datasets; continuous U/S values are not observed integer 
 
 ![ED02](<figures/Extended_Data_Fig02.png>)
 
+## Individual panel code
+
+[One plot per file: current entrypoints and limits](code/README.md).
+
 ## Current files
 
 | Role | File |
