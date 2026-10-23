@@ -406,5 +406,16 @@
   "upstream/plots/redraw_extended.py": "09_Core/shared/plots/redraw_extended.py",
   "upstream/plots/restore_reference_figures.py": "09_Core/shared/plots/restore_reference_figures.py",
   "upstream/plots/spatial_display_names.py": "08_Extended_Data/ExtendedDataFig11/code/historical/plots/spatial_display_names.py",
-  "upstream/restore_tfvelo_projection.py": "09_Core/shared/restore_tfvelo_projection.py"
+  "upstream/restore_tfvelo_projection.py": "09_Core/shared/restore_tfvelo_projection.py",
+  "Manuscript_2607/Figure3_sources/figure3a.R": "03_Figure03/code/panels/figure3a.R",
+  "Manuscript_2607/Figure3_sources/figure3a_plot_core.R": "03_Figure03/code/panels/figure3a_plot_core.R",
+  "Manuscript_2607/Figure3_sources/figure3bc.R": "03_Figure03/code/panels/figure3bc.R",
+  "Manuscript_2607/Figure3_sources/figure3d.R": "03_Figure03/code/panels/figure3d.R",
+  "Manuscript_2607/Figure3_sources/figure3f.R": "03_Figure03/code/panels/figure3f.R",
+  "Manuscript_2607/Figure3_sources/figure3g.R": "03_Figure03/code/panels/figure3g.R",
+  "Manuscript_2607/Figure3_sources/figure3h.R": "03_Figure03/code/panels/figure3h.R",
+  "Manuscript_2607/Figure3_sources/figure3_common.R": "03_Figure03/code/panels/figure3_common.R",
+  "Manuscript_2607/Figure3_sources/render_all.R": "03_Figure03/code/panels/render_all.R",
+  "Manuscript_2607/Figure3_sources/Figure3abcdf_cell_level_metric_generation.ipynb": "03_Figure03/code/historical/figure3/Figure3abcdf_cell_level_metric_generation.ipynb",
+  "Manuscript_2607/Figure3_sources/Figure3f_global_incluster_direction_generation.ipynb": "03_Figure03/code/historical/figure3/Figure3f_global_incluster_direction_generation.ipynb"
 }

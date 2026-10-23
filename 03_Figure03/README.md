@@ -6,6 +6,10 @@ Current release: **Manuscript_1021**, including updates through **22 October 202
 
 ![Figure03](<figures/Figure03.png>)
 
+## Panel code a-h
+
+[Open the complete panel-by-panel code guide](code/README.md). Plotting code for a-d and f-h is in `code/panels`; e is retained manual artwork. The earlier g/h-only historical folder was a subset of the available code. Recovery uses the current 1021 CSVs, with hashes and execution limits recorded in the guide.
+
 ## Current files
 
 | Role | File |
@@ -58,6 +62,18 @@ Current release: **Manuscript_1021**, including updates through **22 October 202
 | code | [../09_Core/model_execution/Run_velocity/run_velovi.py](<../09_Core/model_execution/Run_velocity/run_velovi.py>) |
 | code | [../09_Core/model_execution/Run_velogif.py](<../09_Core/model_execution/Run_velogif.py>) |
 | code | [../09_Core/model_execution/run_velogif_batch.py](<../09_Core/model_execution/run_velogif_batch.py>) |
+| code | [code/panels/figure3a.R](<code/panels/figure3a.R>) |
+| code | [code/panels/figure3a_plot_core.R](<code/panels/figure3a_plot_core.R>) |
+| code | [code/panels/figure3bc.R](<code/panels/figure3bc.R>) |
+| code | [code/panels/figure3d.R](<code/panels/figure3d.R>) |
+| code | [code/panels/figure3f.R](<code/panels/figure3f.R>) |
+| code | [code/panels/figure3g.R](<code/panels/figure3g.R>) |
+| code | [code/panels/figure3h.R](<code/panels/figure3h.R>) |
+| code | [code/panels/figure3_common.R](<code/panels/figure3_common.R>) |
+| code | [code/panels/render_all.R](<code/panels/render_all.R>) |
+| code | [code/historical/figure3/Figure3abcdf_cell_level_metric_generation.ipynb](<code/historical/figure3/Figure3abcdf_cell_level_metric_generation.ipynb>) |
+| code | [code/historical/figure3/Figure3f_global_incluster_direction_generation.ipynb](<code/historical/figure3/Figure3f_global_incluster_direction_generation.ipynb>) |
+| code | [code/validate_panel_data.py](<code/validate_panel_data.py>) |
 
 ## Code and validation
 

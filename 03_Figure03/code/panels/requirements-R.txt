@@ -1,0 +1,17 @@
+data.table
+dplyr
+tidyr
+ggplot2
+ggpubr
+corrplot
+pheatmap
+RColorBrewer
+tibble
+dynutils
+stringr
+Hmisc
+plyr
+scales
+ggimage
+cowplot
+ggforce

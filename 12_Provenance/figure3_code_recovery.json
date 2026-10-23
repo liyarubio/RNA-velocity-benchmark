@@ -1,0 +1,165 @@
+{
+  "status": "recovered_and_checked",
+  "source": "Manuscript_2607/Figure3_sources",
+  "current_data_source": "Manuscript_1021",
+  "models_rerun": false,
+  "files": [
+    {
+      "source": "Manuscript_2607/Figure3_sources/figure3a.R",
+      "source_sha256": "201309731da8335265d65c7b0a268f79d599898cdcdc3bf78d2419ae6b543631",
+      "path": "03_Figure03/code/panels/figure3a.R",
+      "sha256": "a7e2e9e34d0ff28d2d73a7c0e8499931d376fddc704d02d8769599d17883e71f",
+      "changes": "Current repository input paths and configurable output path; English comments and whitespace; panel g fixed jitter seed; e excluded as retained schematic."
+    },
+    {
+      "source": "Manuscript_2607/Figure3_sources/figure3a_plot_core.R",
+      "source_sha256": "42b21a00ecdf790750cd85418a24fd337f7dd10e1071e096525afee100ce1614",
+      "path": "03_Figure03/code/panels/figure3a_plot_core.R",
+      "sha256": "46329bc38f4f15f01ca986e956cba18e064606243fb97a2921fe316499317df5",
+      "changes": "Current repository input paths and configurable output path; English comments and whitespace; panel g fixed jitter seed; e excluded as retained schematic."
+    },
+    {
+      "source": "Manuscript_2607/Figure3_sources/figure3bc.R",
+      "source_sha256": "5b27bc79f836390075217b4b65082eca4e4932ea2aa07ba3a3922c472abdb9eb",
+      "path": "03_Figure03/code/panels/figure3bc.R",
+      "sha256": "5b27bc79f836390075217b4b65082eca4e4932ea2aa07ba3a3922c472abdb9eb",
+      "changes": "Current repository input paths and configurable output path; English comments and whitespace; panel g fixed jitter seed; e excluded as retained schematic."
+    },
+    {
+      "source": "Manuscript_2607/Figure3_sources/figure3d.R",
+      "source_sha256": "7977eef6f0f348d1f002a8c80ee8a9d5a7824ec22d5ef94e9b77eee0675dc70c",
+      "path": "03_Figure03/code/panels/figure3d.R",
+      "sha256": "7977eef6f0f348d1f002a8c80ee8a9d5a7824ec22d5ef94e9b77eee0675dc70c",
+      "changes": "Current repository input paths and configurable output path; English comments and whitespace; panel g fixed jitter seed; e excluded as retained schematic."
+    },
+    {
+      "source": "Manuscript_2607/Figure3_sources/figure3f.R",
+      "source_sha256": "3b49a258f517bed8196e72aef4ea5baebde2caaa03fc2227acda5ef8cc0940b4",
+      "path": "03_Figure03/code/panels/figure3f.R",
+      "sha256": "3b49a258f517bed8196e72aef4ea5baebde2caaa03fc2227acda5ef8cc0940b4",
+      "changes": "Current repository input paths and configurable output path; English comments and whitespace; panel g fixed jitter seed; e excluded as retained schematic."
+    },
+    {
+      "source": "Manuscript_2607/Figure3_sources/figure3g.R",
+      "source_sha256": "326fb2dd6280c57460fe7a1722daf57d5056466a8f91560db098e28708d28a2b",
+      "path": "03_Figure03/code/panels/figure3g.R",
+      "sha256": "3d6eb4f95b3d9097bec4ca717e0c1233412808cc54eb3355fdcfc67cb9ca8c07",
+      "changes": "Current repository input paths and configurable output path; English comments and whitespace; panel g fixed jitter seed; e excluded as retained schematic."
+    },
+    {
+      "source": "Manuscript_2607/Figure3_sources/figure3h.R",
+      "source_sha256": "6d69e2590b6499fb2e0438a107b46295b74ba4bd272db95a03705c1e088ca44e",
+      "path": "03_Figure03/code/panels/figure3h.R",
+      "sha256": "c57ee9ac0d42da69144090ffbd33cd8f98629e038e0f32a21b8ca59f42677ccd",
+      "changes": "Current repository input paths and configurable output path; English comments and whitespace; panel g fixed jitter seed; e excluded as retained schematic."
+    },
+    {
+      "source": "Manuscript_2607/Figure3_sources/figure3_common.R",
+      "source_sha256": "9a9b966053d3f860a6d19b00fff9a795c729c03f754350d421edca054cd10fb0",
+      "path": "03_Figure03/code/panels/figure3_common.R",
+      "sha256": "076f4985495e327dbfc6c07b0431a4891075f8d23a6f18b5b994543f00a3a3b4",
+      "changes": "Current repository input paths and configurable output path; English comments and whitespace; panel g fixed jitter seed; e excluded as retained schematic."
+    },
+    {
+      "source": "Manuscript_2607/Figure3_sources/render_all.R",
+      "source_sha256": "fabcb6addf907bb5ac488a2cdfd935a494d3f58227587e9f4a9ccf4815fdb50c",
+      "path": "03_Figure03/code/panels/render_all.R",
+      "sha256": "03ab5559b3ce5106cab277bf08d7eb4e413db98b1aab09ff3db84ca387b03160",
+      "changes": "Current repository input paths and configurable output path; English comments and whitespace; panel g fixed jitter seed; e excluded as retained schematic."
+    },
+    {
+      "source": "Manuscript_2607/Figure3_sources/Figure3abcdf_cell_level_metric_generation.ipynb",
+      "source_sha256": "c7520c0209c3a26c942c55a7cacf0e978736fba739cff36ca827f28ff7edbe1b",
+      "path": "03_Figure03/code/historical/figure3/Figure3abcdf_cell_level_metric_generation.ipynb",
+      "sha256": "557d09f693261896580255fe21b3b4c2f9185c1671d965c7522498c5ad5674d9",
+      "changes": "Code and markdown cell sources unchanged; historical output cells, execution counts and widget state removed. External inputs and original environments required."
+    },
+    {
+      "source": "Manuscript_2607/Figure3_sources/Figure3f_global_incluster_direction_generation.ipynb",
+      "source_sha256": "c04ab9004402542921e1912446ed85cdb908588b2600ef0486e861b7e21e82ca",
+      "path": "03_Figure03/code/historical/figure3/Figure3f_global_incluster_direction_generation.ipynb",
+      "sha256": "1bfb27f03e6cf629e42ae9e3b3cd343618908db042df4a0fb68535833257742e",
+      "changes": "Code and markdown cell sources unchanged; historical output cells, execution counts and widget state removed. External inputs and original environments required."
+    }
+  ],
+  "inputs": [
+    {
+      "path": "03_Figure03/data/figure3_detail/Figure3a_high_dim_cosine_similarity.csv",
+      "sha256": "d5b8583b75b50b61c8c6d37ae8a57ccf69e19b197b2cf10078199e9f4bb76cd5",
+      "matches_recovered_code_input_bytes": true
+    },
+    {
+      "path": "03_Figure03/data/figure3_detail/Figure3bc_low_dim_cosine_similarity.csv",
+      "sha256": "5841db828c0ebd59894e91b7eea9a29a898f99f6a4d1bdf3bd54d2495f85ce63",
+      "matches_recovered_code_input_bytes": true
+    },
+    {
+      "path": "03_Figure03/data/figure3_detail/Figure3d_pca2_to_30_cosine_similarity.csv",
+      "sha256": "3f7c0f872950fd45b90d2e17c44041db6bd5b7aa167dfd5207b72e6524871b7e",
+      "matches_recovered_code_input_bytes": true
+    },
+    {
+      "path": "03_Figure03/data/figure3_detail/Figure3f_direction_metric.csv",
+      "sha256": "0957fbb99cd6fea3ba57e2e9aaa7791cb21b97f6c383e50eb32b578d2c451f89",
+      "matches_recovered_code_input_bytes": true
+    },
+    {
+      "path": "03_Figure03/data/figure3_detail/Figure3f_global_metric.csv",
+      "sha256": "cccdafa41ad1f768750ac0adfcf5c8800a258f2d652d43a20aadbf9fe1b3a1d7",
+      "matches_recovered_code_input_bytes": true
+    },
+    {
+      "path": "03_Figure03/data/figure3_detail/Figure3f_incluster_metric.csv",
+      "sha256": "2ee04d65e6ca1b8e7131450e403eaad86e16f20ea966f2b1ae7a18055ac81b16",
+      "matches_recovered_code_input_bytes": true
+    },
+    {
+      "path": "03_Figure03/data/figure3_detail/Figure3f_transition_matrix_cosine_similarity.csv",
+      "sha256": "9e3b7779c36ef9d8d70e122e0ef20d0150e5597e3b9077e69428a18d1dcd4027",
+      "matches_recovered_code_input_bytes": true
+    },
+    {
+      "path": "03_Figure03/data/figure3_detail/Figure3g_hubmap_global_performance.csv",
+      "sha256": "b0f91ab34028c44bd52a2c7622d5c4c6d228d0840842b8d85316662edfa1ce7d",
+      "matches_recovered_code_input_bytes": true
+    },
+    {
+      "path": "03_Figure03/data/figure3_detail/Figure3h_dataset10_global_performance.csv",
+      "sha256": "9640b0e7f809997b13f065c7298e6bfdb00274261376e6b94af05664b63c8ed1",
+      "matches_recovered_code_input_bytes": true
+    }
+  ],
+  "panel_e": "Retained manual artwork; no numerical analysis code.",
+  "scope": "Recovery of saved-data redraw code and original upstream notebooks. No older numerical data or formal artwork imported.",
+  "validation": {
+    "R_syntax_files": 9,
+    "R_syntax_status": "pass",
+    "full_R_plotting_executed": false,
+    "reason": "Available R environments lack packages required by the retained renderers.",
+    "numerical_derivations": {
+      "status": "pass",
+      "checks": [
+        {
+          "check": "panel_d_435_dimension_summaries",
+          "passed": true,
+          "details": null
+        },
+        {
+          "check": "panel_f_798_aligned_units",
+          "passed": true,
+          "details": null
+        },
+        {
+          "check": "panel_f_pairwise_Pearson_correlations",
+          "passed": true,
+          "details": null
+        }
+      ],
+      "models_rerun": false,
+      "R_plotting_executed": false,
+      "scope": "Independent Python checks of saved d/f numerical derivations; not an R renderer execution or a formal-layout reconstruction."
+    },
+    "all_nine_inputs_identical_to_current_release": true,
+    "upstream_notebooks_executed": false
+  }
+}
