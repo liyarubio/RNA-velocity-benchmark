@@ -2,7 +2,6 @@
   "Code/derive_topovelo_historical_20261021.py": "09_Core/shared/latest/derive_topovelo_historical_20261021.py",
   "Code/spatial_field_style.py": "09_Core/shared/latest/spatial_field_style.py",
   "Code/topovelo_historical_evaluation.py": "09_Core/shared/latest/topovelo_historical_evaluation.py",
-  "Figure1_sources/code/compose_landscape_a4.py": "01_Figure01/code/historical/compose_landscape_a4.py",
   "data/cellDancer_current_30/README.txt": "08_Extended_Data/ExtendedDataFig04/data/cellDancer_current_30/README.txt",
   "data/cellDancer_current_30/dataset_inventory.csv": "08_Extended_Data/ExtendedDataFig04/data/cellDancer_current_30/dataset_inventory.csv",
   "data/cellDancer_current_30/dataset_summary.csv": "08_Extended_Data/ExtendedDataFig04/data/cellDancer_current_30/dataset_summary.csv",

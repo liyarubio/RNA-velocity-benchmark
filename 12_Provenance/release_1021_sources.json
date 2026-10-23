@@ -26,13 +26,6 @@
       "bytes": 4271,
       "operation": "copied"
     },
-    "Figure1_sources/code/compose_landscape_a4.py": {
-      "path": "01_Figure01/code/historical/compose_landscape_a4.py",
-      "source_sha256": "f88eb0150bf031c3661518a5cb0a470a17ddc8784669d0ea54912a652e798b7e",
-      "sha256": "f88eb0150bf031c3661518a5cb0a470a17ddc8784669d0ea54912a652e798b7e",
-      "bytes": 6798,
-      "operation": "retained"
-    },
     "data/cellDancer_current_30/README.txt": {
       "path": "08_Extended_Data/ExtendedDataFig04/data/cellDancer_current_30/README.txt",
       "source_sha256": "91b4894394695f1b7ab7ac07be78c8a2177822d194ba700e6c0b26826737a3d7",
@@ -3253,6 +3246,12 @@
       "reason": "Archived model input or superseded layout source; retained externally with size and hash.",
       "bytes": 10860671,
       "sha256": "7a27d48c50f38e16b346ba4d069c312dd8cc134dbd2040eaf4804bf9b2414e96"
+    },
+    {
+      "source_path": "Figure1_sources/code/compose_landscape_a4.py",
+      "reason": "Removed at user request: Figures 1 and 2 are schematics and retain only figure files.",
+      "bytes": 6798,
+      "sha256": "f88eb0150bf031c3661518a5cb0a470a17ddc8784669d0ea54912a652e798b7e"
     }
   ],
   "removed_superseded_artwork": [
@@ -3315,5 +3314,19 @@
       "numeric_cells_and_formulas_unchanged": true
     }
   ],
-  "validation_scope": "Original source hashes checked locally; numeric XML and formulas preserved in all workbooks; final PDFs and previews identical to source."
+  "validation_scope": "Original source hashes checked locally; numeric XML and formulas preserved in all workbooks; final PDFs and previews identical to source.",
+  "schematic_cleanup": {
+    "date": "2026-10-23",
+    "figures": [
+      1,
+      2
+    ],
+    "removed_files": [
+      "01_Figure01/code/historical/compose_landscape_a4.py",
+      "01_Figure01/records/Reports/figure1_landscape_20261019/before/submission_figures/Figure01.pdf"
+    ],
+    "remaining_contents": "Current PDF, SVG and PNG plus navigation README",
+    "shared_tables": "Retained in 11_Tables for independent use; removed from Figure 1 and 2 bindings",
+    "artwork_unchanged": true
+  }
 }

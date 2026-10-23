@@ -1,17 +1,4 @@
 figure,source_path,original_source_path,sheet,rows,columns
-Figure01,11_Tables/Table S1 RNA velocity algorithms summary.xlsx,tables/Table S1 RNA velocity algorithms summary.xlsx,Summary,22,11
-Figure01,11_Tables/Table S1 RNA velocity algorithms summary.xlsx,tables/Table S1 RNA velocity algorithms summary.xlsx,Input data,7,22
-Figure01,11_Tables/Table S1 RNA velocity algorithms summary.xlsx,tables/Table S1 RNA velocity algorithms summary.xlsx,Added methods evidence,7,4
-Figure01,11_Tables/Table S1 RNA velocity algorithms summary.xlsx,tables/Table S1 RNA velocity algorithms summary.xlsx,Revision notes,8,2
-Figure02,11_Tables/Table S2 Simulation Datasets.xlsx,tables/Table S2 Simulation Datasets.xlsx,dyngen simulation,47,12
-Figure02,11_Tables/Table S2 Simulation Datasets.xlsx,tables/Table S2 Simulation Datasets.xlsx,cellDancer simulation,31,21
-Figure02,11_Tables/Table S2 Simulation Datasets.xlsx,tables/Table S2 Simulation Datasets.xlsx,Revision notes,6,2
-Figure02,11_Tables/Table S3 Real-world Datasets.xlsx,tables/Table S3 Real-world Datasets.xlsx,Datasets10,11,10
-Figure02,11_Tables/Table S3 Real-world Datasets.xlsx,tables/Table S3 Real-world Datasets.xlsx,HuBMAP,177,10
-Figure02,11_Tables/Table S3 Real-world Datasets.xlsx,tables/Table S3 Real-world Datasets.xlsx,multi-omics datasets,4,7
-Figure02,11_Tables/Table S3 Real-world Datasets.xlsx,tables/Table S3 Real-world Datasets.xlsx,Current figure datasets,6,5
-Figure02,11_Tables/Table S3 Real-world Datasets.xlsx,tables/Table S3 Real-world Datasets.xlsx,MPSTA reference transitions,6,3
-Figure02,11_Tables/Table S3 Real-world Datasets.xlsx,tables/Table S3 Real-world Datasets.xlsx,Revision notes,6,2
 Figure03,03_Figure03/data/source_data/Figure03.xlsx,source_data/Figure03.xlsx,README,7,2
 Figure03,03_Figure03/data/source_data/Figure03.xlsx,source_data/Figure03.xlsx,3a High dim,19,43
 Figure03,03_Figure03/data/source_data/Figure03.xlsx,source_data/Figure03.xlsx,3bc Low dim,19,43

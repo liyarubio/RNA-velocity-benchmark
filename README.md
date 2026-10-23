@@ -3,14 +3,14 @@
 Code, saved results and figures for a multilevel benchmark of RNA velocity inference.
 **Current release: Manuscript_1021, including updates through 22 October 2026; published 23 October 2026.**
 
-This repository follows **Main Figures 1–7** and **Extended Data Figures 1–12**. Each figure has its current PDF, preview, source tables and links to analysis inputs. Shared files are stored once. [Release notes](12_Provenance/RELEASE_1021.md) describe what changed from the previous public version.
+This repository follows **Main Figures 1–7** and **Extended Data Figures 1–12**. Figures 1–2 are schematics and contain only figures. Figures 3–7 and the Extended Data folders include source tables and analysis inputs alongside the figures. Shared files are stored once. [Release notes](12_Provenance/RELEASE_1021.md) describe what changed from the previous public version.
 
 ## Main figures
 
 | Figure | Topic | Materials |
 |---|---|---|
-| 1 | Timeline of RNA velocity methods | [Code, data and figures](01_Figure01/README.md) |
-| 2 | Benchmarking framework | [Code, data and figures](02_Figure02/README.md) |
+| 1 | Timeline of RNA velocity methods | [Figures](01_Figure01/README.md) |
+| 2 | Benchmarking framework | [Figures](02_Figure02/README.md) |
 | 3 | Evaluation on simulated and conventional datasets | [Code, data and figures](03_Figure03/README.md) |
 | 4 | ReDeeM | [Code, data and figures](04_Figure04/README.md) |
 | 5 | Spatial and lineage-referenced evaluation | [Code, data and figures](05_Figure05/README.md) |

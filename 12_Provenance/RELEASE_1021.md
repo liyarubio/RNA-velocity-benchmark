@@ -2,6 +2,10 @@
 
 This release imports the saved results and final figures in Manuscript_1021, including its 22 October updates. It replaces the 19 October public snapshot in the existing figure-organized layout. The manuscript workspace is unchanged. No velocity model was fitted during publication.
 
+## Schematic figure organization
+
+Figures 1 and 2 contain only the current PDF, SVG and PNG plus a navigation README. Figure-specific code, historical backup records and data links were removed on 23 October at the author's request. Shared tables remain in the tables directory. The six current figure files are unchanged.
+
 ## Scientific changes and limits
 
 | Material | Current result | Interpretation boundary |
