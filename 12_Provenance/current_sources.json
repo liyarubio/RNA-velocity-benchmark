@@ -479,5 +479,9 @@
   "Code/figure3h_mean/README.md": "09_Core/visualization/figure3h_mean/README.md",
   "Code/figure3h_mean/assets/Figure03_before.pdf": "09_Core/visualization/figure3h_mean/assets/Figure03_before.pdf",
   "Code/figure3h_mean/assets/input_hashes.json": "09_Core/visualization/figure3h_mean/assets/input_hashes.json",
-  "Code/figure3h_mean/assets/gdc_palette.csv": "09_Core/visualization/figure3h_mean/assets/gdc_palette.csv"
+  "Code/figure3h_mean/assets/gdc_palette.csv": "09_Core/visualization/figure3h_mean/assets/gdc_palette.csv",
+  "Code/ed08_celltype/ed08_celltype.py": "09_Core/visualization/ed08_celltype/ed08_celltype.py",
+  "Code/ed08_celltype/README.md": "09_Core/visualization/ed08_celltype/README.md",
+  "Code/ed08_celltype/assets/Extended_Data_Fig08_before.pdf": "09_Core/visualization/ed08_celltype/assets/Extended_Data_Fig08_before.pdf",
+  "data/reference_restoration/scLT_cell_types.csv": "08_Extended_Data/ExtendedDataFig08/data/reference_restoration/scLT_cell_types.csv"
 }

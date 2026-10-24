@@ -1,11 +1,11 @@
 {
   "status": "pass",
   "counts": {
-    "paths": 892,
-    "text_files": 777,
-    "decoded_json_files": 162,
+    "paths": 898,
+    "text_files": 782,
+    "decoded_json_files": 164,
     "workbooks": 23,
-    "pdf_files": 48
+    "pdf_files": 49
   },
   "findings": [],
   "pdf_text_checked": true,

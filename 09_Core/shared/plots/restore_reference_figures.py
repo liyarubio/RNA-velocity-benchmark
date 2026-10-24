@@ -72,12 +72,14 @@ def render(n):
         letter(fig,286,49,'c');boxorder=boxes(ax(fig,327,61,235,158),cos)
         letter(fig,25,286,'b');start,ph,dy=310,98,121
     else:
-        full=pd.read_csv(D/'scLT_timepoints.csv')
+        full=pd.read_csv(D/'scLT_timepoints.csv').merge(pd.read_csv(D/'scLT_cell_types.csv'),on='cell_id',validate='one_to_one')
+        full['display_cell_type']=full.cell_type.replace({'Mast':'Other','Ccr7_DC':'Other'})
         for j,samples in enumerate([['d2_5'],['d5r1','d5r2']]):
             a=ax(fig,45+j*135,62,110,126)
-            for sam,color in zip(samples,['#ffbf69'] if j==0 else ['#9ecae1','#3182bd']):
-                q=full[full['sample']==sam];a.scatter(q.x,q.y,s=3.0,c=color,edgecolors='none',alpha=.8,label=sam)
-            a.set_xticks([]);a.set_yticks([]);a.set(xlabel='CCE1',ylabel='CCE2',title='Day 2.5' if j==0 else 'Day 5');a.legend(loc='lower left',frameon=False,fontsize=5.5,markerscale=3,handletextpad=.3)
+            for label,color in {**LT,'Other':'#b0b0b0'}.items():
+                q=full[full['sample'].isin(samples)&(full.display_cell_type==label)];a.scatter(q.x,q.y,s=3.0,c=color,edgecolors='none',alpha=.8,label=label)
+            a.set_xticks([]);a.set_yticks([]);a.set(xlabel='CCE1',ylabel='CCE2',title='Day 2.5' if j==0 else 'Day 5')
+        legend_a=ax(fig,45,207,245,27);legend_a.axis('off');legend_a.legend(handles=[Line2D([],[],marker='o',ls='',color=color,label=label,ms=2) for label,color in {**LT,'Other':'#b0b0b0'}.items()],loc='center',ncol=3,frameon=False,fontsize=5.3)
         letter(fig,304,49,'d');boxorder=boxes(ax(fig,327,62,235,126),cos)
         letter(fig,25,255,'b');letter(fig,25,385,'c');start,ph,dy=409,75,99
     # ED13b / ED14c follow their displayed reference-cosine medians (not GDC).

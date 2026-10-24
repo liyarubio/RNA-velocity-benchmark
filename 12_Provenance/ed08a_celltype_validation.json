@@ -1,0 +1,505 @@
+{
+  "status": "pass",
+  "changed_files": [
+    "figures/extended/Extended_Data_Fig14.pdf",
+    "figures/extended_numbered/Extended_Data_Fig08.pdf",
+    "submission_figures/Extended_Data_Fig08.pdf",
+    "submission_figures/Extended_Data_Figures_combined.pdf",
+    "submission_figures/numbered_extended/Extended_Data_Fig08.pdf",
+    "figures/extended_numbered/Extended_Data_Fig08.png",
+    "figures/extended_numbered/Extended_Data_Fig08.svg",
+    "figures/extended/Extended_Data_Fig14.png",
+    "figures/extended/Extended_Data_Fig14.svg"
+  ],
+  "panels_b_c_d_unchanged": true,
+  "caption_text_unchanged": true,
+  "protected_files_verified": 46,
+  "unchanged_companion_pages_checked": 25,
+  "pages": [
+    {
+      "path": "figures/extended/Extended_Data_Fig14.pdf",
+      "page": 1,
+      "status": "pass",
+      "panel": "ED08a",
+      "cells": 3186,
+      "reference_labels_matched": 1756,
+      "cell_type_palette": {
+        "Baso/Eos": "#279e68",
+        "Ery/Meg": "#d62728",
+        "Lym/pDC": "#1f77b4",
+        "Mono": "#aa40fc",
+        "Neutro": "#aec7e8",
+        "Progenitors": "#ff7f0e",
+        "Unknown": "#808080"
+      },
+      "additional_palette": {
+        "Other": "#b0b0b0"
+      },
+      "display_label_mapping": {
+        "Mast": "Other",
+        "Ccr7_DC": "Other"
+      },
+      "input_sha256": {
+        "scLT_timepoints.csv": "c3e9b0739f93af92faf2d32c0a0aa6016c3edf58aa81faa212c82def1512f7c2",
+        "scLT_cell_types.csv": "7286c90de522637c39a323d23992d3eefa904ca3b754cc09db1a6a692f6118f4",
+        "scLT_reference_cells.csv": "5507ca35a5981ba0809af82c2ae64d9ea22c0ac3bdc837fb79faadda2a1745bf"
+      },
+      "point_mapping_max_error_pt": 0.00015421549400684853,
+      "changed_regions": [
+        [
+          62.36116104125976,
+          81.0762451171875,
+          166.07965393066405,
+          199.96837158203124
+        ],
+        [
+          190.38840942382814,
+          81.0762451171875,
+          294.10692138671874,
+          199.96837158203124
+        ],
+        [
+          62.061161041259766,
+          214.49362061240456,
+          294.40692138671875,
+          241.04741880243475
+        ]
+      ],
+      "colors_verified": 3186,
+      "point_geometry_preserved": true,
+      "point_opacity": 0.8,
+      "display_counts": {
+        "Progenitors": 1248,
+        "Mono": 733,
+        "Unknown": 474,
+        "Neutro": 460,
+        "Ery/Meg": 178,
+        "Lym/pDC": 53,
+        "Baso/Eos": 32,
+        "Other": 8
+      },
+      "sample_counts": {
+        "d2_5": 1756,
+        "d5r2": 755,
+        "d5r1": 675
+      },
+      "unchanged_area_max_pixel_difference": 0,
+      "original_sample_legends_removed": true,
+      "legend": "Panel a shares seven colors with panel c; Mast and Ccr7_DC are displayed in grey as Other, with original annotations retained",
+      "models_rerun": false,
+      "numerical_inputs_changed": false
+    },
+    {
+      "path": "figures/extended_numbered/Extended_Data_Fig08.pdf",
+      "page": 1,
+      "status": "pass",
+      "panel": "ED08a",
+      "cells": 3186,
+      "reference_labels_matched": 1756,
+      "cell_type_palette": {
+        "Baso/Eos": "#279e68",
+        "Ery/Meg": "#d62728",
+        "Lym/pDC": "#1f77b4",
+        "Mono": "#aa40fc",
+        "Neutro": "#aec7e8",
+        "Progenitors": "#ff7f0e",
+        "Unknown": "#808080"
+      },
+      "additional_palette": {
+        "Other": "#b0b0b0"
+      },
+      "display_label_mapping": {
+        "Mast": "Other",
+        "Ccr7_DC": "Other"
+      },
+      "input_sha256": {
+        "scLT_timepoints.csv": "c3e9b0739f93af92faf2d32c0a0aa6016c3edf58aa81faa212c82def1512f7c2",
+        "scLT_cell_types.csv": "7286c90de522637c39a323d23992d3eefa904ca3b754cc09db1a6a692f6118f4",
+        "scLT_reference_cells.csv": "5507ca35a5981ba0809af82c2ae64d9ea22c0ac3bdc837fb79faadda2a1745bf"
+      },
+      "point_mapping_max_error_pt": 0.00015421549400684853,
+      "changed_regions": [
+        [
+          62.36116104125976,
+          81.0762451171875,
+          166.07965393066405,
+          199.96837158203124
+        ],
+        [
+          190.38840942382814,
+          81.0762451171875,
+          294.10692138671874,
+          199.96837158203124
+        ],
+        [
+          62.061161041259766,
+          214.49362061240456,
+          294.40692138671875,
+          241.04741880243475
+        ]
+      ],
+      "colors_verified": 3186,
+      "point_geometry_preserved": true,
+      "point_opacity": 0.8,
+      "display_counts": {
+        "Progenitors": 1248,
+        "Mono": 733,
+        "Unknown": 474,
+        "Neutro": 460,
+        "Ery/Meg": 178,
+        "Lym/pDC": 53,
+        "Baso/Eos": 32,
+        "Other": 8
+      },
+      "sample_counts": {
+        "d2_5": 1756,
+        "d5r2": 755,
+        "d5r1": 675
+      },
+      "unchanged_area_max_pixel_difference": 0,
+      "original_sample_legends_removed": true,
+      "legend": "Panel a shares seven colors with panel c; Mast and Ccr7_DC are displayed in grey as Other, with original annotations retained",
+      "models_rerun": false,
+      "numerical_inputs_changed": false
+    },
+    {
+      "path": "submission_figures/Extended_Data_Fig08.pdf",
+      "page": 1,
+      "status": "pass",
+      "panel": "ED08a",
+      "cells": 3186,
+      "reference_labels_matched": 1756,
+      "cell_type_palette": {
+        "Baso/Eos": "#279e68",
+        "Ery/Meg": "#d62728",
+        "Lym/pDC": "#1f77b4",
+        "Mono": "#aa40fc",
+        "Neutro": "#aec7e8",
+        "Progenitors": "#ff7f0e",
+        "Unknown": "#808080"
+      },
+      "additional_palette": {
+        "Other": "#b0b0b0"
+      },
+      "display_label_mapping": {
+        "Mast": "Other",
+        "Ccr7_DC": "Other"
+      },
+      "input_sha256": {
+        "scLT_timepoints.csv": "c3e9b0739f93af92faf2d32c0a0aa6016c3edf58aa81faa212c82def1512f7c2",
+        "scLT_cell_types.csv": "7286c90de522637c39a323d23992d3eefa904ca3b754cc09db1a6a692f6118f4",
+        "scLT_reference_cells.csv": "5507ca35a5981ba0809af82c2ae64d9ea22c0ac3bdc837fb79faadda2a1745bf"
+      },
+      "point_mapping_max_error_pt": 0.00015421549400684853,
+      "changed_regions": [
+        [
+          62.36116104125976,
+          81.0762451171875,
+          166.07965393066405,
+          199.96837158203124
+        ],
+        [
+          190.38840942382814,
+          81.0762451171875,
+          294.10692138671874,
+          199.96837158203124
+        ],
+        [
+          62.061161041259766,
+          214.49362061240456,
+          294.40692138671875,
+          241.04741880243475
+        ]
+      ],
+      "colors_verified": 3186,
+      "point_geometry_preserved": true,
+      "point_opacity": 0.8,
+      "display_counts": {
+        "Progenitors": 1248,
+        "Mono": 733,
+        "Unknown": 474,
+        "Neutro": 460,
+        "Ery/Meg": 178,
+        "Lym/pDC": 53,
+        "Baso/Eos": 32,
+        "Other": 8
+      },
+      "sample_counts": {
+        "d2_5": 1756,
+        "d5r2": 755,
+        "d5r1": 675
+      },
+      "unchanged_area_max_pixel_difference": 0,
+      "original_sample_legends_removed": true,
+      "legend": "Panel a shares seven colors with panel c; Mast and Ccr7_DC are displayed in grey as Other, with original annotations retained",
+      "models_rerun": false,
+      "numerical_inputs_changed": false
+    },
+    {
+      "path": "submission_figures/Extended_Data_Figures_combined.pdf",
+      "page": 13,
+      "status": "pass",
+      "panel": "ED08a",
+      "cells": 3186,
+      "reference_labels_matched": 1756,
+      "cell_type_palette": {
+        "Baso/Eos": "#279e68",
+        "Ery/Meg": "#d62728",
+        "Lym/pDC": "#1f77b4",
+        "Mono": "#aa40fc",
+        "Neutro": "#aec7e8",
+        "Progenitors": "#ff7f0e",
+        "Unknown": "#808080"
+      },
+      "additional_palette": {
+        "Other": "#b0b0b0"
+      },
+      "display_label_mapping": {
+        "Mast": "Other",
+        "Ccr7_DC": "Other"
+      },
+      "input_sha256": {
+        "scLT_timepoints.csv": "c3e9b0739f93af92faf2d32c0a0aa6016c3edf58aa81faa212c82def1512f7c2",
+        "scLT_cell_types.csv": "7286c90de522637c39a323d23992d3eefa904ca3b754cc09db1a6a692f6118f4",
+        "scLT_reference_cells.csv": "5507ca35a5981ba0809af82c2ae64d9ea22c0ac3bdc837fb79faadda2a1745bf"
+      },
+      "point_mapping_max_error_pt": 0.00015421549400684853,
+      "changed_regions": [
+        [
+          62.36116104125976,
+          81.0762451171875,
+          166.07965393066405,
+          199.96837158203124
+        ],
+        [
+          190.38840942382814,
+          81.0762451171875,
+          294.10692138671874,
+          199.96837158203124
+        ],
+        [
+          62.061161041259766,
+          214.49362061240456,
+          294.40692138671875,
+          241.04741880243475
+        ]
+      ],
+      "colors_verified": 3186,
+      "point_geometry_preserved": true,
+      "point_opacity": 0.8,
+      "display_counts": {
+        "Progenitors": 1248,
+        "Mono": 733,
+        "Unknown": 474,
+        "Neutro": 460,
+        "Ery/Meg": 178,
+        "Lym/pDC": 53,
+        "Baso/Eos": 32,
+        "Other": 8
+      },
+      "sample_counts": {
+        "d2_5": 1756,
+        "d5r2": 755,
+        "d5r1": 675
+      },
+      "unchanged_area_max_pixel_difference": 0,
+      "original_sample_legends_removed": true,
+      "legend": "Panel a shares seven colors with panel c; Mast and Ccr7_DC are displayed in grey as Other, with original annotations retained",
+      "models_rerun": false,
+      "numerical_inputs_changed": false
+    },
+    {
+      "path": "submission_figures/numbered_extended/Extended_Data_Fig08.pdf",
+      "page": 1,
+      "status": "pass",
+      "panel": "ED08a",
+      "cells": 3186,
+      "reference_labels_matched": 1756,
+      "cell_type_palette": {
+        "Baso/Eos": "#279e68",
+        "Ery/Meg": "#d62728",
+        "Lym/pDC": "#1f77b4",
+        "Mono": "#aa40fc",
+        "Neutro": "#aec7e8",
+        "Progenitors": "#ff7f0e",
+        "Unknown": "#808080"
+      },
+      "additional_palette": {
+        "Other": "#b0b0b0"
+      },
+      "display_label_mapping": {
+        "Mast": "Other",
+        "Ccr7_DC": "Other"
+      },
+      "input_sha256": {
+        "scLT_timepoints.csv": "c3e9b0739f93af92faf2d32c0a0aa6016c3edf58aa81faa212c82def1512f7c2",
+        "scLT_cell_types.csv": "7286c90de522637c39a323d23992d3eefa904ca3b754cc09db1a6a692f6118f4",
+        "scLT_reference_cells.csv": "5507ca35a5981ba0809af82c2ae64d9ea22c0ac3bdc837fb79faadda2a1745bf"
+      },
+      "point_mapping_max_error_pt": 0.00015421549400684853,
+      "changed_regions": [
+        [
+          62.36116104125976,
+          81.0762451171875,
+          166.07965393066405,
+          199.96837158203124
+        ],
+        [
+          190.38840942382814,
+          81.0762451171875,
+          294.10692138671874,
+          199.96837158203124
+        ],
+        [
+          62.061161041259766,
+          214.49362061240456,
+          294.40692138671875,
+          241.04741880243475
+        ]
+      ],
+      "colors_verified": 3186,
+      "point_geometry_preserved": true,
+      "point_opacity": 0.8,
+      "display_counts": {
+        "Progenitors": 1248,
+        "Mono": 733,
+        "Unknown": 474,
+        "Neutro": 460,
+        "Ery/Meg": 178,
+        "Lym/pDC": 53,
+        "Baso/Eos": 32,
+        "Other": 8
+      },
+      "sample_counts": {
+        "d2_5": 1756,
+        "d5r2": 755,
+        "d5r1": 675
+      },
+      "unchanged_area_max_pixel_difference": 0,
+      "original_sample_legends_removed": true,
+      "legend": "Panel a shares seven colors with panel c; Mast and Ccr7_DC are displayed in grey as Other, with original annotations retained",
+      "models_rerun": false,
+      "numerical_inputs_changed": false
+    }
+  ],
+  "annotation_provenance": {
+    "source": "/data1/liyaru/RNA_velocity_materials/scLT_multitag/LSK_lineage.h5ad",
+    "source_sha256": "1c13574d811837e54be5a438ab0bebb139016126f2d78a5d86075371b21a48b7",
+    "source_field": "obs/cell_type2",
+    "aliases": {
+      "MEP": "Progenitors",
+      "MPP": "Progenitors",
+      "MPP/GMP": "Progenitors",
+      "Unk_1": "Unknown",
+      "Unk_2": "Unknown",
+      "Unk_3": "Unknown",
+      "Lym": "Lym/pDC",
+      "pDC": "Lym/pDC"
+    },
+    "cells": 3186,
+    "reference_labels_matched": 1756,
+    "all_coordinates_matched": true,
+    "counts": {
+      "Progenitors": 1248,
+      "Mono": 733,
+      "Unknown": 474,
+      "Neutro": 460,
+      "Ery/Meg": 178,
+      "Lym/pDC": 53,
+      "Baso/Eos": 32,
+      "Mast": 6,
+      "Ccr7_DC": 2
+    },
+    "models_rerun": false,
+    "display_grouping": {
+      "Mast": "Other",
+      "Ccr7_DC": "Other"
+    },
+    "display_grouping_requested_by_user": true,
+    "other_color": "#b0b0b0",
+    "raw_annotations_preserved": true
+  },
+  "models_rerun": false,
+  "independent_public_entrypoint": {
+    "status": "pass",
+    "panel": "ED08a",
+    "cells": 3186,
+    "reference_labels_matched": 1756,
+    "cell_type_palette": {
+      "Baso/Eos": "#279e68",
+      "Ery/Meg": "#d62728",
+      "Lym/pDC": "#1f77b4",
+      "Mono": "#aa40fc",
+      "Neutro": "#aec7e8",
+      "Progenitors": "#ff7f0e",
+      "Unknown": "#808080"
+    },
+    "additional_palette": {
+      "Other": "#b0b0b0"
+    },
+    "display_label_mapping": {
+      "Mast": "Other",
+      "Ccr7_DC": "Other"
+    },
+    "input_sha256": {
+      "scLT_timepoints.csv": "c3e9b0739f93af92faf2d32c0a0aa6016c3edf58aa81faa212c82def1512f7c2",
+      "scLT_cell_types.csv": "7286c90de522637c39a323d23992d3eefa904ca3b754cc09db1a6a692f6118f4",
+      "scLT_reference_cells.csv": "5507ca35a5981ba0809af82c2ae64d9ea22c0ac3bdc837fb79faadda2a1745bf"
+    },
+    "point_mapping_max_error_pt": 0.00015421549400684853,
+    "changed_regions": [
+      [
+        62.36116104125976,
+        81.0762451171875,
+        166.07965393066405,
+        199.96837158203124
+      ],
+      [
+        190.38840942382814,
+        81.0762451171875,
+        294.10692138671874,
+        199.96837158203124
+      ],
+      [
+        62.061161041259766,
+        214.49362061240456,
+        294.40692138671875,
+        241.04741880243475
+      ]
+    ],
+    "colors_verified": 3186,
+    "point_geometry_preserved": true,
+    "point_opacity": 0.8,
+    "display_counts": {
+      "Progenitors": 1248,
+      "Mono": 733,
+      "Unknown": 474,
+      "Neutro": 460,
+      "Ery/Meg": 178,
+      "Lym/pDC": 53,
+      "Baso/Eos": 32,
+      "Other": 8
+    },
+    "sample_counts": {
+      "d2_5": 1756,
+      "d5r2": 755,
+      "d5r1": 675
+    },
+    "unchanged_area_max_pixel_difference": 0,
+    "original_sample_legends_removed": true,
+    "legend": "Panel a shares seven colors with panel c; Mast and Ccr7_DC are displayed in grey as Other, with original annotations retained",
+    "models_rerun": false,
+    "numerical_inputs_changed": false
+  },
+  "display_grouping_approved_by_user": {
+    "Mast": "Other",
+    "Ccr7_DC": "Other"
+  },
+  "code_sha256": {
+    "08_Extended_Data/ExtendedDataFig08/code/a/ed8a.py": "0336e95a1a2d394ae2f490dc9782e56283607cb5b96b26aa632faeb90ee3c0bb",
+    "08_Extended_Data/ExtendedDataFig08/code/c/ed08c.py": "db39d288c84dd61ec1fa3a0af1d1420f5d89c1785a272ede46b3b0da90f5f2d8",
+    "09_Core/visualization/ed08_celltype/ed08_celltype.py": "ccbb81755483702e66b7be89682d1f27b47bd2f69b4fec42b3332632665de65a"
+  },
+  "shared_palette_checked_against_formal_ED08c_code": true,
+  "source_bundle_artwork_link": "Updated final_with_legend.pdf to the canonical submission PDF recorded in the source manifest"
+}

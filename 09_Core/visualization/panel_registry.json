@@ -303,10 +303,10 @@
     "figure": "ED08",
     "panel": "a",
     "path": "08_Extended_Data/ExtendedDataFig08/code/a/ed8a.py",
-    "title": "Extended Data 8a sampling times",
-    "scope": "saved-data redraw; not the formal layout",
-    "source": "09_Core/shared/plots/restore_reference_figures.py / render",
-    "validation_scope": "saved-data redraw executed; not formal-layout identity",
+    "title": "Extended Data 8a timepoints colored by cell type",
+    "scope": "formal panel recoloring; barcode-aligned cell types; original point geometry retained",
+    "source": "09_Core/visualization/ed08_celltype/ed08_celltype.py",
+    "validation_scope": "3186 colors and original point positions checked; pixels outside panel a unchanged",
     "output": "ED08a"
   },
   {

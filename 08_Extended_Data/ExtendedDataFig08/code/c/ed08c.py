@@ -11,7 +11,9 @@ def render(out, log):
     proj = pd.read_csv(source_path('data/reference_restoration/scLT_projected_directions.csv'))
     cos = pd.read_csv(source_path('data/reference_restoration/scLT_per_cell_cosine.csv')).set_index('cell_id')
     labels = cells.cell_type.to_numpy()
-    palette = {k: plt.get_cmap('tab10')(i) for i, k in enumerate(pd.unique(labels))}
+    sys.path.insert(0, str(ROOT / '09_Core/visualization/ed08_celltype'))
+    from ed08_celltype import PALETTE
+    palette = PALETTE
     order = cos.median().sort_values(ascending=False, kind='stable').index.tolist()
     fig, axes = plt.subplots(4, 5, figsize=(14, 10), constrained_layout=True)
     for ax, m in zip(axes.flat, ['Reference'] + order):

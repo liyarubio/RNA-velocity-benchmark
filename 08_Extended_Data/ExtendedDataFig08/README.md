@@ -41,3 +41,5 @@ Current release: **Manuscript_1021**, including updates through **22 October 202
 [Retained figure-specific code](<code>)
 
 [Repository overview](<../../README.md>) · [Release notes](<../../12_Provenance/RELEASE_1021.md>)
+
+Panel a uses cell-type colors consistent with panel c while preserving the Day 2.5 and Day 5 groups and all 3,186 original coordinates. The [complete cell-type annotations](data/reference_restoration/scLT_cell_types.csv) retain six Mast and two Ccr7_DC cells seen only at Day 5; these eight cells are displayed together in gray as Other. [Validation](../../12_Provenance/ed08a_celltype_validation.json).

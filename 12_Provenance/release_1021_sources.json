@@ -1855,17 +1855,17 @@
     },
     "figures/extended_numbered/Extended_Data_Fig08.png": {
       "path": "08_Extended_Data/ExtendedDataFig08/figures/Extended_Data_Fig08.png",
-      "source_sha256": "2237699f4bbc51881450cc132086b444df4f277b23aefc865e098906ea3f195c",
-      "sha256": "2237699f4bbc51881450cc132086b444df4f277b23aefc865e098906ea3f195c",
-      "bytes": 711342,
-      "operation": "retained"
+      "source_sha256": "816a83adf1c2861e1d55dc760021767bd25ee2b16a43863b31d5cad63c192d54",
+      "sha256": "816a83adf1c2861e1d55dc760021767bd25ee2b16a43863b31d5cad63c192d54",
+      "bytes": 762442,
+      "operation": "ED08a cell-type coloring; saved numerical values and panels b-d preserved"
     },
     "figures/extended_numbered/Extended_Data_Fig08.svg": {
       "path": "08_Extended_Data/ExtendedDataFig08/figures/Extended_Data_Fig08.svg",
-      "source_sha256": "d6a8d8834d38ad19f5b92e775bb384a5407d8d4727ce2a92a4b38998d1562962",
-      "sha256": "d6a8d8834d38ad19f5b92e775bb384a5407d8d4727ce2a92a4b38998d1562962",
-      "bytes": 41620616,
-      "operation": "copied"
+      "source_sha256": "733b92c296c9d5a9ee9773431cb60cbae8c6cceebc2bfb5213e25fc57f41533e",
+      "sha256": "733b92c296c9d5a9ee9773431cb60cbae8c6cceebc2bfb5213e25fc57f41533e",
+      "bytes": 44679864,
+      "operation": "ED08a cell-type coloring; saved numerical values and panels b-d preserved"
     },
     "figures/extended_numbered/Extended_Data_Fig09.png": {
       "path": "08_Extended_Data/ExtendedDataFig09/figures/Extended_Data_Fig09.png",
@@ -2177,10 +2177,10 @@
     },
     "submission_figures/Extended_Data_Fig08.pdf": {
       "path": "08_Extended_Data/ExtendedDataFig08/figures/Extended_Data_Fig08.pdf",
-      "source_sha256": "3f2f8ebeb9f364eb41c6c1e20beb7d496093e890acbf19196d3978199b94b31b",
-      "sha256": "3f2f8ebeb9f364eb41c6c1e20beb7d496093e890acbf19196d3978199b94b31b",
-      "bytes": 2788794,
-      "operation": "copied"
+      "source_sha256": "80969467b6bf3428981329a45599e112713179b6521d018696705872388bb61b",
+      "sha256": "80969467b6bf3428981329a45599e112713179b6521d018696705872388bb61b",
+      "bytes": 2952252,
+      "operation": "ED08a cell-type coloring; saved numerical values and panels b-d preserved"
     },
     "submission_figures/Extended_Data_Fig09.pdf": {
       "path": "08_Extended_Data/ExtendedDataFig09/figures/Extended_Data_Fig09.pdf",
@@ -2842,10 +2842,10 @@
     },
     "upstream/plots/restore_reference_figures.py": {
       "path": "09_Core/shared/plots/restore_reference_figures.py",
-      "source_sha256": "5180348de19dbd4137d80ecff36454a7e2c6420f5c96c93d290578d4762ac6ed",
-      "sha256": "5180348de19dbd4137d80ecff36454a7e2c6420f5c96c93d290578d4762ac6ed",
-      "bytes": 8912,
-      "operation": "retained"
+      "source_sha256": "66d63dfca4768ed9ced12a98d030e1438bf70a32e07b04ff95d9e4cc54ba4879",
+      "sha256": "66d63dfca4768ed9ced12a98d030e1438bf70a32e07b04ff95d9e4cc54ba4879",
+      "bytes": 9263,
+      "operation": "ED08a cell-type coloring; saved numerical values and panels b-d preserved"
     },
     "upstream/plots/spatial_display_names.py": {
       "path": "08_Extended_Data/ExtendedDataFig11/code/historical/plots/spatial_display_names.py",
@@ -2972,6 +2972,34 @@
       "sha256": "b8b177fbb9f2fac7726f17726faa9db66358e682b6f2545ff1b9417b998fb985",
       "bytes": 5856,
       "operation": "Retained RdYlBu_r palette verified against all 178 finite formal heatmap cells"
+    },
+    "Code/ed08_celltype/ed08_celltype.py": {
+      "path": "09_Core/visualization/ed08_celltype/ed08_celltype.py",
+      "source_sha256": "ccbb81755483702e66b7be89682d1f27b47bd2f69b4fec42b3332632665de65a",
+      "sha256": "ccbb81755483702e66b7be89682d1f27b47bd2f69b4fec42b3332632665de65a",
+      "bytes": 7910,
+      "operation": "ED08a cell-type annotation and formal rendering update"
+    },
+    "Code/ed08_celltype/README.md": {
+      "path": "09_Core/visualization/ed08_celltype/README.md",
+      "source_sha256": "c164fb1d21e20fc1c8b321669f5ea7c63783e77455e11536e3eb24eebddc4019",
+      "sha256": "c164fb1d21e20fc1c8b321669f5ea7c63783e77455e11536e3eb24eebddc4019",
+      "bytes": 1118,
+      "operation": "ED08a cell-type annotation and formal rendering update"
+    },
+    "Code/ed08_celltype/assets/Extended_Data_Fig08_before.pdf": {
+      "path": "09_Core/visualization/ed08_celltype/assets/Extended_Data_Fig08_before.pdf",
+      "source_sha256": "3f2f8ebeb9f364eb41c6c1e20beb7d496093e890acbf19196d3978199b94b31b",
+      "sha256": "3f2f8ebeb9f364eb41c6c1e20beb7d496093e890acbf19196d3978199b94b31b",
+      "bytes": 2788794,
+      "operation": "ED08a cell-type annotation and formal rendering update"
+    },
+    "data/reference_restoration/scLT_cell_types.csv": {
+      "path": "08_Extended_Data/ExtendedDataFig08/data/reference_restoration/scLT_cell_types.csv",
+      "source_sha256": "7286c90de522637c39a323d23992d3eefa904ca3b754cc09db1a6a692f6118f4",
+      "sha256": "7286c90de522637c39a323d23992d3eefa904ca3b754cc09db1a6a692f6118f4",
+      "bytes": 117061,
+      "operation": "ED08a cell-type annotation and formal rendering update"
     }
   },
   "excluded": [
@@ -3479,5 +3507,21 @@
       -1,
       1
     ]
+  },
+  "ed08a_celltype_update": {
+    "date": "2026-10-24",
+    "validation": "12_Provenance/ed08a_celltype_validation.json",
+    "annotation_provenance": "12_Provenance/ed08a_celltype_annotations.json",
+    "cells": 3186,
+    "shared_cell_types": 7,
+    "additional_types": {
+      "Mast": 6,
+      "Ccr7_DC": 2
+    },
+    "display_grouping": {
+      "Mast": "Other",
+      "Ccr7_DC": "Other"
+    },
+    "models_rerun": false
   }
 }

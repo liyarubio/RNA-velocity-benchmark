@@ -1,0 +1,37 @@
+{
+  "source": "/data1/liyaru/RNA_velocity_materials/scLT_multitag/LSK_lineage.h5ad",
+  "source_sha256": "1c13574d811837e54be5a438ab0bebb139016126f2d78a5d86075371b21a48b7",
+  "source_field": "obs/cell_type2",
+  "aliases": {
+    "MEP": "Progenitors",
+    "MPP": "Progenitors",
+    "MPP/GMP": "Progenitors",
+    "Unk_1": "Unknown",
+    "Unk_2": "Unknown",
+    "Unk_3": "Unknown",
+    "Lym": "Lym/pDC",
+    "pDC": "Lym/pDC"
+  },
+  "cells": 3186,
+  "reference_labels_matched": 1756,
+  "all_coordinates_matched": true,
+  "counts": {
+    "Progenitors": 1248,
+    "Mono": 733,
+    "Unknown": 474,
+    "Neutro": 460,
+    "Ery/Meg": 178,
+    "Lym/pDC": 53,
+    "Baso/Eos": 32,
+    "Mast": 6,
+    "Ccr7_DC": 2
+  },
+  "models_rerun": false,
+  "display_grouping": {
+    "Mast": "Other",
+    "Ccr7_DC": "Other"
+  },
+  "display_grouping_requested_by_user": true,
+  "other_color": "#b0b0b0",
+  "raw_annotations_preserved": true
+}
