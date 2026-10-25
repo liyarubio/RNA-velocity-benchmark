@@ -483,5 +483,10 @@
   "Code/ed08_celltype/ed08_celltype.py": "09_Core/visualization/ed08_celltype/ed08_celltype.py",
   "Code/ed08_celltype/README.md": "09_Core/visualization/ed08_celltype/README.md",
   "Code/ed08_celltype/assets/Extended_Data_Fig08_before.pdf": "09_Core/visualization/ed08_celltype/assets/Extended_Data_Fig08_before.pdf",
-  "data/reference_restoration/scLT_cell_types.csv": "08_Extended_Data/ExtendedDataFig08/data/reference_restoration/scLT_cell_types.csv"
+  "data/reference_restoration/scLT_cell_types.csv": "08_Extended_Data/ExtendedDataFig08/data/reference_restoration/scLT_cell_types.csv",
+  "Code/ed11_fields/ed11_fields.py": "09_Core/visualization/ed11_fields/ed11_fields.py",
+  "Code/ed11_fields/README.md": "09_Core/visualization/ed11_fields/README.md",
+  "Code/ed11_fields/assets/Extended_Data_Fig11_before.pdf": "09_Core/visualization/ed11_fields/assets/Extended_Data_Fig11_before.pdf",
+  "Code/ed11_fields/ed11b.py": "08_Extended_Data/ExtendedDataFig11/code/b/ed11b.py",
+  "Reports/ed11_fields_20261026/display_order.csv": "12_Provenance/ed11_field_display_order.csv"
 }

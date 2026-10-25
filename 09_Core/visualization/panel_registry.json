@@ -368,5 +368,15 @@
     "source": "Current ED11 workbook",
     "validation_scope": "saved-data redraw executed; not formal-layout identity",
     "output": "ED11a_annotation"
+  },
+  {
+    "figure": "ED11",
+    "panel": "b",
+    "path": "08_Extended_Data/ExtendedDataFig11/code/b/ed11b.py",
+    "title": "KPTracer method fields",
+    "scope": "formal vector layout and descending displayed GDC",
+    "source": "09_Core/visualization/ed11_fields/ed11_fields.py",
+    "validation_scope": "754 cells per method; common bounds; panel a unchanged",
+    "output": "ED11b"
   }
 ]

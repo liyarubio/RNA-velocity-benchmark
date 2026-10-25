@@ -92,3 +92,5 @@ The current formal vector entrypoints are [Figure 3a](../03_Figure03/code/a/figu
 Figure 3h now has an [independent formal vector entrypoint](../03_Figure03/code/h/figure3h_formal.py) with descending available-case mean order and a color-coded Mean row; the best-performance envelope remains last. [Order validation](figure3h_mean_validation.json) and [Mean-row validation](figure3h_mean_color_validation.json).
 
 ED08a now has an [independent formal entrypoint](../08_Extended_Data/ExtendedDataFig08/code/a/ed8a.py) using the ED08c cell-type palette. The 3,186 point positions and panels b-d are retained. [Color and geometry validation](ed08a_celltype_validation.json).
+
+ED11b now has an [independent formal vector-layout entrypoint](../08_Extended_Data/ExtendedDataFig11/code/b/ed11b.py): 20 equal-size fields, common 754-cell bounds and descending displayed GDC. [Validation](ed11_field_layout_validation.json). PhyloVelo keeps its native backward arrows and non-comparable adapted-score status.

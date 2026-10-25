@@ -1,11 +1,11 @@
 {
   "status": "pass",
   "release": "1021-results-public-20261023",
-  "checksummed_files": 896,
-  "source_bindings": 428,
-  "figure_file_bindings": 652,
+  "checksummed_files": 902,
+  "source_bindings": 433,
+  "figure_file_bindings": 657,
   "figures": 19,
-  "local_links_checked": 1008,
+  "local_links_checked": 1015,
   "errors": [],
   "models_rerun": false
 }

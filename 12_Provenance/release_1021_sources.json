@@ -1897,17 +1897,17 @@
     },
     "figures/extended_numbered/Extended_Data_Fig11.png": {
       "path": "08_Extended_Data/ExtendedDataFig11/figures/Extended_Data_Fig11.png",
-      "source_sha256": "b8e16d54c9cb74731a3c9ade78d48639d6019d72f2cdd9079437720e17a3a504",
-      "sha256": "b8e16d54c9cb74731a3c9ade78d48639d6019d72f2cdd9079437720e17a3a504",
-      "bytes": 427835,
-      "operation": "copied"
+      "source_sha256": "5be07692d45da40f1b5dc79b8d717f1140668a8e9cd49c6edce1f44e3b6b7d00",
+      "sha256": "5be07692d45da40f1b5dc79b8d717f1140668a8e9cd49c6edce1f44e3b6b7d00",
+      "bytes": 429482,
+      "operation": "ED11b presentation update; saved metrics, native vector paths and panel a retained"
     },
     "figures/extended_numbered/Extended_Data_Fig11.svg": {
       "path": "08_Extended_Data/ExtendedDataFig11/figures/Extended_Data_Fig11.svg",
-      "source_sha256": "ede8f27bcba58c615e44276ae3b602df732622825c70e6898abe939e778ada5e",
-      "sha256": "ede8f27bcba58c615e44276ae3b602df732622825c70e6898abe939e778ada5e",
-      "bytes": 43684036,
-      "operation": "copied"
+      "source_sha256": "93b18790feb54045bed8bbcda69ec7b34b2423f8d73b2f5dea485edc2d337d46",
+      "sha256": "93b18790feb54045bed8bbcda69ec7b34b2423f8d73b2f5dea485edc2d337d46",
+      "bytes": 17273258,
+      "operation": "ED11b presentation update; saved metrics, native vector paths and panel a retained"
     },
     "figures/extended_numbered/Extended_Data_Fig12.png": {
       "path": "08_Extended_Data/ExtendedDataFig12/figures/Extended_Data_Fig12.png",
@@ -2198,10 +2198,10 @@
     },
     "submission_figures/Extended_Data_Fig11.pdf": {
       "path": "08_Extended_Data/ExtendedDataFig11/figures/Extended_Data_Fig11.pdf",
-      "source_sha256": "f1d7de0434485138d2010f3ce0180531d086d7f34e38217bae2891bf1a1007a3",
-      "sha256": "f1d7de0434485138d2010f3ce0180531d086d7f34e38217bae2891bf1a1007a3",
-      "bytes": 6733547,
-      "operation": "copied"
+      "source_sha256": "ac233bb67f74102e132baa5ac1cc0b8e9da542ff6fbc18aa36b2531ad6c16ce8",
+      "sha256": "ac233bb67f74102e132baa5ac1cc0b8e9da542ff6fbc18aa36b2531ad6c16ce8",
+      "bytes": 4131472,
+      "operation": "ED11b presentation update; saved metrics, native vector paths and panel a retained"
     },
     "submission_figures/Extended_Data_Fig12.pdf": {
       "path": "08_Extended_Data/ExtendedDataFig12/figures/Extended_Data_Fig12.pdf",
@@ -3000,6 +3000,41 @@
       "sha256": "7286c90de522637c39a323d23992d3eefa904ca3b754cc09db1a6a692f6118f4",
       "bytes": 117061,
       "operation": "ED08a cell-type annotation and formal rendering update"
+    },
+    "Code/ed11_fields/ed11_fields.py": {
+      "path": "09_Core/visualization/ed11_fields/ed11_fields.py",
+      "source_sha256": "d1e132fdf9de58fb0da5cec01e426b81b820c40176ae11ce39fcaa92ad56e221",
+      "sha256": "d1e132fdf9de58fb0da5cec01e426b81b820c40176ae11ce39fcaa92ad56e221",
+      "bytes": 8975,
+      "operation": "Formal KPTracer field width alignment and descending displayed-GDC layout"
+    },
+    "Code/ed11_fields/README.md": {
+      "path": "09_Core/visualization/ed11_fields/README.md",
+      "source_sha256": "63367d9508d7d17d72e531df7b3ad523142f9514d178cf6a623addeada0d051e",
+      "sha256": "63367d9508d7d17d72e531df7b3ad523142f9514d178cf6a623addeada0d051e",
+      "bytes": 1308,
+      "operation": "Formal KPTracer field width alignment and descending displayed-GDC layout"
+    },
+    "Code/ed11_fields/assets/Extended_Data_Fig11_before.pdf": {
+      "path": "09_Core/visualization/ed11_fields/assets/Extended_Data_Fig11_before.pdf",
+      "source_sha256": "f1d7de0434485138d2010f3ce0180531d086d7f34e38217bae2891bf1a1007a3",
+      "sha256": "f1d7de0434485138d2010f3ce0180531d086d7f34e38217bae2891bf1a1007a3",
+      "bytes": 6733547,
+      "operation": "Formal KPTracer field width alignment and descending displayed-GDC layout"
+    },
+    "Code/ed11_fields/ed11b.py": {
+      "path": "08_Extended_Data/ExtendedDataFig11/code/b/ed11b.py",
+      "source_sha256": "875c9a0980bc7d48a431e6616bc1e941f67bc29a9eca590cfc3d7dd2139b4ffd",
+      "sha256": "c99caa5a76514cc9e33d9b2d8c047756208111e6f74393bf68fb50ac63eafa89",
+      "bytes": 359,
+      "operation": "Formal KPTracer field width alignment and descending displayed-GDC layout"
+    },
+    "Reports/ed11_fields_20261026/display_order.csv": {
+      "path": "12_Provenance/ed11_field_display_order.csv",
+      "source_sha256": "7ce859aad1d65bb2eb5588b5baed54b3e7fc8c33c48dad0736106f0530e191e6",
+      "sha256": "7ce859aad1d65bb2eb5588b5baed54b3e7fc8c33c48dad0736106f0530e191e6",
+      "bytes": 577,
+      "operation": "Formal KPTracer field width alignment and descending displayed-GDC layout"
     }
   },
   "excluded": [
@@ -3522,6 +3557,15 @@
       "Mast": "Other",
       "Ccr7_DC": "Other"
     },
+    "models_rerun": false
+  },
+  "ed11_field_layout_20261026": {
+    "date": "2026-10-26",
+    "panel": "ED11b",
+    "requested_label": "Ext Fig15b",
+    "validation": "12_Provenance/ed11_field_layout_validation.json",
+    "order": "Descending displayed GDC",
+    "PhyloVelo_comparable_rank": null,
     "models_rerun": false
   }
 }

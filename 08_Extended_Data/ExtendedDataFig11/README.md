@@ -125,3 +125,5 @@ Current release: **Manuscript_1021**, including updates through **22 October 202
 [Retained figure-specific code](<code>)
 
 [Repository overview](<../../README.md>) · [Release notes](<../../12_Provenance/RELEASE_1021.md>)
+
+Panel b uses identical cell bounds and frame dimensions for all 20 methods, including PhyloVelo, and follows descending displayed GDC from left to right, then top to bottom. Its adapted +1 score remains excluded from comparable ranking. [Formal entrypoint](code/b/ed11b.py) · [Validation](../../12_Provenance/ed11_field_layout_validation.json).
