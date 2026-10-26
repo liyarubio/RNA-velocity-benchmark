@@ -1,0 +1,73 @@
+{
+  "status": "pass",
+  "changed_files": [
+    "figures/main/Figure06.pdf",
+    "submission_figures/Figure06.pdf",
+    "submission_figures/Main_Figures_1-7_combined.pdf",
+    "figures/main/Figure06.png",
+    "figures/main/Figure06.svg"
+  ],
+  "axis_label": "Mean velocity cosine similarity to full-depth prediction",
+  "pages": [
+    {
+      "path": "figures/main/Figure06.pdf",
+      "page": 1,
+      "status": "pass",
+      "label": "Mean velocity cosine similarity to full-depth prediction",
+      "changed_bounds": [
+        301.55316162109375,
+        168.52850341796875,
+        321.2626647949219,
+        265.9287414550781
+      ],
+      "other_artwork_pixels_identical": true,
+      "numerical_values_changed": false
+    },
+    {
+      "path": "submission_figures/Figure06.pdf",
+      "page": 1,
+      "status": "pass",
+      "label": "Mean velocity cosine similarity to full-depth prediction",
+      "changed_bounds": [
+        301.55316162109375,
+        168.52850341796875,
+        321.2626647949219,
+        265.9287414550781
+      ],
+      "other_artwork_pixels_identical": true,
+      "numerical_values_changed": false
+    },
+    {
+      "path": "submission_figures/Main_Figures_1-7_combined.pdf",
+      "page": 9,
+      "status": "pass",
+      "label": "Mean velocity cosine similarity to full-depth prediction",
+      "changed_bounds": [
+        301.55316162109375,
+        168.52850341796875,
+        321.2626647949219,
+        265.9287414550781
+      ],
+      "other_artwork_pixels_identical": true,
+      "numerical_values_changed": false
+    }
+  ],
+  "unchanged_companion_pages": 11,
+  "source_workbooks_and_manuscript_unchanged": true,
+  "gdc_preview_not_inserted": true,
+  "models_rerun": false,
+  "metrics_recomputed": false,
+  "formal_renderer_scope": "Current frozen A4 artwork; historical pre-A4 workflows are retained unchanged",
+  "public_entrypoint_validation": {
+    "status": "pass",
+    "label": "Mean velocity cosine similarity to full-depth prediction",
+    "changed_bounds": [
+      301.55316162109375,
+      168.52850341796875,
+      321.2626647949219,
+      265.9287414550781
+    ],
+    "other_artwork_pixels_identical": true,
+    "numerical_values_changed": false
+  }
+}

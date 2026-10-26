@@ -488,5 +488,9 @@
   "Code/ed11_fields/README.md": "09_Core/visualization/ed11_fields/README.md",
   "Code/ed11_fields/assets/Extended_Data_Fig11_before.pdf": "09_Core/visualization/ed11_fields/assets/Extended_Data_Fig11_before.pdf",
   "Code/ed11_fields/ed11b.py": "08_Extended_Data/ExtendedDataFig11/code/b/ed11b.py",
-  "Reports/ed11_fields_20261026/display_order.csv": "12_Provenance/ed11_field_display_order.csv"
+  "Reports/ed11_fields_20261026/display_order.csv": "12_Provenance/ed11_field_display_order.csv",
+  "Code/fig6_read_depth/figure6b_label.py": "06_Figure06/code/b/formal/figure6b_label.py",
+  "Code/fig6_read_depth/FORMAL_README.md": "06_Figure06/code/b/formal/README.md",
+  "Code/fig6_read_depth/assets/Figure06_before.pdf": "06_Figure06/code/b/formal/assets/Figure06_before.pdf",
+  "figures/main/Figure06.svg": "06_Figure06/figures/Figure06.svg"
 }

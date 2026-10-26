@@ -1995,17 +1995,17 @@
     },
     "figures/main/Figure06.pdf": {
       "path": "06_Figure06/figures/Figure06.pdf",
-      "source_sha256": "581355fe13e1ea1783dcecc92cf54e865c5b0623f16419ee250587de2dd1820c",
-      "sha256": "581355fe13e1ea1783dcecc92cf54e865c5b0623f16419ee250587de2dd1820c",
-      "bytes": 3259021,
-      "operation": "copied"
+      "source_sha256": "7841e645b13abd32ffe8b910a8857cf67b22321e72b06d054ab6c56bb99bb886",
+      "sha256": "7841e645b13abd32ffe8b910a8857cf67b22321e72b06d054ab6c56bb99bb886",
+      "bytes": 2178343,
+      "operation": "Figure 6b axis clarification; curves, scores and caption unchanged"
     },
     "figures/main/Figure06.png": {
       "path": "06_Figure06/figures/Figure06.png",
-      "source_sha256": "0353e8f2df18e9a333bcc6674dc8dbb53bc12f84a55c1cc250cd454a7bfdd610",
-      "sha256": "0353e8f2df18e9a333bcc6674dc8dbb53bc12f84a55c1cc250cd454a7bfdd610",
-      "bytes": 346848,
-      "operation": "copied"
+      "source_sha256": "c5eb57c3629f6e2f9d3bd1bab81ea73b8f64a57d471335e174582579f3e8224f",
+      "sha256": "c5eb57c3629f6e2f9d3bd1bab81ea73b8f64a57d471335e174582579f3e8224f",
+      "bytes": 348747,
+      "operation": "Figure 6b axis clarification; curves, scores and caption unchanged"
     },
     "figures/main/Figure07.png": {
       "path": "07_Figure07/figures/Figure07.png",
@@ -3035,6 +3035,34 @@
       "sha256": "7ce859aad1d65bb2eb5588b5baed54b3e7fc8c33c48dad0736106f0530e191e6",
       "bytes": 577,
       "operation": "Formal KPTracer field width alignment and descending displayed-GDC layout"
+    },
+    "Code/fig6_read_depth/assets/Figure06_before.pdf": {
+      "path": "06_Figure06/code/b/formal/assets/Figure06_before.pdf",
+      "source_sha256": "581355fe13e1ea1783dcecc92cf54e865c5b0623f16419ee250587de2dd1820c",
+      "sha256": "581355fe13e1ea1783dcecc92cf54e865c5b0623f16419ee250587de2dd1820c",
+      "bytes": 3259021,
+      "operation": "Figure 6b axis clarification; curves, scores and caption unchanged"
+    },
+    "Code/fig6_read_depth/figure6b_label.py": {
+      "path": "06_Figure06/code/b/formal/figure6b_label.py",
+      "source_sha256": "4608db425214359cb358bd8ce4fba8433637be49405045c19c13488aab6320a3",
+      "sha256": "4608db425214359cb358bd8ce4fba8433637be49405045c19c13488aab6320a3",
+      "bytes": 3769,
+      "operation": "Figure 6b axis clarification; curves, scores and caption unchanged"
+    },
+    "figures/main/Figure06.svg": {
+      "path": "06_Figure06/figures/Figure06.svg",
+      "source_sha256": "c3ca53dbc9b1fa01f699484d46cea1bfbf17fe8adc40a9b737a53a321943a759",
+      "sha256": "c3ca53dbc9b1fa01f699484d46cea1bfbf17fe8adc40a9b737a53a321943a759",
+      "bytes": 10439021,
+      "operation": "Figure 6b axis clarification; curves, scores and caption unchanged"
+    },
+    "Code/fig6_read_depth/FORMAL_README.md": {
+      "path": "06_Figure06/code/b/formal/README.md",
+      "source_sha256": "5fe4e05b276af1d61923c83c0e1fbf98791ff8eaa194eb1061073988dcdf8386",
+      "sha256": "5fe4e05b276af1d61923c83c0e1fbf98791ff8eaa194eb1061073988dcdf8386",
+      "bytes": 841,
+      "operation": "Figure 6b axis clarification; curves, scores and caption unchanged"
     }
   },
   "excluded": [
@@ -3566,6 +3594,11 @@
     "validation": "12_Provenance/ed11_field_layout_validation.json",
     "order": "Descending displayed GDC",
     "PhyloVelo_comparable_rank": null,
+    "models_rerun": false
+  },
+  "fig6b_axis_20261026": {
+    "validation": "12_Provenance/fig6b_axis_validation.json",
+    "gdc_preview_published": false,
     "models_rerun": false
   }
 }

@@ -1,5 +1,7 @@
 # Figure06 — Runtime, read-depth sensitivity, frozen composite and VeloGIF
 
+Panel b's axis explicitly identifies the full-depth prediction as the cosine reference. The [formal label renderer](code/b/formal/README.md) preserves the original curves and all other panels.
+
 Current release: **Manuscript_1021**, including updates through **22 October 2026**. Historical numerical source ID: **Figure06**.
 
 Panels a/b now contain runtime/read-depth sensitivity; c is the unchanged frozen composite (0.6 accuracy rank + 0.4 scalability rank; stability excluded); d is VeloGIF. Matched-protocol limitations remain.

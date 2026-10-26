@@ -378,5 +378,13 @@
     "source": "09_Core/visualization/ed11_fields/ed11_fields.py",
     "validation_scope": "754 cells per method; common bounds; panel a unchanged",
     "output": "ED11b"
+  },
+  {
+    "figure": "Figure06",
+    "panel": "b",
+    "path": "06_Figure06/code/b/formal/figure6b_label.py",
+    "title": "Figure 6b explicit full-depth cosine reference",
+    "scope": "formal axis-only update; saved curves unchanged",
+    "output": "Figure06b_cosine"
   }
 ]

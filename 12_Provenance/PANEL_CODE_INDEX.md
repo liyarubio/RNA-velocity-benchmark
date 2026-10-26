@@ -94,3 +94,5 @@ Figure 3h now has an [independent formal vector entrypoint](../03_Figure03/code/
 ED08a now has an [independent formal entrypoint](../08_Extended_Data/ExtendedDataFig08/code/a/ed8a.py) using the ED08c cell-type palette. The 3,186 point positions and panels b-d are retained. [Color and geometry validation](ed08a_celltype_validation.json).
 
 ED11b now has an [independent formal vector-layout entrypoint](../08_Extended_Data/ExtendedDataFig11/code/b/ed11b.py): 20 equal-size fields, common 754-cell bounds and descending displayed GDC. [Validation](ed11_field_layout_validation.json). PhyloVelo keeps its native backward arrows and non-comparable adapted-score status.
+
+Figure 6b formal axis clarification: [independent entry](../06_Figure06/code/b/formal/figure6b_label.py), [scope and dependencies](../06_Figure06/code/b/formal/README.md), and [pixel-preservation validation](fig6b_axis_validation.json). Saved curves and captions are unchanged.
