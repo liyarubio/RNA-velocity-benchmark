@@ -1995,17 +1995,17 @@
     },
     "figures/main/Figure06.pdf": {
       "path": "06_Figure06/figures/Figure06.pdf",
-      "source_sha256": "7841e645b13abd32ffe8b910a8857cf67b22321e72b06d054ab6c56bb99bb886",
-      "sha256": "7841e645b13abd32ffe8b910a8857cf67b22321e72b06d054ab6c56bb99bb886",
-      "bytes": 2178343,
-      "operation": "Figure 6b axis clarification; curves, scores and caption unchanged"
+      "source_sha256": "659f390380b1cdf0a98e3db2ebdcc2815230abcc352613a1bfe67a9b6335deb3",
+      "sha256": "659f390380b1cdf0a98e3db2ebdcc2815230abcc352613a1bfe67a9b6335deb3",
+      "bytes": 2255022,
+      "operation": "Figure 6c 0.50/0.25/0.25 reweighting; endpoint inputs retained"
     },
     "figures/main/Figure06.png": {
       "path": "06_Figure06/figures/Figure06.png",
-      "source_sha256": "c5eb57c3629f6e2f9d3bd1bab81ea73b8f64a57d471335e174582579f3e8224f",
-      "sha256": "c5eb57c3629f6e2f9d3bd1bab81ea73b8f64a57d471335e174582579f3e8224f",
-      "bytes": 348747,
-      "operation": "Figure 6b axis clarification; curves, scores and caption unchanged"
+      "source_sha256": "44056c74f08fc95e86afd7b5c1f671c19c44eb99429a7df6f910febc643525d5",
+      "sha256": "44056c74f08fc95e86afd7b5c1f671c19c44eb99429a7df6f910febc643525d5",
+      "bytes": 351126,
+      "operation": "Figure 6c 0.50/0.25/0.25 reweighting; endpoint inputs retained"
     },
     "figures/main/Figure07.png": {
       "path": "07_Figure07/figures/Figure07.png",
@@ -2121,10 +2121,10 @@
     },
     "source_data/Figure06.xlsx": {
       "path": "06_Figure06/data/source_data/Figure06.xlsx",
-      "source_sha256": "fa36910d0c37db4b85c4fa8934318d20bdb17b1af1ce7ba4cad4121f4c44c172",
-      "sha256": "c84fec457e13e6169b6e406ff900f8460803b43f7e703351754fecb0dadfbf50",
-      "bytes": 1945720,
-      "operation": "copied"
+      "source_sha256": "fb72b9623114bf5b147939c475c44acf55fbe213c0c2b66d661bcecd4849e9b7",
+      "sha256": "8a85d511b048416001d65d3a3eb11609e1895224d220a3d60fabda3ed657e3b8",
+      "bytes": 1945915,
+      "operation": "Update derived totals/ranks and definitions; retain public translated styles and all endpoint inputs"
     },
     "submission_figures/Extended_Data_Fig01.pdf": {
       "path": "08_Extended_Data/ExtendedDataFig01/figures/Extended_Data_Fig01.pdf",
@@ -3052,10 +3052,10 @@
     },
     "figures/main/Figure06.svg": {
       "path": "06_Figure06/figures/Figure06.svg",
-      "source_sha256": "c3ca53dbc9b1fa01f699484d46cea1bfbf17fe8adc40a9b737a53a321943a759",
-      "sha256": "c3ca53dbc9b1fa01f699484d46cea1bfbf17fe8adc40a9b737a53a321943a759",
-      "bytes": 10439021,
-      "operation": "Figure 6b axis clarification; curves, scores and caption unchanged"
+      "source_sha256": "9e293fb9339662a1b7089101221133a75430ec22e76353e893f15bf2a22b8579",
+      "sha256": "9e293fb9339662a1b7089101221133a75430ec22e76353e893f15bf2a22b8579",
+      "bytes": 10415687,
+      "operation": "Figure 6c 0.50/0.25/0.25 reweighting; endpoint inputs retained"
     },
     "Code/fig6_read_depth/FORMAL_README.md": {
       "path": "06_Figure06/code/b/formal/README.md",
@@ -3063,6 +3063,41 @@
       "sha256": "5fe4e05b276af1d61923c83c0e1fbf98791ff8eaa194eb1061073988dcdf8386",
       "bytes": 841,
       "operation": "Figure 6b axis clarification; curves, scores and caption unchanged"
+    },
+    "Code/fig6_weighted/assets/Figure06_before.pdf": {
+      "path": "06_Figure06/code/c/formal/assets/Figure06_before.pdf",
+      "source_sha256": "7841e645b13abd32ffe8b910a8857cf67b22321e72b06d054ab6c56bb99bb886",
+      "sha256": "7841e645b13abd32ffe8b910a8857cf67b22321e72b06d054ab6c56bb99bb886",
+      "bytes": 2178343,
+      "operation": "Figure 6c 0.50/0.25/0.25 reweighting; endpoint inputs retained"
+    },
+    "Code/fig6_weighted/README.md": {
+      "path": "06_Figure06/code/c/formal/README.md",
+      "source_sha256": "f683086691d24fae648d2861c342c5df1a6740eb46bf0e37275258e902bc0614",
+      "sha256": "f683086691d24fae648d2861c342c5df1a6740eb46bf0e37275258e902bc0614",
+      "bytes": 1533,
+      "operation": "Figure 6c 0.50/0.25/0.25 reweighting; endpoint inputs retained"
+    },
+    "Code/fig6_weighted/assets/summary_before.csv": {
+      "path": "06_Figure06/code/c/formal/assets/summary_before.csv",
+      "source_sha256": "525ccfe196598f0fbc06b39eca04e7db1e81df4e858f096f254e3f34737aaa0b",
+      "sha256": "525ccfe196598f0fbc06b39eca04e7db1e81df4e858f096f254e3f34737aaa0b",
+      "bytes": 10646,
+      "operation": "Figure 6c 0.50/0.25/0.25 reweighting; endpoint inputs retained"
+    },
+    "Code/fig6_weighted/figure6c.py": {
+      "path": "06_Figure06/code/c/formal/figure6c.py",
+      "source_sha256": "92483160447d05fffbcc7d61b25bd9556d334ab32e59d0ace171c330b0a1be23",
+      "sha256": "92483160447d05fffbcc7d61b25bd9556d334ab32e59d0ace171c330b0a1be23",
+      "bytes": 6565,
+      "operation": "Figure 6c 0.50/0.25/0.25 reweighting; endpoint inputs retained"
+    },
+    "Reports/fig6_weighted_20261026/score_changes.csv": {
+      "path": "12_Provenance/fig6c_score_changes.csv",
+      "source_sha256": "c104c700f310a3206022fdfe5603e15afc548341101df7d4a4466c8917c56039",
+      "sha256": "c104c700f310a3206022fdfe5603e15afc548341101df7d4a4466c8917c56039",
+      "bytes": 1041,
+      "operation": "Figure 6c 0.50/0.25/0.25 reweighting; endpoint inputs retained"
     }
   },
   "excluded": [
@@ -3600,5 +3635,16 @@
     "validation": "12_Provenance/fig6b_axis_validation.json",
     "gdc_preview_published": false,
     "models_rerun": false
+  },
+  "fig6c_weighted_20261026": {
+    "weights": {
+      "Accuracy": 0.5,
+      "Scalability": 0.25,
+      "Stability": 0.25
+    },
+    "validation": "12_Provenance/fig6c_weighted_validation.json",
+    "endpoint_inputs_changed": false,
+    "models_rerun": false,
+    "caption_formula_update_pending": true
   }
 }

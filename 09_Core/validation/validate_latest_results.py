@@ -49,7 +49,11 @@ def main():
     check('PhyloVelo_direction_contract',phy['plot_vector_key']=='velocity_umap_backward' and phy['metric_vector_key']=='velocity_umap_forward')
     check('PhyloVelo_display_missing_rank',display.loc[display.method.eq('PhyloVelo'),'rank'].isna().all())
     f6=source_path('source_data/Figure06.xlsx');summary=pd.read_excel(f6,sheet_name='6c Summary')
-    check('frozen_composite_19_configurations',len(summary)==19 and 'PhyloVelo' not in summary.Method.values)
+    check('weighted_composite_19_configurations',len(summary)==19 and 'PhyloVelo' not in summary.Method.values)
+    ranks=summary[['Accuracy','Scalability','Stability']].rank(method='average')
+    expected=(2*ranks.Accuracy+ranks.Scalability+ranks.Stability)/(4*len(summary))
+    check('Figure06_weighted_composite',equal(summary.Overall_Score,expected))
+    check('Figure06_weighted_ranks',equal(summary.Overall_Score_rank,expected.rank(ascending=False,method='min')))
     report=dict(status='pass' if all(x['passed'] for x in checks) else 'fail',checks=checks,number_of_checks=len(checks),models_rerun=False,scope='Saved-summary recalculation. TopoVelo gene-level input audit and model training are not rerun. PhyloVelo H5AD audit is a separate command.')
     (args.out/'latest_results_validation.json').write_text(json.dumps(report,indent=2)+'\n')
     print(json.dumps(report,indent=2));return report['status']!='pass'

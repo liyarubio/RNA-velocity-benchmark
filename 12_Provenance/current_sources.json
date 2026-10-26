@@ -492,5 +492,10 @@
   "Code/fig6_read_depth/figure6b_label.py": "06_Figure06/code/b/formal/figure6b_label.py",
   "Code/fig6_read_depth/FORMAL_README.md": "06_Figure06/code/b/formal/README.md",
   "Code/fig6_read_depth/assets/Figure06_before.pdf": "06_Figure06/code/b/formal/assets/Figure06_before.pdf",
-  "figures/main/Figure06.svg": "06_Figure06/figures/Figure06.svg"
+  "figures/main/Figure06.svg": "06_Figure06/figures/Figure06.svg",
+  "Code/fig6_weighted/figure6c.py": "06_Figure06/code/c/formal/figure6c.py",
+  "Code/fig6_weighted/README.md": "06_Figure06/code/c/formal/README.md",
+  "Code/fig6_weighted/assets/Figure06_before.pdf": "06_Figure06/code/c/formal/assets/Figure06_before.pdf",
+  "Code/fig6_weighted/assets/summary_before.csv": "06_Figure06/code/c/formal/assets/summary_before.csv",
+  "Reports/fig6_weighted_20261026/score_changes.csv": "12_Provenance/fig6c_score_changes.csv"
 }

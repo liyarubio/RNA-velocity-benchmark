@@ -96,3 +96,5 @@ ED08a now has an [independent formal entrypoint](../08_Extended_Data/ExtendedDat
 ED11b now has an [independent formal vector-layout entrypoint](../08_Extended_Data/ExtendedDataFig11/code/b/ed11b.py): 20 equal-size fields, common 754-cell bounds and descending displayed GDC. [Validation](ed11_field_layout_validation.json). PhyloVelo keeps its native backward arrows and non-comparable adapted-score status.
 
 Figure 6b formal axis clarification: [independent entry](../06_Figure06/code/b/formal/figure6b_label.py), [scope and dependencies](../06_Figure06/code/b/formal/README.md), and [pixel-preservation validation](fig6b_axis_validation.json). Saved curves and captions are unchanged.
+
+Figure 6c: [formal weighted renderer](../06_Figure06/code/c/formal/figure6c.py), [weight and endpoint rules](../06_Figure06/code/c/formal/README.md), [score changes](fig6c_score_changes.csv), and [validation](fig6c_weighted_validation.json). Provisional weights are 0.50/0.25/0.25. Caption-formula revision remains author-managed.

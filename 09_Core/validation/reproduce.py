@@ -101,19 +101,20 @@ def main():
     same('ED07_HuBMAP_source_identity',ed7.set_index('file_name')[comparable.columns],comparable)
     same('ED07_available_maximum',ed7['Best available'],comparable.max(axis=1))
 
-    # Figure 6: recalculate the frozen summary, including ranks and coverage.
+    # Figure 6: recalculate the weighted summary, including ranks and coverage.
     summary = sheet('Figure06.xlsx', '6c Summary').set_index('Method')
     domains = ['simulation_cosine', 'scLT_cosine', 'scNT_cosine', 'HuBMAP_global',
                'Dataset10_global', 'ReDeeM_global', 'MPSTA_global', 'KPTracer_global']
     accuracy = ((summary[domains] + 1) / 2).mean(axis=1)
     speed = (1 / summary[['runtime_1000_seconds', 'runtime_10000_seconds']]).mean(axis=1)
     stability = summary[['reads_cosine_' + x for x in ['0.2', '0.4', '0.6', '0.8']]].mean(axis=1)
-    score = (0.6*accuracy.rank(method='average') + 0.4*speed.rank(method='average')) / len(summary)
+    score = (2*accuracy.rank(method='average') + speed.rank(method='average') + stability.rank(method='average')) / (4*len(summary))
     for col, values in [('Accuracy', accuracy), ('Scalability', speed), ('Stability', stability), ('Overall_Score', score), ('accuracy_domains_n', summary[domains].count(axis=1))]:
         same('Figure06_' + col, values, summary[col])
     summary.assign(recomputed_score=score).to_csv(out/'Figure06_recomputed.csv')
     top = score.sort_values(ascending=False).index[:3].tolist()
-    check('Figure06_frozen_top3', top == ['scVelo(sto)', 'TopicVelo', 'veloVI'], top)
+    check('Figure06_weighted_top3', top == ['scVelo(sto)', 'TopicVelo', 'UniTVelo'], top)
+    same('Figure06_Overall_Score_rank', score.rank(ascending=False,method='min'), summary.Overall_Score_rank)
 
     def canonical(name):
         aliases = {'scvelo_stochastic':'scVelo(sto)', 'scvelo_dynamical':'scVelo(dyn)',
@@ -222,7 +223,7 @@ def main():
         fig, axes = plt.subplots(1,2,figsize=(10,5.7),constrained_layout=True)
         order = score.sort_values().index
         axes[0].barh(order, score.loc[order], color='#40769c')
-        axes[0].set(xlabel='Frozen composite score', title='Figure 6: saved-score recalculation')
+        axes[0].set(xlabel='Weighted composite score', title='Figure 6: saved-score recalculation')
         spatial_median = spots.groupby('method').spatial_cosine.median().sort_values()
         axes[1].barh(spatial_median.index, spatial_median, color='#b56c38')
         axes[1].set(xlabel='Median cosine; 608 paired spots', title='Extended Data 16: spatial consistency', xlim=(-1,1))
@@ -235,7 +236,7 @@ def main():
     report = dict(status='pass' if not failures else 'fail', checks=checks, failed_checks=failures,
                   number_of_checks=len(checks), elapsed_seconds=round(time.perf_counter()-start,3),
                   environment=dict(python=platform.python_version(), platform=platform.platform(), packages=versions),
-                  frozen_composite_top3=top, frozen_vs_current_differences=len(differences),
+                  weighted_composite_top3=top, composite_weights=dict(Accuracy=.5,Scalability=.25,Stability=.25), frozen_vs_current_differences=len(differences),
                   differences_are_documented_provenance_not_test_failures=True,
                   models_rerun=False, raw_inputs_recomputed=False,
                   scope='Saved numerical results, vector-derived cosines, coverage and native transition integrity. Historical artwork and external model inference are not reproduced by this demo.')

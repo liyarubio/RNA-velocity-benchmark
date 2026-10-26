@@ -1,0 +1,182 @@
+{
+  "status": "pass",
+  "weights": {
+    "Accuracy": 0.5,
+    "Scalability": 0.25,
+    "Stability": 0.25
+  },
+  "changed_files": [
+    "figures/main/Figure06.pdf",
+    "submission_figures/Figure06.pdf",
+    "submission_figures/Main_Figures_1-7_combined.pdf",
+    "figures/main/Figure06.png",
+    "figures/main/Figure06.svg"
+  ],
+  "pages": [
+    {
+      "path": "figures/main/Figure06.pdf",
+      "page": 1,
+      "status": "pass",
+      "weights": {
+        "Accuracy": 0.5,
+        "Scalability": 0.25,
+        "Stability": 0.25
+      },
+      "methods": 19,
+      "top3": [
+        "scVelo(sto)",
+        "TopicVelo",
+        "UniTVelo"
+      ],
+      "rank_normalization": "Ascending average rank / 19",
+      "tie_rule": "Descending minimum rank",
+      "unchanged_endpoint_inputs": true,
+      "unchanged_other_artwork_pixels": true,
+      "changed_regions": [
+        [
+          72.35956726074218,
+          490.7053161621094,
+          88.28827333662743,
+          693.5292724609375
+        ],
+        [
+          36.7009391784668,
+          417.5911560058594,
+          246.36069348383637,
+          428.85565185546875
+        ]
+      ],
+      "models_rerun": false,
+      "caption_update_pending": true
+    },
+    {
+      "path": "submission_figures/Figure06.pdf",
+      "page": 1,
+      "status": "pass",
+      "weights": {
+        "Accuracy": 0.5,
+        "Scalability": 0.25,
+        "Stability": 0.25
+      },
+      "methods": 19,
+      "top3": [
+        "scVelo(sto)",
+        "TopicVelo",
+        "UniTVelo"
+      ],
+      "rank_normalization": "Ascending average rank / 19",
+      "tie_rule": "Descending minimum rank",
+      "unchanged_endpoint_inputs": true,
+      "unchanged_other_artwork_pixels": true,
+      "changed_regions": [
+        [
+          72.35956726074218,
+          490.7053161621094,
+          88.28827333662743,
+          693.5292724609375
+        ],
+        [
+          36.7009391784668,
+          417.5911560058594,
+          246.36069348383637,
+          428.85565185546875
+        ]
+      ],
+      "models_rerun": false,
+      "caption_update_pending": true
+    },
+    {
+      "path": "submission_figures/Main_Figures_1-7_combined.pdf",
+      "page": 9,
+      "status": "pass",
+      "weights": {
+        "Accuracy": 0.5,
+        "Scalability": 0.25,
+        "Stability": 0.25
+      },
+      "methods": 19,
+      "top3": [
+        "scVelo(sto)",
+        "TopicVelo",
+        "UniTVelo"
+      ],
+      "rank_normalization": "Ascending average rank / 19",
+      "tie_rule": "Descending minimum rank",
+      "unchanged_endpoint_inputs": true,
+      "unchanged_other_artwork_pixels": true,
+      "changed_regions": [
+        [
+          72.35956726074218,
+          490.7053161621094,
+          88.28827333662743,
+          693.5292724609375
+        ],
+        [
+          36.7009391784668,
+          417.5911560058594,
+          246.36069348383637,
+          428.85565185546875
+        ]
+      ],
+      "models_rerun": false,
+      "caption_update_pending": true
+    }
+  ],
+  "top3": [
+    "scVelo(sto)",
+    "TopicVelo",
+    "UniTVelo"
+  ],
+  "unchanged_companion_pages": 11,
+  "workbook": {
+    "status": "pass",
+    "changed_cells": 41,
+    "unchanged_cells_verified": 248672,
+    "changed_zip_members": [
+      "xl/worksheets/sheet1.xml",
+      "xl/worksheets/sheet2.xml"
+    ],
+    "only_derived_scores_ranks_and_definitions_changed": true,
+    "endpoint_inputs_unchanged": true
+  },
+  "caption_text_preserved": true,
+  "caption_formula_update_pending": true,
+  "source_endpoint_values_unchanged": true,
+  "models_rerun": false,
+  "independent_public_entrypoint": {
+    "status": "pass",
+    "weights": {
+      "Accuracy": 0.5,
+      "Scalability": 0.25,
+      "Stability": 0.25
+    },
+    "methods": 19,
+    "top3": [
+      "scVelo(sto)",
+      "TopicVelo",
+      "UniTVelo"
+    ],
+    "rank_normalization": "Ascending average rank / 19",
+    "tie_rule": "Descending minimum rank",
+    "unchanged_endpoint_inputs": true,
+    "unchanged_other_artwork_pixels": true,
+    "changed_regions": [
+      [
+        72.35956726074218,
+        490.7053161621094,
+        88.28827333662743,
+        693.5292724609375
+      ],
+      [
+        36.7009391784668,
+        417.5911560058594,
+        246.36069348383637,
+        428.85565185546875
+      ]
+    ],
+    "models_rerun": false,
+    "caption_update_pending": true
+  },
+  "saved_data_checks": 98,
+  "latest_result_checks": 19
+}

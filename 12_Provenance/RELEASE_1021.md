@@ -14,7 +14,7 @@ Figures 1 and 2 contain only the current PDF, SVG and PNG plus a navigation READ
 | PhyloVelo / KPTracer | 754 cells, 706 reference cells; native backward field for display; negative native vectors for metrics | The global gene-wise velocity vector produces ICCoh structurally equal to one. Adapted GDC +1 is diagnostic; comparable GDC and rank are null. Original inference predates assembly. |
 | cellDancer / ED4c | 30 scenario/noise conditions; 840 slots, 822 finite and 18 missing; 84 cross-noise means | Means equally weight available dataset medians. STT forward branching has 1/10 coverage in both levels; other groups have 10/10. These are conditions, not independent simulation replicates. Six heatmap scales are independent. |
 | Figure 4 | Larger markers with preserved coordinates and nine recovered scatter canvases | Presentation update; no metric recomputation. Historical streamline provenance limits remain. |
-| Figure 6 | a runtime; b read-depth; c frozen composite; d VeloGIF | Frozen composite values and ranks are unchanged. Stability is excluded from the composite. |
+| Figure 6 | a runtime; b read-depth; c weighted composite; d VeloGIF | Composite weights are provisionally 0.50 Accuracy, 0.25 Scalability and 0.25 Stability; endpoint inputs remain unchanged. Caption-formula revision is pending with the author. |
 | Age-related examples | Retained historical material | Exact 784-gene list and matching run remain unresolved; no new aging conclusion. |
 
 ## Current files and historical records

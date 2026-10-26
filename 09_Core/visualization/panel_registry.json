@@ -53,11 +53,11 @@
     "figure": "Figure06",
     "panel": "c",
     "path": "06_Figure06/code/c/figure6c.py",
-    "title": "Figure 6c frozen composite",
+    "title": "Figure 6c weighted composite",
     "scope": "saved-data diagnostic; not the formal layout",
     "source": "09_Core/visualization/plot_saved_panels.py",
     "validation_scope": "pixel-identical to pre-split diagnostic",
-    "output": "Figure06c_frozen"
+    "output": "Figure06c_weighted"
   },
   {
     "figure": "ED04",
@@ -386,5 +386,13 @@
     "title": "Figure 6b explicit full-depth cosine reference",
     "scope": "formal axis-only update; saved curves unchanged",
     "output": "Figure06b_cosine"
+  },
+  {
+    "figure": "Figure06",
+    "panel": "c",
+    "path": "06_Figure06/code/c/formal/figure6c.py",
+    "title": "Figure 6c formal weighted composite",
+    "scope": "0.50 Accuracy + 0.25 Scalability + 0.25 Stability rank indices",
+    "output": "Figure06c_weighted"
   }
 ]

@@ -166,7 +166,7 @@
       "check": "Figure06_Overall_Score",
       "passed": true,
       "details": {
-        "max_absolute_error": 1.1102230246251565e-16,
+        "max_absolute_error": 0.0,
         "tolerance": 1e-10,
         "n": 19
       }
@@ -181,13 +181,22 @@
       }
     },
     {
-      "check": "Figure06_frozen_top3",
+      "check": "Figure06_weighted_top3",
       "passed": true,
       "details": [
         "scVelo(sto)",
         "TopicVelo",
-        "veloVI"
+        "UniTVelo"
       ]
+    },
+    {
+      "check": "Figure06_Overall_Score_rank",
+      "passed": true,
+      "details": {
+        "max_absolute_error": 0.0,
+        "tolerance": 1e-10,
+        "n": 19
+      }
     },
     {
       "check": "scNT_unique_identifiers",
@@ -842,24 +851,29 @@
     }
   ],
   "failed_checks": [],
-  "number_of_checks": 97,
-  "elapsed_seconds": 16.356,
+  "number_of_checks": 98,
+  "elapsed_seconds": 17.133,
   "environment": {
-    "python": "3.9.23",
+    "python": "3.13.0",
     "platform": "Linux-5.15.0-139-generic-x86_64-with-glibc2.31",
     "packages": {
-      "numpy": "2.0.2",
-      "pandas": "2.3.3",
-      "scipy": "1.13.1",
-      "matplotlib": "3.9.4",
+      "numpy": "2.2.6",
+      "pandas": "2.3.2",
+      "scipy": "1.16.2",
+      "matplotlib": "3.10.6",
       "openpyxl": "3.1.5"
     }
   },
-  "frozen_composite_top3": [
+  "weighted_composite_top3": [
     "scVelo(sto)",
     "TopicVelo",
-    "veloVI"
+    "UniTVelo"
   ],
+  "composite_weights": {
+    "Accuracy": 0.5,
+    "Scalability": 0.25,
+    "Stability": 0.25
+  },
   "frozen_vs_current_differences": 8,
   "differences_are_documented_provenance_not_test_failures": true,
   "models_rerun": false,

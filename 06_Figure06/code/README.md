@@ -7,7 +7,8 @@ Panels a, b and c now each have their own Python file. Panel d is the VeloGIF fr
 | a | [figure6a.py](a/figure6a.py) | saved-data diagnostic; not the formal layout |
 | b | [figure6b.py](b/figure6b.py) | saved-data diagnostic; not the formal layout |
 | b formal | [figure6b_label.py](b/formal/figure6b_label.py) | formal artwork with explicit full-depth reference on the y-axis |
-| c | [figure6c.py](c/figure6c.py) | saved-data diagnostic; not the formal layout |
+| c | [figure6c.py](c/figure6c.py) | saved-data weighted-score diagnostic |
+| c formal | [figure6c.py](c/formal/figure6c.py) | formal weighted composite; 0.50 / 0.25 / 0.25 |
 
 Run one file from the repository root:
 

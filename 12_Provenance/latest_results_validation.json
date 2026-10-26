@@ -90,12 +90,22 @@
       "details": null
     },
     {
-      "check": "frozen_composite_19_configurations",
+      "check": "weighted_composite_19_configurations",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "Figure06_weighted_composite",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "Figure06_weighted_ranks",
       "passed": true,
       "details": null
     }
   ],
-  "number_of_checks": 17,
+  "number_of_checks": 19,
   "models_rerun": false,
   "scope": "Saved-summary recalculation. TopoVelo gene-level input audit and model training are not rerun. PhyloVelo H5AD audit is a separate command."
 }
