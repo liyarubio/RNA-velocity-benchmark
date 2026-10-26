@@ -33,3 +33,7 @@ The repository remains English. Public release is not a claim that the manuscrip
 ## Release tooling attribution
 
 The scientific-writing skill was used for evidence and reporting boundaries during release preparation. Tooling reference: Kassis, T., Agarwal, V., He, Y., Patel, D., and Brueckner, A. M. (2026). [Scientific Agent Skills: A Library of Procedural Knowledge for Research Agents](https://doi.org/10.48550/arXiv.2609.00065). Metadata checked against arXiv on 23 October 2026. This is a tooling attribution, not a scientific evidence source for benchmark results.
+
+## Extended Data 13 addition
+
+ED13 appends the saved read-depth GDC curves (21 methods, five depths) with exact method-color mapping from Figure 6b. All existing figure numbers are retained. TopicVelo is labeled as an archived base-scVelo proxy; no metrics or models are rerun. The manuscript citation and full caption remain author-managed. [Validation](ed13_reads_gdc_validation.json).

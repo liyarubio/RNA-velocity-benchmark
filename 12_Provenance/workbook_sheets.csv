@@ -158,3 +158,6 @@ ED12,08_Extended_Data/ExtendedDataFig12/data/metascape/top100/metascape_result.x
 ED12,08_Extended_Data/ExtendedDataFig12/data/metascape/top100/metascape_result.xlsx,data/metascape/top100/metascape_result.xlsx,Enrichment,243,9
 ED12,08_Extended_Data/ExtendedDataFig12/data/metascape/top200/metascape_result.xlsx,data/metascape/top200/metascape_result.xlsx,Annotation,810,48
 ED12,08_Extended_Data/ExtendedDataFig12/data/metascape/top200/metascape_result.xlsx,data/metascape/top200/metascape_result.xlsx,Enrichment,188,9
+ED13,08_Extended_Data/ExtendedDataFig13/data/source_data/Extended_Data_Fig13_reads_GDC.xlsx,source_data/Extended_Data_Fig13_reads_GDC.xlsx,README,9,2
+ED13,08_Extended_Data/ExtendedDataFig13/data/source_data/Extended_Data_Fig13_reads_GDC.xlsx,source_data/Extended_Data_Fig13_reads_GDC.xlsx,13a GDC,106,8
+ED13,08_Extended_Data/ExtendedDataFig13/data/source_data/Extended_Data_Fig13_reads_GDC.xlsx,source_data/Extended_Data_Fig13_reads_GDC.xlsx,Method palette,22,5

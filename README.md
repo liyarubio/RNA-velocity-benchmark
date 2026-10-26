@@ -3,7 +3,7 @@
 Code, saved results and figures for a multilevel benchmark of RNA velocity inference.
 **Current release: Manuscript_1021, including updates through 22 October 2026; published 23 October 2026.**
 
-This repository follows **Main Figures 1–7** and **Extended Data Figures 1–12**. Figures 1–2 are schematics and contain only figures. Figures 3–7 and the Extended Data folders include source tables and analysis inputs alongside the figures. Shared files are stored once. [Release notes](12_Provenance/RELEASE_1021.md) describe what changed from the previous public version.
+This repository follows **Main Figures 1–7** and **Extended Data Figures 1–13**. Figures 1–2 are schematics and contain only figures. Figures 3–7 and the Extended Data folders include source tables and analysis inputs alongside the figures. Shared files are stored once. [Release notes](12_Provenance/RELEASE_1021.md) describe what changed from the previous public version.
 
 ## Main figures
 
@@ -28,7 +28,7 @@ This repository follows **Main Figures 1–7** and **Extended Data Figures 1–1
 
 ## Find materials
 
-- [Extended Data Figures 1–12](08_Extended_Data/README.md)
+- [Extended Data Figures 1–13](08_Extended_Data/README.md)
 - [One plot per file: panel code index](12_Provenance/PANEL_CODE_INDEX.md)
 - [Core workflows and runnable validation](09_Core/README.md)
 - [Shared data](10_Shared/README.md) · [Tables](11_Tables/README.md)
