@@ -1,0 +1,27 @@
+{
+  "status": "pass",
+  "removed_figure": "ED13",
+  "active_extended_figures": 12,
+  "combined_pages_before": 23,
+  "combined_pages_after": 22,
+  "unchanged_combined_pages": 22,
+  "protected_files_unchanged": 197,
+  "main_figures_changed": false,
+  "existing_workbooks_changed": false,
+  "manuscript_or_captions_changed": false,
+  "weights_trial_changed": false,
+  "models_rerun": false,
+  "archived_locally": true,
+  "removed_active_paths": [
+    "Figure_materials/02_Extended_data/ExtendedDataFig13",
+    "ExtendedDataFig13_sources",
+    "Code/ed13_reads_gdc",
+    "data/read_depth_gdc_20261026",
+    "source_data/Extended_Data_Fig13_reads_GDC.xlsx",
+    "submission_figures/Extended_Data_Fig13.pdf",
+    "submission_figures/numbered_extended/Extended_Data_Fig13.pdf",
+    "figures/extended_numbered/Extended_Data_Fig13.pdf",
+    "figures/extended_numbered/Extended_Data_Fig13.svg",
+    "figures/extended_numbered/Extended_Data_Fig13.png"
+  ]
+}

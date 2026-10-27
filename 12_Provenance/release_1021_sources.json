@@ -3098,104 +3098,6 @@
       "sha256": "c104c700f310a3206022fdfe5603e15afc548341101df7d4a4466c8917c56039",
       "bytes": 1041,
       "operation": "Figure 6c 0.50/0.25/0.25 reweighting; endpoint inputs retained"
-    },
-    "Code/ed13_reads_gdc/ed13a.py": {
-      "path": "08_Extended_Data/ExtendedDataFig13/code/a/ed13a.py",
-      "source_sha256": "5108991fa194bdca653690b711afe232440510bad33f507102dc352b4d78d354",
-      "sha256": "5108991fa194bdca653690b711afe232440510bad33f507102dc352b4d78d354",
-      "bytes": 7460,
-      "operation": "ED13 saved GDC curves with Figure 6b method colors; no model or metric rerun"
-    },
-    "Code/ed13_reads_gdc/README.md": {
-      "path": "08_Extended_Data/ExtendedDataFig13/code/README.md",
-      "source_sha256": "beb1c1b8d711b6c6df116ff5801b1f400a0470511e98655099d2310a03b3a94f",
-      "sha256": "beb1c1b8d711b6c6df116ff5801b1f400a0470511e98655099d2310a03b3a94f",
-      "bytes": 1497,
-      "operation": "ED13 saved GDC curves with Figure 6b method colors; no model or metric rerun"
-    },
-    "source_data/Extended_Data_Fig13_reads_GDC.xlsx": {
-      "path": "08_Extended_Data/ExtendedDataFig13/data/source_data/Extended_Data_Fig13_reads_GDC.xlsx",
-      "source_sha256": "a6544e7d63c4f7612f034db491fecd48a94108f5674707c3ff1c705c1c504370",
-      "sha256": "8ba1b36126eb9bfa9ac7e8d52fada980f02b9270a428adee84f205aa2a8f065a",
-      "bytes": 15138,
-      "operation": "Copied numeric tables unchanged; reuse English release workbook theme"
-    },
-    "figures/extended_numbered/Extended_Data_Fig13.pdf": {
-      "path": "08_Extended_Data/ExtendedDataFig13/figures/Extended_Data_Fig13.pdf",
-      "source_sha256": "9aa7ac7832e4bc9e554439fa8263053e5e85202ef4bc38655371f996078e5191",
-      "sha256": "9aa7ac7832e4bc9e554439fa8263053e5e85202ef4bc38655371f996078e5191",
-      "bytes": 36126,
-      "operation": "ED13 saved GDC curves with Figure 6b method colors; no model or metric rerun"
-    },
-    "figures/extended_numbered/Extended_Data_Fig13.png": {
-      "path": "08_Extended_Data/ExtendedDataFig13/figures/Extended_Data_Fig13.png",
-      "source_sha256": "3cd10fbcd4760cb39b7ecce34a9b5631a0539b83c2e05ffabc9ca8f4596672c4",
-      "sha256": "3cd10fbcd4760cb39b7ecce34a9b5631a0539b83c2e05ffabc9ca8f4596672c4",
-      "bytes": 342276,
-      "operation": "ED13 saved GDC curves with Figure 6b method colors; no model or metric rerun"
-    },
-    "figures/extended_numbered/Extended_Data_Fig13.svg": {
-      "path": "08_Extended_Data/ExtendedDataFig13/figures/Extended_Data_Fig13.svg",
-      "source_sha256": "a8c134d57490af1a9fce636b189fe5cfd6e96fda8e689871e583b28c0f8158b2",
-      "sha256": "a8c134d57490af1a9fce636b189fe5cfd6e96fda8e689871e583b28c0f8158b2",
-      "bytes": 51225,
-      "operation": "ED13 saved GDC curves with Figure 6b method colors; no model or metric rerun"
-    },
-    "data/read_depth_gdc_20261026/method_palette.csv": {
-      "path": "08_Extended_Data/ExtendedDataFig13/data/read_depth_gdc_20261026/method_palette.csv",
-      "source_sha256": "0c2eacb7a62c96531d313ae38fa404518c64a30dc81c9ff5757c56b3549f4428",
-      "sha256": "0c2eacb7a62c96531d313ae38fa404518c64a30dc81c9ff5757c56b3549f4428",
-      "bytes": 1567,
-      "operation": "ED13 saved GDC curves with Figure 6b method colors; no model or metric rerun"
-    },
-    "data/read_depth_gdc_20261026/plotted_GDC.csv": {
-      "path": "08_Extended_Data/ExtendedDataFig13/data/read_depth_gdc_20261026/plotted_GDC.csv",
-      "source_sha256": "ee5f32b98f82f3f5a5727d5b4d8f3e24c8b81137d320835d3595143737036656",
-      "sha256": "ee5f32b98f82f3f5a5727d5b4d8f3e24c8b81137d320835d3595143737036656",
-      "bytes": 13543,
-      "operation": "ED13 saved GDC curves with Figure 6b method colors; no model or metric rerun"
-    },
-    "data/read_depth_gdc_20261026/provenance.json": {
-      "path": "08_Extended_Data/ExtendedDataFig13/data/read_depth_gdc_20261026/provenance.json",
-      "source_sha256": "0728d0d1028d4ef1eec7e14cab151c8d2f0e39265ab846ef468d1c9cd3f185c8",
-      "sha256": "0728d0d1028d4ef1eec7e14cab151c8d2f0e39265ab846ef468d1c9cd3f185c8",
-      "bytes": 1689,
-      "operation": "ED13 saved GDC curves with Figure 6b method colors; no model or metric rerun"
-    },
-    "data/read_depth_gdc_20261026/inputs/Eval_0_2.csv": {
-      "path": "08_Extended_Data/ExtendedDataFig13/data/read_depth_gdc_20261026/inputs/Eval_0_2.csv",
-      "source_sha256": "c4e0e38229113e5e65ec2d0d74d3f855bfdc523b43ed42d61ab62d166b7c0cfc",
-      "sha256": "c4e0e38229113e5e65ec2d0d74d3f855bfdc523b43ed42d61ab62d166b7c0cfc",
-      "bytes": 1499,
-      "operation": "ED13 saved GDC curves with Figure 6b method colors; no model or metric rerun"
-    },
-    "data/read_depth_gdc_20261026/inputs/Eval_0_4.csv": {
-      "path": "08_Extended_Data/ExtendedDataFig13/data/read_depth_gdc_20261026/inputs/Eval_0_4.csv",
-      "source_sha256": "4f404ae67a67edf234293b568c225588478462b48a8ba9d0a551766ccd1cf5fb",
-      "sha256": "4f404ae67a67edf234293b568c225588478462b48a8ba9d0a551766ccd1cf5fb",
-      "bytes": 1491,
-      "operation": "ED13 saved GDC curves with Figure 6b method colors; no model or metric rerun"
-    },
-    "data/read_depth_gdc_20261026/inputs/Eval_1_0.csv": {
-      "path": "08_Extended_Data/ExtendedDataFig13/data/read_depth_gdc_20261026/inputs/Eval_1_0.csv",
-      "source_sha256": "5a352baae29add1ff70ee2c8b997961c2e2489409a5b705491e00b0f7a19861b",
-      "sha256": "5a352baae29add1ff70ee2c8b997961c2e2489409a5b705491e00b0f7a19861b",
-      "bytes": 1461,
-      "operation": "ED13 saved GDC curves with Figure 6b method colors; no model or metric rerun"
-    },
-    "data/read_depth_gdc_20261026/inputs/Eval_0_8.csv": {
-      "path": "08_Extended_Data/ExtendedDataFig13/data/read_depth_gdc_20261026/inputs/Eval_0_8.csv",
-      "source_sha256": "05b855c405cbe5758572c066fae182f5b87f45b8bf9cdeb029df7559b43f6810",
-      "sha256": "05b855c405cbe5758572c066fae182f5b87f45b8bf9cdeb029df7559b43f6810",
-      "bytes": 1479,
-      "operation": "ED13 saved GDC curves with Figure 6b method colors; no model or metric rerun"
-    },
-    "data/read_depth_gdc_20261026/inputs/Eval_0_6.csv": {
-      "path": "08_Extended_Data/ExtendedDataFig13/data/read_depth_gdc_20261026/inputs/Eval_0_6.csv",
-      "source_sha256": "28795fd231be10458347e864153db1ff20c38ffc973da638f83099f9538c2e0f",
-      "sha256": "28795fd231be10458347e864153db1ff20c38ffc973da638f83099f9538c2e0f",
-      "bytes": 1499,
-      "operation": "ED13 saved GDC curves with Figure 6b method colors; no model or metric rerun"
     }
   },
   "excluded": [
@@ -3744,14 +3646,5 @@
     "endpoint_inputs_changed": false,
     "models_rerun": false,
     "caption_formula_update_pending": true
-  },
-  "ed13_reads_gdc_20261026": {
-    "figure": "ED13",
-    "methods": 21,
-    "points": 105,
-    "color_reference": "Figure06b",
-    "validation": "12_Provenance/ed13_reads_gdc_validation.json",
-    "caption_author_managed": true,
-    "models_rerun": false
   }
 }

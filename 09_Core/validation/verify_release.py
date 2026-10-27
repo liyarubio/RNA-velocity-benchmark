@@ -22,7 +22,7 @@ def main():
     for rel,e in source['files'].items():
         if mapping.get(rel)!=e['path'] or hashes.get(e['path'])!=e['sha256']:errors.append(['source_binding',rel])
     idx=list(csv.DictReader((P/'figure_index.csv').open()))
-    if [x['figure'] for x in idx]!=[f'Figure{i:02}' for i in range(1,8)]+[f'ED{i:02}' for i in range(1,14)]:errors.append(['figure_order'])
+    if [x['figure'] for x in idx]!=[f'Figure{i:02}' for i in range(1,8)]+[f'ED{i:02}' for i in range(1,13)]:errors.append(['figure_order'])
     for row in idx:
         if not (ROOT/row['directory']/'README.md').is_file():errors.append(['figure_readme',row['figure']])
         name=row['figure'] if row['figure'].startswith('Figure') else 'Extended_Data_Fig'+row['figure'][2:]

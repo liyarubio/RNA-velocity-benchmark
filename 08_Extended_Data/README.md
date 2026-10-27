@@ -14,4 +14,3 @@ Current Manuscript_1021 numbering. Historical source workbook IDs remain explici
 - [Extended Data 10: Paired consistency across spatial contexts](ExtendedDataFig10/README.md)
 - [Extended Data 11: KPTracer and PhyloVelo direction audit](ExtendedDataFig11/README.md)
 - [Extended Data 12: Metascape and historical age-related examples](ExtendedDataFig12/README.md)
-- [Extended Data 13: Read-depth sensitivity of GDC](ExtendedDataFig13/README.md)

@@ -497,19 +497,5 @@
   "Code/fig6_weighted/README.md": "06_Figure06/code/c/formal/README.md",
   "Code/fig6_weighted/assets/Figure06_before.pdf": "06_Figure06/code/c/formal/assets/Figure06_before.pdf",
   "Code/fig6_weighted/assets/summary_before.csv": "06_Figure06/code/c/formal/assets/summary_before.csv",
-  "Reports/fig6_weighted_20261026/score_changes.csv": "12_Provenance/fig6c_score_changes.csv",
-  "Code/ed13_reads_gdc/ed13a.py": "08_Extended_Data/ExtendedDataFig13/code/a/ed13a.py",
-  "Code/ed13_reads_gdc/README.md": "08_Extended_Data/ExtendedDataFig13/code/README.md",
-  "source_data/Extended_Data_Fig13_reads_GDC.xlsx": "08_Extended_Data/ExtendedDataFig13/data/source_data/Extended_Data_Fig13_reads_GDC.xlsx",
-  "figures/extended_numbered/Extended_Data_Fig13.pdf": "08_Extended_Data/ExtendedDataFig13/figures/Extended_Data_Fig13.pdf",
-  "figures/extended_numbered/Extended_Data_Fig13.png": "08_Extended_Data/ExtendedDataFig13/figures/Extended_Data_Fig13.png",
-  "figures/extended_numbered/Extended_Data_Fig13.svg": "08_Extended_Data/ExtendedDataFig13/figures/Extended_Data_Fig13.svg",
-  "data/read_depth_gdc_20261026/method_palette.csv": "08_Extended_Data/ExtendedDataFig13/data/read_depth_gdc_20261026/method_palette.csv",
-  "data/read_depth_gdc_20261026/plotted_GDC.csv": "08_Extended_Data/ExtendedDataFig13/data/read_depth_gdc_20261026/plotted_GDC.csv",
-  "data/read_depth_gdc_20261026/provenance.json": "08_Extended_Data/ExtendedDataFig13/data/read_depth_gdc_20261026/provenance.json",
-  "data/read_depth_gdc_20261026/inputs/Eval_0_2.csv": "08_Extended_Data/ExtendedDataFig13/data/read_depth_gdc_20261026/inputs/Eval_0_2.csv",
-  "data/read_depth_gdc_20261026/inputs/Eval_0_4.csv": "08_Extended_Data/ExtendedDataFig13/data/read_depth_gdc_20261026/inputs/Eval_0_4.csv",
-  "data/read_depth_gdc_20261026/inputs/Eval_1_0.csv": "08_Extended_Data/ExtendedDataFig13/data/read_depth_gdc_20261026/inputs/Eval_1_0.csv",
-  "data/read_depth_gdc_20261026/inputs/Eval_0_8.csv": "08_Extended_Data/ExtendedDataFig13/data/read_depth_gdc_20261026/inputs/Eval_0_8.csv",
-  "data/read_depth_gdc_20261026/inputs/Eval_0_6.csv": "08_Extended_Data/ExtendedDataFig13/data/read_depth_gdc_20261026/inputs/Eval_0_6.csv"
+  "Reports/fig6_weighted_20261026/score_changes.csv": "12_Provenance/fig6c_score_changes.csv"
 }

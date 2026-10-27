@@ -394,13 +394,5 @@
     "title": "Figure 6c formal weighted composite",
     "scope": "0.50 Accuracy + 0.25 Scalability + 0.25 Stability rank indices",
     "output": "Figure06c_weighted"
-  },
-  {
-    "figure": "ED13",
-    "panel": "a",
-    "path": "08_Extended_Data/ExtendedDataFig13/code/a/ed13a.py",
-    "title": "ED13 read-depth GDC with Figure 6b colors",
-    "scope": "saved GDC curves; native TopicVelo not evaluated",
-    "output": "Extended_Data_Fig13"
   }
 ]

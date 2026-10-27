@@ -98,5 +98,3 @@ ED11b now has an [independent formal vector-layout entrypoint](../08_Extended_Da
 Figure 6b formal axis clarification: [independent entry](../06_Figure06/code/b/formal/figure6b_label.py), [scope and dependencies](../06_Figure06/code/b/formal/README.md), and [pixel-preservation validation](fig6b_axis_validation.json). Saved curves and captions are unchanged.
 
 Figure 6c: [formal weighted renderer](../06_Figure06/code/c/formal/figure6c.py), [weight and endpoint rules](../06_Figure06/code/c/formal/README.md), [score changes](fig6c_score_changes.csv), and [validation](fig6c_weighted_validation.json). Provisional weights are 0.50/0.25/0.25. Caption-formula revision remains author-managed.
-
-Extended Data 13: [independent GDC plot](../08_Extended_Data/ExtendedDataFig13/code/a/ed13a.py), [method-color mapping](../08_Extended_Data/ExtendedDataFig13/data/read_depth_gdc_20261026/method_palette.csv), and [validation](ed13_reads_gdc_validation.json). Colors and legend order match the current Figure 6b.
